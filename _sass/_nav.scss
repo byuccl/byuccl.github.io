@@ -1,0 +1,58 @@
+$logo_size: 100px;
+
+.nav {
+    padding-left: 25px;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+@media (max-width: 575.98px) {
+    .nav {
+        padding-left: 10px;
+    }
+
+    .nav-link {
+        padding: .5rem .5rem;
+    }
+}
+
+
+.site-header {
+    padding: 10px 0;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.logo {
+    // width: 50px;
+    float: left;
+    margin-left: 20px;
+    // margin-top: -3px;
+    font-size: 2rem;
+    color: #404040;
+    font-weight: 900;
+    
+    a, u {
+        text-decoration: none;       
+        color: #404040;
+    }
+    
+    h1 {
+        // line-height: 1.5;
+        font-family: 'Raleway', sans-serif;
+        
+        
+        
+        // box-sizing: inherit;
+        // background-color: transparent;
+        // text-decoration: none;
+        // padding: 0;
+        // border: none;
+        
+        // transition: all 0.2s ease;
+    }
+
+}

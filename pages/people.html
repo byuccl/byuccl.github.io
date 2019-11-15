@@ -1,0 +1,87 @@
+---
+layout: default
+title: People
+permalink: /people/
+---
+
+<div class="current-faculty">
+    {% for person in site.data.faculty %}
+    <div class="row faculty">
+        <div class="col-6 col-xs-4 col-sm-4">
+            {% if person.image %}
+            <img src="{{ person.image }}" alt="{{ person.name }}">
+            {% else %}
+            <img src="{{ person.email | gravatar }}" alt="{{ person.name }}">
+            {% endif %}
+        </div>
+        <div class="col-6 col-xs-8 col-sm-8">
+            <h4 class="person-name">{{ person.name }}</h4>
+            {% if person.link %}
+            <p>{{ person.description }}</p>
+            {% endif %}
+            {% if person.link %}
+            <a href="{{ person.link }}">Personal Website</a>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+
+<h2>Students</h2>
+
+{% if site.data.students %}
+<div class="current-students">
+    <div class="row">
+        {% for person in site.data.students %}
+        <div class="col-md-4 col-6 text-center">
+            <div class="student">
+                {% if person.image %}
+                <img class="student-images" src="{{ person.image }}" alt="{{ person.name }}">
+                {% else %}
+                <img class="student-images" src="/images/no-image.jpg" alt="{{ person.name }}">
+                {% endif %}
+
+                {% if person.link %}
+                <h5 class="student-name"><a href="{{ person.link }}">{{ person.name }}</a></h5>
+                {% else %}
+                <h5 class="student-name">{{ person.name }}</h5>
+                {% endif %}
+                <p class="student-degree">{{ person.degree }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+</div>
+{% else %}
+<div class="alert alert-primary" role="alert">
+    The lab is currently looking for graduate and undergraduate students for research. If you are interested, please
+    contact Phil Lundrigan (lundrigan@byu.edu) to set up an appointment to talk.
+</div>
+{% endif %}
+
+{% if site.data.past_students %}
+
+<hr>
+
+<div class="past-students">
+    <h2>Past Students</h2>
+
+    <div class="mdl-grid">
+        {% for student in site.data.past_students %}
+        <div class="mdl-cell mdl-cell--6-col">
+            <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--2-col">
+                    <i class="material-icons mdl-list__item-avatar">person</i>
+                </div>
+                <div class="mdl-cell mdl-cell--10-col past-student-info">
+                    <h4 class="past-student-name">{{ student.name }}</h4>
+                    <span class="past-student-company">{{ student.company }}</span>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}

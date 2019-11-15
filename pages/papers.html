@@ -1,0 +1,34 @@
+---
+layout: default
+title: Papers
+permalink: /papers/
+---
+
+<div class="papers">
+    {% for paper in site.data.papers %}
+        <div class="paper">
+            <h3 class="paper-title">
+                {{ paper.title }}
+            </h3>
+            <p class="paper-authors">{{ paper.authors }}</p>
+            <p class="paper-conference">{{ paper.conference }}</p>
+            {% if paper.abstract %}
+                <div>
+                    <a href="javascript:void(0)" class="abstract">Abstract</a>
+                </div>
+                <div class="hide" id="description">
+                    <p class="paper-description">
+                        {{ paper.abstract }}
+                    </p>
+                </div>
+            {% endif %}
+            {% if paper.url %}
+                <div>
+                    <a href="{{ paper.url }}" class="">Paper</a>
+                </div>
+
+            {% endif %}
+        </div>
+        <hr>
+    {% endfor %}
+</div>

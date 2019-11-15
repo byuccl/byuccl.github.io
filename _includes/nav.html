@@ -1,0 +1,41 @@
+<header class="site-header">
+    <nav>
+        <div class="containter-fluid">
+            <div class="row">
+                <!-- <a href="/">
+            <img class="logo img-fluid" src="/images/NET Lab Logo@3x.png">
+          </a> -->
+                <div class="logo">
+                    <!-- <h1> -->
+                        <a href="/">BYU Configurable Computing Lab</a>
+                    <!-- </h1> -->
+
+                    <!-- BYU -->
+                </div>
+
+                <!-- <div class="col-sm"> -->
+                                
+                                        <!-- <h1>BYU Configurable Computing Lab2</h1> -->
+                <ul class="nav">
+                    <a class="nav-link" href="/">Home</a>
+                    {% for my_page in site.pages %}
+                        {% if my_page.title %}
+                            {% if page.url == my_page.url %}
+                                <a class="nav-link active" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                                <!-- <a class="nav-link active" href="{{ my_page.url | prepend: site.baseurl }}" style="color: {{ site.colors[forloop.index0] }};">{{ my_page.title }}</a> -->
+                            {% else %}
+                                <a class="nav-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+                                <!-- <a class="nav-link" href="{{ my_page.url | prepend: site.baseurl }}" style="color: {{ site.colors[forloop.index0] }};">{{ my_page.title }}</a> -->
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+                <!-- </div> -->
+
+
+            </div>
+        </div>
+
+
+    </nav>
+</header>
