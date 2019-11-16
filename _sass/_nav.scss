@@ -1,11 +1,39 @@
 $logo_size: 100px;
 
 .nav {
-    padding-left: 25px;
+   
+    // vertical-align: bottom;
+    // line-height: 10px;
+    // height: 40px;
+    // display:table
+    // display:inline-block
 }
+
+.nav_ul {
+    display: flex;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding-left: 25px;
+    align-items: center
+    
+        // display: table-cell;
+        // border:3px solid blue;
+        // display: table-cell;
+        // vertical-align: bottom;
+    
+}
+
 
 .nav-link.active {
     font-weight: bold;
+}
+
+
+
+.nav-link {
+    padding: 0 0.5rem;
+    vertical-align: bottom;
+    
 }
 
 @media (max-width: 575.98px) {
@@ -13,9 +41,7 @@ $logo_size: 100px;
         padding-left: 10px;
     }
 
-    .nav-link {
-        padding: .5rem .5rem;
-    }
+  
 }
 
 
@@ -23,36 +49,31 @@ $logo_size: 100px;
     padding: 10px 0;
     margin-bottom: 50px;
     font-family: 'Montserrat', sans-serif;
+    float: bottom;
 }
 
 
+
 .logo {
+    padding-left: 25px;
     // width: 50px;
     float: left;
-    margin-left: 20px;
+    // margin-left: 20px;
     // margin-top: -3px;
     font-size: 2rem;
     color: #404040;
-    font-weight: 900;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    // line-height: 100px;    
+
+    // border:3px solid red;
+    // display: table-cell;
     
+    // position: absolute; 
+    bottom: 0;
+
     a, u {
         text-decoration: none;       
         color: #404040;
     }
-    
-    h1 {
-        // line-height: 1.5;
-        font-family: 'Raleway', sans-serif;
-        
-        
-        
-        // box-sizing: inherit;
-        // background-color: transparent;
-        // text-decoration: none;
-        // padding: 0;
-        // border: none;
-        
-        // transition: all 0.2s ease;
-    }
-
 }
