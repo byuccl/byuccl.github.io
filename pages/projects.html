@@ -1,0 +1,27 @@
+---
+layout: default
+title: Projects
+permalink: /projects
+---
+
+<div class="projects">
+    {% for project in site.data.projects %}
+        <div class="project">
+            <h3 class="project-title">{{ project.name }}</h3>
+            {% if project.images %}
+                <div class="project-images row">
+                    {% for image in project.images %}
+                        <div class="col">
+                            <img class="project-image" src="{{image}}" />
+                        </div>
+                    {% endfor %}
+                </div>
+
+            {% endif %}
+            <div class="project-description">
+                {{ project.description | markdownify }}
+            </div>
+        </div>
+        <hr>
+    {% endfor %}
+</div>

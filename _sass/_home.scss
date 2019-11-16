@@ -1,0 +1,116 @@
+body, html {
+    height: 100%;
+}
+
+.container {
+    max-width: 960px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron {
+    background-image: url("../images/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f9f9f9;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+    text-align: center;
+    
+    .main-logo {
+        max-width: 300px;
+        padding-bottom: 20px;
+    }
+
+
+    .container {
+        background: rgba(255, 255, 255, 1);
+        /*padding: 10%;*/
+        // padding-left: 5%;
+        // padding-right: 5%;
+        // padding-top: 5%;
+        // padding-bottom: 2%;
+        padding: 5% 5%
+        border-radius: 10px;
+        // background: rgba(250, 250, 255, 0.97);
+    }
+}
+
+.home-title-pad{
+    padding-bottom: 20px;
+    // opacity: 1;
+}
+
+.home-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: $brand-color;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 50px;
+
+    p {
+        color: #424242;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: normal;
+        font-size: 20px;
+        font-weight: 100;
+    }
+}
+
+
+.links {
+    text-align: center;
+    margin-top: 50px;
+
+    a {
+        text-decoration: none;
+    }
+
+    .mdl-cell:hover,
+    .mdl-cell:active,
+    .mdl-cell:focus {
+        h4 {
+            color: $brand-color;
+        }
+
+        .icon {
+            > svg {
+                path {
+                    fill: $brand-color;
+                }
+            }
+        }
+
+    }
+
+    .icon {
+
+        > svg {
+            display: inline-block;
+            width: 64px;
+            height: 64px;
+            vertical-align: middle;
+
+            path {
+                fill: $grey-color;
+            }
+        }
+        
+    }
+
+    h4 {
+        padding-top: 10px;
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
+
+

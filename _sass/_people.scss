@@ -1,0 +1,58 @@
+h2 {
+    margin-top: 50px;
+}
+
+.faculty {
+    img {
+        padding-bottom: 15px;
+    }
+
+    .faculty-name {
+        font-weight: 200;
+    }
+
+    .faculty-description {
+
+    }
+}
+
+
+.current-students {
+    margin-bottom: 25px;
+}
+
+.past-students {
+    margin-top: 25px;
+}
+
+
+.student {
+    img {
+
+    }
+
+    .faculty-name {
+        font-weight: 200;
+    }
+
+    .faculty-description {
+
+    }
+
+    .student-name {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    margin: 25px 0;
+}
+
+.past-students {
+    .past-student-name {
+        margin-bottom: 0px;
+    }
+
+    .past-student-company {
+        font-style: italic;
+    }
+}
