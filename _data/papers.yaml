@@ -1,5 +1,16 @@
 
 - title: >
+    Using Physical and Functional Comparisons to Assure 3rd-Party IP for Modern FPGAs
+  authors: >
+    Adam Hastings, Sean Jensen, Jeffrey Goeders, Brad Hutchings
+  conference: >
+    International Verification and Security Workshop (IVSW)
+  year: >
+    2018
+  abstract: >
+   In modern FPGA design, 3rd-party IP is commonly used to reduce costs and time-to-market. However, the complexity of IP and associated CAD tools makes it easier for attackers to maliciously tamper with the IP (i.e. insert Hardware Trojans) in ways that are hard to detect. This work proposes techniques that allows a user to incorporate trusted 3rd-party IP into a design and verify that the incorporation occurs tamper-free. We present comparative results from utilizing this framework across a benchmark suite of 22 designs. We show that the approach reliably detects tampering without giving any false positives.
+
+- title: >
     Synchronizing On-Chip Software and Hardware Traces for HLS-Accelerated Programs
   authors: >
     Matthew Ashcraft, Jeffrey Goeders
