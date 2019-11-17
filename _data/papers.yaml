@@ -1,4 +1,31 @@
 
+
+- title: >
+    Packing a modern Xilinx FPGA using RapidSmith
+  authors: >
+    Travis Haroldsen, Brent Nelson, Brad Hutchings
+  conference: >
+    International Conference on ReConFigurable Computing and FPGAs (ReConFig)
+  year: >
+    2016
+  abstract: >
+   Academic packing algorithms have typically been limited to theoretical architectures. In this paper, we describe RSVPack, a packing algorithm built on top of RapidSmith to target the Xilinx Virtex 6 architecture. We integrate our packer into the Xilinx ISE CAD flow and demonstrate our packer tool by packing a set of benchmark circuits and performing routing and timing analysis inside ISE.
+
+
+
+- title: >
+    Vivado design interface: An export/import capability for Vivado FPGA designs
+  authors: >
+    Thomas Townsend, Brent Nelson
+  conference: >
+    International Conference on Field Programmable Logic and Applications (FPL)
+  year: >
+    2017
+  abstract: >
+   Research tools targeting commercial FPGAs have most commonly been based on the Xilinx Design Language (XDL). Vivado, however, does not support XDL, preventing similar tools from being created for next-generation devices. Instead, Vivado includes a Tcl interface that exposes Xilinx's internal design and device data structures. Considerable challenges still remain to users attempting to leverage this Tcl interface to develop external CAD tools. This paper presents the Vivado Design Interface (VDI), a set of file formats and Tcl functions that address the challenges of exporting and importing designs to and from Vivado. To demonstrate its use, VDI has been integrated with RapidSmith2, an external FPGA CAD framework. To our knowledge this work is the first successful attempt to provide an open-source tool-flow that can export designs from Vivado, manipulate them with external CAD tools, and re-import an equivalent representation back into Vivado.
+
+
+
 - title: >
     Enabling Low Impact, Rapid Debug for Highly Utilized FPGA Designs
   authors: >
