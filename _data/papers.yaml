@@ -1,5 +1,58 @@
 
 - title: >
+    Enabling Low Impact, Rapid Debug for Highly Utilized FPGA Designs
+  authors: >
+    Robert Hale, Brad Hutchings
+  conference: >
+    International Conference on Field Programmable Logic and Applications (FPL)
+  year: >
+    2018
+  abstract: >
+   Inserting soft logic analyzers into FPGA circuits is a common way to provide signal visibility at run-time, helping users locate bugs in their designs. However, this can become infeasible for highly (70-90+%) utilized designs, which leave few logic resources or block RAMs available for internal logic analyzers. This paper presents a fast, low-impact method of enabling signal visibility in these situations using LUT-based distributed memory. Trace-buffers are inserted post-PAR allowing users to quickly change the set of observed nets. Results from routing-based experiments are presented which demonstrate that, even in highly utilized designs, many design signals can be observed with this technique.
+
+
+- title: >
+    Distributed-Memory Based FPGA Debug: Design Timing Impact
+  authors: >
+    Robert Hale, Brad Hutchings
+  conference: >
+    International Conference on Field-Programmable Technology (FPT)
+  year: >
+    2018
+  abstract: >
+   In FPGAs, debug observability is often achievedby attaching memory-based recording circuitry to user signals. Block-RAM (BRAM)-based embedded logic analyzers are ofteninserted into user circuits to observe circuit behavior. Incontrast with BRAM-based approaches, distributed memory:1) is almost always available (user circuits may consume allBRAMs but even highly utilized circuits contain unused LUTs), and 2) can usually be physically located very near to user signals(LUTs are spread across the entire device while BRAMs arelocated only in specific columns). Previous work has shownbasic feasibility and demonstrated that distributed memoriescan provide debug observability for highly utilized circuits. Thispaper focuses on timing impacts and describes the quantitativetradeoff between FPGA device utilization, debug probe count, and clock frequency. For example, a design with 70% of LUTsutilized, with no debug logic, can operate at a minimum clockperiod of 5ns. Instrumenting 300 debug probes increases thisperiod to 7ns, and 1500 probes to 8ns. Placing trace bufferswith a simulated annealing algorithm improved success ratesfrom 20% to 50% depending on the design and probe count.
+
+
+
+- title: >
+    Preallocating Resources for Distributed Memory Based FPGA Debug
+  authors: >
+    Robert Hale, Brad Hutchings
+  conference: >
+    International Conference on Field Programmable Logic and Applications (FPL)
+  year: >
+    2019
+  abstract: >
+   Most internal FPGA debug methods require the use of Block-RAM (BRAM) memory for trace buffers. Recent work has shown the viability of replacing BRAMs with distributed, LUT based memory. Distributed memory (DIME) trace buffers are lean and can be utilized in large designs where other debug methods are unlikely to fit. Since LUTs are abundant on FPGA devices, there are nearly always some left unused after the user's design is placed, even for designs that utilize more than 90% of the FPGA's resources. DIME trace buffers are inserted into highly utilized designs within minutes using RapidWright. In this paper we contrast the previously used method of scavenging leftover LUT resources with a preallocation scheme that ensures a certain amount of memory LUTs are left available for distributed memory trace buffers. While causing virtually no penalty to the user design, preallocating memory LUT resources allows the very largest designs to utilize higher numbers of distributed memory trace buffers at lower timing penalties. We also show that depth of DIME trace buffers can be extended from 16 to 256 bits.
+
+
+
+
+
+
+- title: >
+    Demand Driven Assembly of FPGA Configurations Using Partial Reconfiguration, Ubuntu Linux, and PYNQ
+  authors: >
+    Jeffrey Goeders, Tanner Gaskin, Brad Hutchings
+  conference: >
+    International Symposium on Field-Programmable Custom Computing Machines (FCCM)
+  year: >
+    2018
+  abstract: >
+   The PYNQ system (Python Productivity for Zynq) is notable for combining a monolithic preconfigured bitstream, Ubuntu Linux, Python, and Jupyter notebooks to form an FPGA-based system that is far more accessible to non-FPGA experts than previous systems. In this work, the monolithic pre-configured PYNQ bitstream is replaced with a combination of a simple base bitstream containing several partial reconfiguration regions and a library of partial bitstreams that implement a variety of hardware interfaces such as: GPIO, UART, Timer, IIC, SPI, Real-Time Clock, etc., that interface to various Pmod-based peripherals. When peripherals are plugged into a Pmod socket at run-time, corresponding partial reconfigurations and standard device drivers can be automatically loaded into the Ubuntu kernel using device-tree overlays. This demand-driven, partially-reconfigured approach is found to be advantageous to the monolithic bitstream because: 1) it provides similar functionality to the monolithic bitstream while consuming less area, 2) it provides a way for users to modify or augment hardware functionality without requiring the user to develop a new monolithic bitstream, 3) run-time demand loading of partial bitstreams makes the system more responsive to changing conditions, and 4) implementation issues such as timing-closure, etc., are simplified because the base bitstream circuitry is smaller and less complex.
+
+
+- title: >
     Using Physical and Functional Comparisons to Assure 3rd-Party IP for Modern FPGAs
   authors: >
     Adam Hastings, Sean Jensen, Jeffrey Goeders, Brad Hutchings
