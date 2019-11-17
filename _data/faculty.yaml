@@ -1,4 +1,16 @@
+- name: Brent Nelson
+  image: /images/Nelson.jpg
+
+- name: Brad Hutchings
+  image: /images/Hutchings.jpg
+
+
+- name: Mike Wirthlin
+  image: /images/Wirthlin.jpg
+
 - name: Jeff Goeders
+  image: /images/Goeders.jpg
   description: >
     Assistant Professor in the Department of Electrical and Computer Engineering at Brigham Young University (BYU).  Ph.D. in Computer Engineering from The University of British Columbia.
   link: https://goeders.net
+
