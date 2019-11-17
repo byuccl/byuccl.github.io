@@ -5,32 +5,43 @@ permalink: /papers
 ---
 
 
-
 <div class="papers">
-    {% for paper in site.data.papers %}
-        <div class="paper">
-            <h4 class="paper-title">
-                {{ paper.title }}
-            </h4>
-            <p class="paper-authors">{{ paper.authors }}</p>
-            <p class="paper-conference">{{ paper.conference }}</p>
-            {% if paper.abstract %}
-                <div>
-                    <a href="javascript:void(0)" class="abstract">Abstract</a>
-                </div>
-                <div class="hide" id="description">
-                    <p class="paper-description">
-                        {{ paper.abstract }}
-                    </p>
-                </div>
-            {% endif %}
-            {% if paper.url %}
-                <div>
-                    <a href="{{ paper.url }}" class="">Paper</a>
-                </div>
 
+    {% assign years = site.data.papers | map: 'year' %}
+    {% assign years_sorted = years | sort | reverse | uniq %}
+
+    {% for year in years_sorted %}
+
+        <h1 class="year">
+            {{ year }}
+        </h1>
+        {% for paper in site.data.papers %}
+            {% if paper.year == year %}
+                <div class="paper">
+                    <h4 class="paper-title">
+                        {{ paper.title }}
+                    </h4>
+                    <p class="paper-authors">{{ paper.authors }}</p>
+                    <p class="paper-conference">{{ paper.conference }}</p>
+                    {% if paper.abstract %}
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                {{ paper.abstract }}
+                            </p>
+                        </div>
+                    {% endif %}
+                    {% if paper.url %}
+                        <div>
+                            <a href="{{ paper.url }}" class="">Paper</a>
+                        </div>
+
+                    {% endif %}
+                </div>
+                <hr>
             {% endif %}
-        </div>
-        <hr>
+        {% endfor %}
     {% endfor %}
 </div>
