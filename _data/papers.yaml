@@ -1,0 +1,23 @@
+- title: >
+    Unified On-Chip Software and Hardware Debug for HLS-Accelerated Programs
+  authors: >
+    Matthew Ashcraft, Jeffrey Goeders
+  conference: >
+    International Conference on Field-Programmable Technology
+  year: >
+    2018
+  abstract: >
+    Modern high-level synthesis (HLS)-based tools allow for the creation of complex systems where parts of the user's software are executed on a conventional processor, and the other parts are implemented as hardware accelerators via HLS flows. While modern tools allow designers to construct these systems relatively quickly, observing and debugging the real-time execution of these complex systems remains challenging. Recent academic work has focused on providing designers software-like visibility into the execution of their HLS hardware accelerators; however, this work has assumed that the hardware is observed in isolation. In this work we demonstrate techniques toward a unified in-system software and hardware debugging environment, where the user can capture execution of both the hardware and software domains, and their interactions. We present the performance costs of capturing this execution data, exploring the impact of different levels of observation.
+  url: /assets/ONPC.pdf
+
+- title: >
+    Microcontroller Compiler-Assisted Software Fault Tolerance
+  authors: >
+    Matthew Bohman, Benjamin James, Michael J Wirthlin, Heather Quinn, Jeffrey Goeders
+  conference: >
+    IEEE Transactions on Nuclear Science
+  year: >
+    2018
+  abstract: >
+    Commercial off-the-shelf microcontrollers can be useful for noncritical processing on spaceborne platforms. These microprocessors can be inexpensive and consume small amounts of power. However, the software running on these processors is vulnerable to radiation upsets. In this paper, we present a fully automated, configurable, software-based tool to increase the reliability of microprocessors in high-radiation environments. This tool consists of a set of open-source LLVM compiler passes to automatically implement software-based mitigation techniques. We duplicate or triplicate computations and insert voting mechanisms into software during the compilation process, allowing for runtime error correction. While the techniques we implement are not novel, previous work has typically been closed source, processor architecture dependent, not automated, and not tested in real high-radiation environments. In contrast, the compiler passes presented in this paper are publicly available, highly customizable, and are platform independent and language independent. We have tested our modified software using both fault injection and through neutron beam radiation on a Texas Instruments MSP430 microcontroller. When tested by a neutron beam, we were able to decrease the cross section of programs by 17-29×, increasing mean-work-to-failure by 4-7×.
+  url: /assets/ONPC.pdf
