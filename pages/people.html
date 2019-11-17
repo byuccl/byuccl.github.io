@@ -3,32 +3,35 @@ layout: default
 title: People
 permalink: /people
 ---
+
+<div class="container container-people">
 <h2>Faculty</h2>
 <div class="current-faculty">
     
+    <div class="row faculty">
     {% for person in site.data.faculty %}
-        <div class="row faculty">
             <div class="col-md-3 col-6 text-center">
                 {% if person.image %}
-                    <img class = "student-images" src="{{ person.image }}" alt="{{ person.name }}">
+                    <img src="{{ person.image }}" class="img-fluid w-100" alt="{{ person.name }}">
                 {% else %}
                     <img src="{{ person.email | gravatar }}" alt="{{ person.name }}">
                 {% endif %}
-                <p class="student-degree">{{ person.name }}</p>
-                <!-- <h5 class="person-name">{{ person.name }}</h5>
-                {% if person.link %}
+                <!-- <p class="student-degree">{{ person.name }}</p> -->
+                 <h5 class="person-name">{{ person.name }}</h5>
+                
+                 <!-- {% if person.link %}
                     <p>{{ person.description }}</p>
                 {% endif %}
                 {% if person.link %}
                     <a href="{{ person.link }}">Personal Website</a>
-                {% endif %} -->
+                {% endif %}  -->
 
             </div>
             <!-- <div class="col-6 col-xs-8 col-sm-8">
                 
             </div> -->
+            {% endfor %}
         </div>
-    {% endfor %}
 </div>
 
 
@@ -156,3 +159,4 @@ permalink: /people
         </div>
     </div>
 {% endif %}
+</div>

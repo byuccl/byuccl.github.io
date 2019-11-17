@@ -1,0 +1,26 @@
+.projects-title {
+    margin-top: 50px;
+}
+
+.project {
+    .project-title {
+        font-weight: 200;
+    }
+
+    .project-image {
+        object-fit: cover;
+        max-height: 300px;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        padding: 20px;
+    }
+
+    .project-description {
+
+    }
+
+    margin: 25px 0;
+}

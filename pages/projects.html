@@ -1,9 +1,11 @@
 ---
 layout: default
 title: Projects
-permalink: /projects
+permalink: /projects/
 ---
 
+<h1 class="projects-title">Current Projects</h1>
+<hr>
 <div class="projects">
     {% for project in site.data.projects %}
         <div class="project">
@@ -12,7 +14,7 @@ permalink: /projects
                 <div class="project-images row">
                     {% for image in project.images %}
                         <div class="col">
-                            <img class="project-image" src="{{image}}" />
+                            <img class="project-image" src="{{image}}"/>
                         </div>
                     {% endfor %}
                 </div>
@@ -20,6 +22,14 @@ permalink: /projects
             {% endif %}
             <div class="project-description">
                 {{ project.description | markdownify }}
+            </div>
+
+            <div>
+                <h5>
+                    <a href={{ project.url }}>
+                        {{ project.url }}
+                    </a>
+                </h5>
             </div>
         </div>
         <hr>

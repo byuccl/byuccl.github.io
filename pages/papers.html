@@ -15,7 +15,9 @@ permalink: /papers
         <h1 class="year">
             {{ year }}
         </h1>
-        {% for paper in site.data.papers %}
+
+        {% assign papers_sorted = site.data.papers | sort : "title" %}
+        {% for paper in papers_sorted %}
             {% if paper.year == year %}
                 <div class="paper">
                     <h4 class="paper-title">

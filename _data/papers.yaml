@@ -1,3 +1,60 @@
+
+- title: >
+    Synchronizing On-Chip Software and Hardware Traces for HLS-Accelerated Programs
+  authors: >
+    Matthew Ashcraft, Jeffrey Goeders
+  conference: >
+    International Conference on Field-Programmable Technology (FPT)
+  year: >
+    2019
+  abstract: >
+   Complex designs generated from modern high-level synthesis tools allow users to take advantage of heterogeneous systems, splitting the execution of programs between conventional processors, and hardware accelerators. While modern HLS tools continue to improve in efficiency and capability, debugging these designs has received relatively minor attention. Fortunately, recent academic work has provided the first means to debug these designs using hardware and software traces. Though these traces allow the user to analyze the flow of execution on both the software and hardware individually, they provide no means of synchronization to determine how operations on one device affect the other. 
+
+- title: >
+    Implementation and Design Space Exploration of a Turbo Decoder in High-Level Synthesis
+  authors: >
+    Wesley Stirk, Jeffrey Goeders
+  conference: >
+    International Conference on Reconfigurable Computing and FPGAs (ReConFig)
+  year: >
+    2019
+  abstract: >
+    High-Level Synthesis (HLS) allows not only for quicker prototyping, but also faster and more widespread design space exploration. In this work we designed a turbo decoder using Vivado HLS, which has not previously been explored. Our turbo decoder was designed to allow for easy design space exploration, both of algorithmic turbo decoder parameters as well as HLS parameters.  Data and analysis on the design space is presented for approximately 200,000 variations with an emphasis on the needed trade-offs when designing a turbo decoder. 
+
+- title: >
+    Impact of Soft Errors on Large-Scale FPGA Cloud Computing
+  authors: >
+    Andrew Keller, Michael Wirthlin
+  conference: >
+    International Symposium on Field-Programmable Gate Arrays (FPGA)
+  year: >
+    2019
+  abstract: >
+    FPGAs are being used in large numbers within cloud computing to provide high-performance, low-power alternatives to more traditional computing structures. While FPGAs provide a number of important benefits to cloud computing environments, they are susceptible to radiation-induced soft errors, which can lead to silent data corruption or system instability. Although soft errors within a single FPGA occur infrequently, soft errors in large-scale FPGAs systems can occur at a relatively high rate. This paper investigates the failure rate of several FPGA applications running within an FPGA cloud computing node by performing fault injection experiments to determine the susceptibility of these applications to soft-errors. The results from these experiments suggest that silent data corruption will occur every few hours within a 100,000 node FPGA system and that such a system can only maintain high-levels of reliability for short periods of operation. These results suggest that soft-error detection and mitigation techniques may be needed in large-scale FPGA systems.
+
+
+- title: >
+    Neutron Radiation Testing of Fault Tolerant RISC-V Soft Processor on Xilinx SRAM-based FPGAs
+  authors: >
+    Andrew Wilson, Michael Wirthlin
+  conference: >
+    IEEE Space Computing Conference
+  year: >
+    2019
+  abstract: >
+    Many space applications are considering the use of commercial SRAM-based FPGAs over radiation hardened devices. When using SRAM-based FPGAs, soft processors may be required to fulfill application requirements, but the FPGA designs must overcome radiation-induced soft errors to provide a reliable system. TMR is one solution in designing a fault tolerant soft processor to mitigate the failures caused by SEUs. This paper compares the neutron soft-error reliability of an unmitigated and TMR version of a Taiga RISC-V soft processor on a Xilinx SRAM-based FPGA. The TMR RISC-V processor showed a 33× reduction in the neutron cross section and a 27% decrease in operational frequency, resulting in a 24× improvement of the mean work to failure with a cost of around 5.6× resource utilization.
+
+- title: >
+    Maverick: A Stand-Alone CAD Flow for Partially Reconfigurable FPGA Modules
+  authors: >
+    Dallon Glick, Jesse Grigg, Brent Nelson, Michael Wirthlin
+  conference: >
+    International Symposium on Field-Programmable Custom Computing Machines (FCCM)
+  year: >
+    2019
+  abstract: >
+    This paper presents Maverick, a proof-of-concept computer-aided design (CAD) flow for generating reconfigurable modules (RMs) which target partial reconfiguration (PR) regions in field-programmable gate array (FPGA) designs. After an initial static design and PR region are created with Xilinx's Vivado PR flow, the Maverick flow can then compile and configure RMs onto that PR region-without the use of vendor tools. Maverick builds upon existing open source tools (Yosys, RapidSmith2, and Project X-Ray) to form an end-to-end compilation flow. This paper describes the Maverick flow and shows the results of it running on a PYNQ-Z1's ARM processor to compile a set of HDL designs to partial bitstreams. The resulting bitstreams were configured onto the PYNQ-Z1's FPGA fabric, demonstrating the feasibility of a single-chip embedded system which can both compile HDL designs to bitstreams and then configure them onto its own programmable fabric.
+
 - title: >
     Unified On-Chip Software and Hardware Debug for HLS-Accelerated Programs
   authors: >
