@@ -3,7 +3,7 @@
   authors: >
     Matthew Ashcraft, Jeffrey Goeders
   conference: >
-    International Conference on Field-Programmable Technology
+    International Conference on Field-Programmable Technology (FPT)
   year: >
     2018
   abstract: >
@@ -15,9 +15,21 @@
   authors: >
     Matthew Bohman, Benjamin James, Michael J Wirthlin, Heather Quinn, Jeffrey Goeders
   conference: >
-    IEEE Transactions on Nuclear Science
+    IEEE Transactions on Nuclear Science (TNS)
   year: >
     2018
   abstract: >
     Commercial off-the-shelf microcontrollers can be useful for noncritical processing on spaceborne platforms. These microprocessors can be inexpensive and consume small amounts of power. However, the software running on these processors is vulnerable to radiation upsets. In this paper, we present a fully automated, configurable, software-based tool to increase the reliability of microprocessors in high-radiation environments. This tool consists of a set of open-source LLVM compiler passes to automatically implement software-based mitigation techniques. We duplicate or triplicate computations and insert voting mechanisms into software during the compilation process, allowing for runtime error correction. While the techniques we implement are not novel, previous work has typically been closed source, processor architecture dependent, not automated, and not tested in real high-radiation environments. In contrast, the compiler passes presented in this paper are publicly available, highly customizable, and are platform independent and language independent. We have tested our modified software using both fault injection and through neutron beam radiation on a Texas Instruments MSP430 microcontroller. When tested by a neutron beam, we were able to decrease the cross section of programs by 17-29×, increasing mean-work-to-failure by 4-7×.
+
+
+- title: >
+    Enabling Long Debug Traces of HLS Circuits Using Bandwidth-Limited Off-Chip Storage Devices
+  authors: >
+    Jeffrey Goeders
+  conference: >
+    International Symposium on Field-Programmable Custom Computing Machines (FCCM)
+  year: >
+    2017
+  abstract: >
+    High-level synthesis (HLS) has gained considerable traction in recent years. Despite considerable strides in the development of quality HLS compilers, one area that is often cited as a barrier to HLS adoption is the difficulty in debugging HLS produced circuits. Recent academic work has presented techniques that use on-chip memories to efficiently record execution of HLS circuits, and map the captured data back to the original source code to provide the user with a software-like debug experience. However, limited on-chip memory results in very short debug traces, which may force a designer to spend multiple debug iterations to resolve complicated bugs. In this work we present techniques to enable off-chip capture of HLS debug information. While off-chip storage does not suffer from the capacity limitations of on-chip memory, its usage introduces a new challenge: limited bandwidth. In this work we show how information from within the HLS flow can be leveraged to generated a streamed debug trace within given bandwidth constraints. For a bandwidth limited interface, we show that our techniques allow the user to observe 19× more source code variables than using a basic approach.
   url: /assets/ONPC.pdf

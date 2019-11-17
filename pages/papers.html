@@ -9,9 +9,9 @@ permalink: /papers
 <div class="papers">
     {% for paper in site.data.papers %}
         <div class="paper">
-            <h3 class="paper-title">
+            <h4 class="paper-title">
                 {{ paper.title }}
-            </h3>
+            </h4>
             <p class="paper-authors">{{ paper.authors }}</p>
             <p class="paper-conference">{{ paper.conference }}</p>
             {% if paper.abstract %}

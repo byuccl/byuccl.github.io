@@ -1,6 +1,7 @@
 .paper {
     .paper-title {
         font-weight: 200;
+        margin-bottom: 5px;
     }
 
     .paper-authors {
@@ -9,13 +10,14 @@
 
     .paper-conference {
         color: $grey-color-light;
+        margin-bottom: 5px;
     }
 
     .paper-description {
 
     }
 
-    margin: 25px 0;
+    margin: 5px 0;
 
     .hide {
         display: none;
