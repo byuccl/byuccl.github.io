@@ -6,14 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: BYU Configurable Computing Lab
+email: jgoeders@byu.edu
 description: > # this means to ignore newlines until "baseurl:"
    The configurable computing lab focuses on FPGAs and FPGA-like devices, researching new tools and techniques for reliability, security, debug, high-level synthesis, open-source CAD, and hardware accelerated applications.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 markdown: kramdown
