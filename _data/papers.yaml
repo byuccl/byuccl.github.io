@@ -1,5 +1,3 @@
-
-
 - title: >
     Packing a modern Xilinx FPGA using RapidSmith
   authors: >
@@ -12,7 +10,6 @@
    Academic packing algorithms have typically been limited to theoretical architectures. In this paper, we describe RSVPack, a packing algorithm built on top of RapidSmith to target the Xilinx Virtex 6 architecture. We integrate our packer into the Xilinx ISE CAD flow and demonstrate our packer tool by packing a set of benchmark circuits and performing routing and timing analysis inside ISE.
 
 
-
 - title: >
     Vivado design interface: An export/import capability for Vivado FPGA designs
   authors: >
@@ -23,7 +20,6 @@
     2017
   abstract: >
    Research tools targeting commercial FPGAs have most commonly been based on the Xilinx Design Language (XDL). Vivado, however, does not support XDL, preventing similar tools from being created for next-generation devices. Instead, Vivado includes a Tcl interface that exposes Xilinx's internal design and device data structures. Considerable challenges still remain to users attempting to leverage this Tcl interface to develop external CAD tools. This paper presents the Vivado Design Interface (VDI), a set of file formats and Tcl functions that address the challenges of exporting and importing designs to and from Vivado. To demonstrate its use, VDI has been integrated with RapidSmith2, an external FPGA CAD framework. To our knowledge this work is the first successful attempt to provide an open-source tool-flow that can export designs from Vivado, manipulate them with external CAD tools, and re-import an equivalent representation back into Vivado.
-
 
 
 - title: >
@@ -50,7 +46,6 @@
    In FPGAs, debug observability is often achievedby attaching memory-based recording circuitry to user signals. Block-RAM (BRAM)-based embedded logic analyzers are ofteninserted into user circuits to observe circuit behavior. Incontrast with BRAM-based approaches, distributed memory:1) is almost always available (user circuits may consume allBRAMs but even highly utilized circuits contain unused LUTs), and 2) can usually be physically located very near to user signals(LUTs are spread across the entire device while BRAMs arelocated only in specific columns). Previous work has shownbasic feasibility and demonstrated that distributed memoriescan provide debug observability for highly utilized circuits. Thispaper focuses on timing impacts and describes the quantitativetradeoff between FPGA device utilization, debug probe count, and clock frequency. For example, a design with 70% of LUTsutilized, with no debug logic, can operate at a minimum clockperiod of 5ns. Instrumenting 300 debug probes increases thisperiod to 7ns, and 1500 probes to 8ns. Placing trace bufferswith a simulated annealing algorithm improved success ratesfrom 20% to 50% depending on the design and probe count.
 
 
-
 - title: >
     Preallocating Resources for Distributed Memory Based FPGA Debug
   authors: >
@@ -61,10 +56,6 @@
     2019
   abstract: >
    Most internal FPGA debug methods require the use of Block-RAM (BRAM) memory for trace buffers. Recent work has shown the viability of replacing BRAMs with distributed, LUT based memory. Distributed memory (DIME) trace buffers are lean and can be utilized in large designs where other debug methods are unlikely to fit. Since LUTs are abundant on FPGA devices, there are nearly always some left unused after the user's design is placed, even for designs that utilize more than 90% of the FPGA's resources. DIME trace buffers are inserted into highly utilized designs within minutes using RapidWright. In this paper we contrast the previously used method of scavenging leftover LUT resources with a preallocation scheme that ensures a certain amount of memory LUTs are left available for distributed memory trace buffers. While causing virtually no penalty to the user design, preallocating memory LUT resources allows the very largest designs to utilize higher numbers of distributed memory trace buffers at lower timing penalties. We also show that depth of DIME trace buffers can be extended from 16 to 256 bits.
-
-
-
-
 
 
 - title: >
@@ -156,7 +147,7 @@
     2018
   abstract: >
     Modern high-level synthesis (HLS)-based tools allow for the creation of complex systems where parts of the user's software are executed on a conventional processor, and the other parts are implemented as hardware accelerators via HLS flows. While modern tools allow designers to construct these systems relatively quickly, observing and debugging the real-time execution of these complex systems remains challenging. Recent academic work has focused on providing designers software-like visibility into the execution of their HLS hardware accelerators; however, this work has assumed that the hardware is observed in isolation. In this work we demonstrate techniques toward a unified in-system software and hardware debugging environment, where the user can capture execution of both the hardware and software domains, and their interactions. We present the performance costs of capturing this execution data, exploring the impact of different levels of observation.
-  url: /assets/ONPC.pdf
+  url: /assets/ashcraft_fpt18.pdf
 
 - title: >
     Microcontroller Compiler-Assisted Software Fault Tolerance
