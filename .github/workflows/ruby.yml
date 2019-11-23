@@ -1,0 +1,28 @@
+name: Ruby
+
+on:
+  push:
+    branches:
+      - master  
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Set up Ruby 2.6
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6.x
+
+    - name: Building website
+      run: |
+        gem install jekyll -v 3.8.5
+        jekyll build
+
+    - name: Uploading website
+      run: |
+        sshpass -p "${{ secrets.PASSWORD }}" scp -o StrictHostKeyChecking=no -P ${{ secrets.PORT }} -r _site/* ${{ secrets.USERNAME }}@${{ secrets.HOST }}:groups/ccl/www/
