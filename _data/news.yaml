@@ -1,0 +1,9 @@
+# - name: Self-Sustainable Air Quality Sensor
+  # description: We are building an air quality sensor that is powered by solar power and uses long range communication. This will allow for sensors to be placed in locations not possible before.
+
+
+- event_name: LANSCE Radiation trip
+  date: October 2019
+  description: >
+    Students from the CCL travelled to L
+  url: https://github.com/byuccl/coast

@@ -1,0 +1,31 @@
+---
+layout: default
+title: News
+permalink: /news/
+---
+
+<h1 class="projects-title">News</h1>
+<hr>
+<div class="projects">
+    {% for news_item in site.data.news %}
+        <div class="project">
+            <h3 class="project-title">{{ news_item.name }}</h3>
+            {% if news_item.images %}
+                <div class="project-images row">
+                    {% for image in project.images %}
+                        <div class="col">
+                            <img class="project-image" src="{{image}}"/>
+                        </div>
+                    {% endfor %}
+                </div>
+
+            {% endif %}
+            <div class="project-description">
+                {{ news_item.description | markdownify }}
+            </div>
+
+          
+        </div>
+        <hr>
+    {% endfor %}
+</div>
