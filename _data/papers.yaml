@@ -147,7 +147,7 @@
     2018
   abstract: >
     Modern high-level synthesis (HLS)-based tools allow for the creation of complex systems where parts of the user's software are executed on a conventional processor, and the other parts are implemented as hardware accelerators via HLS flows. While modern tools allow designers to construct these systems relatively quickly, observing and debugging the real-time execution of these complex systems remains challenging. Recent academic work has focused on providing designers software-like visibility into the execution of their HLS hardware accelerators; however, this work has assumed that the hardware is observed in isolation. In this work we demonstrate techniques toward a unified in-system software and hardware debugging environment, where the user can capture execution of both the hardware and software domains, and their interactions. We present the performance costs of capturing this execution data, exploring the impact of different levels of observation.
-  url: /assets/ashcraft_fpt18.pdf
+  url: ashcraft_fpt18.pdf
 
 - title: >
     Microcontroller Compiler-Assisted Software Fault Tolerance
