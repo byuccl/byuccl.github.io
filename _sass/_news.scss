@@ -10,10 +10,15 @@
 .news-image {
     object-fit: cover;
     max-height: 450px;
-
+    
     // display: block;
     // margin-left: auto;
     // margin-right: 0;
 
-    // padding: 20px;
+    padding: 10px 0px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }

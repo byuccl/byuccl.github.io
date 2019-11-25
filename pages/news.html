@@ -21,15 +21,30 @@ permalink: /news/
                     </div>
                 </div>
 
-                {% if news_item.images %}
+                {% if news_item.images.size >= 3 %}
                     <div class="row news-images">
                         {% for image in news_item.images %}
-                            <div class="col">
+                            <div class="col-sm-12 col-md-6 col-xl-4 col-centered">
                                 <img class="img-fluid h-100 news-image" src="{{site.baseurl}}/images/{{image}}"/>
                             </div>
                         {% endfor %}
                     </div>
-
+                {% elsif news_item.images.size == 2 %}
+                    <div class="row news-images">
+                        {% for image in news_item.images %}
+                            <div class="col-sm-12 col-md-6 col-centered">
+                                <img class="img-fluid h-100 news-image" src="{{site.baseurl}}/images/{{image}}"/>
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% elsif news_item.images.size == 1 %}
+                    <div class="row news-images">
+                        {% for image in news_item.images %}
+                            <div class="col-sm-12 col-centered">
+                                <img class="img-fluid h-100 news-image" src="{{site.baseurl}}/images/{{image}}"/>
+                            </div>
+                        {% endfor %}
+                    </div>
                 {% endif %}
 
                 {% if news_item.description %}
