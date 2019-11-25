@@ -1,4 +1,4 @@
-name: Ruby
+name: Copy to CCL website
 
 on:
   push:
