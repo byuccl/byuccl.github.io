@@ -7,6 +7,10 @@ h2 {
 }
 
 
+.students-row {
+    // max-height: 100px;
+}
+
 .faculty {
     img {
         padding-bottom: 15px;
@@ -16,14 +20,9 @@ h2 {
         font-weight: 200;
     }
 
-    .faculty-description {
-
-    }
+  
 }
 
-.current-faculty {
-   
-}
 .current-students {
     margin-bottom: 25px;
 }
@@ -35,15 +34,11 @@ h2 {
 
 .student {
     img {
-
+        max-height: 250px;
     }
 
     .faculty-name {
         font-weight: 200;
-    }
-
-    .faculty-description {
-
     }
 
     .student-name {

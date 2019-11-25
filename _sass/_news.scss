@@ -1,0 +1,19 @@
+.news-date {
+    color: $grey-color-light;
+}
+
+.news-images {
+    padding-bottom: 20px;
+    float:none;margin:0 auto;text-align:center
+}
+
+.news-image {
+    object-fit: cover;
+    max-height: 450px;
+
+    // display: block;
+    // margin-left: auto;
+    // margin-right: 0;
+
+    // padding: 20px;
+}

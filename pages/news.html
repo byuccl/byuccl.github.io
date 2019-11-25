@@ -7,25 +7,40 @@ permalink: /news/
 <h1 class="projects-title">News</h1>
 <hr>
 <div class="projects">
-    {% for news_item in site.data.news %}
-        <div class="project">
-            <h3 class="project-title">{{ news_item.name }}</h3>
-            {% if news_item.images %}
-                <div class="project-images row">
-                    {% for image in project.images %}
-                        <div class="col">
-                            <img class="project-image" src="{{image}}"/>
-                        </div>
-                    {% endfor %}
+    {% assign news = site.data.news | sort : 'date' | reverse %}
+    {% for news_item in news %}
+        {% if forloop.index0 < 10 %}
+            <div class="project">
+
+                <div class="row">
+                    <div class="col-6">
+                        <h3>{{ news_item.event_name }}</h3>
+                    </div>
+                    <div class="col-6 text-right">
+                        <h4 class="news-date">{{ news_item.date | date: "%B %Y" }}</h4>
+                    </div>
                 </div>
 
-            {% endif %}
-            <div class="project-description">
-                {{ news_item.description | markdownify }}
-            </div>
+                {% if news_item.images %}
+                    <div class="row news-images">
+                        {% for image in news_item.images %}
+                            <div class="col">
+                                <img class="img-fluid h-100 news-image" src="{{site.baseurl}}/images/{{image}}"/>
+                            </div>
+                        {% endfor %}
+                    </div>
 
-          
-        </div>
-        <hr>
+                {% endif %}
+
+                {% if news_item.description %}
+                    <div>
+                        {{ news_item.description | markdownify }}
+                    </div>
+                {% endif %}
+
+
+            </div>
+            <hr>
+        {% endif %}
     {% endfor %}
 </div>

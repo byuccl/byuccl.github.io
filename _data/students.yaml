@@ -1,0 +1,22 @@
+phd_students:
+  - name: Matthew Ashcraft  
+  
+  - name: Bobby Hale
+  
+  - name: Andrew Keller
+    image: andrew_keller.jpg
+
+  - name: Andres Perez-Celis
+
+masters_students:
+  - name: Tanner Gaskin
+
+  - name: Benjamin James
+
+  - name: Eli Cahill
+
+
+undergrad_students:
+- name: Wesley Stirk
+
+- name: Stephanie Ashby
