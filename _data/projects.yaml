@@ -7,9 +7,9 @@
     COAST is a set of compiler tools that provides automated software protection from single-event effects.  Users can select portions of their porgram to protect, and the compiler will automatically duplicate or triplicate instructions.  COAST currently supports ARM, RISC-V and MSP430 processor architectures, and has been validated by several tests using the LANSCE neutron beam.
   url: https://github.com/byuccl/coast
 
-- name: Shorty
-  description: >
-    Shorty is an innovative new project that examines the effect of short circuits on FPGA's. With the use of high precision data collection techniques shorty aims to prove that intentionally introducing short circuits to FPGA designs permanently damages on-chip resources. This would result in reduced performance and faulty operation. Such an attack vector introduces a whole new class of security considerations that would effect every field using FPGA's including cloud computing, space computing and DoD applications.
+# - name: Shorty
+#   description: >
+#     Shorty is an innovative new project that examines the effect of short circuits on FPGA's. With the use of high precision data collection techniques shorty aims to prove that intentionally introducing short circuits to FPGA designs permanently damages on-chip resources. This would result in reduced performance and faulty operation. Such an attack vector introduces a whole new class of security considerations that would effect every field using FPGA's including cloud computing, space computing and DoD applications.
 
 - name: PYNQ PRIO (Partially Reconfigurable IO on the PYNQ)
   description: >
