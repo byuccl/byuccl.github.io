@@ -6,3 +6,12 @@
   description: >
     COAST is a set of compiler tools that provides automated software protection from single-event effects.  Users can select portions of their porgram to protect, and the compiler will automatically duplicate or triplicate instructions.  COAST currently supports ARM, RISC-V and MSP430 processor architectures, and has been validated by several tests using the LANSCE neutron beam.
   url: https://github.com/byuccl/coast
+
+- name: Shorty
+  description: >
+    Shorty is an innovative new project that examines the effect of short circuits on FPGA's. With the use of high precision data collection techniques shorty aims to prove that intentionally introducing short circuits to FPGA designs permanently damages on-chip resources. This would result in reduced performance and faulty operation. Such an attack vector introduces a whole new class of security considerations that would effect every field using FPGA's including cloud computing, space computing and DoD applications.
+
+- name: PYNQ PRIO (Partially Reconfigurable IO on the PYNQ)
+  description: >
+    PYNQ PRIO is an addition to the Xilinx PYNQ project. With the integration of PRIO the PYNQ package is augmented with two powerful new features. First is the addition of partial reconfiguration, allowing users to reconfigure targeted sections of the FPGA fabric at will. Second is device tree overlay support allowing users to dynamically load, unload and reload hardware specific Linux Kernel drivers, making the Kernel as reconfigurable as the hardware it supports. Currently PRIO is fully integrated with the Xilinx PYNQ project. 
+  url: https://github.com/byuccl/PYNQ-PRIO

@@ -68,7 +68,8 @@
     2018
   abstract: >
    The PYNQ system (Python Productivity for Zynq) is notable for combining a monolithic preconfigured bitstream, Ubuntu Linux, Python, and Jupyter notebooks to form an FPGA-based system that is far more accessible to non-FPGA experts than previous systems. In this work, the monolithic pre-configured PYNQ bitstream is replaced with a combination of a simple base bitstream containing several partial reconfiguration regions and a library of partial bitstreams that implement a variety of hardware interfaces such as: GPIO, UART, Timer, IIC, SPI, Real-Time Clock, etc., that interface to various Pmod-based peripherals. When peripherals are plugged into a Pmod socket at run-time, corresponding partial reconfigurations and standard device drivers can be automatically loaded into the Ubuntu kernel using device-tree overlays. This demand-driven, partially-reconfigured approach is found to be advantageous to the monolithic bitstream because: 1) it provides similar functionality to the monolithic bitstream while consuming less area, 2) it provides a way for users to modify or augment hardware functionality without requiring the user to develop a new monolithic bitstream, 3) run-time demand loading of partial bitstreams makes the system more responsive to changing conditions, and 4) implementation issues such as timing-closure, etc., are simplified because the base bitstream circuitry is smaller and less complex.
-
+  url: >
+    pynq_fccm18.pdf
 
 - title: >
     Using Physical and Functional Comparisons to Assure 3rd-Party IP for Modern FPGAs
