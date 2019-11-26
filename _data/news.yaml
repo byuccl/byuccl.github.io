@@ -1,7 +1,7 @@
 - event_name: LANSCE Radiation Testing
   date: 2019-10-1
   description: >
-    Welcome (once again) to the Los Alamos Neutron Science Center (LANSCE).
+    Students from the CCL traveled to the [Los Alamos Neutron Science Center (LANSCE)](https://lansce.lanl.gov) to evaluate their work on computer reliability in harsh radiation environments. LANSCE provides an accelerated neutron source that mirrors the atmospheric neutron radiation found here on Earth. Several experiments were conducted accross a dozen different boards (left). Some experiments quantified improvements in reliability gained from using structural reduncancy (multiple copies to mask or detect an error) and automated software fault tolerance techniques. Another experiment targeted multi-cell upset detection. A final experiment evaluated novel configuration scrubbing techniques. Busy at the beam, students and adviors alike tended experiments and analyzed data in a remote data room (center). While things were running smoothly, a visit was made to the nearby [Bandelier National Monument](https://www.nps.gov/band/index.htm) (right). 
   images: 
     - news_2019/lansce1.jpg 
     - news_2019/lansce3.jpg 
