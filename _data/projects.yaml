@@ -3,6 +3,6 @@
 
 
 - name: COAST (COmpiler-Assisted Software fault Tolerance)
-  description: |+
+  description: >
     COAST is a set of compiler tools that provides automated software protection from single-event effects.  Users can select portions of their porgram to protect, and the compiler will automatically duplicate or triplicate instructions.  COAST currently supports ARM, RISC-V and MSP430 processor architectures, and has been validated by several tests using the LANSCE neutron beam.
   url: https://github.com/byuccl/coast
