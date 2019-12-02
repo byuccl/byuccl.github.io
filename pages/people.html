@@ -48,16 +48,16 @@ permalink: /people/
                     {% assign sortedStudents = site.data.students[student_type] | sort: 'name' %}
                     {% for person in sortedStudents %}
                         <div class="col-md-3 col-6 text-center">
-                            <div class="student">
+                            <!-- <div class="student"> -->
                                 {% if person.image %}
-                                    <img class="img-fluid h-100 student-images" src="{{site.baseurl}}/images/students/{{ person.image }}" alt="{{ person.name }}">
+                                    <img class="img-fluid h-100 student-image" src="{{site.baseurl}}/images/students/{{ person.image }}" alt="{{ person.name }}">
                                 {% else %}
-                                    <img class="img-fluid h-100 student-images" src="/images/no-image.jpg" alt="{{ person.name }}">
+                                    <img class="img-fluid h-100 student-image" src="/images/no-image.jpg" alt="{{ person.name }}">
                                 {% endif %}
 
 
                                 <h5 class="student-name">{{ person.name }}</h5>
-                            </div>
+                            <!-- </div> -->
                         </div>
                     {% endfor %}
                 </div>

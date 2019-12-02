@@ -30,12 +30,14 @@ h2 {
 .past-students {
     margin-top: 25px;
 }
-
+.student-image {
+    max-height: 250px;
+    object-fit: cover;
+    // max-height: 450px;
+}
 
 .student {
-    img {
-        max-height: 250px;
-    }
+   
 
     .faculty-name {
         font-weight: 200;
