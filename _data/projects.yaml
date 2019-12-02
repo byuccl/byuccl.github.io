@@ -21,4 +21,3 @@
   description: >
     This project demonstrates the use of partial reconfiguration to dynamically configure a custom video processing pipeline during run-time.
   url: https://github.com/byuccl/BYU_PYNQ_PR_Video_Pipeline
-  url: https://github.com/byuccl/BYU_PYNQ_PR_Video_Pipeline_Hardware
