@@ -16,6 +16,9 @@ masters_students:
 
   - name: Eli Cahill
 
+  - name: Andrew E Wilson
+    image: andrew_wilson.jpg
+
 
 undergrad_students:
 - name: Wesley Stirk
