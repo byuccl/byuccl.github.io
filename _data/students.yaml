@@ -18,6 +18,14 @@ masters_students:
 
   - name: Andrew E Wilson
     image: andrew_wilson.jpg
+    
+  - name: Corbin Thurlow
+  
+  - name: Dallin Skouson
+  
+  - name: Jared Anderson
+  
+  - name: Jennings Leavitt
 
 
 undergrad_students:
@@ -30,3 +38,21 @@ undergrad_students:
 - name: Stephanie Ashby
 
 - name: Evan Poff
+
+- name: Sam Larsen
+
+- name: Christopher Kitras
+
+- name: Jonathan Orgill
+
+- name: Kenneth McGuire
+
+- name: Levi Fleming
+
+- name: Maximilian Warner
+
+- name: Michael Bjerregaard
+
+- name: Reilly McKendrick
+
+- name: Andrew Pond
