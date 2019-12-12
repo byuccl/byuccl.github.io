@@ -1,4 +1,28 @@
 - title: >
+    Applying Compiler-Automated Software Fault Tolerance to Multiple Processor Platforms
+  authors: >
+    Benjamin James, Heather Quinn, Michael Wirthlin, and Jeffrey Goeders
+  conference: >
+    IEEE Transactions on Nuclear Science (TNS)
+  year: >
+    2020
+  abstract: >
+   Several recent works have explored the feasibility of using Commercial off-the-shelf (COTS) processing systems in radiation-prone environments, such as spacecraft. Typically, this approach requires some form of protection, to ensure that the software can tolerate radiation upsets without compromising the system. Our recent work, COAST (COmpiler Assisted Software fault Tolerance), provides automated compiler modification of software programs to insert dual- or triple-modular redundancy. In this work we extend COAST to support several new processing platforms, including RISC-V and Xilinx SoC-based products. The automated software protection mechanisms are tested for a variety of configurations, altering the benchmark and cache configuration. Across the different configurations, the cross-sections were improved by 4x–106x. In addition, a hardware-mitigation technique is tested using dual lock-step cores on the Texas Instruments Hercules platform, which is compared to the software-only mitigation approach.
+  url: coast_tns20.pdf
+
+- title: >
+    Fast Turnaround HLS Debugging using Dependency Analysis and Debug Overlays
+  authors: >
+    Al-Shahna Jamal, Eli Cahill, Jeffrey Goeders, and Steven Wilton
+  conference: >
+    ACM Transactions on Reconfigurable Technology and Systems (TRETS)
+  year: >
+    2020
+  abstract: >
+   High-level synthesis (HLS) has gained considerable traction over the recent years as it allows for faster development and verification of hardware accelerators than traditional RTL design. While HLS allows for most bugs to be caught during software verification, certain non-deterministic or data-dependent bugs still require debugging the actual hardware system during execution. Recent work has focused on techniques to allow designers to perform in-system debug of HLS circuits in the context of the original software code; however, like RTL debug, the user must still determine the root-cause of a bug using small execution traces, with lengthy debug turns. In this work we demonstrate techniques aimed at reducing the time HLS designers spend performing in-system debug. Our approaches consist of performing data dependency analysis in order to guide the user in selecting which variables are observed by the debug instrumentation, as well as an associated debug overlay that allows for rapid reconfiguration of the debug logic, enabling rapid switching of variable observation between debug iterations. In addition, our overlay provides additional debug capability, such as selective function tracing and conditional buffer freeze points. We explore the area overhead of these different overlay features, showing a basic overlay with only a 1.7% increase in area overhead from the baseline debug instrumentation, while a deluxe variant offers 2x-7x improvement in trace buffer memory utilization with conditional buffer freeze support.
+  url: jamal_trets20.pdf
+
+- title: >
     Packing a modern Xilinx FPGA using RapidSmith
   authors: >
     Travis Haroldsen, Brent Nelson, Brad Hutchings
@@ -103,6 +127,8 @@
     2019
   abstract: >
     High-Level Synthesis (HLS) allows not only for quicker prototyping, but also faster and more widespread design space exploration. In this work we designed a turbo decoder using Vivado HLS, which has not previously been explored. Our turbo decoder was designed to allow for easy design space exploration, both of algorithmic turbo decoder parameters as well as HLS parameters.  Data and analysis on the design space is presented for approximately 200,000 variations with an emphasis on the needed trade-offs when designing a turbo decoder. 
+  url : >
+    stirk_reconfig19.pdf
 
 - title: >
     Impact of Soft Errors on Large-Scale FPGA Cloud Computing
