@@ -1,3 +1,11 @@
+- event_name: FPT Conference, Tianjin, China
+  date: 2019-12-09
+  description: >
+    Matthew Ashcraft (PhD student) travelled to Tianjin, China to present his paper at the 2019 International Conference on Field-Programmable Technology on "Synchronizing On-Chip Software and Hardware Traces for HLS-Accelerated Programs," building on the work presented at the previous years conference.
+  images:
+    - news_2019/FPT2019_1.jpg
+    - news_2019/FPT2019_2.jpg
+    
 - event_name: ChipIr Radiation Testing, Rutherford Appleton Laboratory, Dicot, United Kingdom
   date: 2019-11-14
   description: >
@@ -29,4 +37,7 @@
 - event_name: FPT Conference, Okinawa, Japan
   date: 2018-12-01
   description: >
-    Matthew Ashcraft (PhD student) and Professor Brad Hutchings travelled to Okinawa, Japan to present their papers at the 2018 International Conference on Field-Programmable Technology.
+    Matthew Ashcraft (PhD student) and Professor Brad Hutchings travelled to Okinawa, Japan to present their papers at the 2018 International Conference on Field-Programmable Technology on "Unified On-Chip Software and Hardware Debug for HLS-Accelerated Programs" and "Distributed-Memory Based FPGA Debug: Design Timing Impact" .
+  images:
+    - news_2019/FPT2018_1.jpg
+    - news_2019/FPT2018_2.jpg
