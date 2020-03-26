@@ -1,4 +1,17 @@
 - title: >
+    Using On-Chip Error Detection to Estimate FPGA Design Sensitivity
+  authors: >
+    Andrew Mark Keller
+  conference: >
+    Master's Thesis
+  year: >
+    2017
+  abstract: >
+    SRAM-based FPGAs provide valuable computation resources and reconfigurability; however, ionizing radiation can cause designs operating on these devices to fail. The sensitivity of an FPGA design to configuration upsets, or its SEU sensitivity, is an indication of a design's failure rate. SEU mitigation techniques can reduce the SEU sensitivity of FPGA designs in harsh radiation environments. The reliability benefits of these techniques must be determined before they can be used in mission-critical applications and can be determined by comparing the SEU sensitivity of an FPGA design with and without these techniques applied to it. Many approaches can be taken to evaluate the SEU sensitivity of an FPGA design. This work describes a low-cost easier-to-implement approach for evaluating the SEU sensitivity of an FPGA design. This approach uses additional logic resources on the same FPGA as the design under test to determine when the design has failed, or deviated from its specified behavior. Three SEU mitigation techniques were evaluated using this approach: triple modular redundancy (TMR), configuration scrubbing, and user-memory scrubbing. Significant reduction in SEU sensitivity is demonstrated through fault injection and radiation testing. Two LEON3 processors operating in lockstep are compared against each other using on-chip error detection logic on the same FPGA. The design SEU sensitivity is reduced by 27x when TMR and configuration scrubbing are applied, and by approximately 50x when TMR, configuration scrubbing, and user-memory scrubbing are applied together. Using this approach, an SEU sensitivity comparison is made of designs implemented on both an Altera Stratix V FPGA and a Xilinx Kintex 7 FPGA. Several instances of a finite state machine are compared against each other and a set of golden output vectors, all on the same FPGA. Instances of an AES cryptography core are chained together and the output of two chains are compared using on-chip error detection. Fault injection and neutron radiation testing reveal several similarities between the two FPGA architectures. SEU mitigation techniques reduce the SEU sensitivity of the two designs between 4x and 728x. Protecting on-chip functional error detection logic with TMR and duplication with compare (DWC) is compared. Fault injection results suggest that it is more favorable to protect on-chip functional error detection logic with DWC than it is to protect it with TMR for error detection.
+  url: >
+    https://scholarsarchive.byu.edu/etd/6302/
+
+- title: >
     Applying Compiler-Automated Software Fault Tolerance to Multiple Processor Platforms
   authors: >
     Benjamin James, Heather Quinn, Michael Wirthlin, and Jeffrey Goeders
