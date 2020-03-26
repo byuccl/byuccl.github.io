@@ -1,15 +1,101 @@
 - title: >
+    Selective Hardening for Neural Networks in FPGAs
+  authors: >
+    Fabiano Libano, Brittany Wilson, Jordan Anderson, Michael Wirthlin, Carlo Cazzaniga, Chris Frost, Paolo Rech
+  conference: >
+    IEEE Transactions on Nuclear Science (TNS)
+  year: >
+    2019
+  abstract: >
+    Neural networks are becoming an attractive solution for automatizing vehicles in the automotive, military, and aerospace markets. Thanks to their low-cost, low-power consumption, and flexibility, field-programmable gate arrays (FPGAs) are among the promising devices to implement neural networks. Unfortunately, FPGAs are also known to be susceptible to radiation-induced errors. In this paper, we evaluate the effects of radiation-induced errors in the output correctness of two neural networks [Iris Flower artificial neural network (ANN) and Modified National Institute of Standards and Technology (MNIST) convolutional neural network (CNN)] implemented in static random-access memory-based FPGAs. In particular, we notice that radiation can induce errors that modify the output of the network with or without affecting the neural network's functionality. We call the former critical errors and the latter tolerable errors. Through exhaustive fault injection, we identify the portions of Iris Flower ANN and MNIST CNN implementation on FPGAs that are more likely, once corrupted, to generate a critical or a tolerable error. Based on this analysis, we propose a selective hardening strategy that triplicates only the most vulnerable layers of the neural network. With neutron radiation testing, our selective hardening solution was able to mask 40% of faults with a marginal 8% overhead in one of our tested neural networks.
+
+- title: >
+    Strategies for Removing Common Mode Failures From TMR Designs Deployed on SRAM FPGAs
+  authors: >
+    Matthew Cannon, Andrew Keller, Hayden Rowberry, Corbin Thurlow, Andrés Pérez-Celis, Michael Wirthlin
+  conference: >
+    IEEE Transactions on Nuclear Science (TNS)
+  year: >
+    2019
+  abstract: >
+    Triple modular redundancy (TMR) with repair has proven to be an effective strategy for mitigating the effects of single-event upsets within the configuration memory of static random access memory field-programmable gate arrays. Applying TMR to the design successfully reduces the design's neutron cross section by 80×. The effectiveness of TMR, however, is limited by the presence of single bits in the configuration memory which cause more than one TMR domain to fail simultaneously. We present three strategies to mitigate against these failures and improve the effectiveness of TMR: incremental routing, incremental placement, and striping. These techniques were tested using both fault injection and a wide spectrum neutron beam with the best technique offering a 400× reduction to the design's sensitive neutron cross section. An analysis from the radiation test shows that no single bits caused failure and that multicell upsets were the main cause of failure for these mitigation strategies.
+
+- title: >
+    Single-Event Characterization of 16 nm FinFET Xilinx UltraScale+ Devices with Heavy Ion and Neutron Irradiation
+  authors: >
+    David Lee, Michael King, William Evans, Matthew Cannon, Andrés Pérez-Celis, Jordan Anderson, Michael Wirthlin, William Rice
+  conference: >
+    IEEE Radiation Effects Data Workshop (REDW)
+  year: >
+    2018
+  abstract: >
+    This study examines the single-event response of Xilinx 16nm FinFET UltraScale+ FPGA and MPSoC device families. Heavy-ion single-event latch-up, single-event upsets in configuration SRAM, BlockRAM™ memories, and flip-flops, and neutron-induced single-event latch-up results are provided.
+
+- title: >
+    Neutron Radiation Beam Results for the Xilinx UltraScale+ MPSoC
+  authors: >
+    Jordan Anderson, Jennings Leavitt, Michael Wirthlin
+  conference: >
+    IEEE Radiation Effects Data Workshop (REDW)
+  year: >
+    2018
+  abstract: >
+    The paper summarizes the single-event upset (SEU) results obtained from neutron testing on the UltraScale+ MPSoC ZU9EG device. This complex device contains a large amount of programmable logic and multiple processor cores. Tests were performed on the programmable logic and the processing system simultaneously. Estimates of the single-event upset neutron cross section were obtained for the programmable logic CRAM, BRAM, OCM memory, and cache memories. During the test, no processor crashes or silent data corruptions were observed. In addition, a processor failure cross section was estimated for several software benchmark operating on the various processor cores. Several FPGA CRAM scrubbers were tested including an external JTAG, the Xilinx “SEM” IP, and the use of the PCAP operating in baremetal. In parallel with these tests, single-event induced high current events were monitored using an external power supply and monitoring scripts.
+
+- title: >
+    Improving the Effectiveness of TMR Designs on FPGAs with SEU-Aware Incremental Placement
+  authors: >
+    Matthew Cannon, Andrew Keller, Michael Wirthlin
+  conference: >
+    IEEE Field-Programmable Custom Computing Machines (FCCM)
+  year: >
+    2018
+  abstract: >
+    TMR combined with configuration scrubbing is an effective technique to mitigate against radiation-induced CRAM upsets on SRAM-based FPGAs. However, its effectiveness is limited by low-level common mode failures due to the physical mapping of a design to the FPGA device. This paper describes how common mode failures are introduced during the implementation process and introduces an approach for resolving them through a custom incremental placement tool for Xilinx 7-Series FPGAs. Multiple designs across multiple generations of devices are shown to be sensitive to common mode failures. Applying the incremental placement technique yields an improvement of 10,721x over an unmitigated design through fault-injection testing. Radiation testing is then performed to show that the of this technique is 91,500 days in GEO orbit, a 367x improvement over the unmitigated design and a 5x improvement over baseline TMR.
+
+- title: >
+    Mitigated FPGA design of multi-gigabit transceivers for application in high radiation environments of High Energy Physics experiments
+  authors: >
+    M Brusati, Alessandra Camplani, Matthew Cannon, Hucheng Chen, Mauro Citterio, Massimo Lazzaroni, Helio Takai, Michael Wirthlin
+  conference: >
+    Measurement
+  year: >
+    2017
+  abstract: >
+    SRAM-based Field Programmable Gate Array (FPGA) logic devices are very attractive in applications where high data throughput is needed, such as the latest generation of High Energy Physics (HEP) experiments. FPGAs have been rarely used in such experiments because of their sensitivity to radiation. The present paper proposes a mitigation approach applied to commercial FPGA devices to meet the reliability requirements for the front-end electronics of the Liquid Argon (LAr) electromagnetic calorimeter of the ATLAS experiment, located at CERN. Particular attention will be devoted to define a proper mitigation scheme of the multi-gigabit transceivers embedded in the FPGA, which is a critical part of the LAr data acquisition chain. A demonstrator board is being developed to validate the proposed methodology. Mitigation techniques such as Triple Modular Redundancy (TMR) and scrubbing will be used to increase the robustness of the design and to maximize the fault tolerance from Single-Event Upsets (SEUs).
+
+- title: >
+    Dynamic SEU Sensitivity of Designs on Two 28-nm SRAM-based FPGA Architectures
+  authors: >
+    Andrew Keller, Timothy Whiting, Kenneth Sawyer, Michael Wirthlin
+  conference: >
+    IEEE Transactions on Nuclear Science (TNS)
+  year: >
+    2018
+  abstract: >
+    Two field-programmable gate array (FPGA) designs are tested for dynamic single event upset (SEU) sensitivity on two different 28-nm static random access memory-based FPGAs-an Intel Stratix V and a Xilinx Kintex 7 FPGA. These designs were tested in both a conventional unmitigated version and a version to tolerate SEUs with feedback triple modular redundancy (TMR). The unmitigated design sensitivity and the low-level device sensitivity were found to be similar between the devices through neutron radiation testing. Results also show that feedback TMR and configuration scrubbing benefit both designs on both FPGAs. While TMR is helpful, the benefit of TMR depends on the design structure and the device architecture. TMR and scrubbing reduced dynamic SEU sensitivity by a factor of 4-54x.
+
+- title: >
+    Single-Event Characterization of a Stratix® 10 FPGA Using Neutron Irradiation
+  authors: >
+    Andrew Keller, Mike Wirthlin
+  conference: >
+    IEEE Radiation Effects Data Workshop (REDW)
+  year: >
+    2019
+  abstract: >
+    FPGAs are being used in data center applications in large quantities. Single-event upsets (SEUs) occur more frequently within large-scale deployments of SRAM-based FPGAs. This work estimates the neutron cross section for SEUs in the configuration memory and memory blocks of a 14-nm FinFET Stratix 10 FPGA. SEU data was collected using a custom SEU data collection system. The developed system takes advantage of SEU mitigation features available on the device. The New York City FIT rate for SEUs is estimated to be 3.2 FIT per Mbit for configuration memory and 7.1 FIT per Mbit for memory blocks.
+
+- title: >
     Using On-Chip Error Detection to Estimate FPGA Design Sensitivity
   authors: >
-    Andrew Mark Keller
+    Andrew Keller
   conference: >
     Master's Thesis
   year: >
     2017
   abstract: >
     SRAM-based FPGAs provide valuable computation resources and reconfigurability; however, ionizing radiation can cause designs operating on these devices to fail. The sensitivity of an FPGA design to configuration upsets, or its SEU sensitivity, is an indication of a design's failure rate. SEU mitigation techniques can reduce the SEU sensitivity of FPGA designs in harsh radiation environments. The reliability benefits of these techniques must be determined before they can be used in mission-critical applications and can be determined by comparing the SEU sensitivity of an FPGA design with and without these techniques applied to it. Many approaches can be taken to evaluate the SEU sensitivity of an FPGA design. This work describes a low-cost easier-to-implement approach for evaluating the SEU sensitivity of an FPGA design. This approach uses additional logic resources on the same FPGA as the design under test to determine when the design has failed, or deviated from its specified behavior. Three SEU mitigation techniques were evaluated using this approach: triple modular redundancy (TMR), configuration scrubbing, and user-memory scrubbing. Significant reduction in SEU sensitivity is demonstrated through fault injection and radiation testing. Two LEON3 processors operating in lockstep are compared against each other using on-chip error detection logic on the same FPGA. The design SEU sensitivity is reduced by 27x when TMR and configuration scrubbing are applied, and by approximately 50x when TMR, configuration scrubbing, and user-memory scrubbing are applied together. Using this approach, an SEU sensitivity comparison is made of designs implemented on both an Altera Stratix V FPGA and a Xilinx Kintex 7 FPGA. Several instances of a finite state machine are compared against each other and a set of golden output vectors, all on the same FPGA. Instances of an AES cryptography core are chained together and the output of two chains are compared using on-chip error detection. Fault injection and neutron radiation testing reveal several similarities between the two FPGA architectures. SEU mitigation techniques reduce the SEU sensitivity of the two designs between 4x and 728x. Protecting on-chip functional error detection logic with TMR and duplication with compare (DWC) is compared. Fault injection results suggest that it is more favorable to protect on-chip functional error detection logic with DWC than it is to protect it with TMR for error detection.
-  url: >
-    https://scholarsarchive.byu.edu/etd/6302/
 
 - title: >
     Applying Compiler-Automated Software Fault Tolerance to Multiple Processor Platforms
