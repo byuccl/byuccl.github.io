@@ -1,4 +1,24 @@
 - title: >
+    Benefits of Complementary SEU Mitigation for the LEON3 Soft Processor on SRAM-Based FPGAs
+  authors: >
+    Andrew Keller, Michael Wirthlin
+  conference: >
+    IEEE Transactions on Nuclear Science (TNS)
+  year: >
+    2016
+  abstract: >
+    A variety of mitigation techniques have been demonstrated to reduce the sensitivity of FPGA designs to soft errors. Without mitigation, SEUs can cause failure by altering the logic, routing, and state of a design operating on an SRAM-based FPGA. Various combinations of SEU mitigation and repair techniques are applied to the LEON3 soft-core processor to study the effects and complementary nature of each technique. This work focuses on Triple modular redundancy (TMR), configuration memory (CRAM) scrubbing, and internal block memory (BRAM) scrubbing. All mitigation methods demonstrate some improvement in both fault injection and neutron radiation testing. Results in this paper show complementary SEU mitigation techniques working together to improve fault-tolerance. The results also suggest that fault injection can be a good way to estimate the cross section of a design before going to a radiation test. TMR with CRAM scrubbing demonstrates a 27x improvement whereas TMR with both CRAM and BRAM scrubbing demonstrates approximately a 50x improvement.
+- title: >
+    SEU Mitigation and Validation of the LEON3 Soft Processor Using Triple Modular Redundancy for Space Processing
+  authors: >
+    Michael Wirthlin, Andrew Keller, Chase McCloskey, Parker Ridd, David Lee, Jeffery Draper
+  conference: >
+    International Symposium on Field-Programmable Gate Arrays (FPGA)
+  year: >
+    2016
+  abstract: >
+    Processors are an essential component in most satellite payload electronics and handle a variety of functions including command handling and data processing. There is growing interest in implementing soft processors on commercial FPGAs within satellites. Commercial FPGAs offer reconfigurability, large logic density, and I/O bandwidth; however, they are sensitive to ionizing radiation and systems developed for space must implement single-event upset mitigation to operate reliably. This paper investigates the improvements in reliability of a LEON3 soft processor operating on a SRAM-based FPGA when using triple-modular redundancy and other processor-specific mitigation techniques. The improvements in reliability provided by these techniques are validated with both fault injection and heavy ion radiation tests. The fault injection experiments indicate an improvement of 51x and the radiation testing results demonstrate an average improvement of 10x. Orbit failure rate estimations were computed and suggest that the TMR LEON3 processor has a mean-time to failure of over 76 years in a geosynchronous orbit.
+- title: >
     Selective Hardening for Neural Networks in FPGAs
   authors: >
     Fabiano Libano, Brittany Wilson, Jordan Anderson, Michael Wirthlin, Carlo Cazzaniga, Chris Frost, Paolo Rech
