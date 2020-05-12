@@ -5,6 +5,7 @@ phd_students:
     image: andrew_keller.jpg
 
   - name: Andres Perez-Celis
+    photo: andres_peres.png
 
 masters_students:
   - name: Tanner Gaskin
