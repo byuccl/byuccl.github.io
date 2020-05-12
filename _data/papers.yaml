@@ -1,4 +1,15 @@
 - title: >
+    Understanding the Impact of Quantization, Accuracy, and Radiation on the Reliability of Convolutional Neural Networks on FPGAs
+  authors: >
+    Fabiano Libano, Brittany Wilson, Michael Wirthlin, Paolo Rech, John Brunhaver
+  conference: >
+    IEEE Transactions on Nuclear Science
+  year: >
+    2020
+  abstract: >
+    Convolutional neural networks are quickly becoming viable solutions for self-driving vehicles, military, and aerospace applications. At the same time, due to their high level of design flexibility, reprogrammable capability, low powerconsumption, and relatively low cost, Field-Programmable Gate- Arrays (FPGAs) are very good candidates to implement neural networks. Unfortunately, radiation-induced errors are known to be an issue in SRAM-based FPGAs. More specifically, we have seen that particles can change the content of the FPGA’s configuration memory, consequently corrupting the implemented circuit and generating observable errors at the output. Through extensive fault-injection, we determine the reliability impact of applying binary quantization to convolutional layers of neural networks on FPGAs, by analyzing the relationships between model accuracy, resource utilization, performance, error criticality and radiation cross-section. We were able to find that a design with quantized convolutional layers can be 39% less sensitive to radiation, whereas the portion of errors that are considered critical (misclassifications) in the network is increased by 12%. Moreover, we also derive generic equations that consider both accuracy and radiation in order to model the overall failure rate of neural networks.
+
+- title: >
     Benefits of Complementary SEU Mitigation for the LEON3 Soft Processor on SRAM-Based FPGAs
   authors: >
     Andrew Keller, Michael Wirthlin
