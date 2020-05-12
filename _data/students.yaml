@@ -58,6 +58,7 @@ undergrad_students:
   image: sharisse_poff.jpeg
 
 - name: Jonathan Nelson
+  image: jonathan_nelson.jpg
 
 - name: Mason Peterson
   image: mason_peterson.jpg
@@ -70,6 +71,7 @@ undergrad_students:
   image: christopher_wilson.png
 
 - name: Spencer Ashford
+  image: spencer_ashford.png
 
 - name: William Wallace
 
