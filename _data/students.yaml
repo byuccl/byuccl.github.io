@@ -1,5 +1,6 @@
 phd_students:
   - name: Matthew Ashcraft  
+    image: matthew_ashcraft.jpg
   
   - name: Andrew Keller
     image: andrew_keller.jpg
@@ -36,6 +37,7 @@ undergrad_students:
 - name: Stephanie Ashby
 
 - name: Evan Poff
+  image: evan_poff.jpg
 
 - name: Sam Larsen
 
@@ -56,6 +58,7 @@ undergrad_students:
 - name: Jonathan Nelson
 
 - name: Mason Peterson
+  image: mason_peterson.jpg
 
 - name: Gerrit Moore
 
