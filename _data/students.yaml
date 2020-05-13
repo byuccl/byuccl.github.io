@@ -31,6 +31,7 @@ masters_students:
 
 undergrad_students:
 - name: Wesley Stirk
+  iamge: wesley_stirk.jpg
 
 - name: Hayden Cook
   image: hayden_cook.png
@@ -87,6 +88,7 @@ undergrad_students:
 - name: Jayden Clark
 
 - name: Anthony Glad
+  image: anthony_glad.jpg
 
 
 
