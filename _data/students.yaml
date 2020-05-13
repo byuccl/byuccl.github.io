@@ -31,7 +31,7 @@ masters_students:
 
 undergrad_students:
 - name: Wesley Stirk
-  iamge: wesley_stirk.jpg
+  image: wesley_stirk.jpg
 
 - name: Hayden Cook
   image: hayden_cook.png
