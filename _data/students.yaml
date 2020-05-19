@@ -47,13 +47,12 @@ undergrad_students:
 
 - name: Jonathan Orgill
 
-- name: Ken McGuire
-
 - name: Levi Fleming
 
 - name: Michael Bjerregaard
 
 - name: Reilly McKendrick
+  image: reilly_mckendrick.jpg
 
 - name: Andrew Pond
 
