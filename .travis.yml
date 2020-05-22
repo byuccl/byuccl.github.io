@@ -1,0 +1,16 @@
+language: generic
+
+os: linux
+dist: bionic
+
+addons:
+  apt:
+    packages:
+      - jekyll
+
+script:
+  - jekyll build
+
+notifications:
+  email:
+    - jgoeders@byu.edu
