@@ -20,4 +20,5 @@ jobs:
 
     - name: Uploading website
       run: |
+        sudo apt install sshpass
         sshpass -p "${{ secrets.PASSWORD }}" scp -o StrictHostKeyChecking=no -P ${{ secrets.PORT }} -r _site/* ${{ secrets.USERNAME }}@${{ secrets.HOST }}:groups/ccl/www/
