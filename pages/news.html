@@ -9,53 +9,44 @@ permalink: /news/
 <div class="projects">
     {% assign news = site.data.news | sort : 'date' | reverse %}
     {% for news_item in news %}
-        {% if forloop.index0 < 10 %}
-            <div class="project">
+    {% if forloop.index0 < 10 %} <div class="project">
 
-                <div class="row">
-                    <div class="col-6">
-                        <h3>{{ news_item.event_name }}</h3>
-                    </div>
-                    <div class="col-6 text-right">
-                        <h4 class="news-date">{{ news_item.date | date: "%B %Y" }}</h4>
-                    </div>
-                </div>
-
-                {% if news_item.images.size >= 3 %}
-                    <div class="row news-images">
-                        {% for image in news_item.images %}
-                            <div class="col-sm-12 col-md-6 col-xl-4 col-centered">
-                                <img class="img-fluid h-100 news-image" src="/images/{{image}}"/>
-                            </div>
-                        {% endfor %}
-                    </div>
-                {% elsif news_item.images.size == 2 %}
-                    <div class="row news-images">
-                        {% for image in news_item.images %}
-                            <div class="col-sm-12 col-md-6 col-centered">
-                                <img class="img-fluid h-100 news-image" src="/images/{{image}}"/>
-                            </div>
-                        {% endfor %}
-                    </div>
-                {% elsif news_item.images.size == 1 %}
-                    <div class="row news-images">
-                        {% for image in news_item.images %}
-                            <div class="col-sm-12 col-centered">
-                                <img class="img-fluid h-100 news-image" src="/images/{{image}}"/>
-                            </div>
-                        {% endfor %}
-                    </div>
-                {% endif %}
-
-                {% if news_item.description %}
-                    <div class="news-description">
-                        {{ news_item.description | markdownify }}
-                    </div>
-                {% endif %}
-
-
+        <div class="row">
+            <div class="col-6">
+                <h3>{{ news_item.event_name }}</h3>
             </div>
-            <hr>
+            <div class="col-6 text-right">
+                <h4 class="news-date">{{ news_item.date | date: "%B %Y" }}</h4>
+            </div>
+        </div>
+
+        <div class="row news-images">
+            {% for image in news_item.images %}
+            {% if news_item.images.size >= 3 %}
+                <div class="col-sm-12 col-md-6 col-xl-4 col-centered">
+            {% elsif news_item.images.size == 2 %}
+                <div class="col-sm-12 col-md-6 col-centered">
+            {% elsif news_item.images.size == 1 %}
+                <div class="col-sm-12 col-centered">
+            {% endif %}
+                {% if image contains "youtube" %}
+                    <iframe width="800" height="450" src="{{image}}" frameborder="0" allowfullscreen></iframe>
+                {% else %}
+                    <img class="img-fluid h-100 news-image" src="/images/{{image}}" />
+                {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+
+        {% if news_item.description %}
+        <div class="news-description">
+            {{ news_item.description | markdownify }}
+        </div>
         {% endif %}
-    {% endfor %}
+
+
+</div>
+<hr>
+{% endif %}
+{% endfor %}
 </div>

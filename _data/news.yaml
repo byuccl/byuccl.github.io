@@ -37,7 +37,6 @@
 - event_name: FPL Conference, Gottenburg, Sweden (remote)
   date: 2020-09-01
   description: >
-    Hayden Cook (Master student) gave a remote presentation at the 30th International Conference on Field-Programmable Logic and Applications on "Using Novel Configuration Techniques for Accelerated FPGA Aging".
+    Hayden Cook (Master's student) gave a remote presentation at the 30th International Conference on Field-Programmable Logic and Applications on "Using Novel Configuration Techniques for Accelerated FPGA Aging".
   images:
-    - news_2020/fpl2020_1.jpg
-    - news_2019/FPT2018_2.jpg
+    - http://www.youtube.com/embed/lfqLlsVfpFY
