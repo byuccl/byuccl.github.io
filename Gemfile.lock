@@ -273,7 +273,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   html-proofer
-  jekyll
   rake
 
 BUNDLED WITH
