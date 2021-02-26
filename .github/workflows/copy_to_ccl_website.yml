@@ -15,6 +15,7 @@ jobs:
 
     - name: Building website
       run: |
+        bundle update
         make build
 
     - name: Uploading website
