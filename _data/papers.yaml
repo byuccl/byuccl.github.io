@@ -333,15 +333,6 @@
     High-level synthesis (HLS) has gained considerable traction in recent years. Despite considerable strides in the development of quality HLS compilers, one area that is often cited as a barrier to HLS adoption is the difficulty in debugging HLS produced circuits. Recent academic work has presented techniques that use on-chip memories to efficiently record execution of HLS circuits, and map the captured data back to the original source code to provide the user with a software-like debug experience. However, limited on-chip memory results in very short debug traces, which may force a designer to spend multiple debug iterations to resolve complicated bugs. In this work we present techniques to enable off-chip capture of HLS debug information. While off-chip storage does not suffer from the capacity limitations of on-chip memory, its usage introduces a new challenge: limited bandwidth. In this work we show how information from within the HLS flow can be leveraged to generated a streamed debug trace within given bandwidth constraints. For a bandwidth limited interface, we show that our techniques allow the user to observe 19× more source code variables than using a basic approach.
   url: goeders_fccm17.pdf
 
-- title: Unified On-Chip Software and Hardware Debug for HLS-Accelerated Programs
-  authors: Matthew Ashcraft, Jeffrey Goeders
-  conference: International Conference on Field-Programmable Technology (FPT)
-  year: >
-    2018
-  abstract: >
-    Modern high-level synthesis (HLS)-based tools allow for the creation of complex systems where parts of the user's software are executed on a conventional processor, and the other parts are implemented as hardware accelerators via HLS flows. While modern tools allow designers to construct these systems relatively quickly, observing and debugging the real-time execution of these complex systems remains challenging. Recent academic work has focused on providing designers software-like visibility into the execution of their HLS hardware accelerators; however, this work has assumed that the hardware is observed in isolation. In this work we demonstrate techniques toward a unified in-system software and hardware debugging environment, where the user can capture execution of both the hardware and software domains, and their interactions. We present the performance costs of capturing this execution data, exploring the impact of different levels of observation.
-  url: ashcraft_fpt18.pdf
-
 - title: Using Novel Configuration Techniques for Accelerated FPGA Aging
   authors: Tanner Gaskin, Hayden Cook, Wesley Stirk, Robert Lucas, Jeffrey Goeders, and Brad Hutchings
   conference: International Conference on Field-Programmable Logic and Applications (FPL)
