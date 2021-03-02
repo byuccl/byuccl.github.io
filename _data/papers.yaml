@@ -332,3 +332,21 @@
   abstract: >
     High-level synthesis (HLS) has gained considerable traction in recent years. Despite considerable strides in the development of quality HLS compilers, one area that is often cited as a barrier to HLS adoption is the difficulty in debugging HLS produced circuits. Recent academic work has presented techniques that use on-chip memories to efficiently record execution of HLS circuits, and map the captured data back to the original source code to provide the user with a software-like debug experience. However, limited on-chip memory results in very short debug traces, which may force a designer to spend multiple debug iterations to resolve complicated bugs. In this work we present techniques to enable off-chip capture of HLS debug information. While off-chip storage does not suffer from the capacity limitations of on-chip memory, its usage introduces a new challenge: limited bandwidth. In this work we show how information from within the HLS flow can be leveraged to generated a streamed debug trace within given bandwidth constraints. For a bandwidth limited interface, we show that our techniques allow the user to observe 19× more source code variables than using a basic approach.
   url: goeders_fccm17.pdf
+
+- title: Unified On-Chip Software and Hardware Debug for HLS-Accelerated Programs
+  authors: Matthew Ashcraft, Jeffrey Goeders
+  conference: International Conference on Field-Programmable Technology (FPT)
+  year: 2018
+  abstract: >
+    Modern high-level synthesis (HLS)-based tools allow for the creation of complex systems ...
+  url: ashcraft_fpt18.pdf
+
+  - title: Using Novel Configuration Techniques for Accelerated FPGA Aging
+  authors: Tanner Gaskin, Hayden Cook, Wesley Stirk, Robert Lucas, Jeffrey Goeders, and Brad Hutchings
+  conference: 2020 30th International Conference on Field-Programmable Logic and Applications (FPL)
+  year: 2020
+  abstract: >
+    In this work we demonstrate a novel method of accelerating FPGA aging by configuring the FPGA to implement thousands of short circuits, resulting in high on-chip currents and temperatures.  Three ring oscillators are placed across the chip and are used to characterize the operating frequency of the FPGA fabric.  Over the course of several weeks of running the short circuits, with daily characterization of the FPGA performance, we measured a decrease in FPGA frequency greater than 5%.  After aging, the FPGA part was repeatedly characterized during a two week idle period.  Results indicated that the slowdown did not change, and the aging appeared to be permanent.
+
+    In addition, we demonstrated that this aging could be induced in a non-uniform manner.  In our experiments, the short circuits were all placed in the lower two-thirds of the chip, and one of the characterization ring oscillators was placed at the top of the chip, outside of the region with the short circuits.  The fabric at this location exhibited a 1.36% slowdown, only one-quarter the slowdown measured in the targeted region.
+  url: gaskin_fpl20.pdf

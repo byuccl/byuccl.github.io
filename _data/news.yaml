@@ -34,10 +34,10 @@
   description: >
     After almost a year of direct collaboration with BYU CCL students the Xilinx PYNQ team has released a new PYNQ image. One of the featured improvements for this release is new Partial Reconfiguration functionality, a direct result of the collaboration between the PYNQ team and PRIO team. In conjunction with this release the BYU CCL also released a new pip installable python package, complete with a full suite of examples demonstrating this functionality. The release was given the name Utah as a reflection of the contributions made by the PRIO team. The announcement for this PYNQ release can be found [here](https://groups.google.com/forum/embed/#!topic/pynq_project/Ik0YocHpxhU) and the corresponding PRIO release [here](https://groups.google.com/forum/embed/#!topic/pynq_project/mCwADnkv72A).
     
-- event_name: FPT Conference, Okinawa, Japan
-  date: 2018-12-01
+- event_name: FPL Conference, Gottenburg, Sweden (remote)
+  date: 2020-9-01
   description: >
-    Matthew Ashcraft (PhD student) and Professor Brad Hutchings travelled to Okinawa, Japan to present their papers at the 2018 International Conference on Field-Programmable Technology on "Unified On-Chip Software and Hardware Debug for HLS-Accelerated Programs" and "Distributed-Memory Based FPGA Debug: Design Timing Impact" .
+    Hayden Cook (Master student) gave a remote presentation at the 30th International Conference on Field-Programmable Logic and Applications on "Using Novel Configuration Techniques for Accelerated FPGA Aging".
   images:
-    - news_2019/FPT2018_1.jpg
+    - news_2020/fpl2020_1.jpg
     - news_2019/FPT2018_2.jpg
