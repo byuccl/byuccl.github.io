@@ -1,7 +1,4 @@
 phd_students:
-  - name: Matthew Ashcraft  
-    image: matthew_ashcraft.jpg
-  
   - name: Andrew Keller
     image: andrew_keller.jpg
 
@@ -32,14 +29,13 @@ masters_students:
   
   - name: Jennings Leavitt
     image: jennings_leavitt.jpg
-
+    
+  - name: Hayden Cook
+    image: hayden_cook.png
 
 undergrad_students:
 - name: Wesley Stirk
   image: wesley_stirk2.jpg
-
-- name: Hayden Cook
-  image: hayden_cook.png
 
 - name: Stephanie Ashby
   image: stephanie_ashby.jpg
