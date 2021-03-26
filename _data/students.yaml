@@ -4,6 +4,9 @@ phd_students:
 
   - name: Andres Perez-Celis
     image: andres_peres.png
+    
+  - name: Andrew E Wilson
+    image: andrew_wilson.jpg 
 
 masters_students:
   - name: Tanner Gaskin
@@ -14,9 +17,6 @@ masters_students:
 
   - name: Eli Cahill
     image: eli_cahill.jpg
-
-  - name: Andrew E Wilson
-    image: andrew_wilson.jpg
     
   - name: Corbin Thurlow
     image: corbin_thurlow.jpg
@@ -24,43 +24,24 @@ masters_students:
   - name: Dallin Skouson
     image: dallin_skouson.jpg
   
-  - name: Jared Anderson
-    image: jared_anderson.jpg
-  
   - name: Jennings Leavitt
     image: jennings_leavitt.jpg
     
   - name: Hayden Cook
     image: hayden_cook.png
+    
+  - name: Evan Poff
+    image: evan_poff.jpg
 
 undergrad_students:
 - name: Wesley Stirk
   image: wesley_stirk2.jpg
 
-- name: Stephanie Ashby
-  image: stephanie_ashby.jpg
-
-- name: Evan Poff
-  image: evan_poff.jpg
-
-- name: Jonathan Orgill
-  image: jon_orgill.png
-
-- name: Levi Fleming
-
-- name: Michael Bjerregaard
-
 - name: Reilly McKendrick
   image: reilly_mckendrick.jpg
 
-- name: Andrew Pond
-  image: andrew_pong.png
-
 - name: Sharisse Poff
   image: sharisse_poff.jpeg
-
-- name: Jonathan Nelson
-  image: jonathan_nelson.jpg
 
 - name: Mason Peterson
   image: mason_peterson.jpg
