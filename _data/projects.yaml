@@ -8,6 +8,11 @@
   url: https://github.com/byuccl/coast
   
 
+- name: IIRM-URA (Interation of Ionizing Radiation with Matter - University Research Alliance)
+  description: >
+    IIRM-URA is a research collaboration across several different universities and research labs to investigate the effect radiation has on materials and devices. The BYU team is focused on investigating and modeling the effect radiation has on SoCs (Systems On a Chip). Currently, efforts are centered around Xilinx MPSoC chip and how it fails under radiation.
+  url: https://github.com/byuccl/DTRA-URA
+
 # - name: Shorty
 #   description: >
 #     Shorty is an innovative new project that examines the effect of short circuits on FPGA's. With the use of high precision data collection techniques shorty aims to prove that intentionally introducing short circuits to FPGA designs permanently damages on-chip resources. This would result in reduced performance and faulty operation. Such an attack vector introduces a whole new class of security considerations that would effect every field using FPGA's including cloud computing, space computing and DoD applications.
