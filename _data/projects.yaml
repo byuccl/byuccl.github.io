@@ -6,6 +6,7 @@
   description: >
     COAST is a set of compiler tools that provides automated software protection from single-event effects.  Users can select portions of their porgram to protect, and the compiler will automatically duplicate or triplicate instructions.  COAST currently supports ARM, RISC-V and MSP430 processor architectures, and has been validated by several tests using the LANSCE neutron beam.
   url: https://github.com/byuccl/coast
+  
 
 # - name: Shorty
 #   description: >
@@ -15,9 +16,10 @@
   description: >
     PYNQ PRIO is an addition to the Xilinx PYNQ project. With the integration of PRIO the PYNQ package is augmented with two powerful new features. First is the addition of partial reconfiguration, allowing users to reconfigure targeted sections of the FPGA fabric at will. Second is device tree overlay support allowing users to dynamically load, unload and reload hardware specific Linux Kernel drivers, making the Kernel as reconfigurable as the hardware it supports. Currently PRIO is fully integrated with the Xilinx PYNQ project. 
   url: https://github.com/byuccl/PYNQ-PRIO
-  
+  archive: true
 
 - name: PYNQ Dynamic Video Processing Pipeline
   description: >
     This project demonstrates the use of partial reconfiguration to dynamically configure a custom video processing pipeline during run-time.
   url: https://github.com/byuccl/BYU_PYNQ_PR_Video_Pipeline
+  archive: true
