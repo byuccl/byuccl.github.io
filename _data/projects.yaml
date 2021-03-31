@@ -1,6 +1,12 @@
 # - name: Self-Sustainable Air Quality Sensor
   # description: We are building an air quality sensor that is powered by solar power and uses long range communication. This will allow for sensors to be placed in locations not possible before.
 
+- name: Shorty (configurable short circuits)
+  description: >
+    Shorty is a project that explores different applications of placing configurable short circuits on Xilinx FPGAs. Applications include localized accelerated aging, hardware trojans, watermarking, voting, and more. 
+  image: short_circuit_diagram.png
+  
+
 
 - name: COAST (COmpiler-Assisted Software fault Tolerance)
   description: >
