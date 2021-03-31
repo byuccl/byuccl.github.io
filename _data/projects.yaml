@@ -3,7 +3,7 @@
 
 - name: Shorty (configurable short circuits)
   description: >
-    Shorty is a project that explores different applications of placing configurable short circuits on Xilinx FPGAs. Applications include localized accelerated aging, hardware trojans, watermarking, voting, and more. 
+    Shorty is a project that explores different applications of placing configurable short circuits on Xilinx FPGAs. Applications include localized accelerated aging, hardware trojans, watermarking, and more. 
   image: short_circuit_diagram.png
   
 
