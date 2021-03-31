@@ -7,12 +7,15 @@
   image: short_circuit_diagram.png
   
 
-
 - name: COAST (COmpiler-Assisted Software fault Tolerance)
   description: >
     COAST is a set of compiler tools that provides automated software protection from single-event effects.  Users can select portions of their porgram to protect, and the compiler will automatically duplicate or triplicate instructions.  COAST currently supports ARM, RISC-V and MSP430 processor architectures, and has been validated by several tests using the LANSCE neutron beam.
   url: https://github.com/byuccl/coast
   
+- name: FPGA Design Assurance
+  description: >
+    This work focuses on developing techniques to ensure that FPGA designs remain secure throughout the hardware compilation process.  Equivalence checking tools are used to determine whether initial RTL circuit or IP modules are equivalent to the placed and routed FPGA bitstream.
+  url: https://ieeexplore.ieee.org/abstract/document/8494874/
 
 - name: IIRM-URA (Interation of Ionizing Radiation with Matter - University Research Alliance)
   description: >
