@@ -20,7 +20,7 @@
 - name: IIRM-URA (Interation of Ionizing Radiation with Matter - University Research Alliance)
   description: >
     IIRM-URA is a research collaboration across several different universities and research labs to investigate the effect radiation has on materials and devices. The BYU team is focused on investigating and modeling the effect radiation has on SoCs (Systems On a Chip). Currently, efforts are centered around Xilinx MPSoC chip and how it fails under radiation.
-  url: https://github.com/byuccl/DTRA-URA
+ # url: https://github.com/byuccl/DTRA-URA
 
 # - name: Shorty
 #   description: >
