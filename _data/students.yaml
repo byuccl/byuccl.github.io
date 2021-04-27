@@ -33,6 +33,9 @@ masters_students:
   - name: Evan Poff
     image: evan_poff.jpg
 
+  - name: Ethan Rogers
+    image: Ethan_Rogers.jpg
+
 undergrad_students:
 - name: Wesley Stirk
   image: wesley_stirk2.jpg
@@ -42,9 +45,6 @@ undergrad_students:
 
 - name: Sharisse Poff
   image: sharisse_poff.jpeg
-
-- name: Mason Peterson
-  image: mason_peterson.jpg
 
 - name: Gerrit Moore
   image: gerrit_moore.jpg
@@ -75,6 +75,12 @@ undergrad_students:
 
 - name: Brent George
   image: brent_george.jpg
+
+- name: Dallin Dahl
+  image: Dallin_Dahl.jpg
+
+- name: Xan Johnson
+  image: Xan_Johnson.jpg
 
 
 
