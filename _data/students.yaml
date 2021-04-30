@@ -9,12 +9,6 @@ phd_students:
     image: andrew_wilson.jpg 
 
 masters_students:
-  - name: Tanner Gaskin
-    image: tanner_gaskin.jpeg
-
-  - name: Benjamin James
-    image: benjamin_james.jpg
-
   - name: Eli Cahill
     image: eli_cahill.jpg
     
@@ -36,9 +30,10 @@ masters_students:
   - name: Ethan Rogers
     image: Ethan_Rogers.jpg
 
+  - name: Wesley Stirk
+    image: wesley_stirk2.jpg
+
 undergrad_students:
-- name: Wesley Stirk
-  image: wesley_stirk2.jpg
 
 - name: Reilly McKendrick
   image: reilly_mckendrick.jpg
