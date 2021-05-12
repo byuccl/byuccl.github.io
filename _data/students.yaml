@@ -92,8 +92,9 @@ undergrad_students:
 - name: Jackson Sahleen
   image: jackson_sahleen.jpg
 
-- name: [Garrett Westover](https://supeon.github.io/garrettx/)
+- name: Garrett Westover
   image: garrett_westover.jpg
+  link: https://supeon.github.io/garrettx/
 
 - name: Jacob Brown
   image: jacob_brown.jpg
