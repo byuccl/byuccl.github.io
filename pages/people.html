@@ -50,13 +50,24 @@ permalink: /people/
                         <div class="col-md-3 col-6 text-center">
                             <!-- <div class="student"> -->
                                 {% if person.image %}
-                                    <img class="img-fluid h-100 student-image" src="{{site.baseurl}}/images/students/{{ person.image }}" alt="{{ person.name }}">
+                                    {% if person.link %}
+                                        <p><a href="{{ person.link }}">
+                                        <img class="img-fluid h-100 student-image" src="{{site.baseurl}}/images/students/{{ person.image }}" alt="{{ person.name }}" >
+                                        </a></p>
+                                    {% else %}    
+                                        <img class="img-fluid h-100 student-image" src="{{site.baseurl}}/images/students/{{ person.image }}" alt="{{ person.name }}">
+                                    {% endif %}
                                 {% else %}
                                     <img class="img-fluid h-100 student-image" src="/images/no-image.jpg" alt="{{ person.name }}">
                                 {% endif %}
 
-
-                                <h5 class="student-name">{{ person.name }}</h5>
+                                {% if person.link %}
+                                    <p><a href="{{ person.link }}">
+                                    <h5 class="student-name">{{ person.name }}</h5>
+                                    </a></p>
+                                {% else %}  
+                                    <h5 class="student-name">{{ person.name }}</h5>
+                                {% endif %}
                             <!-- </div> -->
                         </div>
                     {% endfor %}
@@ -65,6 +76,9 @@ permalink: /people/
             </div>
         {% endif %}
     {% endfor %}
+
+
+
 
     <div class="alert alert-primary" role="alert">
         If you are intersted in joining the Configurable Computing Lab as a graduate or undergraduate student, please contact one of the above faculty to set up an appointment to talk.
