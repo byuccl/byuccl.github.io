@@ -33,6 +33,10 @@ masters_students:
   - name: Wesley Stirk
     image: wesley_stirk2.jpg
 
+  - name: Michael Bjerregaard
+    image: michael_bjerregaard.jpg
+    link: https://blazingmarimba.github.io/
+
 undergrad_students:
 
 - name: Reilly McKendrick
@@ -91,6 +95,7 @@ undergrad_students:
 
 - name: Jackson Sahleen
   image: jackson_sahleen.jpg
+  link: https://jacksonsahleen.github.io/IMMERSE_2021_log/
 
 - name: Garrett Westover
   image: garrett_westover.jpg
