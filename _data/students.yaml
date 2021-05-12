@@ -89,8 +89,24 @@ undergrad_students:
 - name: Jarom Harris
   image: jarom_harris.jpg
 
-- name: Garrett Westover
+- name: Jackson Sahleen
+  image: jackson_sahleen.jpg
+
+- name: [Garrett Westover](https://supeon.github.io/garrettx/)
   image: garrett_westover.jpg
+
+- name: Jacob Brown
+  image: jacob_brown.jpg
+
+- name: Cody Arvonen
+  image: cody_arvonen.jpg
+
+- name: Brandon Heiner
+  image: brandon_heiner.jpg
+
+- name: Bryce Hamilton
+  image: bryce_hamilton.png
+
 
 
 
