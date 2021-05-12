@@ -10,23 +10,23 @@ permalink: /people/
 
         <div class="row faculty">
             {% for person in site.data.faculty %}
-                <div class="col-md-3 col-6 text-center">
-                    {% if person.image %}
-                        <img src="{{ person.image }}" class="img-fluid w-100" alt="{{ person.name }}">
-                    {% else %}
-                        <img src="{{ person.email | gravatar }}" alt="{{ person.name }}">
-                    {% endif %}
-                    <h5 class="person-name">{{ person.name }}</h5>
+            <div class="col-md-3 col-6 text-center">
+                {% if person.image %}
+                <img src="{{ person.image }}" class="img-fluid w-100" alt="{{ person.name }}">
+                {% else %}
+                <img src="{{ person.email | gravatar }}" alt="{{ person.name }}">
+                {% endif %}
+                <h5 class="person-name">{{ person.name }}</h5>
 
-                    <!-- {% if person.link %}
+                <!-- {% if person.link %}
                     <p>{{ person.description }}</p>
                 {% endif %}
                 {% if person.link %}
                     <a href="{{ person.link }}">Personal Website</a>
                 {% endif %}  -->
 
-                </div>
-                <!-- <div class="col-6 col-xs-8 col-sm-8">
+            </div>
+            <!-- <div class="col-6 col-xs-8 col-sm-8">
                 
             </div> -->
             {% endfor %}
@@ -37,76 +37,77 @@ permalink: /people/
     {% assign student_type_titles = "PhD Students, Masters Students, Undergrad Students" | split : ", " %}
 
     {% for student_type in student_types %}
-        <h2>
-            {{ student_type_titles[forloop.index0] }}
+    <h2>
+        {{ student_type_titles[forloop.index0] }}
 
-        </h2>
+    </h2>
 
-        {% if site.data.students[student_type] %}
-            <div class="current-students">
-                <div class="row students-row">
-                    {% assign sortedStudents = site.data.students[student_type] | sort: 'name' %}
-                    {% for person in sortedStudents %}
-                        <div class="col-md-3 col-6 text-center">
-                            <!-- <div class="student"> -->
-                                {% if person.image %}
-                                    {% if person.link %}
-                                        <p><a href="{{ person.link }}">
-                                        <img class="img-fluid h-100 student-image" src="{{site.baseurl}}/images/students/{{ person.image }}" alt="{{ person.name }}" >
-                                        </a></p>
-                                    {% else %}    
-                                        <img class="img-fluid h-100 student-image" src="{{site.baseurl}}/images/students/{{ person.image }}" alt="{{ person.name }}">
-                                    {% endif %}
-                                {% else %}
-                                    <img class="img-fluid h-100 student-image" src="/images/no-image.jpg" alt="{{ person.name }}">
-                                {% endif %}
+    {% if site.data.students[student_type] %}
+    <div class="current-students">
+        <div class="row students-row">
+            {% assign sortedStudents = site.data.students[student_type] | sort: 'name' %}
+            {% for person in sortedStudents %}
+            <div class="col-md-3 col-6 text-center">
+                <!-- <div class="student"> -->
+                {% if person.image %}
+                {% if person.link %}
+                <a href="{{ person.link }}">
+                    <img class="img-fluid h-100 student-image" src="{{site.baseurl}}/images/students/{{ person.image }}"
+                        alt="{{ person.name }}">
+                </a>
+                {% else %}
+                <img class="img-fluid h-100 student-image" src="{{site.baseurl}}/images/students/{{ person.image }}"
+                    alt="{{ person.name }}">
+                {% endif %}
+                {% else %}
+                <img class="img-fluid h-100 student-image" src="/images/no-image.jpg" alt="{{ person.name }}">
+                {% endif %}
 
-                                {% if person.link %}
-                                    <p><a href="{{ person.link }}">
-                                    <h5 class="student-name">{{ person.name }}</h5>
-                                    </a></p>
-                                {% else %}  
-                                    <h5 class="student-name">{{ person.name }}</h5>
-                                {% endif %}
-                            <!-- </div> -->
-                        </div>
-                    {% endfor %}
-                </div>
-
+                {% if person.link %}
+                <h5 class="student-name"><a href="{{ person.link }}">{{ person.name }}</a></h5>
+                {% else %}
+                <h5 class="student-name">{{ person.name }}</h5>
+                {% endif %}
+                <!-- </div> -->
             </div>
-        {% endif %}
+            {% endfor %}
+        </div>
+
+    </div>
+    {% endif %}
     {% endfor %}
 
 
 
 
     <div class="alert alert-primary" role="alert">
-        If you are intersted in joining the Configurable Computing Lab as a graduate or undergraduate student, please contact one of the above faculty to set up an appointment to talk.
+        If you are intersted in joining the Configurable Computing Lab as a graduate or undergraduate student, please
+        contact one of the above faculty to set up an appointment to talk.
     </div>
 
 
     {% if site.data.past_students %}
 
-        <hr>
+    <hr>
 
-        <div class="past-students">
-            <h2>Past Students</h2>
+    <div class="past-students">
+        <h2>Past Students</h2>
 
-            <div class="mdl-grid">
-                {% for student in site.data.past_students %}
-                    <div class="mdl-cell mdl-cell--6-col">
-                        <div class="mdl-grid">
-                            <div class="mdl-cell mdl-cell--2-col">
-                                <i class="material-icons mdl-list__item-avatar">person</i>
-                            </div>
-                            <div class="mdl-cell mdl-cell--10-col past-student-info">
-                                <h4 class="past-student-name">{{ student.name }}</h4>
-                                <span class="past-student-company">{{ student.company }}</span>
-                            </div>
-                        </div>
+        <div class="mdl-grid">
+            {% for student in site.data.past_students %}
+            <div class="mdl-cell mdl-cell--6-col">
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--2-col">
+                        <i class="material-icons mdl-list__item-avatar">person</i>
                     </div>
-                {% endfor %}
+                    <div class="mdl-cell mdl-cell--10-col past-student-info">
+                        <h4 class="past-student-name">{{ student.name }}</h4>
+                        <span class="past-student-company">{{ student.company }}</span>
+                    </div>
+                </div>
             </div>
+            {% endfor %}
         </div>
+    </div>
     {% endif %}
 </div>
