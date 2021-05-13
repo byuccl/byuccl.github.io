@@ -4,26 +4,26 @@ phd_students:
 
   - name: Andres Perez-Celis
     image: andres_peres.png
-    
+
   - name: Andrew E Wilson
     image: andrew_wilson.jpg 
 
 masters_students:
   - name: Eli Cahill
     image: eli_cahill.jpg
-    
+
   - name: Corbin Thurlow
     image: corbin_thurlow.jpg
-  
+
   - name: Dallin Skouson
     image: dallin_skouson.jpg
-  
+
   - name: Jennings Leavitt
     image: jennings_leavitt.jpg
-    
+
   - name: Hayden Cook
     image: hayden_cook.png
-    
+
   - name: Evan Poff
     image: evan_poff.jpg
 
@@ -36,6 +36,10 @@ masters_students:
   - name: Michael Bjerregaard
     image: michael_bjerregaard.jpg
     link: https://blazingmarimba.github.io/
+
+  - name: William Wallace
+    image: william_wallace.jpg
+    link: https://masterqwerty.github.io/
 
 undergrad_students:
 
@@ -53,9 +57,6 @@ undergrad_students:
 
 - name: Spencer Ashford
   image: spencer_ashford.png
-
-- name: William Wallace
-  image: william_wallace.jpg
 
 - name: Ryan Johnson
   image: ryan_johnson.jpg
