@@ -112,6 +112,10 @@ undergrad_students:
 - name: Bryce Hamilton
   image: bryce_hamilton.png
 
+- name: Ben Glines
+  image: ben_glines.jpg
+  link: https://benglines.github.io/immerse-website/
+
 
 
 
