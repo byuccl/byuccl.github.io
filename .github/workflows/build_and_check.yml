@@ -1,0 +1,28 @@
+name: Build and Check
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: build
+        run: |
+          sudo apt-get install -y ruby-full build-essential zlib1g-dev
+          sudo gem install bundler
+          bundle update
+          make build
+
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: check links
+        run: |
+          sudo apt-get install -y ruby-full build-essential zlib1g-dev
+          sudo gem install bundler
+          bundle update
+          make check_links
