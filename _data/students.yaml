@@ -98,6 +98,10 @@ undergrad_students:
   image: jackson_sahleen.jpg
   link: https://jacksonsahleen.github.io/IMMERSE_2021_log/
 
+- name: Jackson Smith
+  image: jackson_smith.jpg
+  link: https://rjsmith1999.github.io/IMMERSE/pages/log/
+
 - name: Garrett Westover
   image: garrett_westover.jpg
 
