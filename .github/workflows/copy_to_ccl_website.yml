@@ -15,6 +15,8 @@ jobs:
 
     - name: Building website
       run: |
+        sudo apt-get install -y ruby-full build-essential zlib1g-dev
+        sudo gem install bundler
         bundle update
         make build
 
