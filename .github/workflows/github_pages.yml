@@ -3,13 +3,14 @@ name: Deploy to Github Pages
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   github-pages:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: helaili/jekyll-action@2.0.5
-        env:
-          JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
+      - uses: actions/checkout@v2    
+      - uses:  helaili/jekyll-action@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          target_branch: 'gh-pages'

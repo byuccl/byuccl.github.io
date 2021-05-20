@@ -4,26 +4,26 @@ phd_students:
 
   - name: Andres Perez-Celis
     image: andres_peres.png
-    
+
   - name: Andrew E Wilson
     image: andrew_wilson.jpg 
 
 masters_students:
   - name: Eli Cahill
     image: eli_cahill.jpg
-    
+
   - name: Corbin Thurlow
     image: corbin_thurlow.jpg
-  
+
   - name: Dallin Skouson
     image: dallin_skouson.jpg
-  
+
   - name: Jennings Leavitt
     image: jennings_leavitt.jpg
-    
+
   - name: Hayden Cook
     image: hayden_cook.png
-    
+
   - name: Evan Poff
     image: evan_poff.jpg
 
@@ -36,6 +36,10 @@ masters_students:
   - name: Michael Bjerregaard
     image: michael_bjerregaard.jpg
     link: https://blazingmarimba.github.io/
+
+  - name: William Wallace
+    image: william_wallace.jpg
+    link: https://masterqwerty.github.io/
 
 undergrad_students:
 
@@ -53,9 +57,6 @@ undergrad_students:
 
 - name: Spencer Ashford
   image: spencer_ashford.png
-
-- name: William Wallace
-  image: william_wallace.jpg
 
 - name: Ryan Johnson
   image: ryan_johnson.jpg
@@ -97,14 +98,34 @@ undergrad_students:
   image: jackson_sahleen.jpg
   link: https://jacksonsahleen.github.io/IMMERSE_2021_log/
 
+- name: Jackson Smith
+  image: jackson_smith.jpg
+  link: https://rjsmith1999.github.io/IMMERSE/pages/log/
+
 - name: Garrett Westover
   image: garrett_westover.jpg
+  link: https://supeon.github.io/garrettx/
 
 - name: Jacob Brown
   image: jacob_brown.jpg
 
 - name: Cody Arvonen
   image: cody_arvonen.jpg
+
+- name: Brandon Heiner
+  image: brandon_heiner.jpg
+
+- name: Bryce Hamilton
+  image: bryce_hamilton.png
+
+
+- name: Jacob Brown
+  image: jacob_brown.jpg
+  link: https://jacobdbrown4.github.io/jacob_brown//pages/log/
+
+- name: Cody Arvonen
+  image: cody_arvonen.jpg
+  link: https://codyarvonen.github.io/personal_website/
 
 - name: Brandon Heiner
   image: brandon_heiner.jpg
