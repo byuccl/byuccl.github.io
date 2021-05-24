@@ -7,6 +7,7 @@ phd_students:
 
   - name: Andrew E Wilson
     image: andrew_wilson.jpg 
+    link: https://aew2015.github.io/ccl_log/
 
 masters_students:
   - name: Eli Cahill
@@ -40,6 +41,10 @@ masters_students:
   - name: William Wallace
     image: william_wallace.jpg
     link: https://masterqwerty.github.io/
+    
+  - name: Christopher Wilson
+    image: christopher_wilson.png
+    link: https://chriswils95.github.io/chriswils.github.io/
 
 undergrad_students:
 
@@ -51,9 +56,6 @@ undergrad_students:
 
 - name: Gerrit Moore
   image: gerrit_moore.jpg
-
-- name: Christopher Wilson
-  image: christopher_wilson.png
 
 - name: Spencer Ashford
   image: spencer_ashford.png
@@ -106,9 +108,6 @@ undergrad_students:
   image: garrett_westover.jpg
   link: https://supeon.github.io/garrettx/
 
-- name: Jacob Brown
-  image: jacob_brown.jpg
-
 - name: Cody Arvonen
   image: cody_arvonen.jpg
 
@@ -117,7 +116,6 @@ undergrad_students:
 
 - name: Bryce Hamilton
   image: bryce_hamilton.png
-
 
 - name: Jacob Brown
   image: jacob_brown.jpg
