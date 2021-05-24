@@ -108,14 +108,8 @@ undergrad_students:
   image: garrett_westover.jpg
   link: https://supeon.github.io/garrettx/
 
-- name: Cody Arvonen
-  image: cody_arvonen.jpg
-
 - name: Brandon Heiner
   image: brandon_heiner.jpg
-
-- name: Bryce Hamilton
-  image: bryce_hamilton.png
 
 - name: Jacob Brown
   image: jacob_brown.jpg
@@ -127,9 +121,6 @@ undergrad_students:
 
 - name: Brandon Heiner
   image: brandon_heiner.jpg
-
-- name: Bryce Hamilton
-  image: bryce_hamilton.png
 
 - name: Ben Glines
   image: ben_glines.jpg
