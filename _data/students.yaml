@@ -6,7 +6,7 @@ phd_students:
     image: andres_peres.png
 
   - name: Andrew E Wilson
-    image: andrew_wilson.jpg 
+    image: andrew_wilson.jpg
     link: https://aew2015.github.io/ccl_log/
 
 masters_students:
@@ -31,6 +31,9 @@ masters_students:
   - name: Ethan Rogers
     image: Ethan_Rogers.jpg
 
+  - name: Corey Simpson
+    image: coreySimpson.png
+
   - name: Wesley Stirk
     image: wesley_stirk2.jpg
 
@@ -41,99 +44,90 @@ masters_students:
   - name: William Wallace
     image: william_wallace.jpg
     link: https://masterqwerty.github.io/
-    
+
   - name: Christopher Wilson
     image: christopher_wilson.png
     link: https://chriswils95.github.io/chriswils.github.io/
 
 undergrad_students:
+  - name: Reilly McKendrick
+    image: reilly_mckendrick.jpg
 
-- name: Reilly McKendrick
-  image: reilly_mckendrick.jpg
+  - name: Sharisse Poff
+    image: sharisse_poff.jpeg
 
-- name: Sharisse Poff
-  image: sharisse_poff.jpeg
+  - name: Gerrit Moore
+    image: gerrit_moore.jpg
 
-- name: Gerrit Moore
-  image: gerrit_moore.jpg
+  - name: Spencer Ashford
+    image: spencer_ashford.png
 
-- name: Spencer Ashford
-  image: spencer_ashford.png
+  - name: Ryan Johnson
+    image: ryan_johnson.jpg
 
-- name: Ryan Johnson
-  image: ryan_johnson.jpg
+  - name: Jake Arscott
+    image: jake_arscott.png
 
-- name: Jake Arscott
-  image: jake_arscott.png
+  - name: Jayden Clark
+    image: jayden_clark.jpg
 
-- name: Jayden Clark
-  image: jayden_clark.jpg
+  - name: Anthony Glad
+    image: anthony_glad.jpg
 
-- name: Anthony Glad
-  image: anthony_glad.jpg
+  - name: Jessa Locey
+    image: jessa_locey.jpg
 
-- name: Jessa Locey
-  image: jessa_locey.jpg
+  - name: Brent George
+    image: brent_george.jpg
 
-- name: Brent George
-  image: brent_george.jpg
+  - name: Dallin Dahl
+    image: Dallin_Dahl.jpg
 
-- name: Dallin Dahl
-  image: Dallin_Dahl.jpg
+  - name: Xan Johnson
+    image: xan_johnson.jpg
 
-- name: Xan Johnson
-  image: xan_johnson.jpg
+  - name: Joshua Fife
+    image: joshua_fife.jpg
 
-- name: Joshua Fife
-  image: joshua_fife.jpg
+  - name: Jonathan Thompson
+    image: jonathan_thompson.jpg
 
-- name: Jonathan Thompson
-  image: jonathan_thompson.jpg
+  - name: Samuel Reynolds
+    image: sam_reynolds.jpg
 
-- name: Samuel Reynolds
-  image: sam_reynolds.jpg
+  - name: Jarom Harris
+    image: jarom_harris.jpg
 
-- name: Jarom Harris
-  image: jarom_harris.jpg
+  - name: Jackson Sahleen
+    image: jackson_sahleen.jpg
+    link: https://jacksonsahleen.github.io/IMMERSE_2021_log/
 
-- name: Jackson Sahleen
-  image: jackson_sahleen.jpg
-  link: https://jacksonsahleen.github.io/IMMERSE_2021_log/
+  - name: Jackson Smith
+    image: jackson_smith.jpg
+    link: https://rjsmith1999.github.io/IMMERSE/pages/log/
 
-- name: Jackson Smith
-  image: jackson_smith.jpg
-  link: https://rjsmith1999.github.io/IMMERSE/pages/log/
+  - name: Garrett Westover
+    image: garrett_westover.jpg
+    link: https://supeon.github.io/garrettx/
 
-- name: Garrett Westover
-  image: garrett_westover.jpg
-  link: https://supeon.github.io/garrettx/
+  - name: Brandon Heiner
+    image: brandon_heiner.jpg
 
-- name: Brandon Heiner
-  image: brandon_heiner.jpg
+  - name: Jacob Brown
+    image: jacob_brown.jpg
+    link: https://jacobdbrown4.github.io/jacob_brown//pages/log/
 
-- name: Jacob Brown
-  image: jacob_brown.jpg
-  link: https://jacobdbrown4.github.io/jacob_brown//pages/log/
+  - name: Cody Arvonen
+    image: cody_arvonen.jpg
+    link: https://codyarvonen.github.io/personal_website/
 
-- name: Cody Arvonen
-  image: cody_arvonen.jpg
-  link: https://codyarvonen.github.io/personal_website/
+  - name: Bryce Hamilton
+    image: bryce_hamilton.png
 
-- name: Bryce Hamilton
-  image: bryce_hamilton.png
+  - name: Ben Glines
+    image: ben_glines.jpg
+    link: https://benglines.github.io/immerse-website/
 
-- name: Ben Glines
-  image: ben_glines.jpg
-  link: https://benglines.github.io/immerse-website/
-
-- name: Caden Ellis
-  image: caden_ellis.jpeg
-  link: https://caden-ellis77.github.io/ImmerseSite/pages/log/
-
-
-
-
-
-
-
-
+  - name: Caden Ellis
+    image: caden_ellis.jpeg
+    link: https://caden-ellis77.github.io/ImmerseSite/pages/log/
