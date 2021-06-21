@@ -4,6 +4,7 @@ phd_students:
 
   - name: Andres Perez-Celis
     image: andres_peres.png
+    link: https://pcelis.github.io/mysite/
 
   - name: Andrew E Wilson
     image: andrew_wilson.jpg
