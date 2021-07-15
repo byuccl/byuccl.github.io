@@ -14,14 +14,8 @@ masters_students:
   - name: Eli Cahill
     image: eli_cahill.jpg
 
-  - name: Corbin Thurlow
-    image: corbin_thurlow.jpg
-
   - name: Dallin Skouson
     image: dallin_skouson.jpg
-
-  - name: Jennings Leavitt
-    image: jennings_leavitt.jpg
 
   - name: Hayden Cook
     image: hayden_cook.png
@@ -54,9 +48,6 @@ masters_students:
 undergrad_students:
   - name: Reilly McKendrick
     image: reilly_mckendrick.jpg
-
-  - name: Sharisse Poff
-    image: sharisse_poff.jpeg
 
   - name: Gerrit Moore
     image: gerrit_moore.jpg
