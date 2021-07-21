@@ -138,6 +138,10 @@ undergrad_students:
     last_name: Heiner
     image: brandon_heiner.jpg
 
+  - first_name: Nathan
+    last_name: Harris
+    image: nathan_harris.jpg
+
   - first_name: Jacob 
     last_name: Brown
     image: jacob_brown.jpg
