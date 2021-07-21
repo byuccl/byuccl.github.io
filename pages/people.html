@@ -45,7 +45,7 @@ permalink: /people/
     {% if site.data.students[student_type] %}
     <div class="current-students">
         <div class="row students-row">
-            {% assign sortedStudents = site.data.students[student_type] | sort: 'name' %}
+            {% assign sortedStudents = site.data.students[student_type] | sort: 'last_name' %}
             {% for person in sortedStudents %}
             <div class="col-md-3 col-6 text-center">
                 <!-- <div class="student"> -->
@@ -57,16 +57,17 @@ permalink: /people/
                 </a>
                 {% else %}
                 <img class="img-fluid h-100 student-image" src="{{site.baseurl}}/images/students/{{ person.image }}"
-                    alt="{{ person.name }}">
+                    alt="{{ person.first_name }} {{ person.last_name }}">
                 {% endif %}
                 {% else %}
                 <img class="img-fluid h-100 student-image" src="/images/no-image.jpg" alt="{{ person.name }}">
                 {% endif %}
 
                 {% if person.link %}
-                <h5 class="student-name"><a href="{{ person.link }}">{{ person.name }}</a></h5>
+                <h5 class="student-name"><a href="{{ person.link }}">{{ person.first_name }} {{ person.last_name }}</a>
+                </h5>
                 {% else %}
-                <h5 class="student-name">{{ person.name }}</h5>
+                <h5 class="student-name">{{ person.first_name }} {{ person.last_name }}</h5>
                 {% endif %}
                 <!-- </div> -->
             </div>

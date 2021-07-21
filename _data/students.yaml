@@ -1,126 +1,163 @@
 phd_students:
-  - name: Andrew Keller
+  - first_name: Andrew 
+    last_name: Keller
     image: andrew_keller.jpg
 
-  - name: Andres Perez-Celis
+  - first_name: Andres 
+    last_name: Perez-Celis
     image: andres_peres.png
     link: https://pcelis.github.io/mysite/
 
-  - name: Andrew E Wilson
+  - first_name: Andrew E 
+    last_name: Wilson
     image: andrew_wilson.jpg
     link: https://aew2015.github.io/ccl_log/
 
 masters_students:
-  - name: Eli Cahill
+  - first_name: Eli 
+    last_name: Cahill
     image: eli_cahill.jpg
 
-  - name: Dallin Skouson
+  - first_name: Dallin 
+    last_name: Skouson
     image: dallin_skouson.jpg
 
-  - name: Hayden Cook
+  - first_name: Hayden 
+    last_name: Cook
     image: hayden_cook.png
 
-  - name: Evan Poff
+  - first_name: Evan 
+    last_name: Poff
     image: evan_poff.jpg
     link: https://ccl.byu.edu/wiki/students/evan_poff
 
-  - name: Ethan Rogers
+  - first_name: Ethan 
+    last_name: Rogers
     image: Ethan_Rogers.jpg
 
-  - name: Corey Simpson
+  - first_name: Corey 
+    last_name: Simpson
     image: coreySimpson.png
 
-  - name: Wesley Stirk
+  - first_name: Wesley 
+    last_name: Stirk
     image: wesley_stirk2.jpg
 
-  - name: Michael Bjerregaard
+  - first_name: Michael 
+    last_name: Bjerregaard
     image: michael_bjerregaard.jpg
     link: https://blazingmarimba.github.io/
 
-  - name: William Wallace
+  - first_name: William 
+    last_name: Wallace
     image: william_wallace.jpg
     link: https://masterqwerty.github.io/
 
-  - name: Christopher Wilson
+  - first_name: Christopher 
+    last_name: Wilson
     image: christopher_wilson.png
     link: https://chriswils95.github.io/chriswils.github.io/
 
 undergrad_students:
-  - name: Reilly McKendrick
+  - first_name: Reilly 
+    last_name: McKendrick
     image: reilly_mckendrick.jpg
 
-  - name: Gerrit Moore
+  - first_name: Gerrit 
+    last_name: Moore
     image: gerrit_moore.jpg
 
-  - name: Spencer Ashford
+  - first_name: Spencer 
+    last_name: Ashford
     image: spencer_ashford.png
 
-  - name: Ryan Johnson
+  - first_name: Ryan 
+    last_name: Johnson
     image: ryan_johnson.jpg
 
-  - name: Jake Arscott
+  - first_name: Jake 
+    last_name: Arscott
     image: jake_arscott.png
 
-  - name: Jayden Clark
+  - first_name: Jayden 
+    last_name: Clark
     image: jayden_clark.jpg
 
-  - name: Anthony Glad
+  - first_name: Anthony 
+    last_name: Glad
     image: anthony_glad.jpg
 
-  - name: Jessa Locey
+  - first_name: Jessa 
+    last_name: Locey
     image: jessa_locey.jpg
 
-  - name: Brent George
+  - first_name: Brent 
+    last_name: George
     image: brent_george.jpg
 
-  - name: Dallin Dahl
+  - first_name: Dallin 
+    last_name: Dahl
     image: Dallin_Dahl.jpg
 
-  - name: Xan Johnson
+  - first_name: Xan 
+    last_name: Johnson
     image: xan_johnson.jpg
 
-  - name: Joshua Fife
+  - first_name: Joshua 
+    last_name: Fife
     image: joshua_fife.jpg
 
-  - name: Jonathan Thompson
+  - first_name: Jonathan 
+    last_name: Thompson
     image: jonathan_thompson.jpg
 
-  - name: Samuel Reynolds
+  - first_name: Samuel 
+    last_name: Reynolds
     image: sam_reynolds.jpg
 
-  - name: Jarom Harris
+  - first_name: Jarom 
+    last_name: Harris
     image: jarom_harris.jpg
 
-  - name: Jackson Sahleen
+  - first_name: Jackson 
+    last_name: Sahleen
     image: jackson_sahleen.jpg
     link: https://jacksonsahleen.github.io/IMMERSE_2021_log/
 
-  - name: Jackson Smith
+  - first_name: Jackson 
+    last_name: Smith
     image: jackson_smith.jpg
     link: https://rjsmith1999.github.io/IMMERSE/pages/log/
 
-  - name: Garrett Westover
+  - first_name: Garrett 
+    last_name: Westover
     image: garrett_westover.jpg
     link: https://garrettxw.github.io/garrettx/
 
-  - name: Brandon Heiner
+  - first_name: Brandon 
+    last_name: Heiner
     image: brandon_heiner.jpg
 
-  - name: Jacob Brown
+  - first_name: Jacob 
+    last_name: Brown
     image: jacob_brown.jpg
     link: https://jacobdbrown4.github.io/jacob_brown//pages/log/
 
-  - name: Cody Arvonen
+  - first_name: Cody 
+    last_name: Arvonen
     image: cody_arvonen.jpg
     link: https://codyarvonen.github.io/personal_website/
 
-  - name: Bryce Hamilton
+  - first_name: Bryce 
+    last_name: Hamilton
     image: bryce_hamilton.png
 
-  - name: Ben Glines
+  - first_name: Ben 
+    last_name: Glines
     image: ben_glines.jpg
     link: https://benglines.github.io/immerse-website/
 
-  - name: Caden Ellis
+  - first_name: Caden 
+    last_name: Ellis
     image: caden_ellis.jpeg
     link: https://caden-ellis77.github.io/ImmerseSite/pages/log/
