@@ -13,11 +13,11 @@ phd_students:
     image: andrew_wilson.jpg
     link: https://aew2015.github.io/ccl_log/
 
-masters_students:
-  - first_name: Eli 
-    last_name: Cahill
-    image: eli_cahill.jpg
+  - first_name: Reilly 
+    last_name: McKendrick
+    image: reilly_mckendrick.jpg
 
+masters_students:
   - first_name: Dallin 
     last_name: Skouson
     image: dallin_skouson.jpg
@@ -59,10 +59,6 @@ masters_students:
     link: https://chriswils95.github.io/chriswils.github.io/
 
 undergrad_students:
-  - first_name: Reilly 
-    last_name: McKendrick
-    image: reilly_mckendrick.jpg
-
   - first_name: Gerrit 
     last_name: Moore
     image: gerrit_moore.jpg
