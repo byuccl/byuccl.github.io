@@ -208,3 +208,15 @@ pre {
 .banner_div {
     text-align: center
 }
+
+
+th, td {
+    padding: 5pt;
+    padding-left: 10pt;
+    border-bottom: 1px solid black;
+}
+
+th {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
