@@ -48,3 +48,8 @@
     Hayden Cook (Master's student) gave a remote presentation at the 30th International Conference on Field-Programmable Logic and Applications on "Using Novel Configuration Techniques for Accelerated FPGA Aging".
   images:
     - https://www.youtube.com/embed/lfqLlsVfpFY
+
+- event_name: LANSCE Radiation Testing
+  date: 2021-08-31
+  description: >
+    Students from the CCL traveled to the [Los Alamos Neutron Science Center (LANSCE)](https://lansce.lanl.gov) to perform a variety of experiments related to computer reliability. Experiments included testing of a Linux-based PCAP scrubber, radiation hardened softcore processors, SoC (System-on-a-Chip) radiation testing methodologies, and FPGA fabric characterization under radiation. The image on the left shows the experiment boards lined up for the neutron radiation beam. The image on the right shows the participating students on the first day of the experiments (and the first day of school).
