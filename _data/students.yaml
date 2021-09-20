@@ -137,7 +137,7 @@ undergrad_students:
   - first_name: Nathan
     last_name: Harris
     image: nathan_harris.jpg
-    link: http://betacircuit.net/projects/IMMERSE/log/
+    # link: http://betacircuit.net/projects/IMMERSE/log/ #broken link
 
   - first_name: Jacob 
     last_name: Brown
