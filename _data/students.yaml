@@ -16,6 +16,10 @@ phd_students:
   - first_name: Reilly 
     last_name: McKendrick
     image: reilly_mckendrick.jpg
+    
+  - first_name: Daniel
+    last_name: Hutchings
+    image: daniel_hutchings.jpg
 
 masters_students:    
   - first_name: Dallin 
@@ -153,8 +157,3 @@ undergrad_students:
   - first_name: Emily
     last_name: Smart
     image: emily_smart.png
-  
-  - first_name: Daniel
-    last_name: Hutchings
-    image: 
-    
