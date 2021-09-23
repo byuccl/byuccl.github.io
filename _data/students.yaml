@@ -149,3 +149,12 @@ undergrad_students:
     last_name: Ellis
     image: caden_ellis.jpeg
     link: https://caden-ellis77.github.io/ImmerseSite/pages/log/
+    
+  - first_name: Emily
+    last_name: Smart
+    image: emily_smart.png
+  
+  - first_name: Daniel
+    last_name: Hutchings
+    image: 
+    
