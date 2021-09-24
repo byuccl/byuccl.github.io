@@ -17,11 +17,11 @@ phd_students:
     last_name: McKendrick
     image: reilly_mckendrick.jpg
     
+masters_students:    
   - first_name: Daniel
     last_name: Hutchings
     image: daniel_hutchings.jpg
-
-masters_students:    
+    
   - first_name: Dallin 
     last_name: Skouson
     image: dallin_skouson.jpg
