@@ -6,10 +6,12 @@ title: Schedule
 # Lab Meeting Schedule
 
 
-| Date      | Speaker                   | Topic                     |
-|-----------|---------------------------|---------------------------|
-|Sep 30     | Wesley Stirk, Evan Poff   | LANSCE radiation test     | 
-|Oct 7
+| Date      | Speaker                           | Topic                     |
+|-----------|-----------------------------------|---------------------------|
+|Oct 7      | Wesley Stirk, Evan Poff           | LANSCE radiation test     | 
+|Oct 14
+|Oct 21     | Corey Simpson, Reilly McKendrick  | Fuzzing &                 |
+
 
 
 ## Upcoming Topics
