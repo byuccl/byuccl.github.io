@@ -157,3 +157,8 @@ undergrad_students:
   - first_name: Emily
     last_name: Smart
     image: emily_smart.png
+    
+  - first_name: Nathan
+    last_name: Baker
+    image: nathan_baker.jpg
+    link: https://bakernat003.github.io/pages/log/
