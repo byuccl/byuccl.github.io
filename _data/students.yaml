@@ -17,6 +17,10 @@ phd_students:
     last_name: McKendrick
     image: reilly_mckendrick.jpg
     
+  - first_name: Hayden 
+    last_name: Cook
+    image: hayden_cook.png
+    
 masters_students:    
   - first_name: Daniel
     last_name: Hutchings
@@ -25,10 +29,6 @@ masters_students:
   - first_name: Dallin 
     last_name: Skouson
     image: dallin_skouson.jpg
-
-  - first_name: Hayden 
-    last_name: Cook
-    image: hayden_cook.png
 
   - first_name: Evan 
     last_name: Poff
