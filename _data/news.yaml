@@ -1,3 +1,21 @@
+
+- event_name: CCL BBQ
+  date: 2021-09-01
+  description: >
+    Students, faculty, and their spouses, got together for a party to celebrate the end of a successful summer of research.  Lots of fun was had chatting and getting to know each other with plenty of cheeseburgers, snacks and ice cream.
+  images:
+    - news_2021/ccl_bbq1.JPG
+    - news_2021/ccl_bbq2.JPG
+
+- event_name: LANSCE Radiation Testing
+  date: 2021-08-31
+  description: >
+    Students from the CCL traveled to the [Los Alamos Neutron Science Center (LANSCE)](https://lansce.lanl.gov) to perform a variety of experiments related to computer reliability. Experiments included testing of a Linux-based PCAP scrubber, radiation hardened softcore processors, SoC (System-on-a-Chip) radiation testing methodologies, and FPGA fabric characterization under radiation. The image on the left shows the experiment boards lined up for the neutron radiation beam. The image on the right shows the participating students on the first day of the experiments (and the first day of school).
+  images:
+    - news_2021/lansce_boards.jpg
+    - news_2021/lansce_sign.jpg
+
+
 - event_name: FPT Conference, Tianjin, China
   date: 2019-12-09
   description: >
@@ -48,8 +66,3 @@
     Hayden Cook (Master's student) gave a remote presentation at the 30th International Conference on Field-Programmable Logic and Applications on "Using Novel Configuration Techniques for Accelerated FPGA Aging".
   images:
     - https://www.youtube.com/embed/lfqLlsVfpFY
-
-- event_name: LANSCE Radiation Testing
-  date: 2021-08-31
-  description: >
-    Students from the CCL traveled to the [Los Alamos Neutron Science Center (LANSCE)](https://lansce.lanl.gov) to perform a variety of experiments related to computer reliability. Experiments included testing of a Linux-based PCAP scrubber, radiation hardened softcore processors, SoC (System-on-a-Chip) radiation testing methodologies, and FPGA fabric characterization under radiation. The image on the left shows the experiment boards lined up for the neutron radiation beam. The image on the right shows the participating students on the first day of the experiments (and the first day of school).
