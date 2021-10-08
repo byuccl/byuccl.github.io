@@ -16,3 +16,6 @@ url: "https://ccl.byu.edu/" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+plugins:
+  - jekyll-sitemap
