@@ -17,7 +17,4 @@ title: Schedule
 
 
 ## Upcoming Topics
-*  (?)
-* Andres Perez-Celis (?)
-* Corey Simpson (yray)
-* Reilly McKendrick (?)
+* ???
