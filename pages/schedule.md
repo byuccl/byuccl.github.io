@@ -13,8 +13,14 @@ title: Schedule
 |Oct 21     | Corey Simpson, Reilly McKendrick  | Fuzzing                   | Reilly                        |Rapidwright       |
 |Oct 28     | Andy Wilson                       | RISC-V Radiation Test     | Goeders et al                 |VS Code Hacks     |
 |Nov 4      |                                   |                           | Mike Wirthlin                 |migen             | 
+|Nov 11     |                                   |                           |                               |                  | 
+|Nov 18     |                                   |                           |                               |                  | 
+|Nov 25     |                                   |                           |                               |                  | 
+|Dec 2      |                                   |                           |                               |                  | 
+|Dec 9      |                                   |                           |                               |                  | 
 
 
 
-## Upcoming Topics
-* ???
+## Possible Topics
+* Jackson - Linux SoC testing
+* Ethan - RR graph
