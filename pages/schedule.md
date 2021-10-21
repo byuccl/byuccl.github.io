@@ -11,7 +11,7 @@
 |Nov 4      | Andres                            | Multi-Cell Upsets (MCU)   | Mike Wirthlin                 |migen             | 
 |Nov 11     | Ethan Rogers                      | VTR and Graph Folding     |                               |                  | 
 |Nov 18     | Michael Bjerregaard               | JTAG Sniffing/Intel FI    |                               |                  | 
-|Nov 25     | Thanksgiving                      |                           |                               |                  | 
+|Nov 25     | **Thanksgiving**                  |                           |                               |                  | 
 |Dec 2      | Jackson Smith                     | Linux Kernel Reliability  |                               |                  | 
 |Dec 9      | SHREC presentations?              |                           |                               |                  | 
 
