@@ -1,7 +1,3 @@
----
-layout: default
-title: Schedule
----
 
 # Lab Meeting Schedule
 
