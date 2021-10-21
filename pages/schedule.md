@@ -18,3 +18,10 @@
 
 
 ## Possible Topics
+- BitInspector
+- Fault Injection
+- Radiation testing overview
+
+## Possible Tech Talks
+- Keys/Tokens for GitHub
+- SSH tips/hints
