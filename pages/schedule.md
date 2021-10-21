@@ -12,15 +12,13 @@ title: Schedule
 |Oct 14     | Wesley Stirk, Evan Poff           | LANSCE radiation test     | Xan Johnson                   |Github Actions    |
 |Oct 21     | Corey Simpson, Reilly McKendrick  | Fuzzing                   | Reilly                        |Rapidwright       |
 |Oct 28     | Andy Wilson                       | RISC-V Radiation Test     | Goeders et al                 |VS Code Hacks     |
-|Nov 4      |                                   |                           | Mike Wirthlin                 |migen             | 
-|Nov 11     |                                   |                           |                               |                  | 
-|Nov 18     |                                   |                           |                               |                  | 
-|Nov 25     |                                   |                           |                               |                  | 
-|Dec 2      |                                   |                           |                               |                  | 
-|Dec 9      |                                   |                           |                               |                  | 
+|Nov 4      | Andres                            | Multi-Cell Upsets (MCU)   | Mike Wirthlin                 |migen             | 
+|Nov 11     | Ethan Rogers                      | VTR and Graph Folding     |                               |                  | 
+|Nov 18     | Michael Bjerregaard               | JTAG Sniffing/Intel FI    |                               |                  | 
+|Nov 25     | Thanksgiving                      |                           |                               |                  | 
+|Dec 2      | Jackson Smith                     | Linux Kernel Reliability  |                               |                  | 
+|Dec 9      | SHREC presentations?              |                           |                               |                  | 
 
 
 
 ## Possible Topics
-* Jackson - Linux SoC testing
-* Ethan - RR graph
