@@ -1,21 +1,33 @@
 - title: >
+    Approaches for FPGA Design Assurance
+  authors: >
+    Eli Cahill, Brad Hutchings, Jeffrey Goeders
+  conference: >
+    ACM Transactions on Reconfigurable Technology and Systems (TRETS)
+  year: >
+    2021
+  abstract: >
+    Field-Programmable Gate Arrays (FPGAs) are widely used for custom hardware implementations, including in many security-sensitive industries, such as defense, communications, transportation, medical, and more. Compiling source hardware descriptions to FPGA bitstreams requires the use of complex computer-aided design (CAD) tools. These tools are typically proprietary and closed-source, and it is not possible to easily determine that the produced bitstream is equivalent to the source design. In this work we present various FPGA design flows that leverage pre-synthesizing or pre-implementing parts of the design, combined with open-source synthesis tools, bitstream-to-netlist tools, and commercial equivalence checking tools, to verify that a produced hardware design is equivalent to the designer’s source design. We evaluate these different design flows on several benchmark circuits, and demonstrate that they are effective at detecting malicious modifications made to the design during compilation. We compare our proposed design flows with baseline commercial design flows and measure the overheads to area and runtime.
+  url: cahill_trets21.pdf
+
+- title: >
     Investigating How Software Characteristics Impact the Effectiveness of Automated Software Fault Tolerance
   authors: >
     Benjamin James, Michael Wirthlin, Jeffrey Goeders
   conference: >
-    IEEE Transactions on Nuclear Science
+    IEEE Transactions on Nuclear Science (TNS)
   year: >
     2021
   abstract: >
     A number of publications have examined automated fault tolerance techniques for software running on commercial off-the-shelf microcontrollers. Recently, we published an automated compiler-based protection tool called COmpiler Assisted Software fault Tolerance (COAST), a tool that automatically inserts dual- or triple-modular redundancy into software programs. In this study, we use COAST to explore how the effectiveness of automated fault protection varies between different benchmarks, tested on an ARM Cortex-A9 platform. Our hypothesis is that certain benchmark characteristics are more likely than others to influence the effectiveness of automated fault protection. Through neutron radiation testing at the Los Alamos Neutron Science Center (LANSCE), we show that cross section improvements vary from 1.6× to 54× across eight benchmark variants. We then explore the characteristics of these benchmarks and investigate how properties of these benchmarks may impact the effectiveness of automated fault protection. Finally, we leverage a novel fault injection platform to isolate two of these benchmark characteristics and validate our hypotheses.
-
+  url: james_tns21.pdf
 
 - title: >
     Understanding the Impact of Quantization, Accuracy, and Radiation on the Reliability of Convolutional Neural Networks on FPGAs
   authors: >
     Fabiano Libano, Brittany Wilson, Michael Wirthlin, Paolo Rech, John Brunhaver
   conference: >
-    IEEE Transactions on Nuclear Science
+    IEEE Transactions on Nuclear Science (TNS)
   year: >
     2020
   abstract: >
