@@ -1,3 +1,11 @@
+- title: "XBERT: Xilinx Logical-LevelBitstream Embedded RAM Transfusion"
+  authors: Matthew Hofmann, Zhiyao Tang, Jonathan Orgill, Jonathan Nelson, David Glanzman, Brent Nelson, Andre DeHon
+  conference:  International Symposium on Field-Programmable Custom Computing Machines (FCCM)
+  year: >
+    2021
+  abstract: XBERT is an API and design toolset for zerocost access to the on-chip SRAM blocks on Xilinx architectures using the device’s configuration path. The XBERT API is highlevel, allowing developers to specify DMA-like data transfers of memory contents in terms of the logical memories in the application source code and thus is applicable to essentially any design targeting Xilinx devices. XBERT is broadly accessible to application developers, hiding the low-level details of physical mapping and bitstream encoding. XBERT is efficient, consuming zero reconfigurable resources with no impact on Fmax. XBERT achieves a bandwidth of 3–14 megabytes per second (MB/s) and complete readback and translation of a memory in an isolated 36Kb block RAM in less than 0.5 ms on a Xilinx UltraScale+ MPSoC Zynq.
+  url: xbert_fccm21.pdf
+
 - title: >
     Approaches for FPGA Design Assurance
   authors: >
