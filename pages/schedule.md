@@ -12,8 +12,8 @@ title: Schedule
 |Oct 14     | Wesley Stirk, Evan Poff           | LANSCE radiation test     | Xan Johnson                   |Github Actions    |
 |Oct 21     | Corey Simpson                     | Fuzzing                   |                               |                  |
 |Oct 28     | Reilly McKendrick                 | RapidWright               | Goeders et al                 |VS Code Hacks     |
-|Nov 4      | Andres Perez                      | Multi-Cell Upsets (MCU)   | Mike Wirthlin                 |migen             | 
-|Nov 11     | Ethan Rogers                      | VTR and Graph Folding     |                               |                  | 
+|Nov 4      | Andres Perez                      | Multi-Cell Upsets (MCU)   |                               |                  | 
+|Nov 11     | Ethan Rogers                      | VTR and Graph Folding     | Mike Wirthlin                 |migen             | 
 |Nov 18     | Michael Bjerregaard               | JTAG Sniffing/Intel FI    |                               |                  | 
 |Nov 25     | **Thanksgiving**                  |                           |                               |                  | 
 |Dec 2      | Jackson Smith                     | Linux Kernel Reliability  |                               |                  | 
