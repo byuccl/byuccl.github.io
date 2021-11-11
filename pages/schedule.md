@@ -16,12 +16,8 @@ title: Schedule
 |Nov 11     | Ethan Rogers                      | VTR and Graph Folding     | Mike Wirthlin                 |migen             | 
 |Nov 18     | Michael Bjerregaard               | JTAG Sniffing/Intel FI    |                               |                  | 
 |Nov 25     | **Thanksgiving**                  |                           |                               |                  | 
-|Dec 2      | Jackson Smith                     | Linux Kernel Reliability  |                               |                  | 
-|Dec 9      | SHREC presentations?              |                           |                               |                  | 
-
-
-## Next Up
-* Andy Wilson
+|Dec 2      | Andy Wilson.                      | RISC-V Reliability.       |                               |                  | 
+|Dec 9      | Jackson Smith                     | Linux Kernel Reliability  |                               |                  | 
 
 
 ## Possible Topics
