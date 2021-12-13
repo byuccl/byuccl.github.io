@@ -1,4 +1,11 @@
 
+- event_name: Andrew Keller's PhD Defense
+  date: 2021-12-01
+  description: >
+    Andrew Keller successfully defended his PhD dissertation, "Partial Circuit Replication for Masking and Detecting Soft Errors in SRAM-Based FPGAs". Andrew is now starting a full-time job at L3Harris in Salt Lake City.
+  images:
+    - news_2021/andrew_keller.jpg
+
 - event_name: CCL BBQ
   date: 2021-09-01
   description: >
