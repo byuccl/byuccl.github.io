@@ -5,6 +5,24 @@ title: Schedule
 
 # Lab Meeting Schedule
 
+## Winter 2022
+
+| Date      | Research Talk Speaker (20 min)    | Topic                     | Tech Talk Speaker (20 min)    | Topic            |
+|-----------|-----------------------------------|---------------------------|-------------------------------|------------------|
+| Jan 6     | Hayden Cook                       | FPGA Watermarking
+| Jan 13    |                                   |                           | Lab visits from Undergrads
+| Jan 20    |                                   |                           | Lab visits from Undergrads
+
+### Possible Topics
+- BitInspector
+- Fault Injection
+- Radiation testing overview
+
+### Possible Tech Talks
+- Keys/Tokens for GitHub
+- SSH tips/hints
+
+## Fall 2021
 
 | Date      | Research Talk Speaker (20 min)    | Topic                     | Tech Talk Speaker (20 min)    | Topic            |
 |-----------|-----------------------------------|---------------------------|-------------------------------|------------------|
@@ -20,11 +38,4 @@ title: Schedule
 |Dec 9      | Jackson Smith                     | Linux Kernel Reliability  |                               |                  | 
 
 
-## Possible Topics
-- BitInspector
-- Fault Injection
-- Radiation testing overview
 
-## Possible Tech Talks
-- Keys/Tokens for GitHub
-- SSH tips/hints
