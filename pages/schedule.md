@@ -10,10 +10,15 @@ title: Schedule
 | Date      | Research Talk Speaker (20 min)    | Topic                     | Tech Talk Speaker (20 min)    | Topic            |
 |-----------|-----------------------------------|---------------------------|-------------------------------|------------------|
 | Jan 6     | Hayden Cook                       | FPGA Watermarking
-| Jan 13    |                                   |                           | Lab visits from Undergrads
-| Jan 20    |                                   |                           | Lab visits from Undergrads
+| Jan 13    | SHREC Presentations               |                           | Lab visits from Undergrads
+| Jan 20    | SHREC Workshop                    |                           | Lab visits from Undergrads
+| Jan 27    | Wesley Stirk, Evan Poff           | DTRA Data                 | Josh                          | Valgrind, GDB     |
+| Feb 3     | Andy, Garrett, Jackson Sa.        | RISC-V Failure Analysis   | Jeff Goeders                  | Profiling         |
+| Feb 10    | Mike Wirthlin                     | MRQW Presentation         |
+| Feb 17    | Daniel Hutchings                  | 
 
 ### Possible Topics
+- 
 - BitInspector
 - Fault Injection
 - Radiation testing overview
