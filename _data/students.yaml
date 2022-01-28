@@ -1,13 +1,4 @@
 phd_students:
-  - first_name: Andrew 
-    last_name: Keller
-    image: andrew_keller.jpg
-
-  - first_name: Andres 
-    last_name: Perez-Celis
-    image: andres_peres.png
-    link: https://pcelis.github.io/mysite/
-
   - first_name: Andrew E 
     last_name: Wilson
     image: andrew_wilson.jpg

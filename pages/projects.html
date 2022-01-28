@@ -7,7 +7,8 @@ permalink: /projects/
 <h1 class="projects-title">Current Projects</h1>
 <hr>
 <div class="projects">
-    {% for project in site.data.projects %}
+    {% assign sorted_projects = site.data.projects | sort: "order","last" %}
+    {% for project in sorted_projects %}
     {% unless project.archive %}
     <div class="project">
         <h3 class="project-title">{{ project.name }}</h3>
