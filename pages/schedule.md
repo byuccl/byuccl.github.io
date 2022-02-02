@@ -13,8 +13,8 @@ title: Schedule
 | Jan 13    | SHREC Presentations               |                           | Lab visits from Undergrads
 | Jan 20    | SHREC Workshop                    |                           | Lab visits from Undergrads
 | Jan 27    | Wesley Stirk, Evan Poff           | DTRA Data                 | Josh                          | Valgrind, GDB     |
-| Feb 3     | Andy, Garrett, Jackson Sa.        | RISC-V Failure Analysis   | Jeff Goeders                  | Profiling         |
-| Feb 10    | Mike Wirthlin                     | MRQW Presentation         |
+| Feb 3     | Mike Wirthlin                     | MRQW Presentation         | Jeff Goeders                  | Profiling         |
+| Feb 10    | Andy Wilson                       | Petalinuz                 |
 | Feb 17    | Daniel Hutchings                  | 
 
 ### Possible Topics
