@@ -1,3 +1,53 @@
+
+- title: "Using partial duplication with compare to detect radiation-induced failure in a commercial FPGA-Based networking system"
+  authors: Andrew Keller, Jared Anderson, Michael Wirthlin, Shi-Jie Wen, Rita Fung, Conner Chambers
+  year: >
+    2021
+  conference: International Reliability Physics Symposium (IRPS)
+  abstract: Duplication with compare, a circuit-level fault-detection technique, is used in this study in a partial manner to detect radiation-induced failures in a commercial FPGA-based networking system. A novel approach is taken to overcome challenges presented by multiple clock domains, the use of third-party IP, and the collection of error detection signals dispersed throughout the design. Novel fault injection techniques are also used to evaluate critical regions of the target design. Accelerated neutron radiation testing was performed to evaluate the effectiveness of the applied technique. One design version was able to detect 45% of all failures with the proposed technique applied to 29% of the circuit components within the design. Another design version was able to detect 31% of all failures with the proposed technique applied to only 8% of circuit components.
+
+- title: "The Impact of Terrestrial Radiation on FPGAs in Data Centers"
+  authors: Andrew Keller, Michael Wirthlin
+  year: >
+    2021
+  conference: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
+  abstract: Field programmable gate arrays (FPGAs) are used in large numbers in data centers around the world. They are used for cloud computing and computer networking. The most common type of FPGA used in data centers are re-programmable SRAM-based FPGAs. These devices offer potential performance and power consumption savings. A single device also carries a small susceptibility to radiation-induced soft errors, which can lead to unexpected behavior. This article examines the impact of terrestrial radiation on FPGAs in data centers. Results from artificial fault injection and accelerated radiation testing on several data-center-like FPGA applications are compared. A new fault injection scheme provides results that are more similar to radiation testing. Silent data corruption (SDC) is the most commonly observed failure mode followed by FPGA unavailable and host unresponsive. A hypothetical deployment of 100,000 FPGAs in Denver, Colorado, will experience upsets in configuration memory every half-hour on average and SDC failures every 0.5–11 days on average.
+
+- title: "Identifying Radiation-Induced Micro-SEFIs in SRAM FPGAs"
+  authors: Andres Pérez-Celis, Corbin Thurlow, Michael Wirthlin
+  year: >
+    2021
+  conference: IEEE Transactions on Nuclear Science
+  abstract: Field-programmable gate arrays (FPGAs) are susceptible to radiation-induced effects that can affect more than one memory cell. Radiation-induced microsingle event functional interrupts (micro-SEFIs) are one of such events that can upset several bits at a time. These events need to be studied because they can overcome protection from techniques such as triple modular redundancy (TMR) and error correction codes (ECCs). Extracting these events from radiation data helps to understand if specific resources of the FPGA are more vulnerable and the extent of this vulnerability. This article presents a method based on statistics and fault injection to identify micro-SEFIs from beam-test data in the configuration memory and block RAM (BRAM) of SRAM-based FPGAs. The results show the cross section of these events for the configuration RAM (CRAM) and BRAM for three families of Xilinx SRAM FPGAs gathered throughout three neutron tests. This article also contains data from a fault injection campaign to uncover the possible CRAM source bits causing micro-SEFIs in memory look-up tables (LUTs) of Xilinx 7-series and Ultrascale devices.
+
+- title: "Fault Injection of TMR Open Source RISC-V Processors using Dynamic Partial Reconfiguration on SRAM-based FPGAs"
+  authors: Andrew Wilson, Michael Wirthlin
+  year: >
+    2021
+  conference: Space Computing Conference (SCC)
+  abstract: SRAM-based FPGAs are frequently used for critical functions in space applications. Soft processors implemented within these FPGAs are often needed to satisfy the mission requirements. The open ISA, RISC-V, has allowed for the development of a wide range of open source processors. Like all SRAM-based FPGA digital designs, these soft processors are susceptible to SEUs. This paper presents an investigation of the performances and relative SEU sensitivity of a selection of newly available open source RISC-V processors. Utilizing dynamic partial reconfiguration, this novel automatic test equipment rapidly deployed different implementations and evaluated SEU sensitivity through fault injection. Using BYU’s new SpyDrNet tools, fine-grain TMR was also applied to each processor with results ranging from a 20× to 500× reduction in sensitivity.
+
+- title: "Emulating Radiation-Induced Multicell Upset Patterns in SRAM FPGAs With Fault Injection"
+  authors: Andres Pérez-Celis, Corbin Thurlow, Michael Wirthlin
+  year: >
+    2021
+  conference: IEEE Transactions on Nuclear Science
+  abstract: Radiation-induced multiple-cell upsets (MCUs) are events that account for more than 50% of failures on triple modular redundancy (TMR) designs in SRAM field programmable gate array (FPGA). It is important to understand these events and their impact on FPGA designs to develop improved fault mitigation techniques. This article describes an enhanced fault injection (FI) method for SRAM-based FPGAs that injects MCUs within the configuration memory of an FPGA based on MCU information extracted from previous radiation tests. The improved FI technique uncovers  more failures than is observable in conventional single-bit FI approaches. The results from several MCU FI experiments also show that injecting MCUs can replicate the failures observed in the radiation beam test and identify new failure mechanisms.
+
+- title: "Partial TMR for Improving the Soft Error Reliability of SRAM-Based FPGA Designs"
+  authors: Andrew Keller, Michael Wirthlin
+  year: >
+    2021
+  conference: IEEE Transactions on Nuclear Science
+  abstract: Triple modular redundancy (TMR) is a single-event upset (SEU)-mitigation technique that uses three circuit copies to mask a failure in any one copy. It improves the soft error reliability of designs implemented on SRAM-based field-programmable gate arrays (FPGAs) by masking the effects of upsets in the configuration memory. Although TMR is most effective when applied to an entire FPGA design, a reduction in the sensitive cross section of an FPGA design can be obtained by applying TMR selectively. This article explores several approaches for selecting components to triplicate. The benefit is a reduction in the neutron cross section for any output error as a percentage compared to that of a non-triplicated design. The cost is the percentage of components triplicated. The goal is to maximize the benefit-cost ratio. Twenty-five different selections are tested on a benchmark design. Some selections increase the cross section; others decrease the cross section significantly.
+
+- title: "Neutron radiation testing of a TMR VexRiscv soft processor on SRAM-based FPGAs"
+  authors: Andrew Wilson, S Larsen, C Wilson, Corbin Thurlow, Michael Wirthlin
+  year: >
+    2021
+  conference: IEEE Transactions on Nuclear Science
+  abstract: Soft processors are often used within field-programmable gate array (FPGA) designs in radiation hazardous environments. These systems are susceptible to single-event upsets (SEUs) that can corrupt both the hardware configuration and software implementation. Mitigation of these SEUs can be accomplished by applying triple modular redundancy (TMR) techniques to the processor. This article presents fault injection and neutron radiation results of a Linux-capable TMR VexRiscv processor. The TMR processor achieved a 10× improvement in SEU-induced mean fluence to failure with a cost of 4× resource utilization. To further understand the TMR system failures, additional post-radiation fault injection was performed with targets generated from the radiation data. This analysis showed that not all the failures were due to single-bit upsets, but potentially caused by multibit upsets, nontriplicated IO, and unmonitored nonconfiguration RAM (CRAM) SEUs.
+
 - title: "XBERT: Xilinx Logical-Level Bitstream Embedded RAM Transfusion"
   authors: Matthew Hofmann, Zhiyao Tang, Jonathan Orgill, Jonathan Nelson, David Glanzman, Brent Nelson, Andre DeHon
   conference:  International Symposium on Field-Programmable Custom Computing Machines (FCCM)
@@ -13,7 +63,7 @@
   conference: >
     ACM Transactions on Reconfigurable Technology and Systems (TRETS)
   year: >
-    2021
+    2022
   abstract: >
     Field-Programmable Gate Arrays (FPGAs) are widely used for custom hardware implementations, including in many security-sensitive industries, such as defense, communications, transportation, medical, and more. Compiling source hardware descriptions to FPGA bitstreams requires the use of complex computer-aided design (CAD) tools. These tools are typically proprietary and closed-source, and it is not possible to easily determine that the produced bitstream is equivalent to the source design. In this work we present various FPGA design flows that leverage pre-synthesizing or pre-implementing parts of the design, combined with open-source synthesis tools, bitstream-to-netlist tools, and commercial equivalence checking tools, to verify that a produced hardware design is equivalent to the designer’s source design. We evaluate these different design flows on several benchmark circuits, and demonstrate that they are effective at detecting malicious modifications made to the design during compilation. We compare our proposed design flows with baseline commercial design flows and measure the overheads to area and runtime.
   url: cahill_trets21.pdf
