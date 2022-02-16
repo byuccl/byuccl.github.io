@@ -15,7 +15,8 @@ title: Schedule
 | Jan 27    | Wesley Stirk, Evan Poff           | DTRA Data                 | Josh                          | Valgrind, GDB     |
 | Feb 3     | Mike Wirthlin                     | MRQW Presentation         | Jeff Goeders                  | Profiling         |
 | Feb 10    | Andy Wilson                       | Petalinuz                 |
-| Feb 17    | Daniel Hutchings                  | 
+| Feb 17    | Daniel Hutchings                  | IP Encryption             | Dallin Dahl                   | Vivado + Makefiles |
+
 
 ### Possible Topics
 - 
