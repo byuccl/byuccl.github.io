@@ -17,7 +17,7 @@ title: Schedule
 | Feb 10    | Mike Wirthlin                     | MRQW Presentation         |
 | Feb 17    | Daniel Hutchings                  | IP Encryption             | Dallin Dahl                   | Vivado + Makefiles |
 | Feb 24    | Corey                             |
-| Mar 3     | Ethan
+| Mar 3     | Ethan                             |
 | Mar 10    | Reilly
 | Mar 17    |
 | Mar 24    |
@@ -29,6 +29,10 @@ title: Schedule
 - Radiation testing overview
 
 ### Possible Tech Talks
+- Partial reconfiguration
+- cmake
+- machine learning
+- pcb
 - Keys/Tokens for GitHub
 - SSH tips/hints
 
