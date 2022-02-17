@@ -16,6 +16,11 @@ title: Schedule
 | Feb 3     | Andy, Garrett, Jackson Sa.        | RISC-V Failure Analysis   | Jeff Goeders                  | Profiling         |
 | Feb 10    | Mike Wirthlin                     | MRQW Presentation         |
 | Feb 17    | Daniel Hutchings                  | 
+| Feb 24    | Corey                             |
+| Mar 3     | Ethan
+| Mar 10    | Reilly
+| Mar 17    |
+| Mar 24    |
 
 ### Possible Topics
 - 
