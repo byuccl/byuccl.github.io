@@ -15,7 +15,7 @@ title: Schedule
 | Jan 27    | Wesley Stirk, Evan Poff           | DTRA Data                 | Josh                          | Valgrind, GDB     |
 | Feb 3     | Andy, Garrett, Jackson Sa.        | RISC-V Failure Analysis   | Jeff Goeders                  | Profiling         |
 | Feb 10    | Mike Wirthlin                     | MRQW Presentation         |
-| Feb 17    | Daniel Hutchings                  | 
+| Feb 17    | Daniel Hutchings                  | IP Encryption             | Dallin Dahl                   | Vivado + Makefiles |
 | Feb 24    | Corey                             |
 | Mar 3     | Ethan
 | Mar 10    | Reilly

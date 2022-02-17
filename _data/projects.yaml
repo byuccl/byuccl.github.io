@@ -1,30 +1,40 @@
 # - name: Self-Sustainable Air Quality Sensor
   # description: We are building an air quality sensor that is powered by solar power and uses long range communication. This will allow for sensors to be placed in locations not possible before.
 
-- name: Shorty (configurable short circuits)
+- name: Shorty (Artificial FPGA Aging Using Short Circuits)
   description: >
     Shorty is a project that explores different applications of placing configurable short circuits on Xilinx FPGAs. Applications include localized accelerated aging, hardware trojans, watermarking, and more. 
   image: short_circuit_diagram.png
+  url: https://ieeexplore.ieee.org/abstract/document/9221602
+  order: 2
   
 
 - name: COAST (COmpiler-Assisted Software fault Tolerance)
   description: >
     COAST is a set of compiler tools that provides automated software protection from single-event effects.  Users can select portions of their porgram to protect, and the compiler will automatically duplicate or triplicate instructions.  COAST currently supports ARM, RISC-V and MSP430 processor architectures, and has been validated by several tests using the LANSCE neutron beam.
   url: https://github.com/byuccl/coast
+  archive: true
   
 - name: FPGA Design Assurance
   description: >
     This work focuses on developing techniques to ensure that FPGA designs remain secure throughout the hardware compilation process.  Equivalence checking tools are used to determine whether initial RTL circuit or IP modules are equivalent to the placed and routed FPGA bitstream.
   url: https://ieeexplore.ieee.org/abstract/document/8494874/
+  order: 3
 
 - name: IIRM-URA (Interation of Ionizing Radiation with Matter - University Research Alliance)
   description: >
-    IIRM-URA is a research collaboration across several different universities and research labs to investigate the effect radiation has on materials and devices. The BYU team is focused on investigating and modeling the effect radiation has on SoCs (Systems On a Chip). Currently, efforts are centered around Xilinx MPSoC chip and how it fails under radiation.
- # url: https://github.com/byuccl/DTRA-URA
+    IIRM-URA is a research collaboration, funded by the Defense Thread Reduction Agency (DTRA), that brings together several different universities and research labs to investigate the effect radiation has on materials and devices. The BYU team is focused on investigating and modeling the effect radiation has on SoCs (Systems On a Chip). Currently, efforts are centered around Xilinx MPSoC chip and how it fails under radiation.
+  url: https://www.iirm.psu.edu/about/
+  order: 1
+  
+- name: BYU Computing Bootcamp
+  description: Bootcamp is a summer program for new students (mostly undergraduates) which provides them training and experience computing technologies required to perform research in a variety of Computer Engineering topics.
+  url: https://byu-cpe.github.io/ComputingBootCamp/
+  order: 0
 
-# - name: Shorty
-#   description: >
-#     Shorty is an innovative new project that examines the effect of short circuits on FPGA's. With the use of high precision data collection techniques shorty aims to prove that intentionally introducing short circuits to FPGA designs permanently damages on-chip resources. This would result in reduced performance and faulty operation. Such an attack vector introduces a whole new class of security considerations that would effect every field using FPGA's including cloud computing, space computing and DoD applications.
+- name: Open Source FPGA Tools
+  description: Our research lab actively contributes to several different open-source FPGA tools and compilers, particularly those in the Symbiflow ecosystem.
+  url: https://symbiflow.github.io/
 
 - name: PYNQ PRIO (Partially Reconfigurable IO on the PYNQ)
   description: >
