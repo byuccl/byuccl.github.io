@@ -16,11 +16,12 @@ title: Schedule
 | Feb 3     | Andy, Garrett, Jackson Sa.        | RISC-V Failure Analysis   | Jeff Goeders                  | Profiling         |
 | Feb 10    | Mike Wirthlin                     | MRQW Presentation         |
 | Feb 17    | Daniel Hutchings                  | IP Encryption             | Dallin Dahl                   | Vivado + Makefiles |
-| Feb 24    | Corey                             |
-| Mar 3     | Ethan                             |
-| Mar 10    | Reilly
-| Mar 17    |
-| Mar 24    |
+| Feb 24    | NO MEETING                        |
+| Mar 3     | Reilly                            | Word Recognition
+| Mar 10    | Corey                             | Fuzzing / IP Recognition  |
+| Mar 17    | NO MEETING
+| Mar 24    | Wesley                            | LMTF Test Followup        |
+
 
 ### Possible Topics
 - 
