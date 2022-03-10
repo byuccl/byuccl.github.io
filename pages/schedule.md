@@ -18,8 +18,8 @@ title: Schedule
 | Feb 17    | Daniel Hutchings                  | IP Encryption             | Dallin Dahl                   | Vivado + Makefiles |
 | Feb 24    | NO MEETING                        |
 | Mar 3     | Reilly                            | Word Recognition
-| Mar 10    | Corey                             | Fuzzing / IP Recognition  |
-| Mar 17    | NO MEETING
+| Mar 10    | Corey                             | Fuzzing / IP Recognition  | Jackson Smith                 | SSH Config
+| Mar 17    | Ethan Rogers                      |
 | Mar 24    | Wesley                            | LMTF Test Followup        |
 
 
