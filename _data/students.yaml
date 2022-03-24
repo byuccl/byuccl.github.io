@@ -1,4 +1,5 @@
 phd_students:
+   
   - first_name: Andrew E 
     last_name: Wilson
     image: andrew_wilson.jpg
@@ -61,10 +62,6 @@ undergrad_students:
     last_name: Arscott
     image: jake_arscott.png
 
-  - first_name: Jayden 
-    last_name: Clark
-    image: jayden_clark.jpg
-
   - first_name: Jessa 
     last_name: Locey
     image: jessa_locey.jpg
@@ -125,29 +122,10 @@ undergrad_students:
     image: jacob_brown.jpg
     link: https://jacobdbrown4.github.io/jacob_brown//pages/log/
 
-  - first_name: Cody 
-    last_name: Arvonen
-    image: cody_arvonen.jpg
-    link: https://codyarvonen.github.io/personal_website/
-
   - first_name: Bryce 
     last_name: Hamilton
     image: bryce_hamilton.png
 
-  - first_name: Ben 
-    last_name: Glines
-    image: ben_glines.jpg
-    link: https://benglines.github.io/immerse-website/
-
-  - first_name: Caden 
-    last_name: Ellis
-    image: caden_ellis.jpeg
-    link: https://caden-ellis77.github.io/ImmerseSite/pages/log/
-    
-  - first_name: Emily
-    last_name: Smart
-    image: emily_smart.png
-    
   - first_name: Nathan
     last_name: Baker
     image: nathan_baker.jpg
