@@ -130,3 +130,6 @@ undergrad_students:
     last_name: Baker
     image: nathan_baker.jpg
     link: https://bakernat003.github.io/pages/log/
+  - first_name: Garrett
+    last_name: Smith
+    image: garrett_smith.jpg
