@@ -134,3 +134,7 @@ undergrad_students:
   - first_name: Zephram
     last_name: Tripp
     image: zephram_tripp.jpg
+
+  - first_name: Zachary
+    last_name: Driskill
+    image: zachary_driskill.jpg
