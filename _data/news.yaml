@@ -1,3 +1,11 @@
+- event_name: LMTF Radiation Testing
+  date: 2022-03-18
+  description: > 
+    Researchers from the CCL and [Sandia National Laboratory](https://www.sandia.gov/) travelled to the Little Mountain Test Facility in Ogden, Utah to use the [LINAC](https://en.wikipedia.org/wiki/Linear_particle_accelerator) for computer reliability testing. An SRAM chip (a commonly used component in bigger devices) was irradiated at varying intensities and durations to characterize its response. The people in the image on the left are (from left to right) Dolores Black (SNL), Jeff Black (SNL), Wesley Stirk (CCL), Roy Cuoco (SNL), Mike Wirthlin (CCL), and Jeff Goeders (CCL).
+  images: 
+    - news_2022/lmtf_a.jpg
+    - news_2022/lmtf_b.jpg
+
 
 - event_name: Andrew Keller's PhD Defense
   date: 2021-12-01
