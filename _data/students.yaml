@@ -127,3 +127,7 @@ undergrad_students:
     last_name: Ricks
     image: tyler_ricks.jpg
     
+  - first_name: Ethan
+    last_name: Campbell
+    image: ethan_campbell.jpg
+
