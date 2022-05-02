@@ -122,3 +122,7 @@ undergrad_students:
   - first_name: Zachary
     last_name: Driskill
     image: zachary_driskill.jpg
+  
+  - first_name: Ethan
+    last_name: Campbell
+    image: ethan_campbell.jpg
