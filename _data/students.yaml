@@ -18,7 +18,7 @@ masters_students:
     last_name: Hutchings
     image: daniel_hutchings.jpg
     
-   - first_name: Evan 
+  - first_name: Evan 
     last_name: Poff
     image: evan_poff.jpg
     link: https://ccl.byu.edu/wiki/students/evan_poff
