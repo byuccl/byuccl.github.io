@@ -9,6 +9,10 @@ phd_students:
     last_name: McKendrick
     image: reilly_mckendrick.jpg
     
+  - first_name: Dallin 
+    last_name: Dahl
+    image: Dallin_Dahl.jpg
+    
   - first_name: Hayden 
     last_name: Cook
     image: hayden_cook.png
@@ -17,7 +21,12 @@ masters_students:
   - first_name: Daniel
     last_name: Hutchings
     image: daniel_hutchings.jpg
-    
+   
+  - first_name: Nathan
+    last_name: Harris
+    image: nathan_harris.jpg
+    # link: http://betacircuit.net/projects/IMMERSE/log/ #broken link
+   
   - first_name: Evan 
     last_name: Poff
     image: evan_poff.jpg
@@ -26,6 +35,10 @@ masters_students:
   - first_name: Wesley 
     last_name: Stirk
     image: wesley_stirk2.jpg
+
+  - first_name: Jonathan 
+    last_name: Thompson
+    image: jonathan_thompson.jpg
 
   - first_name: Michael 
     last_name: Bjerregaard
@@ -37,10 +50,6 @@ undergrad_students:
     last_name: Hanni
     image: josh_hanni.jpg 
 
-  - first_name: Dallin 
-    last_name: Dahl
-    image: Dallin_Dahl.jpg
-
   - first_name: Xan 
     last_name: Johnson
     image: xan_johnson.jpg
@@ -48,10 +57,6 @@ undergrad_students:
   - first_name: Joshua 
     last_name: Fife
     image: joshua_fife.jpg
-
-  - first_name: Jonathan 
-    last_name: Thompson
-    image: jonathan_thompson.jpg
 
   - first_name: Samuel 
     last_name: Reynolds
@@ -61,11 +66,6 @@ undergrad_students:
     last_name: Sahleen
     image: jackson_sahleen.jpg
   
-  - first_name: Nathan
-    last_name: Harris
-    image: nathan_harris.jpg
-    # link: http://betacircuit.net/projects/IMMERSE/log/ #broken link
-
   - first_name: Jacob 
     last_name: Brown
     image: jacob_brown.jpg
