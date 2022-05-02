@@ -52,7 +52,7 @@ masters_students:
 undergrad_students:
   - first_name: Josh 
     last_name: Hanni
-    image: 
+    image: josh_hanni.jpg 
 
   - first_name: Ryan 
     last_name: Johnson
@@ -130,6 +130,12 @@ undergrad_students:
     last_name: Baker
     image: nathan_baker.jpg
     link: https://bakernat003.github.io/pages/log/
+
   - first_name: Garrett
     last_name: Smith
     image: garrett_smith.jpg
+    
+  - first_name: Zephram
+    last_name: Tripp
+    image: zephram_tripp.jpg
+
