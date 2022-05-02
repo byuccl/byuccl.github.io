@@ -18,22 +18,10 @@ masters_students:
     last_name: Hutchings
     image: daniel_hutchings.jpg
     
-  - first_name: Dallin 
-    last_name: Skouson
-    image: dallin_skouson.jpg
-
   - first_name: Evan 
     last_name: Poff
     image: evan_poff.jpg
     link: https://ccl.byu.edu/wiki/students/evan_poff
-
-  - first_name: Ethan 
-    last_name: Rogers
-    image: Ethan_Rogers.jpg
-
-  - first_name: Corey 
-    last_name: Simpson
-    image: coreySimpson.png
 
   - first_name: Wesley 
     last_name: Stirk
@@ -44,20 +32,11 @@ masters_students:
     image: michael_bjerregaard.jpg
     link: https://blazingmarimba.github.io/
 
-  - first_name: William 
-    last_name: Wallace
-    image: william_wallace.jpg
-    link: https://masterqwerty.github.io/
-
 undergrad_students:
   - first_name: Josh 
     last_name: Hanni
     image: josh_hanni.jpg 
 
-  - first_name: Ryan 
-    last_name: Johnson
-    image: ryan_johnson.jpg
-  
   - first_name: Dallin 
     last_name: Dahl
     image: Dallin_Dahl.jpg
@@ -81,16 +60,6 @@ undergrad_students:
   - first_name: Jackson 
     last_name: Sahleen
     image: jackson_sahleen.jpg
-
-  - first_name: Jackson 
-    last_name: Smith
-    image: jackson_smith.jpg
-    link: https://rjsmith1999.github.io/IMMERSE/pages/log/
-
-  - first_name: Garrett 
-    last_name: Westover
-    image: garrett_westover.jpg
-    link: https://garrettxw.github.io/garrettx/
   
   - first_name: Nathan
     last_name: Harris
