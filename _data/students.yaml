@@ -57,19 +57,7 @@ undergrad_students:
   - first_name: Ryan 
     last_name: Johnson
     image: ryan_johnson.jpg
-
-  - first_name: Jake 
-    last_name: Arscott
-    image: jake_arscott.png
-
-  - first_name: Jessa 
-    last_name: Locey
-    image: jessa_locey.jpg
-
-  - first_name: Brent 
-    last_name: George
-    image: brent_george.jpg
-
+  
   - first_name: Dallin 
     last_name: Dahl
     image: Dallin_Dahl.jpg
@@ -90,10 +78,6 @@ undergrad_students:
     last_name: Reynolds
     image: sam_reynolds.jpg
 
-  - first_name: Jarom 
-    last_name: Harris
-    image: jarom_harris.jpg
-
   - first_name: Jackson 
     last_name: Sahleen
     image: jackson_sahleen.jpg
@@ -107,11 +91,7 @@ undergrad_students:
     last_name: Westover
     image: garrett_westover.jpg
     link: https://garrettxw.github.io/garrettx/
-
-  - first_name: Brandon 
-    last_name: Heiner
-    image: brandon_heiner.jpg
-
+  
   - first_name: Nathan
     last_name: Harris
     image: nathan_harris.jpg
@@ -121,10 +101,6 @@ undergrad_students:
     last_name: Brown
     image: jacob_brown.jpg
     link: https://jacobdbrown4.github.io/jacob_brown//pages/log/
-
-  - first_name: Bryce 
-    last_name: Hamilton
-    image: bryce_hamilton.png
 
   - first_name: Nathan
     last_name: Baker
