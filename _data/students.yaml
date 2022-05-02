@@ -100,3 +100,7 @@ undergrad_students:
     last_name: Campbell
     image: ethan_campbell.jpg
 
+  - first_name: Jeremy
+    last_name: Read
+    image: jeremy_read.jpg
+
