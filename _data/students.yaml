@@ -103,4 +103,7 @@ undergrad_students:
   - first_name: Jeremy
     last_name: Read
     image: jeremy_read.jpg
-
+    
+  - first_name: Jacob
+    last_name: Hansen
+    image: jacob_hansen.jpg  
