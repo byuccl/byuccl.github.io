@@ -101,5 +101,13 @@ undergrad_students:
     image: ethan_campbell.jpg
 
   - first_name: Jacob
-  - last_name: Chase
-  - image: jacob_chase.jpg
+    last_name: Chase
+    image: jacob_chase.jpg
+
+  - first_name: Jeremy
+    last_name: Read
+    image: jeremy_read.jpg
+    
+  - first_name: Jacob
+    last_name: Hansen
+    image: jacob_hansen.jpg  
