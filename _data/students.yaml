@@ -115,3 +115,7 @@ undergrad_students:
   - first_name: Ben
     last_name: Broce
     image: ben_broce.jpg
+    
+  - first_name: Ammon
+    last_name: Horton
+    image: Ammon_Horton.jpg
