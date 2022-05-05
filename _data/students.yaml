@@ -111,3 +111,7 @@ undergrad_students:
   - first_name: Adam
     last_name: Taylor
     image: adam_taylor.jpg  
+
+  - first_name: Ben
+    last_name: Broce
+    image: ben_broce.jpg
