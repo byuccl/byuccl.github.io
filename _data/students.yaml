@@ -124,6 +124,9 @@ undergrad_students:
     last_name: Horton
     image: Ammon_Horton.jpg
 
-    first_name: Ethan
+  - first_name: Ethan
     last_name: Monlux
     image: ethan_monlux.jpg
+    
+    
+    
