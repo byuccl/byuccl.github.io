@@ -132,7 +132,7 @@ undergrad_students:
     last_name: Monlux
     image: ethan_monlux.jpg
    
-   - first_name: Jake
+  - first_name: Jake
     last_name: Edvenson
     image: Jake_Edvenson.jpg   
         
