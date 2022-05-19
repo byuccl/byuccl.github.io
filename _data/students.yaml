@@ -92,6 +92,10 @@ undergrad_students:
     last_name: Driskill
     image: zachary_driskill.jpg
     
+  - first_name: Jared
+    last_name: Robinson
+    image: jared_robinson.jpg
+    
   - first_name: Tyler
     last_name: Ricks
     image: tyler_ricks.jpg
