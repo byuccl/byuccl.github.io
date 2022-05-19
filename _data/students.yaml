@@ -131,7 +131,11 @@ undergrad_students:
   - first_name: Ethan
     last_name: Monlux
     image: ethan_monlux.jpg
-    
+   
+  - first_name: Jake
+    last_name: Edvenson
+    image: Jake_Edvenson.jpg   
+        
   - first_name: Pablo
     last_name: López
     image: pablo_lopez.jpg
