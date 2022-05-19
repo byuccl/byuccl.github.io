@@ -132,5 +132,7 @@ undergrad_students:
     last_name: Monlux
     image: ethan_monlux.jpg
     
-    
+  - first_name: Pablo
+    last_name: López
+    image: pablo_lopez.jpg
     
