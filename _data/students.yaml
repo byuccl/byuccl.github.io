@@ -116,7 +116,7 @@ undergrad_students:
     last_name: Hansen
     image: jacob_hansen.jpg  
 
-    first_name: Julia
+  - first_name: Julia
     last_name: Hansen
     image: julia_hansen.jpg
 
