@@ -96,6 +96,10 @@ undergrad_students:
     last_name: Robinson
     image: jared_robinson.jpg
     
+  - first_name: Weston
+    last_name: Smith
+    image: Weston_smith.jpg
+  
   - first_name: Tyler
     last_name: Ricks
     image: tyler_ricks.jpg
