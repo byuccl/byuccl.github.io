@@ -1,9 +1,22 @@
+- title: Inducing Non-uniform FPGA Aging Using Configuration-based Short Circuits
+  authors: Hayden Cook, Jacob Arscott, Brent George, Tanner Gaskin, Jeffrey Goeders, and Brad Hutchings
+  conference: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
+  year: >
+    2022
+  abstract: >
+    This work demonstrates a novel method of accelerating FPGA aging by configuring FPGAs to implement thousands of short circuits, resulting in high on-chip currents and temperatures. Patterns of ring oscillators are placed across the chip and are used to characterize the operating frequency of the FPGA fabric. Over the course of several months of running the short circuits on two-thirds of the reconfigurable fabric, with daily characterization of the FPGA 6 performance, we demonstrate a decrease in FPGA frequency of 8.5%. We demonstrate that this aging is induced in a non-uniform manner. The maximum slowdown outside of the shorted regions is 2.1%, or about a fourth of the maximum slowdown that is experienced inside the shorted region. In addition, we demonstrate that the slowdown is linear after the first two weeks of the experiment and is unaffected by a recovery period.
+    Additional experiments involving short circuits are also performed to demonstrate the results of our initial experiments are repeatable. These experiments also use a more fine-grained characterization method that provides further insight into the non-uniformed nature of the aging caused by short circuits. 
+    url: cook_trets22.pdf
 
 - title: "Using partial duplication with compare to detect radiation-induced failure in a commercial FPGA-Based networking system"
   authors: Andrew Keller, Jared Anderson, Michael Wirthlin, Shi-Jie Wen, Rita Fung, Conner Chambers
   year: >
     2021
   conference: International Reliability Physics Symposium (IRPS)
+7
+    In this work we demonstrate a novel method of accelerating FPGA aging by configuring the FPGA to implement thousands of short circuits, resulting in high on-chip currents and temperatures.  Three ring oscillators are placed across the chip and are used to characterize the operating frequency of the FPGA fabric.  Over the course of several weeks of running the short circuits, with daily characterization of the FPGA performance, we measured a decrease in FPGA frequency greater than 5%.  After aging, the FPGA part was repeatedly characterized during a two week idle period.  Results indicated that the slowdown did not change, and the aging appeared to be permanent.
+8
+    In addition, we demonstrated that this aging could be induced in a non-unifor
   abstract: Duplication with compare, a circuit-level fault-detection technique, is used in this study in a partial manner to detect radiation-induced failures in a commercial FPGA-based networking system. A novel approach is taken to overcome challenges presented by multiple clock domains, the use of third-party IP, and the collection of error detection signals dispersed throughout the design. Novel fault injection techniques are also used to evaluate critical regions of the target design. Accelerated neutron radiation testing was performed to evaluate the effectiveness of the applied technique. One design version was able to detect 45% of all failures with the proposed technique applied to 29% of the circuit components within the design. Another design version was able to detect 31% of all failures with the proposed technique applied to only 8% of circuit components.
 
 - title: "The Impact of Terrestrial Radiation on FPGAs in Data Centers"
