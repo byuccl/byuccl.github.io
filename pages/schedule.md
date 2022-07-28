@@ -5,6 +5,42 @@ title: Schedule
 
 # Lab Meeting Schedule
 
+## Fall 2022
+
+| Date      | Research Talk Speaker (20 min)    | Topic                     | Tech Talk Speaker (20 min)    | Topic            |
+|-----------|-----------------------------------|---------------------------|-------------------------------|------------------|
+| Sep 1     |      | | | |
+| Sep 8     |                 | | | |
+| Sep 15    |                       | | | |
+| Sep 22    |               | | | |
+| Sep 29    |            | | | |
+| Oct 6     |                        | | | |
+| Oct 13    |      | | | |
+| Oct 20    |                   | | | |       
+| Oct 27    |                                | | | |
+| Nov 3     |                                   | | | |
+| Nov 10    |                           | | | |
+| Nov 17    |                                 | | | |
+| Nov 24    | **Thanksgiving - no meeting**                                | | | |
+| Nov 31    |                                 | | | |
+| Dec 1     |                                 | | | |
+| Dec 8     |                                | | | |
+| Dec 9     | **Reading day Party**                            | | | |
+
+Ideas:
+* Versal configuration (Michael and Garrett)
+* Litex & Migen (Wirthlin, Lloyd, Tommy, Tyler)
+* LiteDDR and DDR test (Lloyd, Tommy, Tyler)
+* Yosys TMR (Jacob Brown)
+* CrossLinx Lattice FPGA (Jacob Brown, Ethan M.
+* Doom RISC-V work (Andy, Nathan)
+* BFAST/bitinspector and FPGA paper (Jackson,Ethan C.)
+* XRAY board imaging (Julia)
+* F4PGA Classroom updates (Weston,Zach,Jared)
+* DTRA Dose Rate work
+* DTRA processor testing work
+* JCM Imaging Process (Daniel)
+
 ## Winter 2022
 
 | Date      | Research Talk Speaker (20 min)    | Topic                     | Tech Talk Speaker (20 min)    | Topic            |
