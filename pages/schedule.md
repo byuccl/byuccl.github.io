@@ -9,10 +9,10 @@ title: Schedule
 
 | Date      | Research Talk Speaker (20 min)    | Topic                     | Tech Talk Speaker (20 min)    | Topic            |
 |-----------|-----------------------------------|---------------------------|-------------------------------|------------------|
-| Sep 1     |      | | | |
-| Sep 8     |                 | | | |
-| Sep 15    |                       | | | |
-| Sep 22    |               | | | |
+| Sep 1     |  Hayden Cook     | Cloning RO Pufs | | |
+| Sep 8     |  Andy Wilson     | Google Co-labs and examples | | |
+| Sep 15    |  Wes Stirk                     | LMTF Radiation tests | | |
+| Sep 22    |  Michael/Garrett              | Versal Scrubbing | | |
 | Sep 29    |            | | | |
 | Oct 6     |                        | | | |
 | Oct 13    |      | | | |
@@ -32,7 +32,7 @@ Ideas:
 * Litex & Migen (Wirthlin, Lloyd, Tommy, Tyler)
 * LiteDDR and DDR test (Lloyd, Tommy, Tyler)
 * Yosys TMR (Jacob Brown)
-* CrossLinx Lattice FPGA (Jacob Brown, Ethan M.
+* CrossLinx Lattice FPGA (Jacob Brown, Ethan M.)
 * Doom RISC-V work (Andy, Nathan)
 * BFAST/bitinspector and FPGA paper (Jackson,Ethan C.)
 * XRAY board imaging (Julia)
@@ -40,6 +40,8 @@ Ideas:
 * DTRA Dose Rate work
 * DTRA processor testing work
 * JCM Imaging Process (Daniel)
+* TAMU Versal Test
+* Vitas Extensible Platforms
 
 ## Winter 2022
 
