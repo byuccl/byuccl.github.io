@@ -12,8 +12,8 @@ title: Schedule
 | Sep 1     |  Hayden Cook     | Cloning RO Pufs | | |
 | Sep 8     |  Andy Wilson     | Google Co-labs and examples | | |
 | Sep 15    |  Wes Stirk                     | LMTF Radiation tests | | |
-| Sep 22    |  Michael/Garrett              | Versal Scrubbing | | |
-| Sep 29    |            | | | |
+| Sep 22    |  Dr. Wirthlin              | MiGen Overview | | |
+| Sep 29    |  Michael/Garrett          | Versal Scrubbing | | |
 | Oct 6     |                        | | | |
 | Oct 13    |      | | | |
 | Oct 20    |                   | | | |       
