@@ -48,28 +48,29 @@ permalink: /people/
             {% assign sortedStudents = site.data.students[student_type] | sort: 'last_name' %}
             {% for person in sortedStudents %}
             <div class="col-md-3 col-6 text-center">
-                <!-- <div class="student"> -->
-                {% if person.image %}
-                {% if person.link %}
-                <a href="{{ person.link }}">
-                    <img class="img-fluid h-100 student-image" src="{{site.baseurl}}/images/students/{{ person.image }}"
-                        alt="{{ person.name }}">
-                </a>
-                {% else %}
-                <img class="img-fluid h-100 student-image" src="{{site.baseurl}}/images/students/{{ person.image }}"
-                    alt="{{ person.first_name }} {{ person.last_name }}">
-                {% endif %}
-                {% else %}
-                <img class="img-fluid h-100 student-image" src="/images/no-image.jpg" alt="{{ person.name }}">
-                {% endif %}
+                <div class="student">
+                    {% if person.image %}
+                    {% if person.link %}
+                    <a href="{{ person.link }}">
+                        <img class="img-fluid  student-image" src="{{site.baseurl}}/images/students/{{ person.image }}"
+                            alt="{{ person.name }}">
+                    </a>
+                    {% else %}
+                    <img class="img-fluid  student-image" src="{{site.baseurl}}/images/students/{{ person.image }}"
+                        alt="{{ person.first_name }} {{ person.last_name }}">
+                    {% endif %}
+                    {% else %}
+                    <img class="img-fluid  student-image" src="/images/no-image.jpg" alt="{{ person.name }}">
+                    {% endif %}
 
-                {% if person.link %}
-                <h5 class="student-name"><a href="{{ person.link }}">{{ person.first_name }} {{ person.last_name }}</a>
-                </h5>
-                {% else %}
-                <h5 class="student-name">{{ person.first_name }} {{ person.last_name }}</h5>
-                {% endif %}
-                <!-- </div> -->
+                    {% if person.link %}
+                    <h5 class="student-name"><a href="{{ person.link }}">{{ person.first_name }} {{ person.last_name
+                            }}</a>
+                    </h5>
+                    {% else %}
+                    <h5 class="student-name">{{ person.first_name }} {{ person.last_name }}</h5>
+                    {% endif %}
+                </div>
             </div>
             {% endfor %}
         </div>
