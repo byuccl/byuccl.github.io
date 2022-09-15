@@ -26,11 +26,6 @@ masters_students:
     last_name: Harris
     image: nathan_harris.jpg
     # link: http://betacircuit.net/projects/IMMERSE/log/ #broken link
-   
-  - first_name: Evan 
-    last_name: Poff
-    image: evan_poff.jpg
-    link: https://ccl.byu.edu/wiki/students/evan_poff
 
   - first_name: Wesley 
     last_name: Stirk
@@ -44,6 +39,10 @@ masters_students:
     last_name: Bjerregaard
     image: michael_bjerregaard.jpg
     link: https://blazingmarimba.github.io/
+  
+  - first_name: Ethan 
+    last_name: Durrant
+    image: 
 
 undergrad_students:
   - first_name: Josh 
@@ -104,17 +103,9 @@ undergrad_students:
     last_name: Campbell
     image: ethan_campbell.jpg
 
-  - first_name: Jacob
-    last_name: Chase
-    image: jacob_chase.png
-
   - first_name: Jeremy
     last_name: Read
     image: jeremy_read.jpg
-    
-  - first_name: Jacob
-    last_name: Hansen
-    image: jacob_hansen.jpg  
 
   - first_name: Julia
     last_name: Hansen
@@ -122,15 +113,7 @@ undergrad_students:
 
   - first_name: Adam
     last_name: Taylor
-    image: adam_taylor.jpg  
-
-  - first_name: Ben
-    last_name: Broce
-    image: ben_broce.jpg
-    
-  - first_name: Ammon
-    last_name: Horton
-    image: Ammon_Horton.jpg
+    image: adam_taylor.jpg      
 
   - first_name: Ethan
     last_name: Monlux
@@ -148,4 +131,8 @@ undergrad_students:
   - first_name: Nathan
     last_name: Schafer
     image: nathan_schafer.jpg
+    
+  - first_name: Emma
+    last_name: Frost
+    image: 
     
