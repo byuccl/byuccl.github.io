@@ -9,15 +9,15 @@ title: Schedule
 
 | Date      | Research Talk Speaker (20 min)    | Topic                     | Tech Talk Speaker (20 min)    | Topic            |
 |-----------|-----------------------------------|---------------------------|-------------------------------|------------------|
-| Sep 1     |  Hayden Cook     | Cloning RO Pufs | | |
-| Sep 8     |  Andy Wilson     | Google Co-labs and examples | | |
-| Sep 15    |  Wes Stirk                     | LMTF Radiation tests | | |
-| Sep 22    |  Dr. Wirthlin              | MiGen Overview | | |
-| Sep 29    |  Michael/Garrett          | Versal Scrubbing | | |
-| Oct 6     |                        | | | |
-| Oct 13    |      | | | |
-| Oct 20    |                   | | | |       
-| Oct 27    |                                | | | |
+| Sep 1     |  Hayden Cook                      | Cloning RO Pufs | | |
+| Sep 8     |  Andy Wilson                      | Google Co-labs and examples | | |
+| Sep 15    |  Wes Stirk                        | LMTF Radiation tests | | |
+| Sep 22    |  Dr. Wirthlin / Michael / Garrett | XRTC Presentations - Versal Scrubbing  | | |
+| Sep 29    |  Dr. Wirthlin                     | MiGen Overview | | |
+| Oct 6     |  NO MEETING                       | | | |
+| Oct 13    |  Daniel Hutchings                 | Encrypted IP | | |       
+| Oct 20    |  Ethan/Jackson                    | BFAT | | |
+| Oct 27    |  Julia / Nathan                   | X-Ray, Doom on RISC-V | | |
 | Nov 3     |                                   | | | |
 | Nov 10    |                           | | | |
 | Nov 17    |                                 | | | |
