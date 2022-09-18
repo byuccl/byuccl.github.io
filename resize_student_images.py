@@ -9,6 +9,9 @@ def main():
 
     for student_photo_path in student_photos_path.iterdir():
         img = Image.open(student_photo_path)
+        if max(img.size) <= 400:
+            continue
+        print(student_photo_path, "is", img.size, "resizing...")
 
         # Remove all exif tags
         # https://github.com/python-pillow/Pillow/issues/4346
@@ -27,7 +30,7 @@ def main():
         new_exif = exif.tobytes()
         img.info["exif"] = new_exif
 
-        img.thumbnail((400, 400), Image.ANTIALIAS)
+        img.thumbnail((400, 400), Image.Resampling.LANCZOS)
         img = ImageOps.exif_transpose(img)
         img.save(student_photo_path)
 
