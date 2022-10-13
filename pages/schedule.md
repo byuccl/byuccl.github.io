@@ -16,7 +16,7 @@ title: Schedule
 | Sep 29    |  Ethan/Jackson                    | BFAT | | |
 | Oct 6     |  NO MEETING                       | | | |
 | Oct 13    |  Daniel Hutchings                 | Encrypted IP | | |       
-| Sep 20    |  Dr. Wirthlin                     | MiGen Overview | | |
+| Oct 20    |  Dr. Wirthlin                     | MiGen Overview | | |
 | Oct 27    |  Julia / Nathan                   | X-Ray, Doom on RISC-V | | |
 | Nov 3     |                                   | | | |
 | Nov 10    |                           | | | |
