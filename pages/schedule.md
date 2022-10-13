@@ -13,10 +13,10 @@ title: Schedule
 | Sep 8     |  Andy Wilson                      | Google Co-labs and examples | | |
 | Sep 15    |  Wes Stirk                        | LMTF Radiation tests | | |
 | Sep 22    |  Dr. Wirthlin / Michael / Garrett | XRTC Presentations - Versal Scrubbing  | | |
-| Sep 29    |  Dr. Wirthlin                     | MiGen Overview | | |
+| Sep 29    |  Ethan/Jackson                    | BFAT | | |
 | Oct 6     |  NO MEETING                       | | | |
 | Oct 13    |  Daniel Hutchings                 | Encrypted IP | | |       
-| Oct 20    |  Ethan/Jackson                    | BFAT | | |
+| Sep 20    |  Dr. Wirthlin                     | MiGen Overview | | |
 | Oct 27    |  Julia / Nathan                   | X-Ray, Doom on RISC-V | | |
 | Nov 3     |                                   | | | |
 | Nov 10    |                           | | | |
