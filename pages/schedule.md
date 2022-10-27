@@ -18,8 +18,8 @@ title: Schedule
 | Oct 13    |  Daniel Hutchings                 | Encrypted IP | | |       
 | Oct 20    |  Dr. Wirthlin                     | MiGen Overview | | |
 | Oct 27    |  Julia / Nathan                   | X-Ray, Doom on RISC-V | | |
-| Nov 3     |                                   | | | |
-| Nov 10    |                           | | | |
+| Nov 3     |  Dr. Wirthlin                     | MiGen / Litex | | |
+| Nov 10    |  FPL Papers                         | | | |
 | Nov 17    |                                 | | | |
 | Nov 24    | **Thanksgiving - no meeting**                                | | | |
 | Nov 31    |                                 | | | |
