@@ -19,11 +19,10 @@ title: Schedule
 | Oct 20    |  Dr. Wirthlin                     | MiGen Overview | | |
 | Oct 27    |  Julia / Nathan                   | X-Ray, Doom on RISC-V | | |
 | Nov 3     |  Dr. Wirthlin                     | MiGen / Litex | | |
-| Nov 10    |  FPL Papers                         | | | |
-| Nov 17    |                                 | | | |
+| Nov 10    |  FPL Papers                       | | | |
+| Nov 17    |  FPL Papers                       | | | |
 | Nov 24    | **Thanksgiving - no meeting**                                | | | |
-| Nov 31    |                                 | | | |
-| Dec 1     |                                 | | | |
+| Dec 1     | FPT Dry runs                                | | | |
 | Dec 8     |                                | | | |
 | Dec 9     | **Reading day Party**                            | | | |
 
