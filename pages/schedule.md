@@ -23,7 +23,7 @@ title: Schedule
 | Nov 17    |  FPL Papers                       | | | |
 | Nov 24    | **Thanksgiving - no meeting**                                | | | |
 | Dec 1     | FPT Dry runs                                | | | |
-| Dec 8     |                                | | | |
+| Dec 8     | No Meeting (party next day)       | | | |
 | Dec 9     | **Reading day Party**                            | | | |
 
 Ideas:
