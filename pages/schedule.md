@@ -5,6 +5,22 @@ title: Schedule
 
 # Lab Meeting Schedule
 
+## Winter 2023
+
+Upcoming meetings
+Feb 2: FPT Papers
+Feb 9: Andy FPGA Dry Run + LANSCE summary
+Feb 16: FPT Papers
+Feb 23: Colab Digital design + HBM memories
+Mar 2: 
+Mar 9: DDR + Rowhammer
+
+Other ideas:
+* Wesley thesis topics
+* Reilly/Dallin IP matching
+* Ethan Durrant: Implementing AI algorithms on Versal
+
+
 ## Fall 2022
 
 | Date      | Research Talk Speaker (20 min)    | Topic                     | Tech Talk Speaker (20 min)    | Topic            |
