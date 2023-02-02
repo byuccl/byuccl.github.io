@@ -7,13 +7,15 @@ title: Schedule
 
 ## Winter 2023
 
-Upcoming meetings
-Feb 2: FPT Papers
-Feb 9: Andy FPGA Dry Run + LANSCE summary
-Feb 16: FPT Papers
-Feb 23: Colab Digital design + HBM memories
-Mar 2: 
-Mar 9: DDR + Rowhammer
+
+| Date      | Topic (Speakers)                              | Topic (Speakers)         |
+|-----------|-----------------------------------------------|---------------------------|
+|Feb 2      | FPT Papers (Grad students)                    |
+|Feb 9      | FPGA Dry Run (Andy Wilson)                    | LANSCE summary (SHREC/DTRA Students)
+|Feb 16     | FPT Papers (Grad students)                    |
+|Feb 23     | Colab Digital design (Jared, Weston & Zack)   | HBM memories
+|Mar 2      |
+|Mar 9      | DDR + Rowhammer
 
 Other ideas:
 * Wesley thesis topics
