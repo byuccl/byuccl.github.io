@@ -1,7 +1,15 @@
+- event_name: LANSCE Radiation Testing
+  date: 2022-12-15
+  description: >
+    Researchers from the CCL traveled to the [Los Alamos Neutron Science Center (LANSCE)](https://lansce.lanl.gov) to verify the reliability of various computer reliability methodologies. The experiments performed at LANSCE were a testing methodologies for multicore SoC (System-on-a-Chip), an improved Linux PCAP scrubber, radiation hardened softcore processors, a DDR memory module and attempting to generate bit upsets data for FRAM chips continually performing reads and writes. The image on the left are the experiments exposed to the neutron radiation beam and on the right are researchers involved.
+  images:
+   - news_2022/lansce_experiments.jpg
+   - news_2022/lansce_researchers.jpg
+
 - event_name: LMTF Radiation Testing
   date: 2022-03-18
   description: > 
-    Researchers from the CCL and [Sandia National Laboratory](https://www.sandia.gov/) travelled to the Little Mountain Test Facility in Ogden, Utah to use the [LINAC](https://en.wikipedia.org/wiki/Linear_particle_accelerator) for computer reliability testing. An SRAM chip (a commonly used component in bigger devices) was irradiated at varying intensities and durations to characterize its response. The people in the image on the left are (from left to right) Dolores Black (SNL), Jeff Black (SNL), Wesley Stirk (CCL), Roy Cuoco (SNL), Mike Wirthlin (CCL), and Jeff Goeders (CCL).
+    Researchers from the CCL and [Sandia National Laboratory](https://www.sandia.gov/) traveled to the Little Mountain Test Facility in Ogden, Utah to use the [LINAC](https://en.wikipedia.org/wiki/Linear_particle_accelerator) for computer reliability testing. An SRAM chip (a commonly used component in bigger devices) was irradiated at varying intensities and durations to characterize its response. The people in the image on the left are (from left to right) Dolores Black (SNL), Jeff Black (SNL), Wesley Stirk (CCL), Roy Cuoco (SNL), Mike Wirthlin (CCL), and Jeff Goeders (CCL).
   images: 
     - news_2022/lmtf_a.jpg
     - news_2022/lmtf_b.jpg
