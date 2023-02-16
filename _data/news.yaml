@@ -5,6 +5,15 @@
   images:
     - news_2023/fpga_andy.jpg
 
+  - event_name: FPT 2022
+  date: 2023-02-14
+  description: >
+    PhD student Hayden Cook, along with Professor Jeff Goeders, virtually attended the 2022 IEEE International Conference on Field-Programmable Technology (FPT) ([FPT](https://fpt22.hkust.edu.hk/)).  Hayden presented his paper, "Cloning the Unclonable: Physically Cloning an FPGA Ring-Oscillator PUF", co-authored by BYU students Jonathan Thompson and Zephram Tripp  and professor Jeffrey Goeders as well as retired professor Brad Hutchings. At the end of the conference, it was announced that the paper won FPT's best paper award.
+  images:
+   - news_2022/fpt_slide_0.png
+   - news_2022/fpt_slide_1.png
+   - news_2022/fpt_hk.jpg
+
 - event_name: LANSCE Radiation Testing
   date: 2022-12-15
   description: >
