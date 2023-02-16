@@ -1,3 +1,14 @@
+- title: Cloning the Unclonable: Physically Cloning an FPGA Ring-Oscillator PUF
+  authors: Hayden Cook, Jonathan Thompson, Zephram Tripp, Brad Hutchings, and Jeffrey Goeders
+  conference: IEEE International Conference on Field-Programmable Technology (FPT)
+  year: >
+    2022
+  abstract: >    
+    This work presents a novel technique to physically clone a ring oscillator physically unclonable function (RO PUF) onto another distinct FPGA die, using precise, targeted aging. The resulting cloned RO PUF provides a response that is identical to its copied FPGA counterpart, i.e., the FPGA and its clone are indistinguishable from each other. Targeted aging is achieved by: 1) heating the FPGA using bitstream-located short circuits, and 2) enabling/disabling ROs in the same FPGA bitstream. During self heating caused by short-circuits contained in the FPGA bitstream, circuit areas containing oscillating ROs (enabled) degrade more slowly than circuit areas containing non-oscillating ROs (disabled), due to BTI affects. This targeted aging technique is used to swap the relative frequencies of two ROs that will, in turn, flip the corresponding bit in the PUF response. 
+    
+    Two experiments are described. The first experiment uses targeted aging to create an FPGA that exhibits the same PUF response as another FPGA, i.e., a clone of an FPGA PUF onto another FPGA device. The second experiment demonstrates that this aging technique can create an RO PUF with any desired response.
+  url: cook_fpt22.pdf
+
 - title: Inducing Non-uniform FPGA Aging Using Configuration-based Short Circuits
   authors: Hayden Cook, Jacob Arscott, Brent George, Tanner Gaskin, Jeffrey Goeders, and Brad Hutchings
   conference: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
