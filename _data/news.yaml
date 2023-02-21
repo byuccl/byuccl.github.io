@@ -4,6 +4,7 @@
     PhD students Andrew Wilson and Hayden Cook, along with Professor Jeff Goeders, attended the 2023 International Symposium on Field-Programmable Gate Arrays ([FPGA](https://www.isfpga.org/)) and Workshop on Security for Custom Computing Machines ([SCCM](https://sccm-workshop.github.io/)).  Andrew presented his paper, "Post-Radiation Fault Analysis of a High Reliability FPGA Linux SoC", co-authored by BYU students Nate Baker, Ethan Campbell, and Jackson Sahleen and Professor Mike Wirthlin.  Professor Goeders co-organized the SCCM workshop, where Hayden gave a presentation titled "Cloning the Unclonable: Physically Cloning an FPGA RO PUF".
   images:
     - news_2023/fpga_andy.jpg
+    - news_2023/sccm.jpg
 
 - event_name: FPT 2022
   date: 2023-02-14
