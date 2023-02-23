@@ -14,8 +14,11 @@ title: Schedule
 |Feb 9      | FPGA Dry Run (Andy Wilson)                    | LANSCE summary (SHREC/DTRA Students)
 |Feb 16     | FPT Papers (Grad students)                    |
 |Feb 23     | Colab Digital design (Jared, Weston & Zack)   | HBM memories
-|Mar 2      |
+|Mar 2      | FPGA Papers (Grad students)
 |Mar 9      | DDR + Rowhammer
+|Mar 16     |
+|Mar 23     |
+
 
 Other ideas:
 * Wesley thesis topics
