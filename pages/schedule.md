@@ -15,10 +15,13 @@ title: Schedule
 |Feb 16     | FPT Papers (Grad students)                    |
 |Feb 23     | Colab Digital design (Jared, Weston & Zack)   | HBM memories
 |Mar 2      | FPGA Papers (Grad students)
-|Mar 9      | DDR + Rowhammer
-|Mar 16     |
+|Mar 9      | DDR + Rowhammer, finish FPGA papers
+|Mar 16     | Reilly/Dallin IP Matching
 |Mar 23     |
-
+|Mar 30     |
+|Apr 6      |
+|Apr 13     | 
+|Apr 20     | Lab Party (TBD)
 
 Other ideas:
 * Wesley thesis topics
