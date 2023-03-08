@@ -15,8 +15,8 @@ title: Schedule
 |Feb 16     | FPT Papers (Grad students)                    |
 |Feb 23     | Colab Digital design (Jared, Weston & Zack)   | HBM memories
 |Mar 2      | FPGA Papers (Grad students)
-|Mar 9      | DDR + Rowhammer, finish FPGA papers
-|Mar 16     | Reilly/Dallin IP Matching
+|Mar 9     | Reilly/Dallin IP Matching
+|Mar 16      | 
 |Mar 23     |
 |Mar 30     |
 |Apr 6      |
@@ -24,8 +24,8 @@ title: Schedule
 |Apr 20     | Lab Party (TBD)
 
 Other ideas:
+* DDR + Rowhammer, finish FPGA papers
 * Wesley thesis topics
-* Reilly/Dallin IP matching
 * Ethan Durrant: Implementing AI algorithms on Versal
 
 
