@@ -15,9 +15,9 @@ title: Schedule
 |Feb 16     | FPT Papers (Grad students)                    |
 |Feb 23     | Colab Digital design (Jared, Weston & Zack)   | HBM memories
 |Mar 2      | FPGA Papers (Grad students)
-|Mar 9     | Reilly/Dallin IP Matching
-|Mar 16      | 
-|Mar 23     |
+|Mar 9      | IP Matching (Reilly/Dallin)
+|Mar 16     | DTRA LANSCE results (Wesley/Nathan)
+|Mar 23     | Post-radiation fault injection (Nathan)
 |Mar 30     |
 |Apr 6      |
 |Apr 13     | 
