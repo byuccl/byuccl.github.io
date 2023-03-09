@@ -17,7 +17,7 @@ title: Schedule
 |Mar 2      | FPGA Papers (Grad students)
 |Mar 9      | IP Matching (Reilly/Dallin)
 |Mar 16     | DTRA LANSCE results (Wesley/Nathan)
-|Mar 23     | Post-radiation fault injection (Nathan)
+|Mar 23     | Post-radiation fault injection (Nathan)       | Versal NOC (Wirthlin)
 |Mar 30     |
 |Apr 6      |
 |Apr 13     | 
