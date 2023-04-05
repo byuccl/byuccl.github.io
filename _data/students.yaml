@@ -42,7 +42,7 @@ masters_students:
   
   - first_name: Ethan 
     last_name: Durrant
-    image: 
+    image: ethan_durrant.jpg
 
 undergrad_students:
   - first_name: Josh 
