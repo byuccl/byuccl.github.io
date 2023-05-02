@@ -114,4 +114,8 @@ undergrad_students:
   
   - first_name: Keenan
     last_name: Faulkner
-    image: keenan_faulkner.jpg    
+    image: keenan_faulkner.jpg
+
+  - first_name: Tobias
+    last_name: Cook
+    image: tobias_cook.heif    
