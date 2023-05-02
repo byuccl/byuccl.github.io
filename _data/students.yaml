@@ -107,4 +107,8 @@ undergrad_students:
   - first_name: Pablo
     last_name: López
     image: pablo_lopez.jpg
-
+   
+  - first_name: Collin
+    last_name: Lambert
+    image: collin_lambert.jpg
+    
