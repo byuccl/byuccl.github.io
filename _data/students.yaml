@@ -27,10 +27,6 @@ masters_students:
     last_name: Hutchings
     image: daniel_hutchings.jpg
    
-  - first_name: Wesley 
-    last_name: Stirk
-    image: wesley_stirk2.jpg
-
   - first_name: Jonathan 
     last_name: Thompson
     image: jonathan_thompson.jpg
@@ -52,10 +48,6 @@ undergrad_students:
   - first_name: Joshua 
     last_name: Fife
     image: joshua_fife.jpg
-
-  - first_name: Samuel 
-    last_name: Reynolds
-    image: sam_reynolds.jpg
 
   - first_name: Jackson 
     last_name: Sahleen
@@ -79,17 +71,9 @@ undergrad_students:
     last_name: Smith
     image: garrett_smith.jpg
     
-  - first_name: Zephram
-    last_name: Tripp
-    image: zephram_tripp.jpg
-
   - first_name: Zachary
     last_name: Driskill
     image: zachary_driskill.jpg
-    
-  - first_name: Jared
-    last_name: Robinson
-    image: jared_robinson.jpg
     
   - first_name: Weston
     last_name: Smith
@@ -102,10 +86,6 @@ undergrad_students:
   - first_name: Ethan
     last_name: Campbell
     image: ethan_campbell.jpg
-
-  - first_name: Jeremy
-    last_name: Read
-    image: jeremy_read.jpg
 
   - first_name: Julia
     last_name: Hansen
@@ -128,7 +108,3 @@ undergrad_students:
     last_name: López
     image: pablo_lopez.jpg
 
-  - first_name: Emma
-    last_name: Frost
-    image: emma_frost.jpg
-    
