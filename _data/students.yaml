@@ -132,3 +132,7 @@ undergrad_students:
     last_name: Frost
     image: emma_frost.jpg
     
+  - first_name: Collin
+    last_name: Lambert
+    iamge: collin_lambert.jpg
+    
