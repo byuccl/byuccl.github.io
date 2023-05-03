@@ -111,7 +111,11 @@ undergrad_students:
   - first_name: Collin
     last_name: Lambert
     image: collin_lambert.jpg
-  
+    
   - first_name: Keenan
     last_name: Faulkner
     image: keenan_faulkner.jpg    
+    
+  - first_name: Rami
+    last_name: Arafeh
+    image: Rami_Arafeh.jpg
