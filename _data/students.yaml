@@ -123,4 +123,8 @@ undergrad_students:
   - first_name: Rami
     last_name: Arafeh
     image: Rami_Arafeh.jpg
+    
+  - first_name: Caleb
+    last_name: Price
+    image: Caleb_Price.jpg
 
