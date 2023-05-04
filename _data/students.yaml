@@ -127,4 +127,8 @@ undergrad_students:
   - first_name: Caleb
     last_name: Price
     image: Caleb_Price.jpg
+    
+  - first_name: Samuel
+    last_name: VanDenBerghe
+    image: Samuel_VanDenBerghe.jpg
 
