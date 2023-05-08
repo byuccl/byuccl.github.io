@@ -131,4 +131,7 @@ undergrad_students:
   - first_name: Samuel
     last_name: VanDenBerghe
     image: Samuel_VanDenBerghe.jpg
-
+  - first_name: Ramez
+    last_name: Gammoh
+    image: Ramez_Gammoh.jpg
+    link: https://ramez-git.github.io/Ramez.github.io/
