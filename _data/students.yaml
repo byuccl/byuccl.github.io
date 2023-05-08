@@ -137,6 +137,6 @@ undergrad_students:
     image: Ramez_Gammoh.jpg
     link: https://ramez-git.github.io/Ramez.github.io/
     
-    - first_name: Grace
+  - first_name: Grace
     last_name: Walker
     image: Grace_Walker.jpg
