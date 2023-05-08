@@ -131,3 +131,16 @@ undergrad_students:
   - first_name: Stephen
     last_name: Henstrom
     image: Stephen_Henstrom.jpg
+    
+  - first_name: Samuel
+    last_name: VanDenBerghe
+    image: Samuel_VanDenBerghe.jpg
+    
+  - first_name: Ramez
+    last_name: Gammoh
+    image: Ramez_Gammoh.jpg
+    link: https://ramez-git.github.io/Ramez.github.io/
+    
+  - first_name: Grace
+    last_name: Walker
+    image: Grace_Walker.jpg
