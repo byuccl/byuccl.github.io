@@ -1,3 +1,25 @@
+- title: "Comparison of Neutron Radiation Testing Approaches for a Complex SoC"
+  authors: Wesley Stirk, Evan Poff, Jackson Smith, Jeff Goeders, Mike Wirthlin
+  conference: IEEE Transactions on Nuclear Science
+  year: >
+    2023
+  abstract: >
+    Commercial Systems-on-a-Chip (SoC) have grown more abundant in recent years, including in space applications. This has led to the need to test SoCs in radiation environments, which is difficult due to their inherent complexity. In this work we present two complementary approaches to testing digital SoC devices-- a bare metal approach and an operating system based approach-- and discuss their advantages and disadvantages. 
+  
+    Experimental data collected using these two methods in September 2021 from Los Alamos Neutron Science Center (LANSCE) on the Xilinx UltraScale+ MPSoC is presented and discussed. 
+  url: stirk_tns23.pdf
+
+- title: "Leveraging FPGA Primitives to Improve Word Reconstruction during Netlist Reverse Engineering"
+  authors: Reilly McKendrick, Corey Simpson, Brent Nelson, Jeffrey Goeders
+  conference: IEEE International Conference on Field-Programmable Technology (FPT)
+  year: >
+    2022
+  abstract: >
+      While attempting to perform hardware trojan detection, or other low-level design analyses, it is often necessary to inspect and understand the gate-level netlist of an implemented hardware design.  Unfortunately this process is challenging, as at the physical level, the design does not contain any hierarchy, net names, or word groupings.  Previous work has shown how gate-level netlists can be analyzed to restore high-level circuit structures, including reconstructing multi-bit signals, which aids a user in understanding the behavior of the design.
+
+      In this work we explore improvements to the word reconstruction process, specific to FPGA platforms.  We demonstrate how hard-block primitives in a design (carry chains, block memories, multipliers) can be leveraged to better predict which signals belong to the same words in the original design.  Our technique is evaluated using the VTR benchmarks, synthesized for a 7-series Xilinx FPGA, and the results are compared to DANA, a known word reconstruction tool.  
+  url: mckendrick_fpt22.pdf
+
 - title: "Cloning the Unclonable: Physically Cloning an FPGA Ring-Oscillator PUF (Best Paper FPT 2022)"
   authors: Hayden Cook, Jonathan Thompson, Zephram Tripp, Brad Hutchings, and Jeffrey Goeders
   conference: IEEE International Conference on Field-Programmable Technology (FPT)
