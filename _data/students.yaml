@@ -99,15 +99,6 @@ undergrad_students:
     last_name: Monlux
     image: ethan_monlux.jpg
    
-  - first_name: Jake
-    last_name: Edvenson
-    image: Jake_Edvenson.jpg  
-    link: https://jakeedvenson.github.io/
-        
-  - first_name: Pablo
-    last_name: López
-    image: pablo_lopez.jpg
-   
   - first_name: Collin
     last_name: Lambert
     image: collin_lambert.jpg
