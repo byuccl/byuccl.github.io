@@ -2,6 +2,7 @@
   date: 2023-07-12
   description: >
     Professor Jeff Goeders organized the [2023 DAC System Design Contest](https://dac-sdc.github.io/2023/), where teams competed to perform fast and accurate image recognition on an embedded FPGA or GPU platform. The contest was sponsored by AMD, and held in conjunction with the 2023 Design Automation Conference ([DAC](https://www.dac.com/)), which was held in San Francisco, California.  
+    Professor Goeders held a special session at DAC where the winning teams presented their design solutions.
   images:
     - news_2023/dac_logo.png
     - news_2023/object_detection_example.jfif
