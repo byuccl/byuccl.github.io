@@ -36,10 +36,14 @@ permalink: /papers/
                         </div>
                     {% endif %}
                     {% if paper.url %}
+                        {% assign url_start = paper.url | slice: 0, 4 %}
                         <div>
-                            <a href="/assets/{{ paper.url }}" class="">Paper</a>
+                            {% if url_start == "http" %}
+                                <a href="{{ paper.url }}" class="">Paper</a>
+                            {% else %}
+                                <a href="/assets/{{ paper.url }}" class="">Paper</a>
+                            {% endif %}
                         </div>
-
                     {% endif %}
                 </div>
                 <hr>
