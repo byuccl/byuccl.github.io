@@ -1,3 +1,12 @@
+- title: "The Effects of Gamma Ray Integrated Dose on a Commercial 65nm SRAM Device"
+  authors: Wesley Stirk, Dolores Black, Jeff Black, Matthew Breeding, Roy Cuoco, Mike Wirthlin, Jeff Goeders
+  conference: IEEE Transactions on Nuclear Science
+  year: >
+    2023
+  abstract: >
+    This work shows that the static random access memory (SRAM) error rate for a commercial 65-nm device in a dose rate environment can be highly dependent upon the integrated dose (dose rate × pulse duration). While the typical metric for such testing is dose rate upset (DRU) level in rad(Si)/s, a series of dose rate experiments at Little Mountain Test Facility (LMTF) shows dependence on the integrated dose. The error rate is also found to be dependent on the core voltage, and the preradiation value of the bits. We believe that these effects are explained by a well charge depletion caused by gamma ray photocurrent. 
+  url: https://ieeexplore.ieee.org/document/10153483
+
 - title: "Comparison of Neutron Radiation Testing Approaches for a Complex SoC"
   authors: Wesley Stirk, Evan Poff, Jackson Smith, Jeff Goeders, Mike Wirthlin
   conference: IEEE Transactions on Nuclear Science
@@ -8,6 +17,25 @@
   
     Experimental data collected using these two methods in September 2021 from Los Alamos Neutron Science Center (LANSCE) on the Xilinx UltraScale+ MPSoC is presented and discussed. 
   url: stirk_tns23.pdf
+
+- title: "Neutron Radiation Testing of RISC-V TMR Soft Processors on SRAM-Based FPGAs"
+  authors: A. E. Wilson, M. Wirthlin and N. G. Baker
+  conference: IEEE Transactions on Nuclear Science
+  year: >
+    2023
+  abstract: >
+    Soft, configurable processors within field programmable gate array (FPGA) designs are susceptible to single-event upsets (SEUs). SEU mitigation techniques such as triple modular redundancy (TMR) and configuration memory scrubbing can be used to improve the reliability of soft processor designs. This article presents the improvements in the reliability of five different TMR soft processors within a neutron radiation environment. The TMR processors achieved up to a 75× improvement in reliability at the cost of potentially 4.8× resource utilization and an average 12.4% decrease in maximum frequency compared with the unmitigated designs. This work compares the metrics of reliability, power consumption, and performance among the default unmitigated processors and their TMR variations.
+
+  url: https://ieeexplore.ieee.org/document/10012379
+
+- title: "Post-Radiation Fault Analysis of a High Reliability FPGA Linux SoC"
+  authors: Andrew Wilson, Nathan Baker Ethan Campbell, Jackson Sahlee, Michael Wirthlin
+  conference: Proceedings of the 2023 ACM/SIGDA International Symposium on Field Programmable Gate Arrays
+  year: >
+    2023
+  abstract: >
+    FPGAs are increasingly being used in space and other harsh radiation environments. However, SRAM-based FPGAs are susceptible to radiation in these environments and experience upsets within the configuration memory (CRAM), causing design failure. The effects of CRAM upsets can be mitigated using triple-modular redundancy and configuration scrubbing. This work investigates the reliability of a soft RISC-V SoC system executing the Linux operating system mitigated by TMR and configuration scrubbing. In particular, this paper analyzes the failures of this triplicated system observed at a high-energy neutron radiation experiment. Using a bitstream fault analysis tool, the failures of this system caused by CRAM upsets are traced back to the affected FPGA resource and design logic. This fault analysis identifies the interconnect and I/O as the most vulnerable FPGA resources and the DDR controller logic as the design logic most likely to cause a failure. By identifying the FPGA resources and design logic causing failures in this TMR system, additional design enhancements are proposed to create a more reliable design for harsh radiation environments.
+  url: https://dl.acm.org/doi/10.1145/3543622.3573191
 
 - title: "Leveraging FPGA Primitives to Improve Word Reconstruction during Netlist Reverse Engineering"
   authors: Reilly McKendrick, Corey Simpson, Brent Nelson, Jeffrey Goeders
