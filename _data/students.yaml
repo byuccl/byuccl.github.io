@@ -23,10 +23,6 @@ phd_students:
     # link: http://betacircuit.net/projects/IMMERSE/log/ #broken link
 
 masters_students:    
-  - first_name: Daniel
-    last_name: Hutchings
-    image: daniel_hutchings.jpg
-   
   - first_name: Jonathan 
     last_name: Thompson
     image: jonathan_thompson.jpg
@@ -40,14 +36,14 @@ masters_students:
     last_name: Durrant
     image: ethan_durrant.jpg
 
+  - first_name: Joshua 
+    last_name: Fife
+    image: joshua_fife.jpg
+
 undergrad_students:
   - first_name: Josh 
     last_name: Hanni
     image: josh_hanni.jpg 
-
-  - first_name: Joshua 
-    last_name: Fife
-    image: joshua_fife.jpg
 
   - first_name: Jackson 
     last_name: Sahleen
@@ -107,10 +103,6 @@ undergrad_students:
     last_name: Faulkner
     image: keenan_faulkner.jpg
 
-  - first_name: Tobias
-    last_name: Cook
-    image: tobias_cook.jpg    
-    
   - first_name: Rami
     last_name: Arafeh
     image: Rami_Arafeh.jpg
@@ -126,12 +118,7 @@ undergrad_students:
   - first_name: Samuel
     last_name: VanDenBerghe
     image: Samuel_VanDenBerghe.jpg
-    
-  - first_name: Ramez
-    last_name: Gammoh
-    image: Ramez_Gammoh.jpg
-    link: https://ramez-git.github.io/Ramez.github.io/
-    
+        
   - first_name: Grace
     last_name: Walker
     image: Grace_Walker.jpg
