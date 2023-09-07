@@ -5,7 +5,28 @@ title: Schedule
 
 # Lab Meeting Schedule
 
+## Fall 2023
+
+
 ## Winter 2023
+| Date      | Topic (Speakers)                              | Topic (Speakers)         |
+|-----------|-----------------------------------------------|---------------------------|
+|Sep 7      | Welcome Back!                                 |                           |   
+|Sep 14     | Jeff Gone - Meeting?                          |                           |   
+|Sep 21     | Joshua Fife (VPR)                             |                           |
+|Sep 28     | Jeff Gone - Meeting?                          |                           |
+|Oct 5      | Ethan Durrant / Zack Driskill (AIE)           |                           |
+|Oct 12     | Reilly McKendrick (Phys Netlist)              |                           |
+|Oct 19     | Tyler Ricks / Rami Arafeh                     |                           |
+|Oct 26     | Jeff Gone - Meeting                           |                           |
+|Nov 2      | Dallin Dahl (IP matching)                     |                           |
+|Nov 9      | Nathan Harris (DTRA results)                  |                           |
+|Nov 16     | Nathan Baker (Fault injection)                |                           |
+|Nov 23     | No meeting - thanksgiving                     |                           |
+|Nov 30     | Hayden Cook / Jonathan Thompson (FPGA Aging)  |                           |
+|Dec 7      | Collin Lambert (HBM Warmup)                   |                           |
+|Dec 14     | No meeting                                    |                           |
+|Dec 15     | Lab Party                                     |                           |
 
 
 | Date      | Topic (Speakers)                              | Topic (Speakers)         |
