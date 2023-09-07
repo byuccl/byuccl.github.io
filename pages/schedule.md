@@ -9,6 +9,7 @@ title: Schedule
 
 
 ## Winter 2023
+
 | Date      | Topic (Speakers)                              | Topic (Speakers)         |
 |-----------|-----------------------------------------------|---------------------------|
 |Sep 7      | Welcome Back!                                 |                           |   
