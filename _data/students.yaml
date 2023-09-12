@@ -122,3 +122,7 @@ undergrad_students:
   - first_name: Grace
     last_name: Walker
     image: Grace_Walker.jpg
+
+  - first_name: Dallin
+    last_name: Wood
+    image: dallin_wood.jpg
