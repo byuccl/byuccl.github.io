@@ -1,9 +1,18 @@
+
 - event_name: LBNL Radiation Testing
   date: 2023-09-01
   description: >
     During the week of August 28-September 1st, Michael Bjerregaard and Garrett Smith had the opportunity to participate in a radiation test at the [Lawrence Berkeley National Laboratory (LBNL)](https://www.lbl.gov/). They attended to support a test of the Versal DUT card created by the Xilinx Radiation Test Consortium and to validate the function of the BYU JTAG configuration module (JCM). They were able to help finish setting up to power cabling for the Versal DUT card and place it in the beam. The system performed successfully and we were able to scrub configuration upsets in the Versal part while logging both the upsets and the statuses reported from the part itself. Although there were a number of setbacks, during the setup and test run, the experiment successfully collected programmable logic CRAM upsets at a high rate and determined cross section measurements. The BYU team is looking forward to testing again with more complex designs and more stringent testing conditions.
   images:
     - news_2023/lbnl_sep2023.jpg
+
+- event_name: ChipIr Radiation Testing
+  date: 2023-06-29
+  description: >
+    Undergraudate Weston Smith, along with Professor Mike Wirthlin,  traveled to the [ChipIr Beamline](https://www.isis.stfc.ac.uk/Pages/Chipir.aspx) at the ISIS Neutron and Muon source at the Rutherford Appleton Laboratory, UK, to verify the reliability of various computer reliability methodologies. The experiments performed at ChipIr were testing methodologies for multicore SoC (System-on-a-Chip), various DRAM devices, a TMR RISCV processsor and Linux on a MPSOC. The image on the left are the experiments in the testing environment and the image on the right is Weston Smith setting up the experiment.
+  images:
+    - news_2023/chipir_setup.jpeg
+    - news_2023/chipir_weston.jpeg
 
 - event_name: DAC System Design Contest 2023
   date: 2023-07-12
