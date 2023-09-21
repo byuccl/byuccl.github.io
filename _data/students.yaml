@@ -40,28 +40,21 @@ masters_students:
     last_name: Fife
     image: joshua_fife.jpg
 
-undergrad_students:
-  - first_name: Josh 
-    last_name: Hanni
-    image: josh_hanni.jpg 
-
-  - first_name: Jackson 
-    last_name: Sahleen
-    image: jackson_sahleen.jpg
-  
-  - first_name: Jacob 
-    last_name: Brown
-    image: jacob_brown.jpg
-    link: https://jacobdbrown4.github.io/jacob_brown//pages/log/
-
   - first_name: Nathan
     last_name: Baker
     image: nathan_baker.jpg
     link: https://bakernat003.github.io/pages/log/
     
-  - first_name: Daniel
-    last_name: Ross
-    image: Ross_Daniel.jpg
+  - first_name: Tyler
+    last_name: Ricks
+    image: tyler_ricks.jpg
+    
+undergrad_students:
+
+  - first_name: Jacob 
+    last_name: Brown
+    image: jacob_brown.jpg
+    link: https://jacobdbrown4.github.io/jacob_brown//pages/log/
 
   - first_name: Garrett
     last_name: Smith
@@ -75,10 +68,6 @@ undergrad_students:
     last_name: Smith
     image: Weston_smith.jpg
   
-  - first_name: Tyler
-    last_name: Ricks
-    image: tyler_ricks.jpg
-    
   - first_name: Ethan
     last_name: Campbell
     image: ethan_campbell.jpg
@@ -91,10 +80,6 @@ undergrad_students:
     last_name: Taylor
     image: adam_taylor.jpg      
 
-  - first_name: Ethan
-    last_name: Monlux
-    image: ethan_monlux.jpg
-   
   - first_name: Collin
     last_name: Lambert
     image: collin_lambert.jpg
@@ -119,6 +104,6 @@ undergrad_students:
     last_name: VanDenBerghe
     image: Samuel_VanDenBerghe.jpg
         
-  - first_name: Grace
-    last_name: Walker
-    image: Grace_Walker.jpg
+  - first_name: Dallin
+    last_name: Wood
+    image: dallin_wood.jpg

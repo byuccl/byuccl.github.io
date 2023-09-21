@@ -8,15 +8,14 @@ title: Schedule
 ## Fall 2023
 
 
-## Winter 2023
 
 | Date      | Topic (Speakers)                              | Topic (Speakers)         |
 |-----------|-----------------------------------------------|---------------------------|
 |Sep 7      | Welcome Back!                                 |                           |   
 |Sep 21     | Joshua Fife (VPR)                             |                           |
 |Sep 28     | Nathan Harris (FRAM) / Weston Smith (SoC)     |                           |
-|Oct 5      | Ethan Durrant / Zack Driskill (AIE)           |                           |
-|Oct 12     | Reilly McKendrick (Phys Netlist)              |                           |
+|Oct 5      | Reilly McKendrick (Phys Netlist)              |                           |
+|Oct 12     | Ethan Durrant / Zack Driskill (AIE)           |                           |
 |Oct 19     | Tyler Ricks / Rami Arafeh (DDR testing)       |                           |
 |Oct 26     | Jeff Gone - Meeting                           |                           |
 |Nov 2      | Dallin Dahl (IP matching)                     |                           |
@@ -28,6 +27,7 @@ title: Schedule
 |Dec 14     | No meeting                                    |                           |
 |Dec 15     | Lab Party                                     |                           |
 
+## Winter 2023
 
 | Date      | Topic (Speakers)                              | Topic (Speakers)         |
 |-----------|-----------------------------------------------|---------------------------|
