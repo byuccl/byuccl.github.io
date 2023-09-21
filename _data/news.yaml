@@ -1,3 +1,11 @@
+- event_name: FPL 2023
+  date: 2023-09-04
+  description: >
+    Hayden Cook traveled to Gothenburg, Sweden to attend the 2023 International Conference on Field-Programmable Logic and Applications ([FPL](https://2023.fpl.org/)). While there, Hayden presented a poster on his short paper, "Improving the Reliability of FPGA CRO PUFs", co-authored by BYU student Zephraim Tripp and Professor Brad Hutchings and Jeffrey Goeders.   
+  images:
+    - news_2023/fpl1.jpg 
+    - news_2023/fpl2.jpg 
+    - news_2023/fpl3.jpg
 
 - event_name: LBNL Radiation Testing
   date: 2023-09-01
