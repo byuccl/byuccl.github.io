@@ -19,7 +19,7 @@ title: Schedule
 |Oct 19     | Tyler Ricks / Rami Arafeh (DDR testing)       |                           |
 |Oct 26     | Jeff Gone - Meeting                           |                           |
 |Nov 2      | Dallin Dahl (IP matching)                     |                           |
-|Nov 9      | Nathan Harris (DTRA results)                  |                           |
+|Nov 9      | Sam VanDenBerghe (PCI Scrubbing)              |                           |
 |Nov 16     | Nathan Baker (Fault injection)                |                           |
 |Nov 23     | No meeting - thanksgiving                     |                           |
 |Nov 30     | Hayden Cook / Jonathan Thompson (FPGA Aging)  |                           |
