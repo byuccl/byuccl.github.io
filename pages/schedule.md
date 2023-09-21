@@ -13,9 +13,8 @@ title: Schedule
 | Date      | Topic (Speakers)                              | Topic (Speakers)         |
 |-----------|-----------------------------------------------|---------------------------|
 |Sep 7      | Welcome Back!                                 |                           |   
-|Sep 14     | Jeff Gone - Meeting?                          |                           |   
 |Sep 21     | Joshua Fife (VPR)                             |                           |
-|Sep 28     | Jeff Gone - Meeting?                          |                           |
+|Sep 28     | Nathan Harris (FRAM) / Weston Smith (SoC)     |                           |
 |Oct 5      | Ethan Durrant / Zack Driskill (AIE)           |                           |
 |Oct 12     | Reilly McKendrick (Phys Netlist)              |                           |
 |Oct 19     | Tyler Ricks / Rami Arafeh (DDR testing)       |                           |
