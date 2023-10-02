@@ -1,3 +1,12 @@
+- event_name: RADECS 2023
+  date: 2023-09-25
+  description: >
+    Professor Jeff Goeders traveled to Toulouse, France to present at the 2023 [RADECS](https://radecs2023.com/) conference.  The poster was titled, "The Effects of Gamma Ray Dose on Dynamic Operation of a Commercial FRAM Device", co-authored by BYU students Wesley Stirk and Nathan Harris, and Professor Mike Wirthlin.
+  images:
+    - news_2023/radecs2023_1.jpg
+    - news_2023/radecs2023_2.jpg
+    - news_2023/radecs2023_3.jpg
+
 - event_name: FPL 2023
   date: 2023-09-04
   description: >
