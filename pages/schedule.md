@@ -17,7 +17,7 @@ title: Schedule
 |Oct 5      | Reilly McKendrick (Phys Netlist)              |                           |
 |Oct 12     | Ethan Durrant / Zack Driskill (AIE)           |                           |
 |Oct 19     | Tyler Ricks / Rami Arafeh (DDR testing)       |                           |
-|Oct 26     | Jeff Gone - Meeting                           |                           |
+|Oct 26     | No meeting                                    |                           |
 |Nov 2      | Dallin Dahl (IP matching)                     |                           |
 |Nov 9      | Sam VanDenBerghe (PCI Scrubbing)              |                           |
 |Nov 16     | Nathan Baker (Fault injection)                |                           |
