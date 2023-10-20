@@ -107,3 +107,7 @@ undergrad_students:
   - first_name: Dallin
     last_name: Wood
     image: dallin_wood.jpg
+
+  - first_name: Colton
+    last_name: Yates
+    image: colton_yates.jpg
