@@ -108,6 +108,11 @@ undergrad_students:
     last_name: Wood
     image: dallin_wood.jpg
 
+  - first_name: Colton
+    last_name: Yates
+    image: colton_yates.jpg
+
   - first_name: Jamil
     last_name: Khalaf
     image: jamil_khalaf.jpg
+
