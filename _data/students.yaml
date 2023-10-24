@@ -111,3 +111,8 @@ undergrad_students:
   - first_name: Colton
     last_name: Yates
     image: colton_yates.jpg
+
+  - first_name: Jamil
+    last_name: Khalaf
+    image: jamil_khalaf.jpg
+
