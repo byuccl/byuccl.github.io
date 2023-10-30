@@ -76,10 +76,6 @@ undergrad_students:
     last_name: Hansen
     image: julia_hansen.jpg
 
-  - first_name: Adam
-    last_name: Taylor
-    image: adam_taylor.jpg      
-
   - first_name: Collin
     last_name: Lambert
     image: collin_lambert.jpg
