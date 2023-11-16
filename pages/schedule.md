@@ -19,13 +19,15 @@ title: Schedule
 |Oct 19     | Tyler Ricks / Rami Arafeh (DDR testing)       |                           |
 |Oct 26     | No meeting                                    |                           |
 |Nov 2      | Dallin Dahl (IP matching)                     |                           |
-|Nov 9      | Nathan Baker (Fault injection)                |                           |
-|Nov 16     | Sam VanDenBerghe (PCI Scrubbing)              |                           |
+|Nov 16     | Nathan Baker (Fault injection)                |                           |
 |Nov 23     | No meeting - thanksgiving                     |                           |
 |Nov 30     | Hayden Cook / Jonathan Thompson (FPGA Aging)  |                           |
 |Dec 7      | Collin Lambert (HBM Warmup)                   |                           |
 |Dec 14     | No meeting                                    |                           |
 |Dec 15     | Lab Party                                     |                           |
+
+Rescheduled:
+* Sam VanDenBerghe (PCI Scrubbing)
 
 ## Winter 2023
 
