@@ -5,6 +5,27 @@ title: Schedule
 
 # Lab Meeting Schedule
 
+## Winter 2024
+
+| Date      | Topic (Speakers)                              | Topic (Speakers)         |
+|-----------|-----------------------------------------------|---------------------------|
+|Jan 11     | First week of school                          |                           |   
+|Jan 18     | SHREC Workshop                                |                           |
+|Jan 25     | Sam Van Denberghe (PCI scrubbing)             |                           |
+|Feb 1      | Reilly McKendrick (Phys Netlist)              |                           |
+|Feb 8      | Colton Yates (Digital Colabs)                 |                           |
+|Feb 15     |                                               |                           |
+|Feb 22     |                                               |                           |
+|Feb 29     |                                               |                           |
+|Mar 7      |                                               |                           |
+|Mar 14     |                                               |                           |
+|Mar 21     |                                               |                           |
+|Mar 28     |                                               |                           |
+|Apr 4      |                                               |                           |
+|Apr 11     |                                               |                           |
+|Apr 18     | Lab Party?                                    |                           |
+
+
 ## Fall 2023
 
 
