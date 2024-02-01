@@ -13,8 +13,8 @@ title: Schedule
 |Jan 18     | SHREC Workshop                                |                           |
 |Jan 25     | Sam Van Denberghe (PCI scrubbing)             |                           |
 |Feb 1      | Reilly McKendrick (Phys Netlist)              |                           |
-|Feb 8      | Colton Yates (Digital Colabs)                 |                           |
-|Feb 15     |                                               |                           |
+|Feb 8      | Colton Yates (Digital Colabs)                 |  Caleb Price (ARM DAP)    |
+|Feb 15     | Hayden Cook (AMD Internship)                  |                           |
 |Feb 22     |                                               |                           |
 |Feb 29     |                                               |                           |
 |Mar 7      |                                               |                           |
@@ -25,6 +25,15 @@ title: Schedule
 |Apr 11     |                                               |                           |
 |Apr 18     | Lab Party?                                    |                           |
 
+Ideas:
+* Operating System Fundamentals / Linux
+* PCIe Fundamentals
+* PolarFire overview
+* RapidWright overview (Hayden?)
+* Linux Drivers / DMA (JCM Driver)
+* JCM Virtual Server overview
+* Machine Learning Introduction (local GPT - Joshua Fife)
+* Overview of GPTs in CS 111/CS 235 (Colton)
 
 ## Fall 2023
 
