@@ -495,3 +495,12 @@
     In addition, we demonstrated that this aging could be induced in a non-uniform manner.  In our experiments, the short circuits were all placed in the lower two-thirds of the chip, and one of the characterization ring oscillators was placed at the top of the chip, outside of the region with the short circuits.  The fabric at this location exhibited a 1.36% slowdown, only one-quarter the slowdown measured in the targeted region.
   url: gaskin_fpl20.pdf
   
+- title: Assuring Netlist-to-Bitstream Equivalence using Physical Netlist Generation and Structural Comparison
+  authors: Reilly McKendrick, Keenan Faulkner, and Jeffrey Goeders
+  conference: IEEE International Conference on Field-Programmable Technology (FPT)
+  year: >
+    2023
+  abstract: >
+    Hardware netlists are generally converted into a bitstream and loaded onto an FPGA board through vendorprovided tools. Due to the proprietary nature of these tools, it is up to the designer to trust the validity of the design’s conversion to bitstream. However, motivated attackers may alter the CAD tools’ integrity or manipulate the stored bitstream with the intent to disrupt the functionality of the design.
+    This paper proposes a new method to prove functional equivalence between a synthesized netlist, and the produced FPGA bitstream. The novel approach is comprised of two phases: first, we show how we can utilize implementation information to perform a series of transformations on the netlist, which do not affect its functionality, but ensure it structurally matches what is physically implemented on the FPGA. Second, we present a structural mapping and equivalence checking algorithm that verifies this physical netlist exactly matches the bitstream. We validate this process on several benchmark designs, including checking for false positives by injecting hundreds of design modifications.
+  url: mckendrick_fpt23.pdf
