@@ -7,15 +7,15 @@ title: Schedule
 
 ## Winter 2024
 
-| Date      | Topic (Speakers)                              | Topic (Speakers)         |
+| Date      | Topic (Speakers)                              | Topic (Speakers)          |
 |-----------|-----------------------------------------------|---------------------------|
 |Jan 11     | First week of school                          |                           |   
 |Jan 18     | SHREC Workshop                                |                           |
 |Jan 25     | Sam Van Denberghe (PCI scrubbing)             |                           |
 |Feb 1      | Reilly McKendrick (Phys Netlist)              |                           |
 |Feb 8      | Colton Yates (Digital Colabs)                 |  Caleb Price (ARM DAP)    |
-|Feb 15     | Hayden Cook (AMD Internship)                  |                           |
-|Feb 22     | Reilly McKendrick (Phys Netlist)              |   |
+|Feb 15     | Hayden Cook (AMD Internship)                  |  N/A                      |
+|Feb 22     | Reilly McKendrick (Phys Netlist)              |  N/A                      |
 |Feb 29     | Dallin Wood (Test Vector System)              |                           |
 |Mar 7      | Colton Yates (CS 111 Chatbot)                 | Mike Wirthlin (Tutor ChatBots) |
 |Mar 14     | Caleb Price (Virtual Server Overview)         |                           |
