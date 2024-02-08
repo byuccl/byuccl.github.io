@@ -15,10 +15,10 @@ title: Schedule
 |Feb 1      | Reilly McKendrick (Phys Netlist)              |                           |
 |Feb 8      | Colton Yates (Digital Colabs)                 |  Caleb Price (ARM DAP)    |
 |Feb 15     | Hayden Cook (AMD Internship)                  |                           |
-|Feb 22     |                                               |                           |
-|Feb 29     |                                               |                           |
-|Mar 7      |                                               |                           |
-|Mar 14     |                                               |                           |
+|Feb 22     | Reilly McKendrick (Phys Netlist)              |   |
+|Feb 29     | Dallin Wood (Test Vector System)              |                           |
+|Mar 7      | Colton Yates (CS 111 Chatbot)                 | Mike Wirthlin (Tutor ChatBots) |
+|Mar 14     | Caleb Price (Virtual Server Overview)         |                           |
 |Mar 21     |                                               |                           |
 |Mar 28     |                                               |                           |
 |Apr 4      |                                               |                           |
@@ -26,6 +26,7 @@ title: Schedule
 |Apr 18     | Lab Party?                                    |                           |
 
 Ideas:
+* Dallin's test vector system
 * Operating System Fundamentals / Linux
 * PCIe Fundamentals
 * PolarFire overview
