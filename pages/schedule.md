@@ -16,25 +16,20 @@ title: Schedule
 |Feb 8      | Colton Yates (Digital Colabs)                 |  Caleb Price (ARM DAP)    |
 |Feb 15     | Hayden Cook (AMD Internship)                  |  N/A                      |
 |Feb 22     | Reilly McKendrick (Phys Netlist)              |  N/A                      |
-|Feb 29     | Dallin Wood (Test Vector System)              |                           |
-|Mar 7      | Colton Yates (CS 111 Chatbot)                 | Mike Wirthlin (Tutor ChatBots) |
-|Mar 14     | Caleb Price (Virtual Server Overview)         |                           |
-|Mar 21     |                                               |                           |
-|Mar 28     |                                               |                           |
-|Apr 4      |                                               |                           |
+|Feb 29     | Dallin Wood (Test Vector System)              | Caleb Price (Virtual Server Overview) |
+|Mar 7      | Colton Yates (CS 111 Chatbot)                 | Joshua Fifie (local GPT), Mike Wirthlin (Tutor ChatBots) |
+|Mar 14     | PolarFire overview (Sam and Weston?)          |                           |
+|Mar 21     | PCI Fundamentals (Andy and Sam)               |                           |
+|Mar 28     | DDR Restuls (Rami and Tyler)                  |  (LMTF)                   |
+|Apr 4      | New Versal AI engine overview                 |                           |
 |Apr 11     |                                               |                           |
 |Apr 18     | Lab Party?                                    |                           |
 
 Ideas:
-* Dallin's test vector system
 * Operating System Fundamentals / Linux
-* PCIe Fundamentals
-* PolarFire overview
 * RapidWright overview (Hayden?)
 * Linux Drivers / DMA (JCM Driver)
-* JCM Virtual Server overview
 * Machine Learning Introduction (local GPT - Joshua Fife)
-* Overview of GPTs in CS 111/CS 235 (Colton)
 
 ## Fall 2023
 
