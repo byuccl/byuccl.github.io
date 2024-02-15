@@ -27,11 +27,13 @@ permalink: /projects/
         </div>
 
         <div>
+            {% for url in project.urls %}
             <h5>
-                <a href={{ project.url }}>
-                    {{ project.url }}
+                <a href={{ url }}>
+                    {{ url }}
                 </a>
             </h5>
+            {% endfor %}
         </div>
     </div>
     <hr>
@@ -60,11 +62,13 @@ permalink: /projects/
         </div>
 
         <div>
+            {% for url in project.urls %}
             <h5>
-                <a href={{ project.url }}>
-                    {{ project.url }}
+                <a href={{ url }}>
+                    {{ url }}
                 </a>
             </h5>
+            {% endfor %}
         </div>
     </div>
     <hr>

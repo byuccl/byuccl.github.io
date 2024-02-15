@@ -1,49 +1,70 @@
 # - name: Self-Sustainable Air Quality Sensor
   # description: We are building an air quality sensor that is powered by solar power and uses long range communication. This will allow for sensors to be placed in locations not possible before.
 
-- name: Shorty (Artificial FPGA Aging Using Short Circuits)
-  description: >
-    Shorty is a project that explores different applications of placing configurable short circuits on Xilinx FPGAs. Applications include localized accelerated aging, hardware trojans, watermarking, and more. 
-  image: short_circuit_diagram.png
-  url: https://ieeexplore.ieee.org/abstract/document/9221602
-  order: 2
-  
+- name: BYU Computing Bootcamp
+  description: Bootcamp is a summer program for new students (mostly undergraduates) which provides them training and experience computing technologies required to perform research in a variety of Computer Engineering topics.
+  urls: https://byu-cpe.github.io/ComputingBootCamp/
+  order: 0
 
-- name: COAST (COmpiler-Assisted Software fault Tolerance)
-  description: >
-    COAST is a set of compiler tools that provides automated software protection from single-event effects.  Users can select portions of their porgram to protect, and the compiler will automatically duplicate or triplicate instructions.  COAST currently supports ARM, RISC-V and MSP430 processor architectures, and has been validated by several tests using the LANSCE neutron beam.
-  url: https://github.com/byuccl/coast
-  archive: true
-  
+
+ 
 - name: FPGA Design Assurance
   description: >
     This work focuses on developing techniques to ensure that FPGA designs remain secure throughout the hardware compilation process.  Equivalence checking tools are used to determine whether initial RTL circuit or IP modules are equivalent to the placed and routed FPGA bitstream.
-  url: https://ieeexplore.ieee.org/abstract/document/8494874/
-  order: 3
+  urls: 
+    - https://ieeexplore.ieee.org/abstract/document/8494874/
+    - https://dl.acm.org/doi/full/10.1145/3491233
+    - https://ieeexplore.ieee.org/abstract/document/10416093
+  order: 2
 
 - name: IIRM-URA (Interation of Ionizing Radiation with Matter - University Research Alliance)
   description: >
     IIRM-URA is a research collaboration, funded by the Defense Thread Reduction Agency (DTRA), that brings together several different universities and research labs to investigate the effect radiation has on materials and devices. The BYU team is focused on investigating and modeling the effect radiation has on SoCs (Systems On a Chip). Currently, efforts are centered around Xilinx MPSoC chip and how it fails under radiation.
-  url: https://www.iirm.psu.edu/about/
+  urls: 
+    - https://www.iirm.psu.edu/about/
+    - https://ieeexplore.ieee.org/abstract/document/10026779
+    - https://ieeexplore.ieee.org/abstract/document/10153483/
   order: 1
   
-- name: BYU Computing Bootcamp
-  description: Bootcamp is a summer program for new students (mostly undergraduates) which provides them training and experience computing technologies required to perform research in a variety of Computer Engineering topics.
-  url: https://byu-cpe.github.io/ComputingBootCamp/
-  order: 0
+- name: Shorty (Artificial FPGA Aging Using Short Circuits)
+  description: >
+    Shorty is a project that explores different applications of placing configurable short circuits on Xilinx FPGAs. Applications include localized accelerated aging, hardware trojans, watermarking, and more. 
+  image: short_circuit_diagram.png
+  urls: 
+    - https://ieeexplore.ieee.org/abstract/document/9221602
+    - https://ieeexplore.ieee.org/abstract/document/10296262
+    - https://ieeexplore.ieee.org/abstract/document/9974597
+    - https://dl.acm.org/doi/full/10.1145/3517042
+  order: 3
 
 - name: Open Source FPGA Tools
   description: Our research lab actively contributes to several different open-source FPGA tools and compilers, particularly those in the Symbiflow ecosystem.
-  url: https://symbiflow.github.io/
+  urls: https://symbiflow.github.io/
+  order: 4
+
+- name: FPGA Bitstream Understanding
+  description: This project focuses on developing tools to analyze and understand the netlists from unknown FPGA bitstreams. This includes rebuilding design hierarchy, identifying multi-bit words, and locating known IP cores.
+  urls: 
+    - https://ieeexplore.ieee.org/abstract/document/10318012
+    - https://ieeexplore.ieee.org/abstract/document/9974401
+
+
+# Archive Projects
+
+- name: COAST (COmpiler-Assisted Software fault Tolerance)
+  description: >
+    COAST is a set of compiler tools that provides automated software protection from single-event effects.  Users can select portions of their porgram to protect, and the compiler will automatically duplicate or triplicate instructions.  COAST currently supports ARM, RISC-V and MSP430 processor architectures, and has been validated by several tests using the LANSCE neutron beam.
+  urls: https://github.com/byuccl/coast
+  archive: true
 
 - name: PYNQ PRIO (Partially Reconfigurable IO on the PYNQ)
   description: >
     PYNQ PRIO is an addition to the Xilinx PYNQ project. With the integration of PRIO the PYNQ package is augmented with two powerful new features. First is the addition of partial reconfiguration, allowing users to reconfigure targeted sections of the FPGA fabric at will. Second is device tree overlay support allowing users to dynamically load, unload and reload hardware specific Linux Kernel drivers, making the Kernel as reconfigurable as the hardware it supports. Currently PRIO is fully integrated with the Xilinx PYNQ project. 
-  url: https://github.com/byuccl/PYNQ-PRIO
+  urls: https://github.com/byuccl/PYNQ-PRIO
   archive: true
 
 - name: PYNQ Dynamic Video Processing Pipeline
   description: >
     This project demonstrates the use of partial reconfiguration to dynamically configure a custom video processing pipeline during run-time.
-  url: https://github.com/byuccl/BYU_PYNQ_PR_Video_Pipeline
+  urls: https://github.com/byuccl/BYU_PYNQ_PR_Video_Pipeline
   archive: true
