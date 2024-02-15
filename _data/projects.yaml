@@ -12,6 +12,7 @@
   description: >
     This work focuses on developing techniques to ensure that FPGA designs remain secure throughout the hardware compilation process.  Equivalence checking tools are used to determine whether initial RTL circuit or IP modules are equivalent to the placed and routed FPGA bitstream.
   urls: 
+    - https://github.com/byuccl/bfasst
     - https://ieeexplore.ieee.org/abstract/document/8494874/
     - https://dl.acm.org/doi/full/10.1145/3491233
     - https://ieeexplore.ieee.org/abstract/document/10416093
