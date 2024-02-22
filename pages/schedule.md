@@ -15,7 +15,7 @@ title: Schedule
 |Feb 1      | Reilly McKendrick (Phys Netlist)              |                           |
 |Feb 8      | Colton Yates (Digital Colabs)                 |  Caleb Price (ARM DAP)    |
 |Feb 15     | Hayden Cook (AMD Internship)                  |  N/A                      |
-|Feb 22     | Reilly McKendrick (Phys Netlist)              |  N/A                      |
+|Feb 22     | Reilly McKendrick (Phys Netlist)              |  Hayden Continue          |
 |Feb 29     | Dallin Wood (Test Vector System)              | Caleb Price (Virtual Server Overview) |
 |Mar 7      | Colton Yates (CS 111 Chatbot)                 | Joshua Fifie (local GPT), Mike Wirthlin (Tutor ChatBots) |
 |Mar 14     | PolarFire overview (Sam and Weston?)          |                           |
