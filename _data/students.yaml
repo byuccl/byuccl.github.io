@@ -27,11 +27,6 @@ masters_students:
     last_name: Thompson
     image: jonathan_thompson.jpg
 
-  - first_name: Michael 
-    last_name: Bjerregaard
-    image: michael_bjerregaard.jpg
-    link: https://blazingmarimba.github.io/
-  
   - first_name: Ethan 
     last_name: Durrant
     image: ethan_durrant.jpg
