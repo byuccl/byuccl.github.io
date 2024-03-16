@@ -1,0 +1,2247 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Papers • BYU Configurable Computing Lab</title>
+  <meta name="description"
+    content="The configurable computing lab focuses on FPGAs and FPGA-like devices, researching new tools and techniques for reliability, security, debug, high-level synthesis, open-source CAD, and hardware accelerated applications.
+">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href=" /css/main.css">
+
+  <link rel="canonical" href="https://ccl.byu.edu//papers/">
+  <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png"> -->
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-53877117-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-53877117-2');
+  </script> -->
+</head>
+
+  <body>
+
+    <header class="site-header">
+    <nav class="nav">
+        <!-- <div class="containter-fluid"> -->
+            <!-- <div class="row"> --> 
+            
+            <!-- <div class="col"> -->
+                
+                <!-- <div class="containter-fluid"> -->
+                    <a href="/" class="logo">BYU Configurable Computing Lab</a>
+                    <!-- <h1>Hi</h1> -->
+
+                <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="col"> -->
+                <!-- <div class="col-sm"> -->
+
+                <!-- <h1>BYU Configurable Computing Lab2</h1> -->
+                <!-- <div class="nav_ul"> -->
+                <ul class="nav_ul">
+                    
+                    <a class="nav-link" href="/">Home</a>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <a class="nav-link" href="/news/">News</a>
+                    <!-- <a class="nav-link" href="/news/" style="color: ;">News</a> -->
+                    
+                    
+                    
+                    
+                    
+                    <a class="nav-link active" href="/papers/">Papers</a>
+                    <!-- <a class="nav-link active" href="/papers/" style="color: ;">Papers</a> -->
+                    
+                    
+                    
+                    
+                    
+                    <a class="nav-link" href="/people/">People</a>
+                    <!-- <a class="nav-link" href="/people/" style="color: ;">People</a> -->
+                    
+                    
+                    
+                    
+                    
+                    <a class="nav-link" href="/projects/">Projects</a>
+                    <!-- <a class="nav-link" href="/projects/" style="color: ;">Projects</a> -->
+                    
+                    
+                    
+                    
+                    
+                    <a class="nav-link" href="/pages/schedule.html">Schedule</a>
+                    <!-- <a class="nav-link" href="/pages/schedule.html" style="color: ;">Schedule</a> -->
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </ul>
+            <!-- </div> -->
+                <!-- </div> -->
+            <!-- </div> -->
+            <!-- </div> -->
+        <!-- </div> -->
+
+
+    </nav>
+</header>
+
+    <div class="container">
+        <div class="papers">
+
+    
+    
+
+    
+
+        <h1 class="year">
+            2023
+
+        </h1>
+
+        
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Assuring Netlist-to-Bitstream Equivalence using Physical Netlist Generation and Structural Comparison
+                    </h4>
+                    <p class="paper-authors">Reilly McKendrick, Keenan Faulkner, and Jeffrey Goeders</p>
+                    <p class="paper-conference">IEEE International Conference on Field-Programmable Technology (FPT)</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                Hardware netlists are generally converted into a bitstream and loaded onto an FPGA board through vendorprovided tools. Due to the proprietary nature of these tools, it is up to the designer to trust the validity of the design’s conversion to bitstream. However, motivated attackers may alter the CAD tools’ integrity or manipulate the stored bitstream with the intent to disrupt the functionality of the design. This paper proposes a new method to prove functional equivalence between a synthesized netlist, and the produced FPGA bitstream. The novel approach is comprised of two phases: first, we show how we can utilize implementation information to perform a series of transformations on the netlist, which do not affect its functionality, but ensure it structurally matches what is physically implemented on the FPGA. Second, we present a structural mapping and equivalence checking algorithm that verifies this physical netlist exactly matches the bitstream. We validate this process on several benchmark designs, including checking for false positives by injecting hundreds of design modifications.
+
+                            </p>
+                        </div>
+                    
+                    
+                        
+                        <div>
+                            
+                                <a href="/assets/mckendrick_fpt23.pdf" class="">Paper</a>
+                            
+                        </div>
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Comparison of Neutron Radiation Testing Approaches for a Complex SoC
+                    </h4>
+                    <p class="paper-authors">Wesley Stirk, Evan Poff, Jackson Smith, Jeff Goeders, Mike Wirthlin</p>
+                    <p class="paper-conference">IEEE Transactions on Nuclear Science</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                Commercial Systems-on-a-Chip (SoC) have grown more abundant in recent years, including in space applications. This has led to the need to test SoCs in radiation environments, which is difficult due to their inherent complexity. In this work we present two complementary approaches to testing digital SoC devices-- a bare metal approach and an operating system based approach-- and discuss their advantages and disadvantages. 
+Experimental data collected using these two methods in September 2021 from Los Alamos Neutron Science Center (LANSCE) on the Xilinx UltraScale+ MPSoC is presented and discussed. 
+
+                            </p>
+                        </div>
+                    
+                    
+                        
+                        <div>
+                            
+                                <a href="/assets/stirk_tns23.pdf" class="">Paper</a>
+                            
+                        </div>
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Neutron Radiation Testing of RISC-V TMR Soft Processors on SRAM-Based FPGAs
+                    </h4>
+                    <p class="paper-authors">A. E. Wilson, M. Wirthlin and N. G. Baker</p>
+                    <p class="paper-conference">IEEE Transactions on Nuclear Science</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                Soft, configurable processors within field programmable gate array (FPGA) designs are susceptible to single-event upsets (SEUs). SEU mitigation techniques such as triple modular redundancy (TMR) and configuration memory scrubbing can be used to improve the reliability of soft processor designs. This article presents the improvements in the reliability of five different TMR soft processors within a neutron radiation environment. The TMR processors achieved up to a 75× improvement in reliability at the cost of potentially 4.8× resource utilization and an average 12.4% decrease in maximum frequency compared with the unmitigated designs. This work compares the metrics of reliability, power consumption, and performance among the default unmitigated processors and their TMR variations.
+
+                            </p>
+                        </div>
+                    
+                    
+                        
+                        <div>
+                            
+                                <a href="https://ieeexplore.ieee.org/document/10012379" class="">Paper</a>
+                            
+                        </div>
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Post-Radiation Fault Analysis of a High Reliability FPGA Linux SoC
+                    </h4>
+                    <p class="paper-authors">Andrew Wilson, Nathan Baker Ethan Campbell, Jackson Sahlee, Michael Wirthlin</p>
+                    <p class="paper-conference">Proceedings of the 2023 ACM/SIGDA International Symposium on Field Programmable Gate Arrays</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                FPGAs are increasingly being used in space and other harsh radiation environments. However, SRAM-based FPGAs are susceptible to radiation in these environments and experience upsets within the configuration memory (CRAM), causing design failure. The effects of CRAM upsets can be mitigated using triple-modular redundancy and configuration scrubbing. This work investigates the reliability of a soft RISC-V SoC system executing the Linux operating system mitigated by TMR and configuration scrubbing. In particular, this paper analyzes the failures of this triplicated system observed at a high-energy neutron radiation experiment. Using a bitstream fault analysis tool, the failures of this system caused by CRAM upsets are traced back to the affected FPGA resource and design logic. This fault analysis identifies the interconnect and I/O as the most vulnerable FPGA resources and the DDR controller logic as the design logic most likely to cause a failure. By identifying the FPGA resources and design logic causing failures in this TMR system, additional design enhancements are proposed to create a more reliable design for harsh radiation environments.
+
+                            </p>
+                        </div>
+                    
+                    
+                        
+                        <div>
+                            
+                                <a href="https://dl.acm.org/doi/10.1145/3543622.3573191" class="">Paper</a>
+                            
+                        </div>
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        The Effects of Gamma Ray Integrated Dose on a Commercial 65nm SRAM Device
+                    </h4>
+                    <p class="paper-authors">Wesley Stirk, Dolores Black, Jeff Black, Matthew Breeding, Roy Cuoco, Mike Wirthlin, Jeff Goeders</p>
+                    <p class="paper-conference">IEEE Transactions on Nuclear Science</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                This work shows that the static random access memory (SRAM) error rate for a commercial 65-nm device in a dose rate environment can be highly dependent upon the integrated dose (dose rate × pulse duration). While the typical metric for such testing is dose rate upset (DRU) level in rad(Si)/s, a series of dose rate experiments at Little Mountain Test Facility (LMTF) shows dependence on the integrated dose. The error rate is also found to be dependent on the core voltage, and the preradiation value of the bits. We believe that these effects are explained by a well charge depletion caused by gamma ray photocurrent. 
+
+                            </p>
+                        </div>
+                    
+                    
+                        
+                        <div>
+                            
+                                <a href="https://ieeexplore.ieee.org/document/10153483" class="">Paper</a>
+                            
+                        </div>
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    
+
+        <h1 class="year">
+            2022
+
+        </h1>
+
+        
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Approaches for FPGA Design Assurance
+
+                    </h4>
+                    <p class="paper-authors">Eli Cahill, Brad Hutchings, Jeffrey Goeders
+</p>
+                    <p class="paper-conference">ACM Transactions on Reconfigurable Technology and Systems (TRETS)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                Field-Programmable Gate Arrays (FPGAs) are widely used for custom hardware implementations, including in many security-sensitive industries, such as defense, communications, transportation, medical, and more. Compiling source hardware descriptions to FPGA bitstreams requires the use of complex computer-aided design (CAD) tools. These tools are typically proprietary and closed-source, and it is not possible to easily determine that the produced bitstream is equivalent to the source design. In this work we present various FPGA design flows that leverage pre-synthesizing or pre-implementing parts of the design, combined with open-source synthesis tools, bitstream-to-netlist tools, and commercial equivalence checking tools, to verify that a produced hardware design is equivalent to the designer’s source design. We evaluate these different design flows on several benchmark circuits, and demonstrate that they are effective at detecting malicious modifications made to the design during compilation. We compare our proposed design flows with baseline commercial design flows and measure the overheads to area and runtime.
+
+                            </p>
+                        </div>
+                    
+                    
+                        
+                        <div>
+                            
+                                <a href="/assets/cahill_trets21.pdf" class="">Paper</a>
+                            
+                        </div>
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Cloning the Unclonable: Physically Cloning an FPGA Ring-Oscillator PUF (Best Paper FPT 2022)
+                    </h4>
+                    <p class="paper-authors">Hayden Cook, Jonathan Thompson, Zephram Tripp, Brad Hutchings, and Jeffrey Goeders</p>
+                    <p class="paper-conference">IEEE International Conference on Field-Programmable Technology (FPT)</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                This work presents a novel technique to physically clone a ring oscillator physically unclonable function (RO PUF) onto another distinct FPGA die, using precise, targeted aging. The resulting cloned RO PUF provides a response that is identical to its copied FPGA counterpart, i.e., the FPGA and its clone are indistinguishable from each other. Targeted aging is achieved by: 1) heating the FPGA using bitstream-located short circuits, and 2) enabling/disabling ROs in the same FPGA bitstream. During self heating caused by short-circuits contained in the FPGA bitstream, circuit areas containing oscillating ROs (enabled) degrade more slowly than circuit areas containing non-oscillating ROs (disabled), due to BTI affects. This targeted aging technique is used to swap the relative frequencies of two ROs that will, in turn, flip the corresponding bit in the PUF response. 
+Two experiments are described. The first experiment uses targeted aging to create an FPGA that exhibits the same PUF response as another FPGA, i.e., a clone of an FPGA PUF onto another FPGA device. The second experiment demonstrates that this aging technique can create an RO PUF with any desired response.
+
+                            </p>
+                        </div>
+                    
+                    
+                        
+                        <div>
+                            
+                                <a href="/assets/cook_fpt22.pdf" class="">Paper</a>
+                            
+                        </div>
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Inducing Non-uniform FPGA Aging Using Configuration-based Short Circuits
+                    </h4>
+                    <p class="paper-authors">Hayden Cook, Jacob Arscott, Brent George, Tanner Gaskin, Jeffrey Goeders, and Brad Hutchings</p>
+                    <p class="paper-conference">ACM Transactions on Reconfigurable Technology and Systems (TRETS)</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                This work demonstrates a novel method of accelerating FPGA aging by configuring FPGAs to implement thousands of short circuits, resulting in high on-chip currents and temperatures. Patterns of ring oscillators are placed across the chip and are used to characterize the operating frequency of the FPGA fabric. Over the course of several months of running the short circuits on two-thirds of the reconfigurable fabric, with daily characterization of the FPGA 6 performance, we demonstrate a decrease in FPGA frequency of 8.5%. We demonstrate that this aging is induced in a non-uniform manner. The maximum slowdown outside of the shorted regions is 2.1%, or about a fourth of the maximum slowdown that is experienced inside the shorted region. In addition, we demonstrate that the slowdown is linear after the first two weeks of the experiment and is unaffected by a recovery period. Additional experiments involving short circuits are also performed to demonstrate the results of our initial experiments are repeatable. These experiments also use a more fine-grained characterization method that provides further insight into the non-uniformed nature of the aging caused by short circuits. 
+
+                            </p>
+                        </div>
+                    
+                    
+                        
+                        <div>
+                            
+                                <a href="/assets/cook_trets22.pdf" class="">Paper</a>
+                            
+                        </div>
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Leveraging FPGA Primitives to Improve Word Reconstruction during Netlist Reverse Engineering
+                    </h4>
+                    <p class="paper-authors">Reilly McKendrick, Corey Simpson, Brent Nelson, Jeffrey Goeders</p>
+                    <p class="paper-conference">IEEE International Conference on Field-Programmable Technology (FPT)</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                While attempting to perform hardware trojan detection, or other low-level design analyses, it is often necessary to inspect and understand the gate-level netlist of an implemented hardware design.  Unfortunately this process is challenging, as at the physical level, the design does not contain any hierarchy, net names, or word groupings.  Previous work has shown how gate-level netlists can be analyzed to restore high-level circuit structures, including reconstructing multi-bit signals, which aids a user in understanding the behavior of the design.
+In this work we explore improvements to the word reconstruction process, specific to FPGA platforms.  We demonstrate how hard-block primitives in a design (carry chains, block memories, multipliers) can be leveraged to better predict which signals belong to the same words in the original design.  Our technique is evaluated using the VTR benchmarks, synthesized for a 7-series Xilinx FPGA, and the results are compared to DANA, a known word reconstruction tool.  
+
+                            </p>
+                        </div>
+                    
+                    
+                        
+                        <div>
+                            
+                                <a href="/assets/mckendrick_fpt22.pdf" class="">Paper</a>
+                            
+                        </div>
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    
+
+        <h1 class="year">
+            2021
+
+        </h1>
+
+        
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Emulating Radiation-Induced Multicell Upset Patterns in SRAM FPGAs With Fault Injection
+                    </h4>
+                    <p class="paper-authors">Andres Pérez-Celis, Corbin Thurlow, Michael Wirthlin</p>
+                    <p class="paper-conference">IEEE Transactions on Nuclear Science</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                Radiation-induced multiple-cell upsets (MCUs) are events that account for more than 50% of failures on triple modular redundancy (TMR) designs in SRAM field programmable gate array (FPGA). It is important to understand these events and their impact on FPGA designs to develop improved fault mitigation techniques. This article describes an enhanced fault injection (FI) method for SRAM-based FPGAs that injects MCUs within the configuration memory of an FPGA based on MCU information extracted from previous radiation tests. The improved FI technique uncovers  more failures than is observable in conventional single-bit FI approaches. The results from several MCU FI experiments also show that injecting MCUs can replicate the failures observed in the radiation beam test and identify new failure mechanisms.
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Fault Injection of TMR Open Source RISC-V Processors using Dynamic Partial Reconfiguration on SRAM-based FPGAs
+                    </h4>
+                    <p class="paper-authors">Andrew Wilson, Michael Wirthlin</p>
+                    <p class="paper-conference">Space Computing Conference (SCC)</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                SRAM-based FPGAs are frequently used for critical functions in space applications. Soft processors implemented within these FPGAs are often needed to satisfy the mission requirements. The open ISA, RISC-V, has allowed for the development of a wide range of open source processors. Like all SRAM-based FPGA digital designs, these soft processors are susceptible to SEUs. This paper presents an investigation of the performances and relative SEU sensitivity of a selection of newly available open source RISC-V processors. Utilizing dynamic partial reconfiguration, this novel automatic test equipment rapidly deployed different implementations and evaluated SEU sensitivity through fault injection. Using BYU’s new SpyDrNet tools, fine-grain TMR was also applied to each processor with results ranging from a 20× to 500× reduction in sensitivity.
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Identifying Radiation-Induced Micro-SEFIs in SRAM FPGAs
+                    </h4>
+                    <p class="paper-authors">Andres Pérez-Celis, Corbin Thurlow, Michael Wirthlin</p>
+                    <p class="paper-conference">IEEE Transactions on Nuclear Science</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                Field-programmable gate arrays (FPGAs) are susceptible to radiation-induced effects that can affect more than one memory cell. Radiation-induced microsingle event functional interrupts (micro-SEFIs) are one of such events that can upset several bits at a time. These events need to be studied because they can overcome protection from techniques such as triple modular redundancy (TMR) and error correction codes (ECCs). Extracting these events from radiation data helps to understand if specific resources of the FPGA are more vulnerable and the extent of this vulnerability. This article presents a method based on statistics and fault injection to identify micro-SEFIs from beam-test data in the configuration memory and block RAM (BRAM) of SRAM-based FPGAs. The results show the cross section of these events for the configuration RAM (CRAM) and BRAM for three families of Xilinx SRAM FPGAs gathered throughout three neutron tests. This article also contains data from a fault injection campaign to uncover the possible CRAM source bits causing micro-SEFIs in memory look-up tables (LUTs) of Xilinx 7-series and Ultrascale devices.
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Investigating How Software Characteristics Impact the Effectiveness of Automated Software Fault Tolerance
+
+                    </h4>
+                    <p class="paper-authors">Benjamin James, Michael Wirthlin, Jeffrey Goeders
+</p>
+                    <p class="paper-conference">IEEE Transactions on Nuclear Science (TNS)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                A number of publications have examined automated fault tolerance techniques for software running on commercial off-the-shelf microcontrollers. Recently, we published an automated compiler-based protection tool called COmpiler Assisted Software fault Tolerance (COAST), a tool that automatically inserts dual- or triple-modular redundancy into software programs. In this study, we use COAST to explore how the effectiveness of automated fault protection varies between different benchmarks, tested on an ARM Cortex-A9 platform. Our hypothesis is that certain benchmark characteristics are more likely than others to influence the effectiveness of automated fault protection. Through neutron radiation testing at the Los Alamos Neutron Science Center (LANSCE), we show that cross section improvements vary from 1.6× to 54× across eight benchmark variants. We then explore the characteristics of these benchmarks and investigate how properties of these benchmarks may impact the effectiveness of automated fault protection. Finally, we leverage a novel fault injection platform to isolate two of these benchmark characteristics and validate our hypotheses.
+
+                            </p>
+                        </div>
+                    
+                    
+                        
+                        <div>
+                            
+                                <a href="/assets/james_tns21.pdf" class="">Paper</a>
+                            
+                        </div>
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Neutron radiation testing of a TMR VexRiscv soft processor on SRAM-based FPGAs
+                    </h4>
+                    <p class="paper-authors">Andrew Wilson, S Larsen, C Wilson, Corbin Thurlow, Michael Wirthlin</p>
+                    <p class="paper-conference">IEEE Transactions on Nuclear Science</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                Soft processors are often used within field-programmable gate array (FPGA) designs in radiation hazardous environments. These systems are susceptible to single-event upsets (SEUs) that can corrupt both the hardware configuration and software implementation. Mitigation of these SEUs can be accomplished by applying triple modular redundancy (TMR) techniques to the processor. This article presents fault injection and neutron radiation results of a Linux-capable TMR VexRiscv processor. The TMR processor achieved a 10× improvement in SEU-induced mean fluence to failure with a cost of 4× resource utilization. To further understand the TMR system failures, additional post-radiation fault injection was performed with targets generated from the radiation data. This analysis showed that not all the failures were due to single-bit upsets, but potentially caused by multibit upsets, nontriplicated IO, and unmonitored nonconfiguration RAM (CRAM) SEUs.
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Partial TMR for Improving the Soft Error Reliability of SRAM-Based FPGA Designs
+                    </h4>
+                    <p class="paper-authors">Andrew Keller, Michael Wirthlin</p>
+                    <p class="paper-conference">IEEE Transactions on Nuclear Science</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                Triple modular redundancy (TMR) is a single-event upset (SEU)-mitigation technique that uses three circuit copies to mask a failure in any one copy. It improves the soft error reliability of designs implemented on SRAM-based field-programmable gate arrays (FPGAs) by masking the effects of upsets in the configuration memory. Although TMR is most effective when applied to an entire FPGA design, a reduction in the sensitive cross section of an FPGA design can be obtained by applying TMR selectively. This article explores several approaches for selecting components to triplicate. The benefit is a reduction in the neutron cross section for any output error as a percentage compared to that of a non-triplicated design. The cost is the percentage of components triplicated. The goal is to maximize the benefit-cost ratio. Twenty-five different selections are tested on a benchmark design. Some selections increase the cross section; others decrease the cross section significantly.
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        The Impact of Terrestrial Radiation on FPGAs in Data Centers
+                    </h4>
+                    <p class="paper-authors">Andrew Keller, Michael Wirthlin</p>
+                    <p class="paper-conference">ACM Transactions on Reconfigurable Technology and Systems (TRETS)</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                Field programmable gate arrays (FPGAs) are used in large numbers in data centers around the world. They are used for cloud computing and computer networking. The most common type of FPGA used in data centers are re-programmable SRAM-based FPGAs. These devices offer potential performance and power consumption savings. A single device also carries a small susceptibility to radiation-induced soft errors, which can lead to unexpected behavior. This article examines the impact of terrestrial radiation on FPGAs in data centers. Results from artificial fault injection and accelerated radiation testing on several data-center-like FPGA applications are compared. A new fault injection scheme provides results that are more similar to radiation testing. Silent data corruption (SDC) is the most commonly observed failure mode followed by FPGA unavailable and host unresponsive. A hypothetical deployment of 100,000 FPGAs in Denver, Colorado, will experience upsets in configuration memory every half-hour on average and SDC failures every 0.5–11 days on average.
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Using partial duplication with compare to detect radiation-induced failure in a commercial FPGA-Based networking system
+                    </h4>
+                    <p class="paper-authors">Andrew Keller, Jared Anderson, Michael Wirthlin, Shi-Jie Wen, Rita Fung, Conner Chambers</p>
+                    <p class="paper-conference">International Reliability Physics Symposium (IRPS)</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                Duplication with compare, a circuit-level fault-detection technique, is used in this study in a partial manner to detect radiation-induced failures in a commercial FPGA-based networking system. A novel approach is taken to overcome challenges presented by multiple clock domains, the use of third-party IP, and the collection of error detection signals dispersed throughout the design. Novel fault injection techniques are also used to evaluate critical regions of the target design. Accelerated neutron radiation testing was performed to evaluate the effectiveness of the applied technique. One design version was able to detect 45% of all failures with the proposed technique applied to 29% of the circuit components within the design. Another design version was able to detect 31% of all failures with the proposed technique applied to only 8% of circuit components.
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        XBERT: Xilinx Logical-Level Bitstream Embedded RAM Transfusion
+                    </h4>
+                    <p class="paper-authors">Matthew Hofmann, Zhiyao Tang, Jonathan Orgill, Jonathan Nelson, David Glanzman, Brent Nelson, Andre DeHon</p>
+                    <p class="paper-conference">International Symposium on Field-Programmable Custom Computing Machines (FCCM)</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                XBERT is an API and design toolset for zerocost access to the on-chip SRAM blocks on Xilinx architectures using the device’s configuration path. The XBERT API is highlevel, allowing developers to specify DMA-like data transfers of memory contents in terms of the logical memories in the application source code and thus is applicable to essentially any design targeting Xilinx devices. XBERT is broadly accessible to application developers, hiding the low-level details of physical mapping and bitstream encoding. XBERT is efficient, consuming zero reconfigurable resources with no impact on Fmax. XBERT achieves a bandwidth of 3–14 megabytes per second (MB/s) and complete readback and translation of a memory in an isolated 36Kb block RAM in less than 0.5 ms on a Xilinx UltraScale+ MPSoC Zynq.
+                            </p>
+                        </div>
+                    
+                    
+                        
+                        <div>
+                            
+                                <a href="/assets/xbert_fccm21.pdf" class="">Paper</a>
+                            
+                        </div>
+                    
+                </div>
+                <hr>
+            
+        
+    
+
+        <h1 class="year">
+            2020
+
+        </h1>
+
+        
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Applying Compiler-Automated Software Fault Tolerance to Multiple Processor Platforms
+
+                    </h4>
+                    <p class="paper-authors">Benjamin James, Heather Quinn, Michael Wirthlin, and Jeffrey Goeders
+</p>
+                    <p class="paper-conference">IEEE Transactions on Nuclear Science (TNS)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                Several recent works have explored the feasibility of using Commercial off-the-shelf (COTS) processing systems in radiation-prone environments, such as spacecraft. Typically, this approach requires some form of protection, to ensure that the software can tolerate radiation upsets without compromising the system. Our recent work, COAST (COmpiler Assisted Software fault Tolerance), provides automated compiler modification of software programs to insert dual- or triple-modular redundancy. In this work we extend COAST to support several new processing platforms, including RISC-V and Xilinx SoC-based products. The automated software protection mechanisms are tested for a variety of configurations, altering the benchmark and cache configuration. Across the different configurations, the cross-sections were improved by 4x–106x. In addition, a hardware-mitigation technique is tested using dual lock-step cores on the Texas Instruments Hercules platform, which is compared to the software-only mitigation approach.
+
+                            </p>
+                        </div>
+                    
+                    
+                        
+                        <div>
+                            
+                                <a href="/assets/coast_tns20.pdf" class="">Paper</a>
+                            
+                        </div>
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Fast Turnaround HLS Debugging using Dependency Analysis and Debug Overlays
+
+                    </h4>
+                    <p class="paper-authors">Al-Shahna Jamal, Eli Cahill, Jeffrey Goeders, and Steven Wilton
+</p>
+                    <p class="paper-conference">ACM Transactions on Reconfigurable Technology and Systems (TRETS)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                High-level synthesis (HLS) has gained considerable traction over the recent years as it allows for faster development and verification of hardware accelerators than traditional RTL design. While HLS allows for most bugs to be caught during software verification, certain non-deterministic or data-dependent bugs still require debugging the actual hardware system during execution. Recent work has focused on techniques to allow designers to perform in-system debug of HLS circuits in the context of the original software code; however, like RTL debug, the user must still determine the root-cause of a bug using small execution traces, with lengthy debug turns. In this work we demonstrate techniques aimed at reducing the time HLS designers spend performing in-system debug. Our approaches consist of performing data dependency analysis in order to guide the user in selecting which variables are observed by the debug instrumentation, as well as an associated debug overlay that allows for rapid reconfiguration of the debug logic, enabling rapid switching of variable observation between debug iterations. In addition, our overlay provides additional debug capability, such as selective function tracing and conditional buffer freeze points. We explore the area overhead of these different overlay features, showing a basic overlay with only a 1.7% increase in area overhead from the baseline debug instrumentation, while a deluxe variant offers 2x-7x improvement in trace buffer memory utilization with conditional buffer freeze support.
+
+                            </p>
+                        </div>
+                    
+                    
+                        
+                        <div>
+                            
+                                <a href="/assets/jamal_trets20.pdf" class="">Paper</a>
+                            
+                        </div>
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Understanding the Impact of Quantization, Accuracy, and Radiation on the Reliability of Convolutional Neural Networks on FPGAs
+
+                    </h4>
+                    <p class="paper-authors">Fabiano Libano, Brittany Wilson, Michael Wirthlin, Paolo Rech, John Brunhaver
+</p>
+                    <p class="paper-conference">IEEE Transactions on Nuclear Science (TNS)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                Convolutional neural networks are quickly becoming viable solutions for self-driving vehicles, military, and aerospace applications. At the same time, due to their high level of design flexibility, reprogrammable capability, low powerconsumption, and relatively low cost, Field-Programmable Gate- Arrays (FPGAs) are very good candidates to implement neural networks. Unfortunately, radiation-induced errors are known to be an issue in SRAM-based FPGAs. More specifically, we have seen that particles can change the content of the FPGA’s configuration memory, consequently corrupting the implemented circuit and generating observable errors at the output. Through extensive fault-injection, we determine the reliability impact of applying binary quantization to convolutional layers of neural networks on FPGAs, by analyzing the relationships between model accuracy, resource utilization, performance, error criticality and radiation cross-section. We were able to find that a design with quantized convolutional layers can be 39% less sensitive to radiation, whereas the portion of errors that are considered critical (misclassifications) in the network is increased by 12%. Moreover, we also derive generic equations that consider both accuracy and radiation in order to model the overall failure rate of neural networks.
+
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Using Novel Configuration Techniques for Accelerated FPGA Aging
+                    </h4>
+                    <p class="paper-authors">Tanner Gaskin, Hayden Cook, Wesley Stirk, Robert Lucas, Jeffrey Goeders, and Brad Hutchings</p>
+                    <p class="paper-conference">International Conference on Field-Programmable Logic and Applications (FPL)</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                In this work we demonstrate a novel method of accelerating FPGA aging by configuring the FPGA to implement thousands of short circuits, resulting in high on-chip currents and temperatures.  Three ring oscillators are placed across the chip and are used to characterize the operating frequency of the FPGA fabric.  Over the course of several weeks of running the short circuits, with daily characterization of the FPGA performance, we measured a decrease in FPGA frequency greater than 5%.  After aging, the FPGA part was repeatedly characterized during a two week idle period.  Results indicated that the slowdown did not change, and the aging appeared to be permanent. In addition, we demonstrated that this aging could be induced in a non-uniform manner.  In our experiments, the short circuits were all placed in the lower two-thirds of the chip, and one of the characterization ring oscillators was placed at the top of the chip, outside of the region with the short circuits.  The fabric at this location exhibited a 1.36% slowdown, only one-quarter the slowdown measured in the targeted region.
+
+                            </p>
+                        </div>
+                    
+                    
+                        
+                        <div>
+                            
+                                <a href="/assets/gaskin_fpl20.pdf" class="">Paper</a>
+                            
+                        </div>
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    
+
+        <h1 class="year">
+            2019
+
+        </h1>
+
+        
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Impact of Soft Errors on Large-Scale FPGA Cloud Computing
+
+                    </h4>
+                    <p class="paper-authors">Andrew Keller, Michael Wirthlin
+</p>
+                    <p class="paper-conference">International Symposium on Field-Programmable Gate Arrays (FPGA)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                FPGAs are being used in large numbers within cloud computing to provide high-performance, low-power alternatives to more traditional computing structures. While FPGAs provide a number of important benefits to cloud computing environments, they are susceptible to radiation-induced soft errors, which can lead to silent data corruption or system instability. Although soft errors within a single FPGA occur infrequently, soft errors in large-scale FPGAs systems can occur at a relatively high rate. This paper investigates the failure rate of several FPGA applications running within an FPGA cloud computing node by performing fault injection experiments to determine the susceptibility of these applications to soft-errors. The results from these experiments suggest that silent data corruption will occur every few hours within a 100,000 node FPGA system and that such a system can only maintain high-levels of reliability for short periods of operation. These results suggest that soft-error detection and mitigation techniques may be needed in large-scale FPGA systems.
+
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Implementation and Design Space Exploration of a Turbo Decoder in High-Level Synthesis
+
+                    </h4>
+                    <p class="paper-authors">Wesley Stirk, Jeffrey Goeders
+</p>
+                    <p class="paper-conference">International Conference on Reconfigurable Computing and FPGAs (ReConFig)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                High-Level Synthesis (HLS) allows not only for quicker prototyping, but also faster and more widespread design space exploration. In this work we designed a turbo decoder using Vivado HLS, which has not previously been explored. Our turbo decoder was designed to allow for easy design space exploration, both of algorithmic turbo decoder parameters as well as HLS parameters.  Data and analysis on the design space is presented for approximately 200,000 variations with an emphasis on the needed trade-offs when designing a turbo decoder. 
+
+                            </p>
+                        </div>
+                    
+                    
+                        
+                        <div>
+                            
+                                <a href="/assets/stirk_reconfig19.pdf
+" class="">Paper</a>
+                            
+                        </div>
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Maverick: A Stand-Alone CAD Flow for Partially Reconfigurable FPGA Modules
+
+                    </h4>
+                    <p class="paper-authors">Dallon Glick, Jesse Grigg, Brent Nelson, Michael Wirthlin
+</p>
+                    <p class="paper-conference">International Symposium on Field-Programmable Custom Computing Machines (FCCM)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                This paper presents Maverick, a proof-of-concept computer-aided design (CAD) flow for generating reconfigurable modules (RMs) which target partial reconfiguration (PR) regions in field-programmable gate array (FPGA) designs. After an initial static design and PR region are created with Xilinx's Vivado PR flow, the Maverick flow can then compile and configure RMs onto that PR region-without the use of vendor tools. Maverick builds upon existing open source tools (Yosys, RapidSmith2, and Project X-Ray) to form an end-to-end compilation flow. This paper describes the Maverick flow and shows the results of it running on a PYNQ-Z1's ARM processor to compile a set of HDL designs to partial bitstreams. The resulting bitstreams were configured onto the PYNQ-Z1's FPGA fabric, demonstrating the feasibility of a single-chip embedded system which can both compile HDL designs to bitstreams and then configure them onto its own programmable fabric.
+
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Neutron Radiation Testing of Fault Tolerant RISC-V Soft Processor on Xilinx SRAM-based FPGAs
+
+                    </h4>
+                    <p class="paper-authors">Andrew Wilson, Michael Wirthlin
+</p>
+                    <p class="paper-conference">IEEE Space Computing Conference
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                Many space applications are considering the use of commercial SRAM-based FPGAs over radiation hardened devices. When using SRAM-based FPGAs, soft processors may be required to fulfill application requirements, but the FPGA designs must overcome radiation-induced soft errors to provide a reliable system. TMR is one solution in designing a fault tolerant soft processor to mitigate the failures caused by SEUs. This paper compares the neutron soft-error reliability of an unmitigated and TMR version of a Taiga RISC-V soft processor on a Xilinx SRAM-based FPGA. The TMR RISC-V processor showed a 33× reduction in the neutron cross section and a 27% decrease in operational frequency, resulting in a 24× improvement of the mean work to failure with a cost of around 5.6× resource utilization.
+
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Preallocating Resources for Distributed Memory Based FPGA Debug
+
+                    </h4>
+                    <p class="paper-authors">Robert Hale, Brad Hutchings
+</p>
+                    <p class="paper-conference">International Conference on Field Programmable Logic and Applications (FPL)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                Most internal FPGA debug methods require the use of Block-RAM (BRAM) memory for trace buffers. Recent work has shown the viability of replacing BRAMs with distributed, LUT based memory. Distributed memory (DIME) trace buffers are lean and can be utilized in large designs where other debug methods are unlikely to fit. Since LUTs are abundant on FPGA devices, there are nearly always some left unused after the user's design is placed, even for designs that utilize more than 90% of the FPGA's resources. DIME trace buffers are inserted into highly utilized designs within minutes using RapidWright. In this paper we contrast the previously used method of scavenging leftover LUT resources with a preallocation scheme that ensures a certain amount of memory LUTs are left available for distributed memory trace buffers. While causing virtually no penalty to the user design, preallocating memory LUT resources allows the very largest designs to utilize higher numbers of distributed memory trace buffers at lower timing penalties. We also show that depth of DIME trace buffers can be extended from 16 to 256 bits.
+
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Selective Hardening for Neural Networks in FPGAs
+
+                    </h4>
+                    <p class="paper-authors">Fabiano Libano, Brittany Wilson, Jordan Anderson, Michael Wirthlin, Carlo Cazzaniga, Chris Frost, Paolo Rech
+</p>
+                    <p class="paper-conference">IEEE Transactions on Nuclear Science (TNS)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                Neural networks are becoming an attractive solution for automatizing vehicles in the automotive, military, and aerospace markets. Thanks to their low-cost, low-power consumption, and flexibility, field-programmable gate arrays (FPGAs) are among the promising devices to implement neural networks. Unfortunately, FPGAs are also known to be susceptible to radiation-induced errors. In this paper, we evaluate the effects of radiation-induced errors in the output correctness of two neural networks [Iris Flower artificial neural network (ANN) and Modified National Institute of Standards and Technology (MNIST) convolutional neural network (CNN)] implemented in static random-access memory-based FPGAs. In particular, we notice that radiation can induce errors that modify the output of the network with or without affecting the neural network's functionality. We call the former critical errors and the latter tolerable errors. Through exhaustive fault injection, we identify the portions of Iris Flower ANN and MNIST CNN implementation on FPGAs that are more likely, once corrupted, to generate a critical or a tolerable error. Based on this analysis, we propose a selective hardening strategy that triplicates only the most vulnerable layers of the neural network. With neutron radiation testing, our selective hardening solution was able to mask 40% of faults with a marginal 8% overhead in one of our tested neural networks.
+
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Single-Event Characterization of a Stratix® 10 FPGA Using Neutron Irradiation
+
+                    </h4>
+                    <p class="paper-authors">Andrew Keller, Mike Wirthlin
+</p>
+                    <p class="paper-conference">IEEE Radiation Effects Data Workshop (REDW)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                FPGAs are being used in data center applications in large quantities. Single-event upsets (SEUs) occur more frequently within large-scale deployments of SRAM-based FPGAs. This work estimates the neutron cross section for SEUs in the configuration memory and memory blocks of a 14-nm FinFET Stratix 10 FPGA. SEU data was collected using a custom SEU data collection system. The developed system takes advantage of SEU mitigation features available on the device. The New York City FIT rate for SEUs is estimated to be 3.2 FIT per Mbit for configuration memory and 7.1 FIT per Mbit for memory blocks.
+
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Strategies for Removing Common Mode Failures From TMR Designs Deployed on SRAM FPGAs
+
+                    </h4>
+                    <p class="paper-authors">Matthew Cannon, Andrew Keller, Hayden Rowberry, Corbin Thurlow, Andrés Pérez-Celis, Michael Wirthlin
+</p>
+                    <p class="paper-conference">IEEE Transactions on Nuclear Science (TNS)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                Triple modular redundancy (TMR) with repair has proven to be an effective strategy for mitigating the effects of single-event upsets within the configuration memory of static random access memory field-programmable gate arrays. Applying TMR to the design successfully reduces the design's neutron cross section by 80×. The effectiveness of TMR, however, is limited by the presence of single bits in the configuration memory which cause more than one TMR domain to fail simultaneously. We present three strategies to mitigate against these failures and improve the effectiveness of TMR: incremental routing, incremental placement, and striping. These techniques were tested using both fault injection and a wide spectrum neutron beam with the best technique offering a 400× reduction to the design's sensitive neutron cross section. An analysis from the radiation test shows that no single bits caused failure and that multicell upsets were the main cause of failure for these mitigation strategies.
+
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Synchronizing On-Chip Software and Hardware Traces for HLS-Accelerated Programs
+
+                    </h4>
+                    <p class="paper-authors">Matthew Ashcraft, Jeffrey Goeders
+</p>
+                    <p class="paper-conference">International Conference on Field-Programmable Technology (FPT)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                Complex designs generated from modern high-level synthesis tools allow users to take advantage of heterogeneous systems, splitting the execution of programs between conventional processors, and hardware accelerators. While modern HLS tools continue to improve in efficiency and capability, debugging these designs has received relatively minor attention. Fortunately, recent academic work has provided the first means to debug these designs using hardware and software traces. Though these traces allow the user to analyze the flow of execution on both the software and hardware individually, they provide no means of synchronization to determine how operations on one device affect the other. 
+
+                            </p>
+                        </div>
+                    
+                    
+                        
+                        <div>
+                            
+                                <a href="/assets/ashcraft_fpt19.pdf" class="">Paper</a>
+                            
+                        </div>
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    
+
+        <h1 class="year">
+            2018
+
+        </h1>
+
+        
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Demand Driven Assembly of FPGA Configurations Using Partial Reconfiguration, Ubuntu Linux, and PYNQ
+
+                    </h4>
+                    <p class="paper-authors">Jeffrey Goeders, Tanner Gaskin, Brad Hutchings
+</p>
+                    <p class="paper-conference">International Symposium on Field-Programmable Custom Computing Machines (FCCM)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                The PYNQ system (Python Productivity for Zynq) is notable for combining a monolithic preconfigured bitstream, Ubuntu Linux, Python, and Jupyter notebooks to form an FPGA-based system that is far more accessible to non-FPGA experts than previous systems. In this work, the monolithic pre-configured PYNQ bitstream is replaced with a combination of a simple base bitstream containing several partial reconfiguration regions and a library of partial bitstreams that implement a variety of hardware interfaces such as: GPIO, UART, Timer, IIC, SPI, Real-Time Clock, etc., that interface to various Pmod-based peripherals. When peripherals are plugged into a Pmod socket at run-time, corresponding partial reconfigurations and standard device drivers can be automatically loaded into the Ubuntu kernel using device-tree overlays. This demand-driven, partially-reconfigured approach is found to be advantageous to the monolithic bitstream because: 1) it provides similar functionality to the monolithic bitstream while consuming less area, 2) it provides a way for users to modify or augment hardware functionality without requiring the user to develop a new monolithic bitstream, 3) run-time demand loading of partial bitstreams makes the system more responsive to changing conditions, and 4) implementation issues such as timing-closure, etc., are simplified because the base bitstream circuitry is smaller and less complex.
+
+                            </p>
+                        </div>
+                    
+                    
+                        
+                        <div>
+                            
+                                <a href="/assets/pynq_fccm18.pdf
+" class="">Paper</a>
+                            
+                        </div>
+                    
+                </div>
+                <hr>
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Distributed-Memory Based FPGA Debug: Design Timing Impact
+
+                    </h4>
+                    <p class="paper-authors">Robert Hale, Brad Hutchings
+</p>
+                    <p class="paper-conference">International Conference on Field-Programmable Technology (FPT)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                In FPGAs, debug observability is often achievedby attaching memory-based recording circuitry to user signals. Block-RAM (BRAM)-based embedded logic analyzers are ofteninserted into user circuits to observe circuit behavior. Incontrast with BRAM-based approaches, distributed memory:1) is almost always available (user circuits may consume allBRAMs but even highly utilized circuits contain unused LUTs), and 2) can usually be physically located very near to user signals(LUTs are spread across the entire device while BRAMs arelocated only in specific columns). Previous work has shownbasic feasibility and demonstrated that distributed memoriescan provide debug observability for highly utilized circuits. Thispaper focuses on timing impacts and describes the quantitativetradeoff between FPGA device utilization, debug probe count, and clock frequency. For example, a design with 70% of LUTsutilized, with no debug logic, can operate at a minimum clockperiod of 5ns. Instrumenting 300 debug probes increases thisperiod to 7ns, and 1500 probes to 8ns. Placing trace bufferswith a simulated annealing algorithm improved success ratesfrom 20% to 50% depending on the design and probe count.
+
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Dynamic SEU Sensitivity of Designs on Two 28-nm SRAM-based FPGA Architectures
+
+                    </h4>
+                    <p class="paper-authors">Andrew Keller, Timothy Whiting, Kenneth Sawyer, Michael Wirthlin
+</p>
+                    <p class="paper-conference">IEEE Transactions on Nuclear Science (TNS)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                Two field-programmable gate array (FPGA) designs are tested for dynamic single event upset (SEU) sensitivity on two different 28-nm static random access memory-based FPGAs-an Intel Stratix V and a Xilinx Kintex 7 FPGA. These designs were tested in both a conventional unmitigated version and a version to tolerate SEUs with feedback triple modular redundancy (TMR). The unmitigated design sensitivity and the low-level device sensitivity were found to be similar between the devices through neutron radiation testing. Results also show that feedback TMR and configuration scrubbing benefit both designs on both FPGAs. While TMR is helpful, the benefit of TMR depends on the design structure and the device architecture. TMR and scrubbing reduced dynamic SEU sensitivity by a factor of 4-54x.
+
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Enabling Low Impact, Rapid Debug for Highly Utilized FPGA Designs
+
+                    </h4>
+                    <p class="paper-authors">Robert Hale, Brad Hutchings
+</p>
+                    <p class="paper-conference">International Conference on Field Programmable Logic and Applications (FPL)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                Inserting soft logic analyzers into FPGA circuits is a common way to provide signal visibility at run-time, helping users locate bugs in their designs. However, this can become infeasible for highly (70-90+%) utilized designs, which leave few logic resources or block RAMs available for internal logic analyzers. This paper presents a fast, low-impact method of enabling signal visibility in these situations using LUT-based distributed memory. Trace-buffers are inserted post-PAR allowing users to quickly change the set of observed nets. Results from routing-based experiments are presented which demonstrate that, even in highly utilized designs, many design signals can be observed with this technique.
+
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Improving the Effectiveness of TMR Designs on FPGAs with SEU-Aware Incremental Placement
+
+                    </h4>
+                    <p class="paper-authors">Matthew Cannon, Andrew Keller, Michael Wirthlin
+</p>
+                    <p class="paper-conference">IEEE Field-Programmable Custom Computing Machines (FCCM)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                TMR combined with configuration scrubbing is an effective technique to mitigate against radiation-induced CRAM upsets on SRAM-based FPGAs. However, its effectiveness is limited by low-level common mode failures due to the physical mapping of a design to the FPGA device. This paper describes how common mode failures are introduced during the implementation process and introduces an approach for resolving them through a custom incremental placement tool for Xilinx 7-Series FPGAs. Multiple designs across multiple generations of devices are shown to be sensitive to common mode failures. Applying the incremental placement technique yields an improvement of 10,721x over an unmitigated design through fault-injection testing. Radiation testing is then performed to show that the of this technique is 91,500 days in GEO orbit, a 367x improvement over the unmitigated design and a 5x improvement over baseline TMR.
+
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Microcontroller Compiler-Assisted Software Fault Tolerance
+
+                    </h4>
+                    <p class="paper-authors">Matthew Bohman, Benjamin James, Michael J Wirthlin, Heather Quinn, Jeffrey Goeders
+</p>
+                    <p class="paper-conference">IEEE Transactions on Nuclear Science (TNS)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                Commercial off-the-shelf microcontrollers can be useful for noncritical processing on spaceborne platforms. These microprocessors can be inexpensive and consume small amounts of power. However, the software running on these processors is vulnerable to radiation upsets. In this paper, we present a fully automated, configurable, software-based tool to increase the reliability of microprocessors in high-radiation environments. This tool consists of a set of open-source LLVM compiler passes to automatically implement software-based mitigation techniques. We duplicate or triplicate computations and insert voting mechanisms into software during the compilation process, allowing for runtime error correction. While the techniques we implement are not novel, previous work has typically been closed source, processor architecture dependent, not automated, and not tested in real high-radiation environments. In contrast, the compiler passes presented in this paper are publicly available, highly customizable, and are platform independent and language independent. We have tested our modified software using both fault injection and through neutron beam radiation on a Texas Instruments MSP430 microcontroller. When tested by a neutron beam, we were able to decrease the cross section of programs by 17-29×, increasing mean-work-to-failure by 4-7×.
+
+                            </p>
+                        </div>
+                    
+                    
+                        
+                        <div>
+                            
+                                <a href="/assets/bohman_tns18.pdf" class="">Paper</a>
+                            
+                        </div>
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Neutron Radiation Beam Results for the Xilinx UltraScale+ MPSoC
+
+                    </h4>
+                    <p class="paper-authors">Jordan Anderson, Jennings Leavitt, Michael Wirthlin
+</p>
+                    <p class="paper-conference">IEEE Radiation Effects Data Workshop (REDW)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                The paper summarizes the single-event upset (SEU) results obtained from neutron testing on the UltraScale+ MPSoC ZU9EG device. This complex device contains a large amount of programmable logic and multiple processor cores. Tests were performed on the programmable logic and the processing system simultaneously. Estimates of the single-event upset neutron cross section were obtained for the programmable logic CRAM, BRAM, OCM memory, and cache memories. During the test, no processor crashes or silent data corruptions were observed. In addition, a processor failure cross section was estimated for several software benchmark operating on the various processor cores. Several FPGA CRAM scrubbers were tested including an external JTAG, the Xilinx “SEM” IP, and the use of the PCAP operating in baremetal. In parallel with these tests, single-event induced high current events were monitored using an external power supply and monitoring scripts.
+
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Single-Event Characterization of 16 nm FinFET Xilinx UltraScale+ Devices with Heavy Ion and Neutron Irradiation
+
+                    </h4>
+                    <p class="paper-authors">David Lee, Michael King, William Evans, Matthew Cannon, Andrés Pérez-Celis, Jordan Anderson, Michael Wirthlin, William Rice
+</p>
+                    <p class="paper-conference">IEEE Radiation Effects Data Workshop (REDW)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                This study examines the single-event response of Xilinx 16nm FinFET UltraScale+ FPGA and MPSoC device families. Heavy-ion single-event latch-up, single-event upsets in configuration SRAM, BlockRAM™ memories, and flip-flops, and neutron-induced single-event latch-up results are provided.
+
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Unified On-Chip Software and Hardware Debug for HLS-Accelerated Programs
+
+                    </h4>
+                    <p class="paper-authors">Matthew Ashcraft, Jeffrey Goeders
+</p>
+                    <p class="paper-conference">International Conference on Field-Programmable Technology (FPT)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                Modern high-level synthesis (HLS)-based tools allow for the creation of complex systems where parts of the user's software are executed on a conventional processor, and the other parts are implemented as hardware accelerators via HLS flows. While modern tools allow designers to construct these systems relatively quickly, observing and debugging the real-time execution of these complex systems remains challenging. Recent academic work has focused on providing designers software-like visibility into the execution of their HLS hardware accelerators; however, this work has assumed that the hardware is observed in isolation. In this work we demonstrate techniques toward a unified in-system software and hardware debugging environment, where the user can capture execution of both the hardware and software domains, and their interactions. We present the performance costs of capturing this execution data, exploring the impact of different levels of observation.
+
+                            </p>
+                        </div>
+                    
+                    
+                        
+                        <div>
+                            
+                                <a href="/assets/ashcraft_fpt18.pdf" class="">Paper</a>
+                            
+                        </div>
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Using Physical and Functional Comparisons to Assure 3rd-Party IP for Modern FPGAs
+
+                    </h4>
+                    <p class="paper-authors">Adam Hastings, Sean Jensen, Jeffrey Goeders, Brad Hutchings
+</p>
+                    <p class="paper-conference">International Verification and Security Workshop (IVSW)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                In modern FPGA design, 3rd-party IP is commonly used to reduce costs and time-to-market. However, the complexity of IP and associated CAD tools makes it easier for attackers to maliciously tamper with the IP (i.e. insert Hardware Trojans) in ways that are hard to detect. This work proposes techniques that allows a user to incorporate trusted 3rd-party IP into a design and verify that the incorporation occurs tamper-free. We present comparative results from utilizing this framework across a benchmark suite of 22 designs. We show that the approach reliably detects tampering without giving any false positives.
+
+                            </p>
+                        </div>
+                    
+                    
+                        
+                        <div>
+                            
+                                <a href="/assets/hastings_ivsw18.pdf" class="">Paper</a>
+                            
+                        </div>
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+    
+
+        <h1 class="year">
+            2017
+
+        </h1>
+
+        
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Enabling Long Debug Traces of HLS Circuits Using Bandwidth-Limited Off-Chip Storage Devices
+
+                    </h4>
+                    <p class="paper-authors">Jeffrey Goeders
+</p>
+                    <p class="paper-conference">International Symposium on Field-Programmable Custom Computing Machines (FCCM)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                High-level synthesis (HLS) has gained considerable traction in recent years. Despite considerable strides in the development of quality HLS compilers, one area that is often cited as a barrier to HLS adoption is the difficulty in debugging HLS produced circuits. Recent academic work has presented techniques that use on-chip memories to efficiently record execution of HLS circuits, and map the captured data back to the original source code to provide the user with a software-like debug experience. However, limited on-chip memory results in very short debug traces, which may force a designer to spend multiple debug iterations to resolve complicated bugs. In this work we present techniques to enable off-chip capture of HLS debug information. While off-chip storage does not suffer from the capacity limitations of on-chip memory, its usage introduces a new challenge: limited bandwidth. In this work we show how information from within the HLS flow can be leveraged to generated a streamed debug trace within given bandwidth constraints. For a bandwidth limited interface, we show that our techniques allow the user to observe 19× more source code variables than using a basic approach.
+
+                            </p>
+                        </div>
+                    
+                    
+                        
+                        <div>
+                            
+                                <a href="/assets/goeders_fccm17.pdf" class="">Paper</a>
+                            
+                        </div>
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Mitigated FPGA design of multi-gigabit transceivers for application in high radiation environments of High Energy Physics experiments
+
+                    </h4>
+                    <p class="paper-authors">M Brusati, Alessandra Camplani, Matthew Cannon, Hucheng Chen, Mauro Citterio, Massimo Lazzaroni, Helio Takai, Michael Wirthlin
+</p>
+                    <p class="paper-conference">Measurement
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                SRAM-based Field Programmable Gate Array (FPGA) logic devices are very attractive in applications where high data throughput is needed, such as the latest generation of High Energy Physics (HEP) experiments. FPGAs have been rarely used in such experiments because of their sensitivity to radiation. The present paper proposes a mitigation approach applied to commercial FPGA devices to meet the reliability requirements for the front-end electronics of the Liquid Argon (LAr) electromagnetic calorimeter of the ATLAS experiment, located at CERN. Particular attention will be devoted to define a proper mitigation scheme of the multi-gigabit transceivers embedded in the FPGA, which is a critical part of the LAr data acquisition chain. A demonstrator board is being developed to validate the proposed methodology. Mitigation techniques such as Triple Modular Redundancy (TMR) and scrubbing will be used to increase the robustness of the design and to maximize the fault tolerance from Single-Event Upsets (SEUs).
+
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Using On-Chip Error Detection to Estimate FPGA Design Sensitivity
+
+                    </h4>
+                    <p class="paper-authors">Andrew Keller
+</p>
+                    <p class="paper-conference">Master's Thesis
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                SRAM-based FPGAs provide valuable computation resources and reconfigurability; however, ionizing radiation can cause designs operating on these devices to fail. The sensitivity of an FPGA design to configuration upsets, or its SEU sensitivity, is an indication of a design's failure rate. SEU mitigation techniques can reduce the SEU sensitivity of FPGA designs in harsh radiation environments. The reliability benefits of these techniques must be determined before they can be used in mission-critical applications and can be determined by comparing the SEU sensitivity of an FPGA design with and without these techniques applied to it. Many approaches can be taken to evaluate the SEU sensitivity of an FPGA design. This work describes a low-cost easier-to-implement approach for evaluating the SEU sensitivity of an FPGA design. This approach uses additional logic resources on the same FPGA as the design under test to determine when the design has failed, or deviated from its specified behavior. Three SEU mitigation techniques were evaluated using this approach: triple modular redundancy (TMR), configuration scrubbing, and user-memory scrubbing. Significant reduction in SEU sensitivity is demonstrated through fault injection and radiation testing. Two LEON3 processors operating in lockstep are compared against each other using on-chip error detection logic on the same FPGA. The design SEU sensitivity is reduced by 27x when TMR and configuration scrubbing are applied, and by approximately 50x when TMR, configuration scrubbing, and user-memory scrubbing are applied together. Using this approach, an SEU sensitivity comparison is made of designs implemented on both an Altera Stratix V FPGA and a Xilinx Kintex 7 FPGA. Several instances of a finite state machine are compared against each other and a set of golden output vectors, all on the same FPGA. Instances of an AES cryptography core are chained together and the output of two chains are compared using on-chip error detection. Fault injection and neutron radiation testing reveal several similarities between the two FPGA architectures. SEU mitigation techniques reduce the SEU sensitivity of the two designs between 4x and 728x. Protecting on-chip functional error detection logic with TMR and duplication with compare (DWC) is compared. Fault injection results suggest that it is more favorable to protect on-chip functional error detection logic with DWC than it is to protect it with TMR for error detection.
+
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Vivado design interface: An export/import capability for Vivado FPGA designs
+
+                    </h4>
+                    <p class="paper-authors">Thomas Townsend, Brent Nelson
+</p>
+                    <p class="paper-conference">International Conference on Field Programmable Logic and Applications (FPL)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                Research tools targeting commercial FPGAs have most commonly been based on the Xilinx Design Language (XDL). Vivado, however, does not support XDL, preventing similar tools from being created for next-generation devices. Instead, Vivado includes a Tcl interface that exposes Xilinx's internal design and device data structures. Considerable challenges still remain to users attempting to leverage this Tcl interface to develop external CAD tools. This paper presents the Vivado Design Interface (VDI), a set of file formats and Tcl functions that address the challenges of exporting and importing designs to and from Vivado. To demonstrate its use, VDI has been integrated with RapidSmith2, an external FPGA CAD framework. To our knowledge this work is the first successful attempt to provide an open-source tool-flow that can export designs from Vivado, manipulate them with external CAD tools, and re-import an equivalent representation back into Vivado.
+
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+    
+
+        <h1 class="year">
+            2016
+
+        </h1>
+
+        
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Benefits of Complementary SEU Mitigation for the LEON3 Soft Processor on SRAM-Based FPGAs
+
+                    </h4>
+                    <p class="paper-authors">Andrew Keller, Michael Wirthlin
+</p>
+                    <p class="paper-conference">IEEE Transactions on Nuclear Science (TNS)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                A variety of mitigation techniques have been demonstrated to reduce the sensitivity of FPGA designs to soft errors. Without mitigation, SEUs can cause failure by altering the logic, routing, and state of a design operating on an SRAM-based FPGA. Various combinations of SEU mitigation and repair techniques are applied to the LEON3 soft-core processor to study the effects and complementary nature of each technique. This work focuses on Triple modular redundancy (TMR), configuration memory (CRAM) scrubbing, and internal block memory (BRAM) scrubbing. All mitigation methods demonstrate some improvement in both fault injection and neutron radiation testing. Results in this paper show complementary SEU mitigation techniques working together to improve fault-tolerance. The results also suggest that fault injection can be a good way to estimate the cross section of a design before going to a radiation test. TMR with CRAM scrubbing demonstrates a 27x improvement whereas TMR with both CRAM and BRAM scrubbing demonstrates approximately a 50x improvement.
+
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        Packing a modern Xilinx FPGA using RapidSmith
+
+                    </h4>
+                    <p class="paper-authors">Travis Haroldsen, Brent Nelson, Brad Hutchings
+</p>
+                    <p class="paper-conference">International Conference on ReConFigurable Computing and FPGAs (ReConFig)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                Academic packing algorithms have typically been limited to theoretical architectures. In this paper, we describe RSVPack, a packing algorithm built on top of RapidSmith to target the Xilinx Virtex 6 architecture. We integrate our packer into the Xilinx ISE CAD flow and demonstrate our packer tool by packing a set of benchmark circuits and performing routing and timing analysis inside ISE.
+
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                <div class="paper">
+                    <h4 class="paper-title">
+                        SEU Mitigation and Validation of the LEON3 Soft Processor Using Triple Modular Redundancy for Space Processing
+
+                    </h4>
+                    <p class="paper-authors">Michael Wirthlin, Andrew Keller, Chase McCloskey, Parker Ridd, David Lee, Jeffery Draper
+</p>
+                    <p class="paper-conference">International Symposium on Field-Programmable Gate Arrays (FPGA)
+</p>
+                    
+                        <div>
+                            <a class="abstract" href="javascript:void(0)">Abstract</a>
+                        </div>
+                        <div class="hide" id="description">
+                            <p class="paper-description">
+                                Processors are an essential component in most satellite payload electronics and handle a variety of functions including command handling and data processing. There is growing interest in implementing soft processors on commercial FPGAs within satellites. Commercial FPGAs offer reconfigurability, large logic density, and I/O bandwidth; however, they are sensitive to ionizing radiation and systems developed for space must implement single-event upset mitigation to operate reliably. This paper investigates the improvements in reliability of a LEON3 soft processor operating on a SRAM-based FPGA when using triple-modular redundancy and other processor-specific mitigation techniques. The improvements in reliability provided by these techniques are validated with both fault injection and heavy ion radiation tests. The fault injection experiments indicate an improvement of 51x and the radiation testing results demonstrate an average improvement of 10x. Orbit failure rate estimations were computed and suggest that the TMR LEON3 processor has a mean-time to failure of over 76 years in a geosynchronous orbit.
+
+                            </p>
+                        </div>
+                    
+                    
+                </div>
+                <hr>
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    
+</div>
+
+    </div>
+
+    <!-- <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">BYU Configurable Computing Lab</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>BYU Configurable Computing Lab</li>
+          <li><a href="mailto:jgoeders@byu.edu">jgoeders@byu.edu</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+     
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>The configurable computing lab focuses on FPGAs and FPGA-like devices, researching new tools and techniques for reliability, security, debug, high-level synthesis, open-source CAD, and hardware accelerated applications.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer> -->
+
+
+  </body>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
+
+</html>
