@@ -19,10 +19,10 @@ title: Schedule
 |Feb 29     | Dallin Wood (Test Vector System)              | Caleb Price (Virtual Server Overview) |
 |Mar 7      | Colton Yates (CS 111 Chatbot)                 | Joshua Fifie (local GPT), Mike Wirthlin (Tutor ChatBots) |
 |Mar 14     | PolarFire overview (Sam and Weston?)          | Versal AI engines and updates |
-|Mar 21     | PCI Fundamentals (Andy and Sam)               |                           |
-|Mar 28     | DDR Restuls (Rami and Tyler)                  |  (LMTF)                   |
-|Apr 4      | New Versal AI engine overview                 |                           |
-|Apr 11     |                                               |                           |
+|Mar 21     | Cancelled                                     |                           |
+|Mar 28     | Cancelled                                     |  (LMTF)                   |
+|Apr 4      | LMTF, PCI Fundamentals (Andy and Sam)         |                           |
+|Apr 11     | DDR Restuls (Rami and Tyler)                  |                           |
 |Apr 18     | Lab Party?                                    |                           |
 
 Ideas:
