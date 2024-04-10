@@ -1,3 +1,11 @@
+- event_name: HARRIS 2024
+  date: 2024-03-20
+  description: >
+    Professor Goeders attend the 2024 Hardware Reverse Engineering Workshop (HARRIS 2024), hosted by Ruhr University in Bochum, Germany.  He gave a talk titled, "[Leveraging FPGA Reverse Engineering for Secure CAD Flows](https://harris2024.mpi-sp.org/event/#harris24-22-leveraging_fpga_reverse_engineering_for_secure_cad_flows)," that discussed how recent tools in the FPGA open-source community can be leveraged for good, improving the security of FPGA CAD flows.  
+  images:
+    - news_2024/harris1.jpg
+    - news_2024/harris2.jpg
+    
 - event_name: NSF SHREC Annual Workshop 2024
   date: 2024-01-17
   description: >
