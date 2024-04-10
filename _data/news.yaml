@@ -1,3 +1,13 @@
+- event_name: LMTF Radiation Testing
+  date: 2024-03-25
+  description: > 
+    Undergraduate researcher Dallin Wood, traveled along with Professors Wirthin and Goeders, to the Little Mountain Test Facility in Ogden, Utah to use the [LINAC](https://en.wikipedia.org/wiki/Linear_particle_accelerator) for computer reliability testing. 
+    The research project studied how a simply microcontroller (attiny85) would respond to radiation. 
+  images: 
+    - news_2024/lmtf1.JPG
+    - news_2024/lmtf2.JPG
+    - news_2024/lmtf3.JPG
+
 - event_name: HARRIS 2024
   date: 2024-03-20
   description: >

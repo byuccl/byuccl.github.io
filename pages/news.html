@@ -9,7 +9,7 @@ permalink: /news/
 <div class="projects">
     {% assign news = site.data.news | sort : 'date' | reverse %}
     {% for news_item in news %}
-    {% if forloop.index0 < 10 %} <div class="project">
+    {% if forloop.index0 < 20 %} <div class="project">
 
         <div class="row">
             <div class="col-6">
@@ -23,30 +23,30 @@ permalink: /news/
         <div class="row news-images">
             {% for image in news_item.images %}
             {% if news_item.images.size >= 3 %}
-                <div class="col-sm-12 col-md-6 col-xl-4 col-centered">
-            {% elsif news_item.images.size == 2 %}
+            <div class="col-sm-12 col-md-6 col-xl-4 col-centered">
+                {% elsif news_item.images.size == 2 %}
                 <div class="col-sm-12 col-md-6 col-centered">
-            {% elsif news_item.images.size == 1 %}
-                <div class="col-sm-12 col-centered">
-            {% endif %}
-                {% if image contains "youtube" %}
-                    <iframe width="800" height="450" src="{{image}}" frameborder="0" allowfullscreen></iframe>
-                {% else %}
-                    <img class="img-fluid h-100 news-image" src="/images/{{image}}" />
-                {% endif %}
+                    {% elsif news_item.images.size == 1 %}
+                    <div class="col-sm-12 col-centered">
+                        {% endif %}
+                        {% if image contains "youtube" %}
+                        <iframe width="800" height="450" src="{{image}}" frameborder="0" allowfullscreen></iframe>
+                        {% else %}
+                        <img class="img-fluid h-100 news-image" src="/images/{{image}}" />
+                        {% endif %}
+                    </div>
+                    {% endfor %}
                 </div>
+
+                {% if news_item.description %}
+                <div class="news-description">
+                    {{ news_item.description | markdownify }}
+                </div>
+                {% endif %}
+
+
+            </div>
+            <hr>
+            {% endif %}
             {% endfor %}
         </div>
-
-        {% if news_item.description %}
-        <div class="news-description">
-            {{ news_item.description | markdownify }}
-        </div>
-        {% endif %}
-
-
-</div>
-<hr>
-{% endif %}
-{% endfor %}
-</div>
