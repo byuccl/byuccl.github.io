@@ -107,3 +107,6 @@ undergrad_students:
     last_name: Khalaf
     image: jamil_khalaf.jpg
 
+  - first_name: Ethan
+    last_name: Hunter
+    image: ethan_hunter.jpg
