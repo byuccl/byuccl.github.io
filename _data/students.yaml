@@ -114,3 +114,7 @@ undergrad_students:
   - first_name: Caden
     last_name: Brinkman
     image: Caden_Brinkman.jpg
+
+  - first_name: Lilly
+    last_name: MacKenzie
+    image: lilly_mackenzie.jpg
