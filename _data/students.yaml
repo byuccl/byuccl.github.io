@@ -44,8 +44,6 @@ masters_students:
     last_name: Ricks
     image: tyler_ricks.jpg
     
-undergrad_students:
-
   - first_name: Jacob 
     last_name: Brown
     image: jacob_brown.jpg
@@ -54,23 +52,16 @@ undergrad_students:
   - first_name: Garrett
     last_name: Smith
     image: garrett_smith.jpg
-    
-  - first_name: Zachary
-    last_name: Driskill
-    image: zachary_driskill.jpg
-    
+
   - first_name: Weston
     last_name: Smith
     image: Weston_smith.jpg
-  
-  - first_name: Ethan
-    last_name: Campbell
-    image: ethan_campbell.jpg
 
-  - first_name: Julia
-    last_name: Hansen
-    image: julia_hansen.jpg
+  - first_name: Caleb
+    last_name: Price
+    image: Caleb_Price.jpg
 
+undergrad_students:
   - first_name: Collin
     last_name: Lambert
     image: collin_lambert.jpg
@@ -78,34 +69,10 @@ undergrad_students:
   - first_name: Keenan
     last_name: Faulkner
     image: keenan_faulkner.jpg
-
-  - first_name: Rami
-    last_name: Arafeh
-    image: Rami_Arafeh.jpg
-    
-  - first_name: Caleb
-    last_name: Price
-    image: Caleb_Price.jpg
-  
-  - first_name: Stephen
-    last_name: Henstrom
-    image: Stephen_Henstrom.jpg
-    
-  - first_name: Samuel
-    last_name: VanDenBerghe
-    image: Samuel_VanDenBerghe.jpg
-        
-  - first_name: Dallin
-    last_name: Wood
-    image: dallin_wood.jpg
-
+   
   - first_name: Colton
     last_name: Yates
     image: colton_yates.jpg
-
-  - first_name: Jamil
-    last_name: Khalaf
-    image: jamil_khalaf.jpg
 
   - first_name: Ethan
     last_name: Hunter
