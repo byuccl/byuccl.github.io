@@ -47,7 +47,6 @@ masters_students:
   - first_name: Jacob 
     last_name: Brown
     image: jacob_brown.jpg
-    link: https://jacobdbrown4.github.io/jacob_brown//pages/log/
 
   - first_name: Garrett
     last_name: Smith
