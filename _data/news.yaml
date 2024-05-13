@@ -1,3 +1,11 @@
+- event_name: FCCM 2024
+  date: 2024-05-08
+  description: >
+    Professor Jeff Goeders traveled to Orlando, Florida, to attend the 2024 International Symposium On Field-Programmable Custom Computing Machines (FCCM).  He presented Daniel Hutchings' Master's work, "Toward FPGA Intellectual Property (IP) Encryption from Netlist to Bitstream". This work was [published in the ACM TRETS journal](https://dl.acm.org/doi/10.1145/3656644), and describes a novel method to encrypt FPGA IP through the CAD flow and into the bitstream.
+  images:
+    - news_2024/fccm_2024_goeders.png
+    - news_2024/fccm.jpg
+
 - event_name: LMTF Radiation Testing
   date: 2024-03-25
   description: > 
