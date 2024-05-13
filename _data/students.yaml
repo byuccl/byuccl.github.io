@@ -47,7 +47,6 @@ masters_students:
   - first_name: Jacob 
     last_name: Brown
     image: jacob_brown.jpg
-    link: https://jacobdbrown4.github.io/jacob_brown//pages/log/
 
   - first_name: Garrett
     last_name: Smith
@@ -85,3 +84,7 @@ undergrad_students:
   - first_name: Lilly
     last_name: MacKenzie
     image: lilly_mackenzie.jpg
+
+  - first_name: Isaac
+    last_name: Gubelin
+    image: isaac_gubelin.jpg
