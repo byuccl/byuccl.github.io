@@ -100,3 +100,7 @@ undergrad_students:
   - first_name: Victoriah
     last_name: Meyer
     image: victoriah_meyer.jpg
+  
+  - first_name: Cameron
+    last_name: Samson
+    image: cameron_samson.jpg
