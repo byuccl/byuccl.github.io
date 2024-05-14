@@ -96,6 +96,10 @@ undergrad_students:
   - first_name: Carson
     last_name: Bush
     image: carson_bush.jpg
+ 
+  - first_name: Victoriah
+    last_name: Meyer
+    image: victoriah_meyer.jpg
   
   - first_name: Cameron
     last_name: Samson
