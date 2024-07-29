@@ -60,6 +60,10 @@ masters_students:
     last_name: Price
     image: Caleb_Price.jpg
 
+  - first_name: Jarek
+    last_name: Wall
+    image: Jarek_Wall.jpg
+
 undergrad_students:
   - first_name: Collin
     last_name: Lambert
