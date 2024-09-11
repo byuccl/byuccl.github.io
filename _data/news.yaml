@@ -1,3 +1,12 @@
+- event_name: FPL 2024
+  date: 2024-09-02 
+  description: >
+    Professor traveled to Turino, Italy, to present the culminating PhD work of Hayden Cook, at the International Conference on Field-Programmable Logic and Applications (FPL).  The work, titled "Techniques for Exploring Fine-Grained LUT and Routing Aging on a 28nm FPGA", explores how one can intentionally age different pieces of an FPGA, including individual LUTs and routing segments.  
+  images:
+    - news_2024/fpl1.jpg
+    - news_2024/fpl2.jpg
+    - news_2024/fpl3.jpg    
+
 - event_name: FCCM 2024
   date: 2024-05-08
   description: >
