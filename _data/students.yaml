@@ -17,19 +17,10 @@ phd_students:
     last_name: Cook
     image: hayden_cook.png
     
-  - first_name: Nathan
-    last_name: Harris
-    image: nathan_harris.jpg
-    # link: http://betacircuit.net/projects/IMMERSE/log/ #broken link
-
 masters_students:    
   - first_name: Jonathan 
     last_name: Thompson
     image: jonathan_thompson.jpg
-
-  - first_name: Ethan 
-    last_name: Durrant
-    image: ethan_durrant.jpg
 
   - first_name: Joshua 
     last_name: Fife
@@ -92,22 +83,6 @@ undergrad_students:
   - first_name: Isaac
     last_name: Gubelin
     image: isaac_gubelin.jpg
-
-  - first_name: Blaine
-    last_name: Freestone
-    image: blaine_freestone.jpg
-
-  - first_name: Carson
-    last_name: Bush
-    image: carson_bush.jpg
- 
-  - first_name: Victoriah
-    last_name: Meyer
-    image: victoriah_meyer.jpg
-  
-  - first_name: Cameron
-    last_name: Samson
-    image: cameron_samson.jpg
 
   - first_name: Preston
     last_name: Walker
