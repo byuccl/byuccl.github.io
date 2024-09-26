@@ -7,8 +7,8 @@ title: Schedule
 
 ## Fall 2024
 
-| Sep 26    | Nathan Baker, Weston Smith (NSREC 2024 Presentations) | 
-| Oct 3     | Andy Wilson  
+| Sep 26    | Nathan Baker (NSREC 2024 Presentation) | 
+| Oct 3     | Weston Smith (NSREC 2024 Presentation), Andy Wilson  
 | Oct 10    | Jacob Brown, Preston Walker
 | Oct 17    | DTRA Team
 | Oct 24    | Garrett Smith / Caleb Price
