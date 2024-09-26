@@ -5,6 +5,21 @@ title: Schedule
 
 # Lab Meeting Schedule
 
+## Fall 2024
+
+| Sep 26    | Nathan Baker, Weston Smith (NSREC 2024 Presentations) | 
+| Oct 3     | Andy Wilson  
+| Oct 10    | Jacob Brown, Preston Walker
+| Oct 17    | DTRA Team
+| Oct 24    | Garrett Smith / Caleb Price
+| Oct 31    | Tyler Ricks, Joshua Fife
+| Nov 7     | Caden Brinkman, Lilly MacKenzie
+| Nov 14    | Julia Johnson, Spencer
+| Nov 21    | No Meeting (ChipIR test)
+| Nov 28    | No Meeting (Thanksgiving)
+| Dec 5     | Dallin Dahl, Reilly McKendrick
+| Dec 12    | Lab Party
+
 ## Winter 2024
 
 | Date      | Topic (Speakers)                              | Topic (Speakers)          |
