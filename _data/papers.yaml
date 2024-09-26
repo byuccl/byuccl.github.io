@@ -1,3 +1,50 @@
+
+- title: "Digital Design Education Using an Open-Source, Cloud-Based FPGA Toolchain"
+  authors: Weston Smith, Zachary Driskill, Jeffrey Goeders, Michael Wirthlin
+  conference: Intermountain Engineering, Technology and Computing (IETC)
+  year: >
+    2024
+  abstract: >
+    Digital design tools typically have a high barrier to entry: setup is challenging for beginners, and installation often requires a high-performance workstation. In this work, we present an educational framework for digital design using cloud-based resources and open-source tools. We leverage Google Colab notebooks to allow users to run FPGA simulation and design tools remotely, using only a simple web browser. The tools are capable of running simulations with visualizations, and can generate FPGA bitstreams for commercial devices. In addition, we have developed several notebook-based labs to teach digital design topics, including arithmetic, combinational and sequential circuits, and FSMs.
+  url: https://ieeexplore.ieee.org/abstract/document/10564285
+
+- title: "Dynamic Testing of a Commercial FRAM Device Under Gamma Ray Dose and Neutron Beam"
+  authors: Nathan Harris, Wesley Stirk, Dolores Black, Jeffrey Black, Mike Wirthlin, Jeffrey Goeders
+  conference: IEEE Transactions on Nuclear Science
+  year: >
+    2024
+  abstract: >
+    This work presents dose rate and neutron testing on an FRAM device in dynamic operation during radiation pulses. Radiation failure modes are shown to be unique. Dose rate failure is shown to be based primarily on integrated dose in the radiation pulse and terminates the FRAM operation and can alter up to 8 bytes of data in storage. Neutron failures are attributed to a shifting of data like a clocking error.
+  url: https://ieeexplore.ieee.org/abstract/document/10476494
+
+- title: "Improving the Reliability of FPGA CRO PUFs"
+  authors: Hayden Cook, Zephram Tripp, Brad Hutchings, Jeffrey Goeders
+  conference: International Conference on Field-Programmable Logic and Applications (FPL)
+  year: >
+    2023
+  abstract: >
+    This paper presents a novel technique that greatly improves the reliability of FPGA-based CRO PUFs. We improve upon existing CRO implementations and increase the number of configurations per CLB tile from 16 384 to 1.1 × 10 12 • To maximize reliability, each CRO pair must be configured to maximize its frequency difference. This requires using a novel technique that reduces the configuration search space from 1.1 × 10 12 to 256. Our CRO PUF achieves 100% reliability within the FPGA's maximum rated voltages. We believe that this is the first FPGA PUF that can achieve this level of reliability without the use of post-processing. We also show that in some cases, our CRO may be reliable enough to omit the ECC that is usually required in PUF-based key generation circuits. This allows our CRO PUF to provide the reliability required for key generation while reducing the latency, complexity, and area overhead of ECC algorithms.
+  url: https://ieeexplore.ieee.org/abstract/document/10296262
+
+  
+- title: "Assuring Netlist-to-Bitstream Equivalence using Physical Netlist Generation and Structural Comparison"
+  authors: Reilly McKendrick, Keenan Faulkner, Jeffrey Goeders
+  conference: International Conference on Field Programmable Technology (FPT)
+  year: >
+    2023
+  abstract: >
+    Hardware netlists are generally converted into a bitstream and loaded onto an FPGA board through vendor-provided tools. Due to the proprietary nature of these tools, it is up to the designer to trust the validity of the design’s conversion to bitstream. However, motivated attackers may alter the CAD tools’ integrity or manipulate the stored bitstream with the intent to disrupt the functionality of the design. This paper proposes a new method to prove functional equivalence between a synthesized netlist, and the produced FPGA bitstream. The novel approach is comprised of two phases: first, we show how we can utilize implementation information to perform a series of transformations on the netlist, which do not affect its functionality, but ensure it structurally matches what is physically implemented on the FPGA. Second, we present a structural mapping and equivalence checking algorithm that verifies this physical netlist exactly matches the bitstream. We validate this process on several benchmark designs, including checking for false positives by injecting hundreds of design modifications.
+  url: https://ieeexplore.ieee.org/abstract/document/10416093
+
+- title: "IPRec and Isoblaze: Fuzzy Subcircuit Isomorphism for IP Detection in Physical Netlists"
+  authors: Dallin Dahl, Corey Simpson, Keenan Faulkner, Brent Nelson, Jeffrey Goeders
+  year: >
+    2023
+  conference: IEEE Physical Assurance and Inspection of Electronics (PAINE)
+  abstract: >
+    Netlist reverse engineering has many uses, from detecting hardware trojans to recovering missing design source files. However, the basic problem of finding IP in a netlist has not been widely discussed. The problem boils down to subgraph isomorphism on graphs constructed from netlists. We present two approaches to identifying IP in larger circuits. IPRec focuses on exploiting hierarchy in the IP design and is a rather conservative approach, while Isoblaze focuses on local properties and connectivity and is more liberal in matching.
+  url: https://ieeexplore.ieee.org/abstract/document/10318012
+
 - title: "The Effects of Gamma Ray Integrated Dose on a Commercial 65nm SRAM Device"
   authors: Wesley Stirk, Dolores Black, Jeff Black, Matthew Breeding, Roy Cuoco, Mike Wirthlin, Jeff Goeders
   conference: IEEE Transactions on Nuclear Science
@@ -494,13 +541,4 @@
     In this work we demonstrate a novel method of accelerating FPGA aging by configuring the FPGA to implement thousands of short circuits, resulting in high on-chip currents and temperatures.  Three ring oscillators are placed across the chip and are used to characterize the operating frequency of the FPGA fabric.  Over the course of several weeks of running the short circuits, with daily characterization of the FPGA performance, we measured a decrease in FPGA frequency greater than 5%.  After aging, the FPGA part was repeatedly characterized during a two week idle period.  Results indicated that the slowdown did not change, and the aging appeared to be permanent.
     In addition, we demonstrated that this aging could be induced in a non-uniform manner.  In our experiments, the short circuits were all placed in the lower two-thirds of the chip, and one of the characterization ring oscillators was placed at the top of the chip, outside of the region with the short circuits.  The fabric at this location exhibited a 1.36% slowdown, only one-quarter the slowdown measured in the targeted region.
   url: gaskin_fpl20.pdf
-  
-- title: Assuring Netlist-to-Bitstream Equivalence using Physical Netlist Generation and Structural Comparison
-  authors: Reilly McKendrick, Keenan Faulkner, and Jeffrey Goeders
-  conference: IEEE International Conference on Field-Programmable Technology (FPT)
-  year: >
-    2023
-  abstract: >
-    Hardware netlists are generally converted into a bitstream and loaded onto an FPGA board through vendorprovided tools. Due to the proprietary nature of these tools, it is up to the designer to trust the validity of the design’s conversion to bitstream. However, motivated attackers may alter the CAD tools’ integrity or manipulate the stored bitstream with the intent to disrupt the functionality of the design.
-    This paper proposes a new method to prove functional equivalence between a synthesized netlist, and the produced FPGA bitstream. The novel approach is comprised of two phases: first, we show how we can utilize implementation information to perform a series of transformations on the netlist, which do not affect its functionality, but ensure it structurally matches what is physically implemented on the FPGA. Second, we present a structural mapping and equivalence checking algorithm that verifies this physical netlist exactly matches the bitstream. We validate this process on several benchmark designs, including checking for false positives by injecting hundreds of design modifications.
-  url: mckendrick_fpt23.pdf
+
