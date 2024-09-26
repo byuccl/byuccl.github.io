@@ -1,7 +1,8 @@
 - event_name: NSREC 2024
   date: 2024-07-22
   description: >
-    Nathan Baker (masters student), Weston Smith (undergraduate student), and Professor Wirthlin traveled to Ottawa for the 2024 IEEE Nuclear & Space Radiation Effects Conference (NSREC). Nathan gave an oral presentation on his paper "Post-Radiation Fault Injection for a Complex FPGA Designs." Weston presented a poster of Nathan Harris' research.  images:
+    Nathan Baker (masters student), Weston Smith (undergraduate student), and Professor Wirthlin traveled to Ottawa, Canada, for the 2024 IEEE Nuclear & Space Radiation Effects Conference (NSREC). Nathan gave an oral presentation on his paper "Post-Radiation Fault Injection for a Complex FPGA Designs." Weston presented a poster of Nathan Harris' research.  
+  images:
     - news_2024/nsrec_1.jpg
     - news_2024/nsrec_2.jpg
 
