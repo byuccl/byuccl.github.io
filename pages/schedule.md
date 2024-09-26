@@ -14,7 +14,7 @@ title: Schedule
 | Oct 24    | Garrett Smith / Caleb Price
 | Oct 31    | Tyler Ricks, Joshua Fife
 | Nov 7     | Caden Brinkman, Lilly MacKenzie
-| Nov 14    | Julia Johnson, Spencer
+| Nov 14    | Julia Johnson
 | Nov 21    | No Meeting (ChipIR test)
 | Nov 28    | No Meeting (Thanksgiving)
 | Dec 5     | Dallin Dahl, Reilly McKendrick
