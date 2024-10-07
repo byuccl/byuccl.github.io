@@ -87,3 +87,7 @@ undergrad_students:
   - first_name: Preston
     last_name: Walker
     image: Preston_Walker.jpg
+
+    - first_name: Gohaun
+    last_name: Manley
+    image: gohaun_manley.jpg
