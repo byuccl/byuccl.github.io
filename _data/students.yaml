@@ -88,6 +88,19 @@ undergrad_students:
     last_name: Walker
     image: Preston_Walker.jpg
 
+<<<<<<< HEAD
     - first_name: Gohaun
     last_name: Manley
     image: gohaun_manley.jpg
+=======
+  - first_name: Ayden
+    last_name: Bales
+    image: ayden_bales.jpg
+  
+  - first_name: Connor
+    last_name: Young
+    image: connor_young.jpg
+
+
+
+>>>>>>> upstream/main
