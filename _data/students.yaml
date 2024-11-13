@@ -99,3 +99,7 @@ undergrad_students:
   - first_name: Gohaun
     last_name: Manley
     image: gohaun_manley.jpg
+
+  - first_name: Porter T
+    last_name: Dansie
+    image: porter_dansie.jpg
