@@ -1,3 +1,12 @@
+- event_name: ChipIr 2024
+  date: 2024-11-20
+  description: >
+    Professors Mike Wirthlin and Jeff Goeders, along with Master's student Garrett Smith, traveled to the [ChipIr Beamline](https://www.isis.stfc.ac.uk/Pages/Chipir.aspx) at the ISIS Neutron and Muon source at the Rutherford Appleton Laboratory, UK, to perform neutron radiation testing on a large variety of FPGA and SoC devices.  They also visited the UK National Museum of Computing, which features many of the earliest computers, including a recreation of the Colossus, one of the world's first programmable computers.
+  images:
+    - news_2024/chipir1.jpg
+    - news_2024/chipir2.jpg
+    - news_2024/chipir3.jpg
+
 - event_name: NSREC 2024
   date: 2024-07-22
   description: >
