@@ -5,6 +5,28 @@ title: Schedule
 
 # Lab Meeting Schedule
 
+## Winter 2025
+
+| Jan 16 | Welcome and Introductions |
+| Jan 23 | ChipIR summary |
+| Jan 30 | Nathan Baker (Network switch), Jacob/Preston (demo) |
+| Feb 6  | Xilinx Labs LLM project, Caleb (AI update) |
+| Feb 13 | Allan Howe (introduce project), Garrett Smith (test results) |
+| Feb 20 | Tyler Ricks (ChipIR), Joshua Fife |
+| Feb 27 | ? (FPGA) |
+| Mar 6  | FPGA Conference Summary (Reilly and Dallin) |
+| Mar 13 | Justin Applegate (?), JCM DAP / Linux update |
+| Mar 20 | Verity project, Dose Rate project |
+| Mar 27 | Andy Wilson Phd Presentation |
+| Apr 3  | Dallin Dahl, Reilly McKendrick |
+| Apr 10 |  |
+
+Ideas:
+* Versal fundamentals (running software, how the configuration works, booting, etc.). Bootcamp page?
+* Radiation effects fundamentals
+* SHREC projects?
+* Storage systems and setup (NAS, etc.)
+
 ## Fall 2024
 
 | Sep 26    | Nathan Baker (NSREC 2024 Presentation) | 
