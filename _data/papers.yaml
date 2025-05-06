@@ -140,6 +140,14 @@
     Additional experiments involving short circuits are also performed to demonstrate the results of our initial experiments are repeatable. These experiments also use a more fine-grained characterization method that provides further insight into the non-uniformed nature of the aging caused by short circuits. 
   url: cook_trets22.pdf
 
+- title: "Automated Software Compiler Techniques to Provide Fault Tolerance for Real-Time Operating Systems"
+  authors: Benjamin James, Jeffrey Goeders
+  year: >
+    2021
+  conference: Design, Automation and Test in Europe (DATE)
+  abstract: In this work we explore applying automated software fault-tolerance techniques to protect a Real-Time Operating System (RTOS) and present experimental results showing that these programs can achieve anywhere from 1.3x-257x improvement in MWTF.
+  url: Automated_Software_Compiler_Techniques_to_Provide_Fault_Tolerance_for_Real-Time_Operating_Systems_2021.pdf
+
 - title: "Using partial duplication with compare to detect radiation-induced failure in a commercial FPGA-Based networking system"
   authors: Andrew Keller, Jared Anderson, Michael Wirthlin, Shi-Jie Wen, Rita Fung, Conner Chambers
   year: >
@@ -208,6 +216,7 @@
   abstract: >
     Field-Programmable Gate Arrays (FPGAs) are widely used for custom hardware implementations, including in many security-sensitive industries, such as defense, communications, transportation, medical, and more. Compiling source hardware descriptions to FPGA bitstreams requires the use of complex computer-aided design (CAD) tools. These tools are typically proprietary and closed-source, and it is not possible to easily determine that the produced bitstream is equivalent to the source design. In this work we present various FPGA design flows that leverage pre-synthesizing or pre-implementing parts of the design, combined with open-source synthesis tools, bitstream-to-netlist tools, and commercial equivalence checking tools, to verify that a produced hardware design is equivalent to the designer’s source design. We evaluate these different design flows on several benchmark circuits, and demonstrate that they are effective at detecting malicious modifications made to the design during compilation. We compare our proposed design flows with baseline commercial design flows and measure the overheads to area and runtime.
   url: cahill_trets21.pdf
+
 
 - title: >
     Investigating How Software Characteristics Impact the Effectiveness of Automated Software Fault Tolerance
