@@ -219,7 +219,7 @@
     2021
   abstract: >
     A number of publications have examined automated fault tolerance techniques for software running on commercial off-the-shelf microcontrollers. Recently, we published an automated compiler-based protection tool called COmpiler Assisted Software fault Tolerance (COAST), a tool that automatically inserts dual- or triple-modular redundancy into software programs. In this study, we use COAST to explore how the effectiveness of automated fault protection varies between different benchmarks, tested on an ARM Cortex-A9 platform. Our hypothesis is that certain benchmark characteristics are more likely than others to influence the effectiveness of automated fault protection. Through neutron radiation testing at the Los Alamos Neutron Science Center (LANSCE), we show that cross section improvements vary from 1.6× to 54× across eight benchmark variants. We then explore the characteristics of these benchmarks and investigate how properties of these benchmarks may impact the effectiveness of automated fault protection. Finally, we leverage a novel fault injection platform to isolate two of these benchmark characteristics and validate our hypotheses.
-  url: james_tns21.pdf
+  url: Investigating_How_Software_Characteristics_Impact_the_Effectiveness_of_Automated_Software_Fault_Tolerance_2021.pdf
 
 - title: >
     Understanding the Impact of Quantization, Accuracy, and Radiation on the Reliability of Convolutional Neural Networks on FPGAs
