@@ -1,3 +1,11 @@
+- title: A Parallelized Neutron Radiation Testing Technique to Understand Failures Within a Complex SoC
+  authors: Jeffrey Goeders, Weston Smith, Maria Kastriotou, Michael Wirthlin
+  conference: IEEE Transactions on Nuclear Science
+  year: >
+    2025
+  abstract: >
+    Complex system on chip (SoC) is increasingly used in embedded applications where both high computing performance and low power consumption are required. These devices are especially important in embedded environments where safety and reliability are critical, such as advanced driver assistance systems (ADASs) and space applications. The failure modes and failure rates of these devices due to single-event effects are not well understood, and methods for testing these devices are tedious and time-consuming. This work introduces a methodology for simultaneously testing multiple components of an SoC device. This methodology is used to evaluate the failure modes of several components within an AMD UltraScale+ multiprocessor SoC (MPSoC) device under neutron radiation. The results from two neutron beam tests are described and compared.
+  url: A_Parallelized_Neutron_Radiation_Testing_Technique_to_Understand_Failures_Within_a_Complex_SoC_2025.pdf
 
 - title: Techniques for Exploring Fine-Grained LUT and Routing Aging on a 28nm FPGA
   authors: Hayden Cook and Jeffrey Goeders
