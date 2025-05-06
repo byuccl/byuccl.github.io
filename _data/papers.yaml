@@ -361,7 +361,7 @@
     2020
   abstract: >
    Several recent works have explored the feasibility of using Commercial off-the-shelf (COTS) processing systems in radiation-prone environments, such as spacecraft. Typically, this approach requires some form of protection, to ensure that the software can tolerate radiation upsets without compromising the system. Our recent work, COAST (COmpiler Assisted Software fault Tolerance), provides automated compiler modification of software programs to insert dual- or triple-modular redundancy. In this work we extend COAST to support several new processing platforms, including RISC-V and Xilinx SoC-based products. The automated software protection mechanisms are tested for a variety of configurations, altering the benchmark and cache configuration. Across the different configurations, the cross-sections were improved by 4x–106x. In addition, a hardware-mitigation technique is tested using dual lock-step cores on the Texas Instruments Hercules platform, which is compared to the software-only mitigation approach.
-  url: coast_tns20.pdf
+  url: Applying_Compiler-Automated_Software_Fault_Tolerance_to_Multiple_Processor_Platforms.pdf
 
 - title: >
     Fast Turnaround HLS Debugging using Dependency Analysis and Debug Overlays
