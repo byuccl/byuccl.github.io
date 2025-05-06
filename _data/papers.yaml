@@ -1,4 +1,19 @@
 
+- title: Techniques for Exploring Fine-Grained LUT and Routing Aging on a 28nm FPGA
+  authors: Hayden Cook and Jeffrey Goeders
+  conference: International Conference on Field-Programmable Logic and Applications (FPL)
+  year: >
+    2024
+  abstract: >
+    Understanding how FPGAs age and how to control that aging is crucial for ensuring the reliability and security of FPGAs in critical applications. Due to the proprietary nature of commercial FPGAs, it can be challenging to validate aging models on real silicon, and most previous work has relied on circuit simulations to study the effects of FPGA aging. In this work, we leverage low-level placement and routing APIs provided by RapidWright to create a series of stressor and characterization circuits that allow us to measure the effects of aging on individual LUTs and routing resources in a 28nm FPGA. We demonstrate how these techniques allow fine-grained control of the relative aging of different FPGA resources, even to the point of aging individual paths within a single LUT. Several different aging experiments are demonstrated, and in a cumulative test, we show how different signal and LUT configurations can influence the aging rate by over 2x.
+  url: https://ieeexplore.ieee.org/document/10705602
+
+- title: Dose Rate Effects on Dynamic Operation of an 8-bit Microcontroller
+  authors: Jeffrey Goeders, Dallin Wood, Victoriah Meyer, Cameron Samson, Jeffrey Black, Dolores Black, Mike Wirthlin
+  conference: Radiation Effects on Components and Systems Conference (RADECS)
+  year: >
+    2024
+  
 - title: "Digital Design Education Using an Open-Source, Cloud-Based FPGA Toolchain"
   authors: Weston Smith, Zachary Driskill, Jeffrey Goeders, Michael Wirthlin
   conference: Intermountain Engineering, Technology and Computing (IETC)
@@ -7,6 +22,15 @@
   abstract: >
     Digital design tools typically have a high barrier to entry: setup is challenging for beginners, and installation often requires a high-performance workstation. In this work, we present an educational framework for digital design using cloud-based resources and open-source tools. We leverage Google Colab notebooks to allow users to run FPGA simulation and design tools remotely, using only a simple web browser. The tools are capable of running simulations with visualizations, and can generate FPGA bitstreams for commercial devices. In addition, we have developed several notebook-based labs to teach digital design topics, including arithmetic, combinational and sequential circuits, and FSMs.
   url: https://ieeexplore.ieee.org/abstract/document/10564285
+
+- title: Toward FPGA Intellectual Property (IP) Encryption from Netlist to Bitstream
+  authors: Daniel Hutchings, Adam Taylor, and Jeffrey Goeders
+  conference: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
+  year: >
+    2024
+  abstract: > 
+    Current intellectual property (IP) encryption methods offered by field-programmable gate array (FPGA) vendors use an approach where the IP is decrypted during the computer-aided design (CAD) flow and remains unencrypted in the bitstream. Given the ease of accessing modern bitstream-to-netlist tools, encrypted IP is vulnerable to inspection and theft from the IP user. While the entire bitstream can be encrypted, this is done by the user and is not a mechanism to protect confidentiality of third-party IP. In this work, we present a design methodology, along with a proof-of-concept tool that demonstrates how IP can remain partially encrypted through the CAD flow and into the bitstream. We show how this approach can support multiple encryption keys from different vendors and can be deployed using existing CAD tools and FPGA families. Our results document the benefits and costs of using such an approach to provide much greater protection for third-party IP.
+  url: https://dl.acm.org/doi/abs/10.1145/3656644
 
 - title: "Dynamic Testing of a Commercial FRAM Device Under Gamma Ray Dose and Neutron Beam"
   authors: Nathan Harris, Wesley Stirk, Dolores Black, Jeffrey Black, Mike Wirthlin, Jeffrey Goeders
