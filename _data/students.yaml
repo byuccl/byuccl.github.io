@@ -13,10 +13,6 @@ phd_students:
     last_name: Dahl
     image: Dallin_Dahl.jpg
     
-  - first_name: Hayden 
-    last_name: Cook
-    image: hayden_cook.png
-    
 masters_students:    
   - first_name: Joshua 
     last_name: Fife
