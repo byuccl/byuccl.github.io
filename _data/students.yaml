@@ -18,19 +18,10 @@ phd_students:
     image: hayden_cook.png
     
 masters_students:    
-  - first_name: Jonathan 
-    last_name: Thompson
-    image: jonathan_thompson.jpg
-
   - first_name: Joshua 
     last_name: Fife
     image: joshua_fife.jpg
 
-  - first_name: Nathan
-    last_name: Baker
-    image: nathan_baker.jpg
-    link: https://bakernat003.github.io/pages/log/
-    
   - first_name: Tyler
     last_name: Ricks
     image: tyler_ricks.jpg
@@ -47,42 +38,10 @@ masters_students:
     last_name: Smith
     image: Weston_smith.jpg
 
-  - first_name: Caleb
-    last_name: Price
-    image: Caleb_Price.jpg
-    
-  - first_name: Jarek
-    last_name: Wall
-    image: Jarek_Wall.jpg
-
 undergrad_students:
-  - first_name: Collin
-    last_name: Lambert
-    image: collin_lambert.jpg
-    
-  - first_name: Keenan
-    last_name: Faulkner
-    image: keenan_faulkner.jpg
-   
-  - first_name: Colton
-    last_name: Yates
-    image: colton_yates.jpg
-
   - first_name: Ethan
     last_name: Hunter
     image: ethan_hunter.jpg
-
-  - first_name: Caden
-    last_name: Brinkman
-    image: Caden_Brinkman.jpg
-
-  - first_name: Lilly
-    last_name: MacKenzie
-    image: lilly_mackenzie.jpg
-
-  - first_name: Isaac
-    last_name: Gubelin
-    image: isaac_gubelin.jpg
 
   - first_name: Preston
     last_name: Walker
@@ -95,11 +54,3 @@ undergrad_students:
   - first_name: Connor
     last_name: Young
     image: connor_young.jpg
-
-  - first_name: Gohaun
-    last_name: Manley
-    image: gohaun_manley.jpg
-
-  - first_name: Porter T
-    last_name: Dansie
-    image: porter_dansie.jpg
