@@ -1,3 +1,11 @@
+- title: A Parallelized Neutron Radiation Testing Technique to Understand Failures Within a Complex SoC
+  authors: Jeffrey Goeders, Weston Smith, Maria Kastriotou, Michael Wirthlin
+  conference: IEEE Transactions on Nuclear Science
+  year: >
+    2025
+  abstract: >
+    Complex system on chip (SoC) is increasingly used in embedded applications where both high computing performance and low power consumption are required. These devices are especially important in embedded environments where safety and reliability are critical, such as advanced driver assistance systems (ADASs) and space applications. The failure modes and failure rates of these devices due to single-event effects are not well understood, and methods for testing these devices are tedious and time-consuming. This work introduces a methodology for simultaneously testing multiple components of an SoC device. This methodology is used to evaluate the failure modes of several components within an AMD UltraScale+ multiprocessor SoC (MPSoC) device under neutron radiation. The results from two neutron beam tests are described and compared.
+  url: A_Parallelized_Neutron_Radiation_Testing_Technique_to_Understand_Failures_Within_a_Complex_SoC_2025.pdf
 
 - title: Techniques for Exploring Fine-Grained LUT and Routing Aging on a 28nm FPGA
   authors: Hayden Cook and Jeffrey Goeders
@@ -140,6 +148,14 @@
     Additional experiments involving short circuits are also performed to demonstrate the results of our initial experiments are repeatable. These experiments also use a more fine-grained characterization method that provides further insight into the non-uniformed nature of the aging caused by short circuits. 
   url: cook_trets22.pdf
 
+- title: "Automated Software Compiler Techniques to Provide Fault Tolerance for Real-Time Operating Systems"
+  authors: Benjamin James, Jeffrey Goeders
+  year: >
+    2021
+  conference: Design, Automation and Test in Europe (DATE)
+  abstract: In this work we explore applying automated software fault-tolerance techniques to protect a Real-Time Operating System (RTOS) and present experimental results showing that these programs can achieve anywhere from 1.3x-257x improvement in MWTF.
+  url: Automated_Software_Compiler_Techniques_to_Provide_Fault_Tolerance_for_Real-Time_Operating_Systems_2021.pdf
+
 - title: "Using partial duplication with compare to detect radiation-induced failure in a commercial FPGA-Based networking system"
   authors: Andrew Keller, Jared Anderson, Michael Wirthlin, Shi-Jie Wen, Rita Fung, Conner Chambers
   year: >
@@ -209,6 +225,7 @@
     Field-Programmable Gate Arrays (FPGAs) are widely used for custom hardware implementations, including in many security-sensitive industries, such as defense, communications, transportation, medical, and more. Compiling source hardware descriptions to FPGA bitstreams requires the use of complex computer-aided design (CAD) tools. These tools are typically proprietary and closed-source, and it is not possible to easily determine that the produced bitstream is equivalent to the source design. In this work we present various FPGA design flows that leverage pre-synthesizing or pre-implementing parts of the design, combined with open-source synthesis tools, bitstream-to-netlist tools, and commercial equivalence checking tools, to verify that a produced hardware design is equivalent to the designer’s source design. We evaluate these different design flows on several benchmark circuits, and demonstrate that they are effective at detecting malicious modifications made to the design during compilation. We compare our proposed design flows with baseline commercial design flows and measure the overheads to area and runtime.
   url: cahill_trets21.pdf
 
+
 - title: >
     Investigating How Software Characteristics Impact the Effectiveness of Automated Software Fault Tolerance
   authors: >
@@ -219,7 +236,7 @@
     2021
   abstract: >
     A number of publications have examined automated fault tolerance techniques for software running on commercial off-the-shelf microcontrollers. Recently, we published an automated compiler-based protection tool called COmpiler Assisted Software fault Tolerance (COAST), a tool that automatically inserts dual- or triple-modular redundancy into software programs. In this study, we use COAST to explore how the effectiveness of automated fault protection varies between different benchmarks, tested on an ARM Cortex-A9 platform. Our hypothesis is that certain benchmark characteristics are more likely than others to influence the effectiveness of automated fault protection. Through neutron radiation testing at the Los Alamos Neutron Science Center (LANSCE), we show that cross section improvements vary from 1.6× to 54× across eight benchmark variants. We then explore the characteristics of these benchmarks and investigate how properties of these benchmarks may impact the effectiveness of automated fault protection. Finally, we leverage a novel fault injection platform to isolate two of these benchmark characteristics and validate our hypotheses.
-  url: james_tns21.pdf
+  url: Investigating_How_Software_Characteristics_Impact_the_Effectiveness_of_Automated_Software_Fault_Tolerance_2021.pdf
 
 - title: >
     Understanding the Impact of Quantization, Accuracy, and Radiation on the Reliability of Convolutional Neural Networks on FPGAs
@@ -358,10 +375,10 @@
   conference: >
     IEEE Transactions on Nuclear Science (TNS)
   year: >
-    2020
+    2019
   abstract: >
    Several recent works have explored the feasibility of using Commercial off-the-shelf (COTS) processing systems in radiation-prone environments, such as spacecraft. Typically, this approach requires some form of protection, to ensure that the software can tolerate radiation upsets without compromising the system. Our recent work, COAST (COmpiler Assisted Software fault Tolerance), provides automated compiler modification of software programs to insert dual- or triple-modular redundancy. In this work we extend COAST to support several new processing platforms, including RISC-V and Xilinx SoC-based products. The automated software protection mechanisms are tested for a variety of configurations, altering the benchmark and cache configuration. Across the different configurations, the cross-sections were improved by 4x–106x. In addition, a hardware-mitigation technique is tested using dual lock-step cores on the Texas Instruments Hercules platform, which is compared to the software-only mitigation approach.
-  url: coast_tns20.pdf
+  url: Applying_Compiler-Automated_Software_Fault_Tolerance_to_Multiple_Processor_Platforms_2019.pdf
 
 - title: >
     Fast Turnaround HLS Debugging using Dependency Analysis and Debug Overlays
@@ -541,7 +558,7 @@
     2018
   abstract: >
     Commercial off-the-shelf microcontrollers can be useful for noncritical processing on spaceborne platforms. These microprocessors can be inexpensive and consume small amounts of power. However, the software running on these processors is vulnerable to radiation upsets. In this paper, we present a fully automated, configurable, software-based tool to increase the reliability of microprocessors in high-radiation environments. This tool consists of a set of open-source LLVM compiler passes to automatically implement software-based mitigation techniques. We duplicate or triplicate computations and insert voting mechanisms into software during the compilation process, allowing for runtime error correction. While the techniques we implement are not novel, previous work has typically been closed source, processor architecture dependent, not automated, and not tested in real high-radiation environments. In contrast, the compiler passes presented in this paper are publicly available, highly customizable, and are platform independent and language independent. We have tested our modified software using both fault injection and through neutron beam radiation on a Texas Instruments MSP430 microcontroller. When tested by a neutron beam, we were able to decrease the cross section of programs by 17-29×, increasing mean-work-to-failure by 4-7×.
-  url: bohman_tns18.pdf
+  url: Microcontroller_Compiler-Assisted_Software_Fault_Tolerance_2018.pdf
 
 
 - title: >
