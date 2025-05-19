@@ -50,3 +50,7 @@ undergrad_students:
   - first_name: Connor
     last_name: Young
     image: connor_young.jpg
+
+  - first_name: Adam
+    last_name: Sandland
+    image: adam_sandland.jpg
