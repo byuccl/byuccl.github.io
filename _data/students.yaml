@@ -63,6 +63,14 @@ undergrad_students:
     last_name: Sandland
     image: adam_sandland.jpg
 
-- first_name: Jihyeon
+  - first_name: Jihyeon
     last_name: Kweon
     image: Jihyeon_Kweon.jpg
+
+  - first_name: Derek
+    last_name: Harker
+    image: Derek_Harker.jpg
+
+  - first_name: Brigham
+    last_name: Morgan
+    image: brigham_morgan.jpg
