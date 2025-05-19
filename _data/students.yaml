@@ -34,6 +34,14 @@ masters_students:
     last_name: Smith
     image: Weston_smith.jpg
 
+  - first_name: Isaac
+    last_name: Garfield
+    image: isaac_garfield.jpg
+
+  - first_name: Allan
+    last_name: Howe
+    image: Allan_Howe.png
+
 undergrad_students:
   - first_name: Ethan
     last_name: Hunter
@@ -54,3 +62,7 @@ undergrad_students:
   - first_name: Adam
     last_name: Sandland
     image: adam_sandland.jpg
+
+- first_name: Jihyeon
+    last_name: Kweon
+    image: Jihyeon_Kweon.jpg
