@@ -38,6 +38,10 @@ masters_students:
     last_name: Garfield
     image: isaac_garfield.jpg
 
+  - first_name: Allan
+    last_name: Howe
+    image: Allan_Howe.png
+
 undergrad_students:
   - first_name: Ethan
     last_name: Hunter
