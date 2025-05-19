@@ -59,6 +59,10 @@ undergrad_students:
     last_name: Young
     image: connor_young.jpg
 
+  - first_name: Derek
+    last_name: Harker
+    image: Derek_Harker.jpg
+
   - first_name: Jihyeon
     last_name: Kweon
     image: Jihyeon_Kweon.jpg
