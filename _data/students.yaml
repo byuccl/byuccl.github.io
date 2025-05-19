@@ -34,6 +34,10 @@ masters_students:
     last_name: Smith
     image: Weston_smith.jpg
 
+  - first_name: Isaac
+    last_name: Garfield
+    image: isaac_garfield.jpg
+
 undergrad_students:
   - first_name: Ethan
     last_name: Hunter
