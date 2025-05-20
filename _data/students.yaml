@@ -74,3 +74,7 @@ undergrad_students:
   - first_name: Mialani
     last_name: Noble
     image: mialani_noble.jpg
+
+  - first_name: Jesse
+    last_name: Farnsworth
+    image: jesse_farnsworth.jpg
