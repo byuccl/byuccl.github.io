@@ -75,6 +75,10 @@ undergrad_students:
     last_name: Morgan
     image: brigham_morgan.jpg
 
+  - first_name: John
+    last_name: Rowberry
+    image: john_rowberry.jpeg
+
   - first_name: Mialani
     last_name: Noble
     image: mialani_noble.jpg
