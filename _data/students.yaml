@@ -71,6 +71,10 @@ undergrad_students:
     last_name: Kweon
     image: Jihyeon_Kweon.jpg
 
+  - first_name: Derek
+    last_name: Harker
+    image: Derek_Harker.jpg
+
   - first_name: Brigham
     last_name: Morgan
     image: brigham_morgan.jpg
@@ -86,3 +90,7 @@ undergrad_students:
   - first_name: Jesse
     last_name: Farnsworth
     image: jesse_farnsworth.jpg
+
+  - first_name: Adam
+    last_name: Sandland
+    image: adam_sandland.jpg
