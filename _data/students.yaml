@@ -98,3 +98,7 @@ undergrad_students:
   - first_name: Eddie
     last_name: Rydell
     image: eddie_rydell.jpeg
+
+  - first_name: Youngmin
+    last_name: Kim
+    image: youngmin_kim.jpg
