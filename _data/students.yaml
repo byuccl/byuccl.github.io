@@ -94,3 +94,7 @@ undergrad_students:
   - first_name: Adam
     last_name: Sandland
     image: adam_sandland.jpg
+
+  - first_name: Eddie
+    last_name: Rydell
+    image: eddie_rydell.jpeg
