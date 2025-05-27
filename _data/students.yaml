@@ -67,6 +67,10 @@ undergrad_students:
     last_name: Young
     image: connor_young.jpg
 
+  - first_name: Jacob
+    last_name: Bertrand
+    image: jacob_bertrand.jpg
+
   - first_name: Derek
     last_name: Harker
     image: Derek_Harker.jpg
