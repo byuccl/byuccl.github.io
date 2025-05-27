@@ -43,6 +43,10 @@ masters_students:
     image: Allan_Howe.png
 
 undergrad_students:
+  - first_name: Jacob
+    last_name: Ethington
+    image: Jacob_Ethington.jpg
+
   - first_name: Bradford
     last_name: Bawden
     image: bradford_bawden.jpeg
