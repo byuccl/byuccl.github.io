@@ -16,6 +16,15 @@
     Understanding how FPGAs age and how to control that aging is crucial for ensuring the reliability and security of FPGAs in critical applications. Due to the proprietary nature of commercial FPGAs, it can be challenging to validate aging models on real silicon, and most previous work has relied on circuit simulations to study the effects of FPGA aging. In this work, we leverage low-level placement and routing APIs provided by RapidWright to create a series of stressor and characterization circuits that allow us to measure the effects of aging on individual LUTs and routing resources in a 28nm FPGA. We demonstrate how these techniques allow fine-grained control of the relative aging of different FPGA resources, even to the point of aging individual paths within a single LUT. Several different aging experiments are demonstrated, and in a cumulative test, we show how different signal and LUT configurations can influence the aging rate by over 2x.
   url: https://ieeexplore.ieee.org/document/10705602
 
+- title: Improving Fault Tolerance for FPGA SoCs through Post-Radiation Design Analysis
+  authors: A. E. Wilson, N. Baker, E. Campbell, and M. Wirthlin
+  conference: ACM Transactions on Reconfigurable Technology and Systems
+  year: >
+    2024
+  abstract: >
+    FPGAs have been shown to operate reliably within harsh radiation environments by employing single-event upset (SEU) mitigation techniques, such as configuration scrubbing, triple-modular redundancy, error correction coding, and radiation aware implementation techniques. The effectiveness of these techniques, however, is limited when using complex system-level designs that employ complex I/O interfaces with single-point failures. In previous work, a complex SoC system running Linux applied several of these techniques only to obtain an improvement of 14× in mean time to failure (MTTF). A detailed post-radiation fault analysis found that the limitations in reliability were due to the DDR interface, the global clock network, and interconnect. This article applied a number of design-specific SEU mitigation techniques to address the limitations in reliability of this design. These changes include triplicating the global clock, optimizing the placement of the reduction output voters and input flip-flops, and employing a mapping technique called “striping.” The application of these techniques improved MTTF of the mitigated design by a factor of 1.54× and thus provides a 22.8X× MTTF improvement over the unmitigated design. A post-radiation fault analysis using BFAT was also performed to find the remaining design vulnerabilities.
+  url: https://doi.org/10.1145/3674841
+
 - title: Dose Rate Effects on Dynamic Operation of an 8-bit Microcontroller
   authors: Jeffrey Goeders, Dallin Wood, Victoriah Meyer, Cameron Samson, Jeffrey Black, Dolores Black, Mike Wirthlin
   conference: Radiation Effects on Components and Systems Conference (RADECS)
@@ -48,6 +57,24 @@
   abstract: >
     This work presents dose rate and neutron testing on an FRAM device in dynamic operation during radiation pulses. Radiation failure modes are shown to be unique. Dose rate failure is shown to be based primarily on integrated dose in the radiation pulse and terminates the FRAM operation and can alter up to 8 bytes of data in storage. Neutron failures are attributed to a shifting of data like a clocking error.
   url: https://ieeexplore.ieee.org/abstract/document/10476494
+
+- title: Neutron Radiation Testing of RISC-V TMR Soft Processors on SRAM-Based FPGAs
+  authors: A. E. Wilson, M. Wirthlin and N. G. Baker
+  conference: IEEE Transactions on Nuclear Science
+  year: >
+    2023
+  abstract: >
+    Soft, configurable processors within field programmable gate array (FPGA) designs are susceptible to single-event upsets (SEUs). SEU mitigation techniques such as triple modular redundancy (TMR) and configuration memory scrubbing can be used to improve the reliability of soft processor designs. This article presents the improvements in the reliability of five different TMR soft processors within a neutron radiation environment. The TMR processors achieved up to a 75× improvement in reliability at the cost of potentially 4.8× resource utilization and an average 12.4% decrease in maximum frequency compared with the unmitigated designs. This work compares the metrics of reliability, power consumption, and performance among the default unmitigated processors and their TMR variations.
+  url: https://ieeexplore.ieee.org/document/10012379
+
+- title: Post-Radiation Fault Analysis of a High Reliability FPGA Linux SoC
+  authors: Wilson, Andrew Elbert and Baker, Nathan and Campbell, Ethan and Sahleen, Jackson and Wirthlin, Michael
+  conference: Proceedings of the 2023 ACM/SIGDA International Symposium on Field Programmable Gate Arrays
+  year: >
+    2023
+  abstract: >
+    FPGAs are increasingly being used in space and other harsh radiation environments. However, SRAM-based FPGAs are susceptible to radiation in these environments and experience upsets within the configuration memory (CRAM), causing design failure. The effects of CRAM upsets can be mitigated using triple-modular redundancy and configuration scrubbing. This work investigates the reliability of a soft RISC-V SoC system executing the Linux operating system mitigated by TMR and configuration scrubbing. In particular, this paper analyzes the failures of this triplicated system observed at a high-energy neutron radiation experiment. Using a bitstream fault analysis tool, the failures of this system caused by CRAM upsets are traced back to the affected FPGA resource and design logic. This fault analysis identifies the interconnect and I/O as the most vulnerable FPGA resources and the DDR controller logic as the design logic most likely to cause a failure. By identifying the FPGA resources and design logic causing failures in this TMR system, additional design enhancements are proposed to create a more reliable design for harsh radiation environments.
+  url: https://doi.org/10.1145/3543622.3573191
 
 - title: "Improving the Reliability of FPGA CRO PUFs"
   authors: Hayden Cook, Zephram Tripp, Brad Hutchings, Jeffrey Goeders
