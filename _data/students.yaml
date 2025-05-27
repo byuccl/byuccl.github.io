@@ -43,6 +43,10 @@ masters_students:
     image: Allan_Howe.png
 
 undergrad_students:
+  - first_name: Bradford
+    last_name: Bawden
+    image: bradford_bawden.jpeg
+    
   - first_name: Ethan
     last_name: Hunter
     image: ethan_hunter.jpg
@@ -71,6 +75,38 @@ undergrad_students:
     last_name: Marie
     image: picture_adam.jpeg
 
+  - first_name: Derek
+    last_name: Harker
+    image: Derek_Harker.jpg
+
   - first_name: Brigham
     last_name: Morgan
     image: brigham_morgan.jpg
+
+  - first_name: Scott
+    last_name: May
+    image: scott_may.jpg
+
+  - first_name: John
+    last_name: Rowberry
+    image: john_rowberry.jpeg
+
+  - first_name: Mialani
+    last_name: Noble
+    image: mialani_noble.jpg
+
+  - first_name: Jesse
+    last_name: Farnsworth
+    image: jesse_farnsworth.jpg
+
+  - first_name: Adam
+    last_name: Sandland
+    image: adam_sandland.jpg
+
+  - first_name: Eddie
+    last_name: Rydell
+    image: eddie_rydell.jpeg
+
+  - first_name: Youngmin
+    last_name: Kim
+    image: youngmin_kim.jpg
