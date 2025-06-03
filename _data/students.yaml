@@ -83,10 +83,6 @@ undergrad_students:
     last_name: Marie
     image: picture_adam.jpg
 
-  - first_name: Derek
-    last_name: Harker
-    image: Derek_Harker.jpg
-
   - first_name: Brigham
     last_name: Morgan
     image: brigham_morgan.jpg
