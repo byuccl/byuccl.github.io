@@ -108,3 +108,7 @@ undergrad_students:
   - first_name: Youngmin
     last_name: Kim
     image: youngmin_kim.jpg
+
+  - first_name: Calin
+    last_name: Schurig
+    image: calin_schurig.jpg
