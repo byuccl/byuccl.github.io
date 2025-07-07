@@ -1,10 +1,4 @@
 phd_students:
-   
-  - first_name: Andrew E 
-    last_name: Wilson
-    image: andrew_wilson.jpg
-    link: https://aew2015.github.io/ccl_log/
-    
   - first_name: Reilly 
     last_name: McKendrick
     image: reilly_mckendrick.jpg
@@ -42,6 +36,10 @@ masters_students:
     last_name: Howe
     image: Allan_Howe.png
 
+  - first_name: Preston
+    last_name: Walker
+    image: Preston_Walker.jpg
+
 undergrad_students:
   - first_name: Jacob
     last_name: Ethington
@@ -54,10 +52,6 @@ undergrad_students:
   - first_name: Ethan
     last_name: Hunter
     image: ethan_hunter.jpg
-
-  - first_name: Preston
-    last_name: Walker
-    image: Preston_Walker.jpg
 
   - first_name: Ayden
     last_name: Bales
