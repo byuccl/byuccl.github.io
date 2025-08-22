@@ -21,7 +21,7 @@ title: Schedule
 | Nov 13 | John Rowberry, Brigham Morgan, Calin Schurig?
 | Nov 20 | Dallin Dahl
 | Nov 27 | THANKSGIVING |
-| Dec 4  | Jacob Brown / Allan Howe (Versal AI test)
+| Dec 4  | Versal Radiation test report
 | Dec 11 | Mialani Noble & Jeff (RandSoC)
 | Dec 18 | TBD
 
