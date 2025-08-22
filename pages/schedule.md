@@ -5,6 +5,26 @@ title: Schedule
 
 # Lab Meeting Schedule
 
+## Fall 2025
+
+| Date | Speaker (Topic) |
+|------|-----------------|
+| Sep 11 | Welcome & Introductions, Jeff FPL report
+| Sep 18 | Preston Walker, Bradford Bawden
+| Sep 25 | Isaac Garfield & Jesse Farnsworth (LMTF tests)
+| Oct 2  | Jacob Brown / Allan Howe / Derek Harker
+| Oct 9  | Joshua Fife
+| Oct 16 | Garrett Smith
+| Oct 23 | Reilly McKendrick & Eddie Rydell & Connor Young
+| Oct 30 | John Rowberry, Brigham Morgan, Calin Schurig?
+| Nov 6  | Weston Smith, Ethan Hunter, Jinie Kweon, Ayden Bales (DTRA)
+| Nov 13 | John Rowberry, Brigham Morgan, Calin Schurig?
+| Nov 20 | Dallin Dahl
+| Nov 27 | THANKSGIVING |
+| Dec 4  | Jacob Brown / Allan Howe (Versal AI test)
+| Dec 11 | Mialani Noble & Jeff (RandSoC)
+| Dec 18 | TBD
+
 ## Winter 2025
 
 | Jan 16 | Welcome and Introductions |
