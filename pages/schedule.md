@@ -14,11 +14,11 @@ title: Schedule
 | Sep 25 | Isaac Garfield & Jesse Farnsworth (LMTF tests)
 | Oct 2  | Jacob Brown / Allan Howe / Derek Harker
 | Oct 9  | Joshua Fife
-| Oct 16 | Garrett Smith
+| Oct 16 | Garrett Smith, Calin Schurig
 | Oct 23 | Reilly McKendrick & Eddie Rydell & Connor Young
-| Oct 30 | John Rowberry, Brigham Morgan, Calin Schurig?
+| Oct 30 | John Rowberry, Brigham Morgan
 | Nov 6  | Weston Smith, Ethan Hunter, Jinie Kweon, Ayden Bales (DTRA)
-| Nov 13 | John Rowberry, Brigham Morgan, Calin Schurig?
+| Nov 13 | ???
 | Nov 20 | Dallin Dahl
 | Nov 27 | THANKSGIVING |
 | Dec 4  | Versal Radiation test report
