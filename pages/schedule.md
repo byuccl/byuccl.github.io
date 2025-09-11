@@ -9,19 +9,19 @@ title: Schedule
 
 | Date | Speaker (Topic) |
 |------|-----------------|
-| Sep 11 | Welcome & Introductions, Jeff FPL report
-| Sep 18 | Preston Walker, Bradford Bawden
+| Sep 11 | Welcome & Introductions, 
+| Sep 18 | Jeff FPL report
 | Sep 25 | Isaac Garfield & Jesse Farnsworth (LMTF tests)
-| Oct 2  | Jacob Brown / Allan Howe / Derek Harker
+| Oct 2  | Preston Walker, Bradford Bawden (AMD Presentation)
 | Oct 9  | Joshua Fife
-| Oct 16 | Garrett Smith, Calin Schurig
-| Oct 23 | Reilly McKendrick & Eddie Rydell & Connor Young
-| Oct 30 | John Rowberry, Brigham Morgan
-| Nov 6  | Weston Smith, Ethan Hunter, Jinie Kweon, Ayden Bales (DTRA)
-| Nov 13 | ???
+| Oct 16 | Jacob Brown / Allan Howe / Derek Harker (Microsoft project?)
+| Oct 23 | Garrett Smith (FT Linux), Calin Schurig (PPU firmware changes)
+| Oct 30 | Reilly McKendrick & Eddie Rydell & Connor Young
+| Nov 6  | John Rowberry (HSDP), Brigham Morgan (AI engine tests)
+| Nov 13 | Weston Smith, Ethan Hunter, Jinie Kweon, Ayden Bales (DTRA)
 | Nov 20 | Dallin Dahl
 | Nov 27 | THANKSGIVING |
-| Dec 4  | Versal Radiation test report
+| Dec 4  | Versal UC Davis Radiation test report
 | Dec 11 | Mialani Noble & Jeff (RandSoC)
 | Dec 18 | TBD
 
