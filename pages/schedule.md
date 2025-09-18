@@ -10,9 +10,9 @@ title: Schedule
 | Date | Speaker (Topic) |
 |------|-----------------|
 | Sep 11 | Welcome & Introductions, 
-| Sep 18 | Jeff FPL report
-| Sep 25 | Isaac Garfield & Jesse Farnsworth (LMTF tests)
-| Oct 2  | Preston Walker, Bradford Bawden (AMD Presentation)
+| Sep 18 | Preston Walker, Bradford Bawden (AMD Presentation)
+| Sep 25 | Jeff FPL report
+| Oct 2  | Isaac Garfield & Jesse Farnsworth (LMTF tests)
 | Oct 9  | Joshua Fife
 | Oct 16 | Jacob Brown / Allan Howe / Derek Harker (Microsoft project?)
 | Oct 23 | Garrett Smith (FT Linux), Calin Schurig (PPU firmware changes)
