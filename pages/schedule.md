@@ -11,18 +11,18 @@ title: Schedule
 |------|-----------------|
 | Sep 11 | Welcome & Introductions, 
 | Sep 18 | Preston Walker, Bradford Bawden (AMD Presentation)
-| Sep 25 | Jeff FPL report
+| Sep 25 | Jeff FPL report & AMD Presentation follow up
 | Oct 2  | Isaac Garfield & Jesse Farnsworth (LMTF tests)
 | Oct 9  | Joshua Fife
-| Oct 16 | Jacob Brown / Allan Howe / Derek Harker (Microsoft project?)
-| Oct 23 | Garrett Smith (FT Linux), Calin Schurig (PPU firmware changes)
-| Oct 30 | Reilly McKendrick & Eddie Rydell & Connor Young
-| Nov 6  | John Rowberry (HSDP), Brigham Morgan (AI engine tests)
+| Oct 16 | Jacob Brown / Allan Howe / Derek Harker (FINN & Microsoft BrainSmith)
+| Oct 23 | Garrett Smith (FT Linux changes), Calin Schurig (PPU firmware changes)
+| Oct 30 | Reilly McKendrick & Eddie Rydell
+| Nov 6  | John Rowberry (HSDP)?, Brigham Morgan (AI engine tests)
 | Nov 13 | Weston Smith, Ethan Hunter, Jinie Kweon, Ayden Bales (DTRA)
 | Nov 20 | Dallin Dahl
 | Nov 27 | THANKSGIVING |
 | Dec 4  | Versal UC Davis Radiation test report
-| Dec 11 | Mialani Noble & Jeff (RandSoC)
+| Dec 11 | Jeff (RandSoC)
 | Dec 18 | TBD
 
 ## Winter 2025
