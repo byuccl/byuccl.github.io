@@ -13,8 +13,8 @@ title: Schedule
 | Sep 18 | Preston Walker, Bradford Bawden (AMD Presentation)
 | Sep 25 | Jeff FPL report & AMD Presentation follow up
 | Oct 2  | Isaac Garfield & Jesse Farnsworth (LMTF tests)
-| Oct 9  | Joshua Fife
-| Oct 16 | Jacob Brown / Allan Howe / Derek Harker (FINN & Microsoft BrainSmith)
+| Oct 9  | Jacob Brown / Allan Howe / Derek Harker (FINN & Microsoft BrainSmith)
+| Oct 16 | Joshua Fife
 | Oct 23 | Garrett Smith (FT Linux changes), Calin Schurig (PPU firmware changes)
 | Oct 30 | Reilly McKendrick & Eddie Rydell
 | Nov 6  | John Rowberry (HSDP)?, Brigham Morgan (AI engine tests)
