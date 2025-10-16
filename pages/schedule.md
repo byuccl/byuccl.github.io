@@ -18,7 +18,7 @@ title: Schedule
 | Oct 23 | Garrett Smith (FT Linux changes), Calin Schurig (PPU firmware changes)
 | Oct 30 | Reilly McKendrick & Eddie Rydell
 | Nov 6  | John Rowberry (HSDP)?, Brigham Morgan (AI engine tests)
-| Nov 13 | Weston Smith, Ethan Hunter, Jinie Kweon, Ayden Bales (DTRA)
+| Nov 13 | Weston Smith, Ethan Hunter, Jinie Kweon (DTRA)
 | Nov 20 | Dallin Dahl
 | Nov 27 | THANKSGIVING |
 | Dec 4  | Versal UC Davis Radiation test report
