@@ -17,7 +17,7 @@ title: Schedule
 | Oct 16 | Joshua Fife
 | Oct 23 | Garrett Smith (FT Linux changes), Calin Schurig (PPU firmware changes)
 | Oct 30 | Reilly McKendrick & Eddie Rydell
-| Nov 6  | John Rowberry (HSDP)?, Brigham Morgan (AI engine tests)
+| Nov 6  | Brigham Morgan (AI engine tests), John Rowberry (HSDP), UC Davis test overview
 | Nov 13 | Weston Smith, Ethan Hunter, Jinie Kweon (DTRA)
 | Nov 20 | Dallin Dahl
 | Nov 27 | THANKSGIVING |
