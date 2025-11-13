@@ -21,7 +21,7 @@ title: Schedule
 | Nov 13 | Weston Smith, Ethan Hunter, Jinie Kweon (DTRA)
 | Nov 20 | Dallin Dahl
 | Nov 27 | THANKSGIVING |
-| Dec 4  | Versal UC Davis Radiation test report
+| Dec 4  | Andy Wilson, Versal UC Davis Radiation test report
 | Dec 11 | Jeff (RandSoC)
 | Dec 18 | TBD
 
