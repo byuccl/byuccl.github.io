@@ -5,6 +5,26 @@ title: Schedule
 
 # Lab Meeting Schedule
 
+## Fall 2025
+
+| Date | Speaker (Topic) |
+|------|-----------------|
+| Sep 11 | Welcome & Introductions, 
+| Sep 18 | Preston Walker, Bradford Bawden (AMD Presentation)
+| Sep 25 | Jeff FPL report & AMD Presentation follow up
+| Oct 2  | Isaac Garfield & Jesse Farnsworth (LMTF tests)
+| Oct 9  | Jacob Brown / Allan Howe / Derek Harker (FINN & Microsoft BrainSmith)
+| Oct 16 | Joshua Fife
+| Oct 23 | Garrett Smith (FT Linux changes), Calin Schurig (PPU firmware changes)
+| Oct 30 | Reilly McKendrick & Eddie Rydell
+| Nov 6  | Brigham Morgan (AI engine tests), John Rowberry (HSDP), UC Davis test overview
+| Nov 13 | Weston Smith, Ethan Hunter, Jinie Kweon (DTRA)
+| Nov 20 | Dallin Dahl
+| Nov 27 | THANKSGIVING |
+| Dec 4  | Andy Wilson, Versal UC Davis Radiation test report
+| Dec 11 | Jeff (RandSoC)
+| Dec 18 | TBD
+
 ## Winter 2025
 
 | Jan 16 | Welcome and Introductions |
@@ -13,13 +33,13 @@ title: Schedule
 | Feb 6  | Xilinx Labs LLM project, Caleb (AI update) |
 | Feb 13 | Allan Howe (introduce project), Garrett Smith (test results) |
 | Feb 20 | Tyler Ricks (ChipIR), Joshua Fife |
-| Feb 27 | ? (FPGA) |
-| Mar 6  | FPGA Conference Summary (Reilly and Dallin) |
-| Mar 13 | Justin Applegate (?), JCM DAP / Linux update |
-| Mar 20 | Verity project, Dose Rate project |
-| Mar 27 | Andy Wilson Phd Presentation |
-| Apr 3  | Dallin Dahl, Reilly McKendrick |
-| Apr 10 |  |
+| Feb 27 | Jacob Brown (Conference talk) |
+| Mar 6  | FPGA Conference Summary (Reilly and Jeff) |
+| Mar 13 | No meeting  |
+| Mar 20 | Justin Applegate (?), JCM DAP / Linux update |
+| Mar 27 | Verity project, Dose Rate project |
+| Apr 3  | Andy Wilson Phd Presentation |
+| Apr 10 | Dallin Dahl, Reilly McKendrick |
 
 Ideas:
 * Versal fundamentals (running software, how the configuration works, booting, etc.). Bootcamp page?

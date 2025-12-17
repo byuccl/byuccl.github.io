@@ -6,6 +6,15 @@
     - news_2025/fpt1.jpg
     - news_2025/fpt2.jpg
 
+- event_name: FPL 2025 & SCCM 2025
+  date: 2025-09-02
+  description: >
+    Professor Jeff Goeders traveled to Leiden, Netherlands to attend the 2025 International Conference on Field-Programmable Logic and Applications (FPL) and the Workshop on Security for Custom Computing Machines (SCCM).  He was a co-organizer of the [SCCM workshop](https://sccm-workshop.github.io/), which featured 10 speakers on various topics related to hardware security.  
+  images:
+    - news_2025/jeff_fpl.jpg
+    - news_2025/jeff_fpl2.jpg
+    - news_2025/jeff_fpl3.jpg
+
 - event_name: ChipIr 2024
   date: 2024-11-20
   description: >
