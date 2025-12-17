@@ -1,3 +1,11 @@
+- event_name: FPT 2025
+  date: 2025-12-10
+  description: >
+    Professor Jeff Goeders and PhD Candidate Dallin Dahl attended the 2025 IEEE International Conference on Field-Programmable Technology (FPT) in Shanghai, China.  Dallin presented his paper, "Neurocore: A GNN Approach to Configurable IP Core Identification in FPGA Netlists", co-authored by himself, Professor Goeders, Professor Usevitch, and BYU alumni Keenan Faulkner.  The paper discusses how GNNs (Graph Neural Networks) can be used to identify configurable IP cores in FPGA netlists, which is useful for reverse engineering and security applications.
+  images:
+    - news_2025/fpt1.jpg
+    - news_2025/fpt2.jpg
+
 - event_name: ChipIr 2024
   date: 2024-11-20
   description: >

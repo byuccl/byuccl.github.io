@@ -1,5 +1,5 @@
 serve: install
-	bundle exec jekyll serve --livereload
+	bundle exec jekyll serve --livereload --host localhost
 
 install:
 	bundle install
