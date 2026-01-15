@@ -5,6 +5,41 @@ title: Schedule
 
 # Lab Meeting Schedule
 
+## Winter 2026
+
+| Date | Speaker (Topic) |
+|------|-----------------|
+| Jan 15 | Welcome & Introductions, SHREC meetings overview
+| Jan 22 | HLS-FAB (Preston and Bradford)
+| Jan 29 | RandSoC Design Generator (Dr. Goeders)
+| Feb 5  | SCALECon Report (Isaac and Garrett) & HSDP (Scott May)
+| Feb 12 | 
+| Feb 19 | 
+| Feb 26 | 
+| Mar 5  | 
+| Mar 12 | 
+| Mar 19 | 
+| Mar 26 | 
+| Apr 2  | 
+| Apr 9  |
+| Apr 16 | 
+
+### Ideas
+UC Davis Proton Test Overview
+Discuss new architectuers: Versal 2nd generation, Intel Agilex, HPSC, etc.
+Reilly
+Dallin
+Garrett data analysis update (parsing, instights, graphs), NoC
+Allan, Jacob, and Derek
+Isaac and Jesse updates since last time
+Scott May: HSDP (demo?)
+FreeRTOS tutorial
+Tuturoial/demo on Yocto/BuildRoot/Petalinux
+Radiation Effects fundamentals
+UVM overview
+PCIe fundamentals
+Versal PMC overview and firmware (Callin Schurig)
+
 ## Fall 2025
 
 | Date | Speaker (Topic) |
