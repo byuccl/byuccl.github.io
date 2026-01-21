@@ -10,10 +10,10 @@ title: Schedule
 | Date | Speaker (Topic) |
 |------|-----------------|
 | Jan 15 | Welcome & Introductions, SHREC meetings overview
-| Jan 22 | HLS-FAB (Preston and Bradford)
-| Jan 29 | RandSoC Design Generator (Dr. Goeders)
+| Jan 22 | UC Davis Proton Test Overview
+| Jan 29 | HLS-FAB (Preston and Bradford)
 | Feb 5  | SCALECon Report (Isaac and Garrett) & HSDP (Scott May)
-| Feb 12 | 
+| Feb 12 | RandSoC Design Generator (Dr. Goeders)
 | Feb 19 | 
 | Feb 26 | 
 | Mar 5  | 
@@ -25,7 +25,6 @@ title: Schedule
 | Apr 16 | 
 
 ### Ideas
-UC Davis Proton Test Overview
 Discuss new architectuers: Versal 2nd generation, Intel Agilex, HPSC, etc.
 Reilly
 Dallin
