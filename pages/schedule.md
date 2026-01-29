@@ -13,8 +13,8 @@ title: Schedule
 | Jan 22 | UC Davis Proton Test Overview
 | Jan 29 | HLS-FAB (Preston and Bradford)
 | Feb 5  | SCALECon Report (Isaac and Garrett) & HSDP (Scott May)
-| Feb 12 | RandSoC Design Generator (Dr. Goeders)
-| Feb 19 | 
+| Feb 12 | RandSoC Design Generator (Dr. Goeders) & Versal 2nd Generation overview (Dr. Wirthlin)
+| Feb 19 | NSREC abstracts (Jacob, Allan Derek) & (Garrett and Brigham)
 | Feb 26 | 
 | Mar 5  | 
 | Mar 12 | 
@@ -25,19 +25,19 @@ title: Schedule
 | Apr 16 | 
 
 ### Ideas
-Discuss new architectuers: Versal 2nd generation, Intel Agilex, HPSC, etc.
-Reilly
-Dallin
-Garrett data analysis update (parsing, instights, graphs), NoC
-Allan, Jacob, and Derek
-Isaac and Jesse updates since last time
-Scott May: HSDP (demo?)
-FreeRTOS tutorial
-Tuturoial/demo on Yocto/BuildRoot/Petalinux
-Radiation Effects fundamentals
-UVM overview
-PCIe fundamentals
-Versal PMC overview and firmware (Callin Schurig)
+* Discuss new architectuers: Versal 2nd generation, Intel Agilex, HPSC, etc.
+* Reilly
+* Dallin
+* DynaRapid
+* Garrett data analysis update (parsing, instights, graphs), NoC
+* Allan, Jacob, and Derek
+* Isaac and Jesse updates since last time
+* FreeRTOS tutorial
+* Tuturoial/demo on Yocto/BuildRoot/Petalinux
+* Radiation Effects fundamentals
+* UVM overview
+* PCIe fundamentals
+* Versal PMC overview and firmware (Callin Schurig)
 
 ## Fall 2025
 
