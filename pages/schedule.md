@@ -14,11 +14,11 @@ title: Schedule
 | Jan 29 | HLS-FAB (Preston and Bradford)
 | Feb 5  | SCALECon Report (Isaac and Garrett) & HSDP (Scott May)
 | Feb 12 | RandSoC Design Generator (Dr. Goeders) & Versal 2nd Generation overview (Dr. Wirthlin)
-| Feb 19 | NSREC abstracts (Jacob, Allan Derek) & (Garrett and Brigham)
-| Feb 26 | 
-| Mar 5  | 
-| Mar 12 | 
-| Mar 19 | 
+| Feb 19 | NSREC abstracts (Jacob, Allan) & (Garrett and Brigham)
+| Feb 26 | Rielly McKendrick
+| Mar 5  | PCIe Tutorial and Overview (Andy Wilson)
+| Mar 12 | Radiation effects fundamentals
+| Mar 19 | Dallin Dahl
 | Mar 26 | 
 | Apr 2  | 
 | Apr 9  |
@@ -26,17 +26,13 @@ title: Schedule
 
 ### Ideas
 * Discuss new architectuers: Versal 2nd generation, Intel Agilex, HPSC, etc.
-* Reilly
-* Dallin
 * DynaRapid
 * Garrett data analysis update (parsing, instights, graphs), NoC
 * Allan, Jacob, and Derek
 * Isaac and Jesse updates since last time
 * FreeRTOS tutorial
 * Tuturoial/demo on Yocto/BuildRoot/Petalinux
-* Radiation Effects fundamentals
 * UVM overview
-* PCIe fundamentals
 * Versal PMC overview and firmware (Callin Schurig)
 
 ## Fall 2025
