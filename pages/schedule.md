@@ -15,8 +15,8 @@ title: Schedule
 | Feb 5  | SCALECon Report (Isaac and Garrett) & HSDP (Scott May)
 | Feb 12 | RandSoC Design Generator (Dr. Goeders) & Versal 2nd Generation overview (Dr. Wirthlin)
 | Feb 19 | NSREC abstracts (Jacob, Allan) & (Garrett and Brigham)
-| Feb 26 | Rielly McKendrick
-| Mar 5  | PCIe Tutorial and Overview (Andy Wilson)
+| Feb 26 | PCIe Tutorial and Overview (Andy Wilson)
+| Mar 5  | Reilly McKendrick
 | Mar 12 | Radiation effects fundamentals
 | Mar 19 | Dallin Dahl
 | Mar 26 | 
