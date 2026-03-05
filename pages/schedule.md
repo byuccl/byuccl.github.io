@@ -26,9 +26,8 @@ title: Schedule
 
 ### Ideas
 * Discuss new architectuers: Intel Agilex, HPSC, etc.
-* DynaRapid
+* DynaRapid 
 * Garrett data analysis update (parsing, instights, graphs), NoC
-* Isaac and Jesse updates since last time
 * FreeRTOS tutorial
 * Tuturoial/demo on Yocto/BuildRoot/Petalinux
 * UVM overview
