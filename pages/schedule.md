@@ -22,11 +22,11 @@ title: Schedule
 | Mar 26 | Jesse and Isaac - Preference Bits
 | Apr 2  | 
 | Apr 9  |
-| Apr 16 | 
+| Apr 16 | Lab Party?
 
 ### Ideas
 * Discuss new architectuers: Intel Agilex, HPSC, etc.
-* DynaRapid 
+* DynaR
 * Garrett data analysis update (parsing, instights, graphs), NoC
 * FreeRTOS tutorial
 * Tuturoial/demo on Yocto/BuildRoot/Petalinux
