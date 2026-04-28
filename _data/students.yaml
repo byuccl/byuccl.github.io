@@ -88,3 +88,7 @@ undergrad_students:
   - first_name: Tyler
     last_name: Larsen
     image: tyler_larsen.jpg
+
+  - first_name: Nicholas
+    last_name: Cross
+    image: nicholas_cross.jpg
