@@ -52,6 +52,10 @@ masters_students:
     last_name: Schurig
     image: calin_schurig.jpg
 
+  - first_name: Chris
+    last_name: Zaugg
+    image: Chris_Zaugg.jpg
+
 undergrad_students:
   - first_name: Ethan
     last_name: Hunter
