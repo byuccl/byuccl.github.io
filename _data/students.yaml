@@ -8,10 +8,6 @@ phd_students:
     image: Dallin_Dahl.jpg
     
 masters_students:    
-  - first_name: Joshua 
-    last_name: Fife
-    image: joshua_fife.jpg
-
   - first_name: Jacob 
     last_name: Brown
     image: jacob_brown.jpg
@@ -40,50 +36,30 @@ masters_students:
     last_name: May
     image: scott_may.jpg
 
-undergrad_students:
-  - first_name: Bradford
-    last_name: Bawden
-    image: bradford_bawden.jpeg
-    
-  - first_name: Ethan
-    last_name: Hunter
-    image: ethan_hunter.jpg
-
-  - first_name: Ayden
-    last_name: Bales
-    image: ayden_bales.jpg
-
   - first_name: Derek
     last_name: Harker
     image: Derek_Harker.jpg
-
-  - first_name: Jihyeon
-    last_name: Kweon
-    image: Jihyeon_Kweon.jpg
 
   - first_name: Brigham
     last_name: Morgan
     image: brigham_morgan.jpg
 
-  - first_name: John
-    last_name: Rowberry
-    image: john_rowberry.jpeg
-
   - first_name: Jesse
     last_name: Farnsworth
     image: jesse_farnsworth.jpg
 
-  - first_name: Eddie
-    last_name: Rydell
-    image: eddie_rydell.jpeg
-
-  - first_name: Youngmin
-    last_name: Kim
-    image: youngmin_kim.jpg
-
   - first_name: Calin
     last_name: Schurig
     image: calin_schurig.jpg
+
+undergrad_students:
+  - first_name: Ethan
+    last_name: Hunter
+    image: ethan_hunter.jpg
+
+  - first_name: John
+    last_name: Rowberry
+    image: john_rowberry.jpeg
 
   - first_name: Tyler
     last_name: Larsen
