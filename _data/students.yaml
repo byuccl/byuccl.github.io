@@ -57,10 +57,6 @@ undergrad_students:
     last_name: Hunter
     image: ethan_hunter.jpg
 
-  - first_name: John
-    last_name: Rowberry
-    image: john_rowberry.jpeg
-
   - first_name: Tyler
     last_name: Larsen
     image: tyler_larsen.jpg
