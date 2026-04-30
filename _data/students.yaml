@@ -74,5 +74,9 @@ undergrad_students:
     image: max_rawlings.jpg
 
   - first_name: Ethan
+    last_name: Scott
+    image: Ethan_Scott.JPG
+
+  - first_name: Ethan
     last_name: Thompson
     image: Ethan_Thompson.jpeg
