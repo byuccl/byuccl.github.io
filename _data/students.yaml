@@ -80,3 +80,6 @@ undergrad_students:
   - first_name: Ethan
     last_name: Thompson
     image: Ethan_Thompson.jpeg
+  - first_name: Hinckley
+    last_name: Manner
+    image: hinckley_manner.png
