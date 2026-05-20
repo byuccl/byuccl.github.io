@@ -92,3 +92,7 @@ undergrad_students:
   - first_name: Jacob
     last_name: Deschamps
     image: Jacob_Deschamps.jpg
+
+  - first_name: Samuel
+    last_name: Bourgeous
+    image: samuel_bourgeous.jpeg
