@@ -5,6 +5,32 @@ title: Schedule
 
 # Lab Meeting Schedule
 
+## Fall 2026
+
+| Date | Speaker (Topic) |
+|------|-----------------|
+| Sep 3 |  No Meeting (first week of school) |
+| Sep 10 | Welcome & Introductions |
+| Sep 17 | TBD |
+| Sep 24 | TBD |
+| Oct 1 | TBD |
+| Oct 8 | TBD |
+| Oct 15 | TBD |
+| Oct 22 | TBD |
+| Oct 29 | TBD |
+| Nov 5 | TBD |
+| Nov 12 | TBD |
+| Nov 19 | TBD |
+| Nov 26 | No Meeting (Thanksgiving) |
+| Dec 3 | TBD |
+| Dec 10 | TBD |
+
+* Weekly radiation effects discussion
+* Preston's summer internship report
+* Versal 2nd Generation overview
+* Summer research presentations
+* Radiation test summaries
+
 ## Winter 2026
 
 | Date | Speaker (Topic) |
