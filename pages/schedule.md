@@ -30,6 +30,7 @@ title: Schedule
 * Versal 2nd Generation overview
 * Summer research presentations
 * Radiation test summaries
+* Andy summary of MiG, other FPGAs, Agentic AI discussion from XRTC meetings
 
 ## Winter 2026
 
