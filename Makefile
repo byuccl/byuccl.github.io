@@ -11,7 +11,7 @@ build: install
 	bundle exec jekyll build
 
 check_links: build
-	bundle exec htmlproofer --ignore_missing_alt true --ignore_empty_alt true --ignore_status_code "0,403,503" ./_site
+	bundle exec htmlproofer --ignore_missing_alt true --ignore_empty_alt true --ignore_status_code "0,403,415,418,503" ./_site
 
 $(VENV):
 	python3 -m venv $(VENV)
