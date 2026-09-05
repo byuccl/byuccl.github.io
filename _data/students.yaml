@@ -1,3 +1,8 @@
+research_staff:
+  - first_name: Garrett
+    last_name: Smith
+    image: garrett_smith.jpg
+
 phd_students:
   - first_name: Reilly 
     last_name: McKendrick
@@ -8,25 +13,9 @@ phd_students:
     image: Dallin_Dahl.jpg
     
 masters_students:    
-  - first_name: Jacob 
-    last_name: Brown
-    image: jacob_brown.jpg
-
-  - first_name: Garrett
-    last_name: Smith
-    image: garrett_smith.jpg
-
-  - first_name: Weston
-    last_name: Smith
-    image: Weston_smith.jpg
-
   - first_name: Isaac
     last_name: Garfield
     image: isaac_garfield.jpg
-
-  - first_name: Allan
-    last_name: Howe
-    image: Allan_Howe.png
 
   - first_name: Preston
     last_name: Walker
@@ -84,18 +73,6 @@ undergrad_students:
   - first_name: Hinckley
     last_name: Manner
     image: hinckley_manner.png
-
-  - first_name: Victor
-    last_name: Santana
-    image: victor_santana.jpg
-
-  - first_name: Jacob
-    last_name: Deschamps
-    image: Jacob_Deschamps.jpg
-
-  - first_name: Samuel
-    last_name: Bourgeous
-    image: samuel_bourgeous.jpeg
 
   - first_name: Jonathan
     last_name: Moran
