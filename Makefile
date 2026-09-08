@@ -17,8 +17,8 @@ $(VENV):
 	python3 -m venv $(VENV)
 	$(VENV)/bin/pip install Pillow pyyaml
 
-resize_student_images: $(VENV)
-	$(PYTHON) resize_student_images.py
+resize_images: $(VENV)
+	$(PYTHON) resize_images.py
 
 delete_old_student_images: $(VENV)
 	$(PYTHON) delete_old_student_images.py
