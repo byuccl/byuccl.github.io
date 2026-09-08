@@ -33,16 +33,16 @@ permalink: /people/
         </div>
     </div>
 
-    {% assign student_types = "phd_students, masters_students, undergrad_students" | split : ", " %}
-    {% assign student_type_titles = "PhD Students, Masters Students, Undergrad Students" | split : ", " %}
+    {% assign student_types = "research_staff, phd_students, masters_students, undergrad_students" | split : ", " %}
+    {% assign student_type_titles = "Research Staff, PhD Students, Masters Students, Undergrad Students" | split : ", " %}
 
     {% for student_type in student_types %}
+    {% if site.data.students[student_type] %}
     <h2>
         {{ student_type_titles[forloop.index0] }}
 
     </h2>
 
-    {% if site.data.students[student_type] %}
     <div class="current-students">
         <div class="row students-row">
             {% assign sortedStudents = site.data.students[student_type] | sort: 'last_name' %}
