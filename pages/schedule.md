@@ -16,9 +16,9 @@ title: Schedule
 | Oct 1 | Garrett, Brigham, Scott, and Calin : August TAMU test  (RADECS) |
 | Oct 8 | Tyler, Isaac, Jesse: LMTF test, DTRA slides, May TAMU |
 | Oct 15 | Preston internship overview & Max/Hinckley AI  |
-| Oct 22 | Secure Boot (Chris and Ethan) & Derek AI |
+| Oct 22 | Andy/Derek Owens: FPGA/QSFP & MGT overview  |
 | Oct 29 | Nicholas : DAP overview and JCM updates & Ethan: PolarFire |
-| Nov 5 | TBD |
+| Nov 5 | Secure Boot (Chris and Ethan) & Derek AI  |
 | Nov 12 | TBD |
 | Nov 19 | TBD |
 | Nov 26 | No Meeting (Thanksgiving) |
