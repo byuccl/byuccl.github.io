@@ -1,3 +1,11 @@
+- event_name: RADECS 2026
+  date: 2026-10-01
+  description: >
+    Professor Jeff Goeders and Master's student Isaac Garfield traveled to Prague, Czech Republic, for the 2026 Radiation Effects on Components and Systems Conference ([RADECS](https://radecs2026.org/)).  Isaac presented the paper, "Diverse Failure Modes of an STM32 Microcontroller Under Gamma Dose Rate Testing", co-authored by fellow students Jesse Farnsworth and Tyler Larsen, Professors Mike Wirthlin and Jeff Goeders, and Dolores Black and Jeffrey Black of Sandia National Laboratories.  The paper describes the variety of ways a commercial STM32 microcontroller fails when exposed to gamma dose rate radiation, drawing on testing performed at the Little Mountain Test Facility.  We are thrilled to announce that Isaac's work was recognized with the conference's **Best Student Paper and Presentation Award**.  Congratulations, Isaac!
+  images:
+    - news_2026/radecs_2026_1.jpg
+    - news_2026/radecs_2026_2.jpg
+
 - event_name: LMTF Radiation Testing
   date: 2026-06-05
   description: >
