@@ -1,3 +1,190 @@
+- title: "CAD-in-the-Cloud: Protecting FPGA Design Privacy via Redacted Netlists"
+  authors: Eddie Rydell, Reilly McKendrick, and Jeffrey Goeders
+  conference: ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA)
+  year: >
+    2026
+  abstract: >
+    We propose a design flow to hide FPGA design functionality by redacting key properties during cloud compilation. The original design functionality can be restored post-implementation, with no change to the produced bitstream.
+  url: rydell_fpga26.pdf
+
+- title: "Versal ACAP AI Engine Heavy-Ion Testing With Spill Synchronization"
+  authors: Garrett Smith, Caleb Price, Brigham Morgan, Ted Wilcox, Greg Allen, and Michael Wirthlin
+  conference: IEEE Transactions on Nuclear Science
+  year: >
+    2026
+  abstract: >
+    The AMD Versal is a complex heterogeneous architecture that includes programmable logic (PL), multicore processors, and a large array of artificial intelligence (AI) engines. The AI engines are of interest in space applications because they support high-throughput AI inference more efficiently than traditional processors. This article describes a methodology for heavy-ion single-event effect (SEE) testing of all 400 AI engine tiles of the XCVC1902 device simultaneously at the NASA Space Radiation Laboratory (NSRL) facility. The testing approach extracts all AI engine data after each spill of the beam structure to identify the failure modes of each AI engine on a spill-by-spill basis. Heavy-ion cross section estimates obtained from this testing approach are presented for AIE freezing, AIE memory bit upsets, AIE calculation errors, and application processing unit (APU) halting.
+  url: smith_tns26.pdf
+
+- title: "Neurocore: A GNN Approach to Configurable IP Core Identification in FPGA Netlists"
+  authors: Dallin Dahl, Keenan Faulkner, James Usevitch, and Jeffrey Goeders
+  conference: International Conference on Field Programmable Technology (FPT)
+  year: >
+    2025
+  abstract: >
+    Netlist reverse engineering enables many applications, including detecting IP theft, verifying CAD tool correctness, and detecting hardware trojans. However, reconstructing high-level information and circuit structure from a flat, nameless netlist is challenging. In this work we focus on the problem of locating known IP cores in an FPGA netlist, which is especially challenging due to the prevalence of highly configurable IP cores. We present Neurocore: a graph neural network-based approach to classifying nodes in a netlist as instances of known IP cores, and present and evaluate different models for different use cases. We have created a large open-source dataset of thousands of FPGA designs with known IP cores, and demonstrate that our approach can obtain 80–98% accuracy, depending on the model and the use case.
+  url: dahl_fpt25.pdf
+
+- title: Neutron Radiation Testing of Multiple System-on-Chip Devices Using a Unified Test Framework
+  authors: Jeffrey Goeders, Weston Smith, Jacob Bertrand, Ethan Hunter, Maria Kastriotou, and Michael Wirthlin
+  conference: IEEE Radiation Effects Data Workshop (REDW)
+  year: >
+    2025
+  abstract: >
+    This work presents neutron testing of various SoC devices using a unified test framework, which emphasizes measuring component-level failure rates. The framework is tested using four different SoC devices, with 16 boards in total.
+  url: goeders_redw25.pdf
+
+- title: Neutron Radiation Results of Fault-Tolerant Soft RISC-V Linux SoCs on SRAM-Based FPGAs
+  authors: Andrew E. Wilson, Nathan G. Baker, and Michael Wirthlin
+  conference: IEEE Radiation Effects Data Workshop (REDW)
+  year: >
+    2025
+  abstract: >
+    This work presents a fault-tolerant RISC-V Linux SoC employing TMR, ECC, and SEU-aware placement on Kintex 7 and KU060 FPGAs. The neutron radiation results demonstrate improved cross-section up to 43× for the mitigation methods.
+  url: https://doi.org/10.1109/REDW68988.2025.11534015
+
+- title: Post-Irradiation Fault Injection for Complex FPGA Designs
+  authors: Nathan Baker, Ethan Campbell, Andrew Wilson, and Michael Wirthlin
+  conference: IEEE Transactions on Nuclear Science
+  year: >
+    2025
+  abstract: >
+    Fault injection is a widely used method of assessing the reliability of field-programmable gate array (FPGA) designs operating in harsh radiation environments. While typically conducted before radiation testing, fault injection can also be performed after radiation testing to gain additional insights into an FPGA design's behavior during a radiation test. In this work, fault injection was performed on a fault-mitigated FPGA soft processor design based on configuration memory (CRAM) upsets observed during a neutron radiation test. During the neutron radiation test, the locations and timestamps of CRAM upsets were logged along with the timestamps of design failures. A variety of statistical post-irradiation fault injection experiments "replayed" these recorded CRAM upsets to reproduce the design's behavior in the beam and better understand vulnerabilities in the mitigated design. Using this approach, the majority of the failures seen in the radiation beam (92%) were successfully replicated through fault injection. This method identified the specific CRAM upsets responsible for design failures, estimated the probability that such CRAM upsets cause design failures, and uncovered failures caused by the latent effects of previously scrubbed CRAM upsets. Additionally, this approach identified differences in design failure when the same CRAM upset playback is applied to different FPGA devices and boards. These findings demonstrate that post-irradiation fault injection can provide new insights into the failure mechanisms of complex FPGA designs beyond what is possible with radiation testing alone.
+  url: https://doi.org/10.1109/TNS.2025.3566344
+
+- title: RarePlanes Detection Using YOLOv5 on the Versal Adaptive SoC
+  authors: Jacob Brown, Colton Yates, Jeffrey Goeders, and Michael Wirthlin
+  conference: IEEE Aerospace Conference
+  year: >
+    2025
+  abstract: >
+    Object detection is an important operation for many satellites performing remote sensing operations. Machine learning models are increasingly used for real-time object detection. It is crucial that such machine learning models perform inference on satellite images accurately and reliably, while meeting power, size, and other constraints. We train several YOLOv5 object detection models on the RarePlanes dataset, a collection of satellite aerial images of airplanes, and deploy the trained models to the Deep Learning Processing Unit on the Versal AI Core XCVC1902 device. The performance and accuracy of the models running on the Versal device are measured and compared to implementations on a CPU and GPU. Radiation-induced single-event upsets are then simulated by injecting faults into the programmable logic of the Versal device, and the effects of each fault on the YOLOv5 model are discovered.
+  url: brown_aero25.pdf
+- title: "VTR 9: Open-Source CAD for Fabric and Beyond FPGA Architecture Exploration"
+  authors: Mohamed A. Elgammal, Amin Mohaghegh, Soheil Gholami Shahrouz, Fatemehsadat Mahmoudi, Fahrican Koşar, Kimia Talaei, Joshua Fife, Daniel Khadivi, Kevin Murray, Andrew Boutros, Kenneth B. Kent, Jeff Goeders, and Vaughn Betz
+  conference: ACM Transactions on Reconfigurable Technology and Systems (TRETS)
+  year: >
+    2025
+  abstract: >
+    This work details the capabilities of a major new release of the Verilog-to-Routing (VTR) open source FPGA CAD tool flow. Enhancements include generalizations of VTR's architecture modeling language and optimizers to enable a more diverse set of programmable routing fabrics, FPGAs with embedded hard Networks-on-Chip (NoCs) and three-dimensional 3D FPGA systems that leverage stacked silicon integration. The new Parmys logic synthesis flow improves language coverage and result quality, and the physical implementation flow includes a more efficient placement engine, floorplanning constraints to guide placement, the ability to perform single-stage (flat) routing to improve quality, and parallel routing algorithms to reduce CPU time. This release also includes new architecture captures of recent commercial devices (Xilinx's 7-series and Altera's Stratix 10) and new benchmark suites (Titanium25 and Hermes) to aid FPGA architecture investigation. Verilog language coverage is greatly improved with the new Parmys logic synthesis flow, enabling more designs to be used with VTR. Finally, the placement and routing engines have been sped up by 4× and 2.2× vs. VTR 8, respectively, leading to an overall physical implementation flow CPU time reduction of 48% with better result quality on average compared to VTR 8.
+  url: https://doi.org/10.1145/3734798
+
+- title: Modeling Common Cause Failures in Systems with Triple Modular Redundancy and Repair
+  authors: Matthew J. Cannon, Andrew M. Keller, Andrés Pérez-Celis, and Michael J. Wirthlin
+  conference: Annual Reliability and Maintainability Symposium (RAMS)
+  year: >
+    2020
+  abstract: >
+    Triple modular redundancy (TMR) is commonly employed to increase the reliability and mean time to failure (MTTF) of a system. This improvement can be shown by using a continuous time Markov chain. However, typical Markov chain models do not model common cause failures (CCF), which is a singular event that simultaneously causes failure in multiple redundant modules. This paper introduces a new Markov chain to model CCF in TMR with repair systems. This new model is compared to the idealized models of TMR with repair without CCF. The fundamental limitations that CCF imposes on the system are shown and discussed. In a motivating example, it is seen that CCF imposes a limitation of 51× on the reliability improvement in a system with TMR and repair compared to a simplex system, (i.e., without TMR). A case study is also presented where the likelihood of CCF is reduced by a factor of 18× using various mitigation techniques. Reducing the CCF compounds the reliability improvement of TMR with repair and leads to a overall system reliability improvement of 10,000× compared to the simplex system as supported by the proposed model.
+  url: https://doi.org/10.1109/RAMS48030.2020.9153662
+
+- title: Netlist Analysis and Transformations Using SpyDrNet
+  authors: Dallin Skouson, Andrew Keller, and Michael Wirthlin
+  conference: Python in Science Conference (SciPy)
+  year: >
+    2020
+  abstract: >
+    Digital hardware circuits (i.e., for application specific integrated circuits or field programmable gate array circuits) can contain a large number of discrete components and connections. These connections are defined by a data structure called a "netlist". Important information can be gained by analyzing the structure of the circuit netlist and relationships between components. Many specific circuit manipulations require component reorganization in hierarchy and various circuit transformations. SpyDrNet is an open-source netlist analysis and transformation tool written in Python that performs many of these functions. SpyDrNet provides a framework for netlist representation, querying, and modification that is netlist format independent and generalized for use in a wide variety of applications. This tool is actively used to enhance circuit reliability and error detection for circuits operating in harsh radiation environments.
+  url: https://doi.org/10.25080/Majora-342d178e-006
+
+- title: "TURTLE: A Low-Cost Fault Injection Platform for SRAM-based FPGAs"
+  authors: Corbin Thurlow, Hayden Rowberry, and Michael Wirthlin
+  conference: International Conference on ReConFigurable Computing and FPGAs (ReConFig)
+  year: >
+    2019
+  abstract: >
+    This paper presents the TURTLE fault injection platform for inserting faults into SRAM FPGAs. The TURTLE system is designed to gather significant fault injection data to test and validate radiation-induced single-event upset (SEU) mitigation techniques for FPGAs. The TURTLE is a low-cost fault injection platform that emulates upsets within the configuration memory (CRAM) of an FPGA through partial reconfiguration. This work successfully implemented the proposed architecture and performed several successful fault injection campaigns on multiple designs and SEU mitigation techniques. Results in this paper show large amounts of data collected from a fault injection campaign used to validate the PCMF SEU mitigation technique. Over 170 million injections were performed using the TURTLE for this campaign.
+  url: https://doi.org/10.1109/ReConFig48160.2019.8994782
+
+- title: Reconfigurable Real-Time Video Pipelines on SRAM-based FPGAs
+  authors: Andrew E. Wilson and Michael Wirthlin
+  conference: International Conference on ReConFigurable Computing and FPGAs (ReConFig)
+  year: >
+    2019
+  abstract: >
+    FPGAs are an excellent target for real-time video processing as they provide large amounts of low-level parallelism, low latency, and high bandwidth. However, creating real-time video processing systems on an FPGA is tedious and requires significant effort and low-level digital design skills. This paper presents a technique for creating complex real-time video processing pipelines relatively quickly and easily using partial reconfiguration (PR). A static FPGA system is created that provides a template for a variety of partially reconfigurable video processing cores. A library of video filters has been created that can be inserted into the template regions. At run-time, the user can select the topology of video cores and customize these cores to create complex and unique video pipelines without any understanding of low-level FPGA details. This paper demonstrates this technique with a library of 11 partial reconfigurable regions and 16 video processing cores operating on the Xilinx PYNQ system.
+  url: https://doi.org/10.1109/ReConFig48160.2019.8994814
+
+- title: Improving the Reliability of TMR With Nontriplicated I/O on SRAM FPGAs
+  authors: Matthew J. Cannon, Andrew M. Keller, Corbin A. Thurlow, Andrés Pérez-Celis, and Michael J. Wirthlin
+  conference: IEEE Transactions on Nuclear Science
+  year: >
+    2020
+  abstract: >
+    Triple modular redundancy (TMR) with repair is a commonly employed mitigation strategy used on SRAM field-programmable gate arrays (FPGAs) to reduce the effects of ionizing radiation and improve a circuit's sensitive cross section. This article examines TMR circuits, where the I/O ports of the circuit have not been triplicated, but the internal circuitry has. Such circuits introduce single-point failures (SPFs) into the circuit that limit the neutron cross-sectional improvement offered by TMR to only 3× for the b13 benchmark circuit used in this article. This article proposes two different mitigation techniques to address SPFs, which alter the placement and routing of the circuit. These mitigation techniques reduce the neutron cross section by 26× over the unmitigated circuit while minimally affecting the circuit's maximum clock frequency and resource utilization.
+  url: https://doi.org/10.1109/TNS.2019.2956473
+
+- title: Statistical Method to Extract Radiation-Induced Multiple-Cell Upsets in SRAM-Based FPGAs
+  authors: Andrés Pérez-Celis and Michael J. Wirthlin
+  conference: IEEE Transactions on Nuclear Science
+  year: >
+    2020
+  abstract: >
+    Radiation-induced multiple-cell upsets (MCUs) are a concern because they can overcome the protection of error correction code and triplicated designs. Extracting MCU data from radiation tests is helpful to perform more accurate fault injection tests, where MCUs could be simulated with the injection of bits based on the MCUs shapes, sizes, and frequencies. This article presents a statistical method to extract MCU shapes and frequencies from components with no information regarding their physical layout. The proposed method can be used to extract MCU information from BRAM and CRAM alike. The results show the MCU data for three families of Xilinx field-programmable gate arrays (FPGAs).
+  url: https://doi.org/10.1109/TNS.2019.2955006
+- title: "Dynamic SEE Testing of Selected Architectural Features of Xilinx 28 nm Virtex-7 FPGAs"
+  authors: Gary M. Swift, Stephen E. Stone, Sebastián E. García, Kevin W. Wray, William J. Rowe, Krysten H. Pfau, Robert Liu, Jonathan Holden, Asa Angeles, Barry L. Willits, Kyle P. Robinson, Andrés Pérez-Celis, and Michael J. Wirthlin
+  conference: European Conference on Radiation and Its Effects on Components and Systems (RADECS)
+  year: >
+    2017
+  abstract: >
+    Recent proton and heavy ion SEE data are presented for selected Virtex-7 architectural features requiring dynamic in-beam testing: I/O blocks in various modes, IOSERDES, digital- and phase-locked loop clocks, and block memory's error correction circuitry.
+  url: https://doi.org/10.1109/RADECS.2017.8696210
+
+- title: "A Hybrid Approach to FPGA Configuration Scrubbing"
+  authors: Aaron Stoddard, Ammon Gruwell, Peter Zabriskie, and Michael J. Wirthlin
+  conference: IEEE Transactions on Nuclear Science
+  year: >
+    2017
+  abstract: >
+    This paper describes a FPGA configuration scrubbing approach for Xilinx 7-Series FPGAs that combines the high-speed internal scrubbing available within these devices with an external scrubber. The internal scrubbing unit continuously monitors the frames of the FPGA configuration memory and corrects single-bit frame errors and is used to detect multi-bit frame errors. Multi-bit upsets are repaired by means of a secondary scrubbing mechanism that is primarily external to the FPGA fabric. This Xilinx 7-Series hybrid configuration scrubbing architecture scans 25,636,224 bits of the XC7Z020 device in several microseconds and detects upsets within 8 ms and then corrects most multi-cell upsets in under an additional 6 ms. This configuration scrubber was validated with configuration fault injection and neutron radiation testing.
+  url: https://doi.org/10.1109/TNS.2016.2636666
+
+- title: "High-Speed PCAP Configuration Scrubbing on Zynq-7000 All Programmable SoCs"
+  authors: Aaron Stoddard, Ammon Gruwell, Peter Zabriskie, and Michael Wirthlin
+  conference: International Conference on Field Programmable Logic and Applications (FPL)
+  year: >
+    2016
+  abstract: >
+    Configuration scrubbing is a technique used for repairing Single Event Upsets (SEUs) within the configuration memory of an FPGA. Scrubbing approaches have been developed using hardware external to the FPGA communicating through a configuration port and using hardware within the FPGA by communicating with an internal configuration port (ICAP). More recent FPGAs such as the Xilinx Zynq 7-Series SoCs provide internal programmable processors that can configure the FPGA logic very rapidly using an internal Processor Configuration Access Port (PCAP). These SoC/FPGAs also provide automatic internal scrubbing through the use of high-speed readback and configuration error correction. This paper presents a novel form of FPGA configuration scrubbing for the Zynq-7000 SoC family by combining the high-speed PCAP configuration port with internal scrubbing. This novel scrubber corrects single-bit upsets in several microseconds and detects these upsets in 8 ms.
+  url: https://doi.org/10.1109/FPL.2016.7577301
+
+- title: "High-Speed Programmable FPGA Configuration through JTAG"
+  authors: Ammon Gruwell, Peter Zabriskie, and Michael Wirthlin
+  conference: International Conference on Field Programmable Logic and Applications (FPL)
+  year: >
+    2016
+  abstract: >
+    Over the past few decades, the use of reconfigurable computing for aerospace applications has become increasingly common despite its sensitivity to ionizing radiation. Tools are needed to test and implement fault-mitigation mechanisms to increase the reliability of FPGAs in space. This paper introduces a tool called the JTAG Configuration Manager (JCM) that provides high-speed programmable access to the configuration memory of Xilinx FPGAs using the JTAG serial protocol. The JCM consists of a linux-based software library running on an embedded ARM processor paired with a hardware state machine implemented in programmable logic. Two important uses of the JCM are configuration scrubbing and fault injection. The high-speed JTAG interface allows such operations to run at up to 60 MHz, which is several times faster than traditional JTAG FPGA configuration methods. The JCM also has access to the XADC on-chip temperature monitoring and the internal Boundary SCAN, making it useful for many testing and debugging applications.
+  url: https://doi.org/10.1109/FPL.2016.7577336
+
+- title: "High-Speed FPGA Configuration and Testing through JTAG"
+  authors: Ammon Gruwell, Peter Zabriskie, and Michael Wirthlin
+  conference: IEEE AUTOTESTCON
+  year: >
+    2016
+  abstract: >
+    Since most FPGAs use the universal JTAG port to support configuration memory access, hardware and software tools are needed to maximize the speed of FPGA configuration management over JTAG. This paper introduces a tool called the JTAG Configuration Manager (JCM) that enables high-speed programmable access to the configuration memory of FPGAs through JTAG. This tool consists of a linux-based software library running on an embedded ARM processor paired with a hardware JTAG controller module implemented in programmable logic. This JTAG controller optimizes the speed and timing of JTAG transactions over cables of any length using an automatic speed calibration process. This JTAG interface enables custom configuration sequences to be sent at high speeds. The JCM also has access to all JTAG interfaces of the FPGA including temperature monitoring and internal Boundary SCAN, making it useful for many testing and verification applications.
+  url: https://doi.org/10.1109/AUTEST.2016.7589601
+
+- title: "Efficient Processing of Phased Array Radar in Sense and Avoid Application Using Heterogeneous Computing"
+  authors: Luke Newmeyer, Doran Wilde, Brent Nelson, and Michael Wirthlin
+  conference: International Conference on Field Programmable Logic and Applications (FPL)
+  year: >
+    2016
+  abstract: >
+    This paper describes a tightly integrated phased-array radar platform for a UAV-based sense and avoid application. The system leverages heterogeneous computing on a Zynq 7000 SoC processor to efficiently process the large streams of radar data required to guide a small Unmanned Air Vehicle (UAV) away from obstacles and intruding air vehicles. The system is mounted on a small UAV which requires stringent size, weight, and power constraints, and thus data processing must be done efficiently. The system is implemented on the commercial MicroZed development board. Low-level radar data-stream processing is performed in the FPGA fabric on the Zynq, which accelerates processing and improves energy efficiency. The Zynq ARM CPUs are used to perform higher-level radar processing and avoidance algorithms. The final proof of concept system is 2.25 × 4 × 1.5 in³ weighing only 120 g (0.26 lbs) and consumes 8 watts of power. As an example, the improvements demonstrated by executing the FFT algorithm in hardware will be highlighted where hardware FFT processing provides a 17× improvement in processing time and a 49× improvement in energy efficiency over a CPU only implementation on the same SoC.
+  url: https://doi.org/10.1109/FPL.2016.7577322
+
+- title: "An Analysis of High-Current Events Observed on Xilinx 7-Series and UltraScale Field-Programmable Gate Arrays"
+  authors: David S. Lee, Gary Swift, and Michael Wirthlin
+  conference: IEEE Radiation Effects Data Workshop (REDW)
+  year: >
+    2016
+  abstract: >
+    This study examined high-current events observed in Xilinx Field-Programmable Gate Arrays irradiated with heavy ions. A probable cause and proposed changes to the test methodology to prevent these high-current events is described.
+  url: https://doi.org/10.1109/NSREC.2016.7891703
+
 - title: A Parallelized Neutron Radiation Testing Technique to Understand Failures Within a Complex SoC
   authors: Jeffrey Goeders, Weston Smith, Maria Kastriotou, Michael Wirthlin
   conference: IEEE Transactions on Nuclear Science
@@ -68,7 +255,7 @@
   url: https://ieeexplore.ieee.org/document/10012379
 
 - title: Post-Radiation Fault Analysis of a High Reliability FPGA Linux SoC
-  authors: Wilson, Andrew Elbert and Baker, Nathan and Campbell, Ethan and Sahleen, Jackson and Wirthlin, Michael
+  authors: Andrew Wilson, Nathan Baker, Ethan Campbell, Jackson Sahleen, Michael Wirthlin
   conference: Proceedings of the 2023 ACM/SIGDA International Symposium on Field Programmable Gate Arrays
   year: >
     2023
@@ -93,7 +280,7 @@
     2023
   abstract: >
     Hardware netlists are generally converted into a bitstream and loaded onto an FPGA board through vendor-provided tools. Due to the proprietary nature of these tools, it is up to the designer to trust the validity of the design’s conversion to bitstream. However, motivated attackers may alter the CAD tools’ integrity or manipulate the stored bitstream with the intent to disrupt the functionality of the design. This paper proposes a new method to prove functional equivalence between a synthesized netlist, and the produced FPGA bitstream. The novel approach is comprised of two phases: first, we show how we can utilize implementation information to perform a series of transformations on the netlist, which do not affect its functionality, but ensure it structurally matches what is physically implemented on the FPGA. Second, we present a structural mapping and equivalence checking algorithm that verifies this physical netlist exactly matches the bitstream. We validate this process on several benchmark designs, including checking for false positives by injecting hundreds of design modifications.
-  url: https://ieeexplore.ieee.org/abstract/document/10416093
+  url: mckendrick_fpt23.pdf
 
 - title: "IPRec and Isoblaze: Fuzzy Subcircuit Isomorphism for IP Detection in Physical Netlists"
   authors: Dallin Dahl, Corey Simpson, Keenan Faulkner, Brent Nelson, Jeffrey Goeders
@@ -123,25 +310,6 @@
   
     Experimental data collected using these two methods in September 2021 from Los Alamos Neutron Science Center (LANSCE) on the Xilinx UltraScale+ MPSoC is presented and discussed. 
   url: stirk_tns23.pdf
-
-- title: "Neutron Radiation Testing of RISC-V TMR Soft Processors on SRAM-Based FPGAs"
-  authors: A. E. Wilson, M. Wirthlin and N. G. Baker
-  conference: IEEE Transactions on Nuclear Science
-  year: >
-    2023
-  abstract: >
-    Soft, configurable processors within field programmable gate array (FPGA) designs are susceptible to single-event upsets (SEUs). SEU mitigation techniques such as triple modular redundancy (TMR) and configuration memory scrubbing can be used to improve the reliability of soft processor designs. This article presents the improvements in the reliability of five different TMR soft processors within a neutron radiation environment. The TMR processors achieved up to a 75× improvement in reliability at the cost of potentially 4.8× resource utilization and an average 12.4% decrease in maximum frequency compared with the unmitigated designs. This work compares the metrics of reliability, power consumption, and performance among the default unmitigated processors and their TMR variations.
-
-  url: https://ieeexplore.ieee.org/document/10012379
-
-- title: "Post-Radiation Fault Analysis of a High Reliability FPGA Linux SoC"
-  authors: Andrew Wilson, Nathan Baker Ethan Campbell, Jackson Sahlee, Michael Wirthlin
-  conference: Proceedings of the 2023 ACM/SIGDA International Symposium on Field Programmable Gate Arrays
-  year: >
-    2023
-  abstract: >
-    FPGAs are increasingly being used in space and other harsh radiation environments. However, SRAM-based FPGAs are susceptible to radiation in these environments and experience upsets within the configuration memory (CRAM), causing design failure. The effects of CRAM upsets can be mitigated using triple-modular redundancy and configuration scrubbing. This work investigates the reliability of a soft RISC-V SoC system executing the Linux operating system mitigated by TMR and configuration scrubbing. In particular, this paper analyzes the failures of this triplicated system observed at a high-energy neutron radiation experiment. Using a bitstream fault analysis tool, the failures of this system caused by CRAM upsets are traced back to the affected FPGA resource and design logic. This fault analysis identifies the interconnect and I/O as the most vulnerable FPGA resources and the DDR controller logic as the design logic most likely to cause a failure. By identifying the FPGA resources and design logic causing failures in this TMR system, additional design enhancements are proposed to create a more reliable design for harsh radiation environments.
-  url: https://dl.acm.org/doi/10.1145/3543622.3573191
 
 - title: "Leveraging FPGA Primitives to Improve Word Reconstruction during Netlist Reverse Engineering"
   authors: Reilly McKendrick, Corey Simpson, Brent Nelson, Jeffrey Goeders
@@ -186,7 +354,7 @@
 - title: "Using partial duplication with compare to detect radiation-induced failure in a commercial FPGA-Based networking system"
   authors: Andrew Keller, Jared Anderson, Michael Wirthlin, Shi-Jie Wen, Rita Fung, Conner Chambers
   year: >
-    2021
+    2020
   conference: International Reliability Physics Symposium (IRPS)
   abstract: Duplication with compare, a circuit-level fault-detection technique, is used in this study in a partial manner to detect radiation-induced failures in a commercial FPGA-based networking system. A novel approach is taken to overcome challenges presented by multiple clock domains, the use of third-party IP, and the collection of error detection signals dispersed throughout the design. Novel fault injection techniques are also used to evaluate critical regions of the target design. Accelerated neutron radiation testing was performed to evaluate the effectiveness of the applied technique. One design version was able to detect 45% of all failures with the proposed technique applied to 29% of the circuit components within the design. Another design version was able to detect 31% of all failures with the proposed technique applied to only 8% of circuit components.
 
@@ -238,7 +406,7 @@
   year: >
     2021
   abstract: XBERT is an API and design toolset for zerocost access to the on-chip SRAM blocks on Xilinx architectures using the device’s configuration path. The XBERT API is highlevel, allowing developers to specify DMA-like data transfers of memory contents in terms of the logical memories in the application source code and thus is applicable to essentially any design targeting Xilinx devices. XBERT is broadly accessible to application developers, hiding the low-level details of physical mapping and bitstream encoding. XBERT is efficient, consuming zero reconfigurable resources with no impact on Fmax. XBERT achieves a bandwidth of 3–14 megabytes per second (MB/s) and complete readback and translation of a memory in an isolated 36Kb block RAM in less than 0.5 ms on a Xilinx UltraScale+ MPSoC Zynq.
-  url: xbert_fccm21.pdf
+  url: https://doi.org/10.1109/FCCM51124.2021.00009
 
 - title: >
     Approaches for FPGA Design Assurance
