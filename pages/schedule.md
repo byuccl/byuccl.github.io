@@ -20,7 +20,7 @@ title: Schedule
 | Oct 29 | Max/Hinckley AI, Nicholas & Ethan: PolarFire |
 | Nov 5 | Nicholas: DAP overview and JCM updates & Tyler/Jesse: TAMU results |
 | Nov 12 | Derek AI updates &  |
-| Nov 19 | Secure Boot (Chris and Ethan) &  |
+| Nov 19 | Secure Boot (Chris and Ethan) &  (ChipIR: remote zoom update) |
 | Nov 26 | No Meeting (Thanksgiving) |
 | Dec 3 | TBD |
 | Dec 10 | TBD |
