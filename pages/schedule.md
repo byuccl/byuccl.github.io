@@ -12,15 +12,15 @@ title: Schedule
 | Sep 3 |  No Meeting (first week of school) |
 | Sep 10 | Welcome & Introductions |
 | Sep 17 | Andy's XRTC presentation & Seth: Yocto/Linux build overview |
-| Sep 24 | Altera Agilex overview &  Scott coresight overview |
+| Sep 24 | Altera Agilex overview & Scott coresight overview |
 | Oct 1 | Garrett, Brigham, Scott, and Calin : August TAMU test  (RADECS) |
 | Oct 8 | Tyler, Isaac, Jesse: LMTF test, DTRA slides, May TAMU |
-| Oct 15 | Preston internship overview & Max/Hinckley AI  |
+| Oct 15 | Preston internship overview |
 | Oct 22 | Andy/Derek Owens: FPGA/QSFP & MGT overview  |
-| Oct 29 | Nicholas : DAP overview and JCM updates & Ethan: PolarFire |
-| Nov 5 | Secure Boot (Chris and Ethan) & Derek AI |
-| Nov 12 | TBD |
-| Nov 19 | TBD |
+| Oct 29 | Max/Hinckley AI, Nicholas & Ethan: PolarFire |
+| Nov 5 | Nicholas: DAP overview and JCM updates & Tyler/Jesse: TAMU results |
+| Nov 12 | Derek AI updates &  |
+| Nov 19 | Secure Boot (Chris and Ethan) &  |
 | Nov 26 | No Meeting (Thanksgiving) |
 | Dec 3 | TBD |
 | Dec 10 | TBD |
@@ -36,7 +36,6 @@ title: Schedule
     * Isaac's internship
 * Weekly radiation effects discussion
 * Versal 2nd Generation overview
-* Andy summary of MiG, other FPGAs, Agentic AI discussion from XRTC meetings
 * Summer research presentations
 
 ## Winter 2026
